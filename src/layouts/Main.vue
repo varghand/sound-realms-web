@@ -1,8 +1,8 @@
 <template>
   <div class="bg">
     <div id="app">
-      <Header />
-      <Analytics />
+      <!-- <Header /> -->
+      <!-- <Analytics /> -->
       <div id="content">
         <slot></slot>
       </div>
@@ -11,15 +11,8 @@
 </template>
 
 <script>
-import Header from '../components/Header.vue';
-import Analytics from '../components/Analytics.vue';
-
 export default {
   name: 'app',
-  components: {
-    Header,
-    Analytics,
-  },
 };
 </script>
 
@@ -50,17 +43,6 @@ html {
   max-width: 70ch;
   padding: 2ch;
   margin: auto;
-}
-
-.bg {
-  background-image: url("../assets/starbackground.gif");
-  background-attachment: fixed;
-
-  overflow: scroll;
-  width: 100%;
-  height: 100%;
-
-  background-repeat: repeat;
 }
 
 @media screen and (max-width: 600px) {
