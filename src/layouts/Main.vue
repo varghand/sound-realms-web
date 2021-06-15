@@ -27,7 +27,7 @@ export default {
 body,
 html {
   height: 100%;
-  background-color: black;
+  background-color: white;
   margin: 0;
 }
 
