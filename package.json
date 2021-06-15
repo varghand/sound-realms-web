@@ -1,0 +1,35 @@
+{
+  "name": "sound-realms",
+  "license": "GPL-3.0-or-later",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && cp dist/index.html dist/404.html",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "3.6.4",
+    "vue": "2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.4",
+    "@vue/cli-plugin-eslint": "4.5.4",
+    "@vue/cli-service": "4.5.4",
+    "@vue/eslint-config-airbnb": "5.0.2",
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-plugin-vue": "6.2.2",
+    "vue-template-compiler": "2.6.11"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
