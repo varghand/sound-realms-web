@@ -15,5 +15,6 @@
 .logo {
   padding: 12px;
   max-width: 90%;
+  height: auto;
 }
 </style>
