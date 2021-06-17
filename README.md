@@ -1,4 +1,4 @@
-# armory-online
+# Sound Realms Web
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/454468ff-0aa0-4c6b-8ae4-ea131afddb11/deploy-status)](https://app.netlify.com/sites/sound-realms/deploys)
 
