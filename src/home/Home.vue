@@ -16,5 +16,6 @@
   padding: 12px;
   max-width: 90%;
   height: auto;
+  object-fit: scale-down;
 }
 </style>
