@@ -20,7 +20,7 @@ export default {
 :root {
   --text-color: #0ebe08;
   --link-color: #be3c08;
-  --hover-color: #ffffff;
+  --hover-color: #ee5c27;
   font-size: 150%;
 }
 
