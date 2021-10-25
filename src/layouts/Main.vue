@@ -17,6 +17,15 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: "HamletOrNot";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: local("HamletOrNot"), url("/fonts/HamletOrNot.ttf") format("ttf");
+}
+
 :root {
   --text-color: #0ebe08;
   --link-color: #be3c08;

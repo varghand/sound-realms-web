@@ -14,7 +14,9 @@ const vm = new Vue({
       return routes[this.currentRoute] || NotFound;
     },
   },
-  render(createElement) { return createElement(this.ViewComponent); },
+  render(createElement) {
+    return createElement(this.ViewComponent);
+  },
 });
 
 vm.$mount('#app');
