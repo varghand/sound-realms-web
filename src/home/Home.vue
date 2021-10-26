@@ -57,7 +57,9 @@
           imagination to envision what happens in the game. This takes mobile gaming beyond tiny screens and touch fiddling into new realms
           - Sound Realms
         </p>
-        <img src="../assets/dice_and_book.jpg" />
+        <div class="gallery">
+          <img src="../assets/dice_and_book.jpg" />
+        </div>
       </div>
 
 
@@ -86,8 +88,12 @@
       </div>
 
       <div class="gameTestStrip">
+        <h2 class="inverted">Become Part of the Crew! Join us in game testing!</h2>
       </div>
-
+      <div class="soundRealmsStrip">
+      </div>
+      <div class="footer">
+      </div>
     </div>
   </main-layout>
 </template>
@@ -116,8 +122,30 @@
 }
 .gameTestStrip {
   background-color: #672a66;
-  height: 100px;
+  min-height: 100px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.soundRealmsStrip {
+  background-color: #333333;
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background-color: #2c2c2c;
+  min-height: 100px;
+  width: 100%;
+}
+.gallery {
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 .logo {
   padding: 12px;
@@ -134,6 +162,7 @@
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
+  text-align: left;
 }
 .bold {
   font-weight: bold;
