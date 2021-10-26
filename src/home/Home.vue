@@ -91,8 +91,11 @@
         <h2 class="inverted">Become Part of the Crew! Join us in game testing!</h2>
       </div>
       <div class="soundRealmsStrip">
+        <img src="../assets/sound_realms_white_logo.png" style="padding:30px;"/>
       </div>
       <div class="footer">
+        <p>Copyright © 2020-2021 Varghand Publishing AB. All rights reserved</p>
+        <img src="../assets/varghand_logo.png" style="padding:30px;"/>
       </div>
     </div>
   </main-layout>
@@ -134,7 +137,7 @@
 }
 .soundRealmsStrip {
   background-color: #333333;
-  min-height: 100px;
+  min-height: 300px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -145,6 +148,11 @@
   background-color: #2c2c2c;
   min-height: 100px;
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer > p {
+  color: #333333;
 }
 .gallery {
   padding-top: 30px;
