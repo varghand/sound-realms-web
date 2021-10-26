@@ -92,7 +92,7 @@ h2 {
 .hero {
   width: 100%;
   /* max-width:960px; */
-  margin:1rem auto;
+  /* margin:1rem auto; */
   position: relative;
 }
 .hero-image {
@@ -102,12 +102,13 @@ h2 {
   position: absolute;
   top:50%;
   left:0;
-  padding:1rem;
+  /* padding:1rem; */
   transform:translateY(-50%);
   font-size: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%
 }
 
 @media screen and (max-width:680px){
