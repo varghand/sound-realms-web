@@ -1,11 +1,15 @@
 <template>
   <main-layout>
     <div class="content">
+
+
       <img
         alt="Sound Realms logo"
         class="topImage"
         src="../assets/sound_realms_mace_and_magic.jpg"
       />
+
+
       <div class="section">
         <h1>The first ever REAL audio solo roleplaying game</h1>
         <p class="bold">
@@ -28,8 +32,10 @@
           goblin with a fireball spell!
         </p>
         <p>Brace yourself and enter the Realm of MACE & MAGIC!</p>
-        <img src="../assets/pile_of_bones.png" />
+        <img src="../assets/pile_of_bones.png" class="small-image"/>
       </div>
+
+
       <div class="hero">
         <div class="hero-text">
           <h2 class="inverted">Dare you be one of the first?</h2>
@@ -40,6 +46,48 @@
           src="../assets/mace_background.jpg"
         />
       </div>
+
+
+      <div class="section">
+        <h1>THE Audio Adventure System</h1>
+        <p>
+          Sound Realms aim to deliver immersive and captivating experiences to the paperback RPG and solo adventure book audience but also to
+          offer the regular consumer of audio books or fantasy and sci-fi literature an experience beyond what ordinary audio books can offer.
+          Any consumer of mobile games will find Sound Realms interesting since it’s game mechanics rely heavily upon the player using their
+          imagination to envision what happens in the game. This takes mobile gaming beyond tiny screens and touch fiddling into new realms
+          - Sound Realms
+        </p>
+        <img src="../assets/dice_and_book.jpg" />
+      </div>
+
+
+      <div class="section">
+        <div class="row">
+          <img src="../assets/mace_and_magic.jpg" />
+          <div>
+          <p>
+            The first release on the Sound Realms platform will be
+            “Mace & Magic” an audio based solo fantasy roleplaying game.
+            A demo adventure is available for game testing by selected parties now for iOS and android devices.
+            We aim to use the free demo as a key element in a forthcoming crowdfunding campaign to release
+            an adventure of approximately 7 hours of playing time. “Mace & Magic” is set in the brand-new world of “Mihr”,
+            a dark fantasy realm strook by an apocalyptic event called “The Magiklysm”,
+            making it an ideal environment for epic adventures.
+            Production of this adventure has already begun.
+          </p>
+          <p>
+            With “Mace & Magic” we aim to explore and expand the possibilities of this new format not only in cutting edge programming
+            but also in the recording and usage of audio.
+            Mace & Magic uses a slightly modified version of Choasium Inc’s RPG rule set “Basic Roleplaying System”,
+            that we have successfully digitalised for a classic RPG experience, complete with dice roles and character sheets etc.
+          </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gameTestStrip">
+      </div>
+
     </div>
   </main-layout>
 </template>
@@ -49,6 +97,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .section {
   display: flex;
@@ -56,6 +105,19 @@
   align-items: center;
   position: relative;
   text-align: center;
+  max-width: 60%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 960px;
+}
+.gameTestStrip {
+  background-color: #672a66;
+  height: 100px;
+  width: 100%;
 }
 .logo {
   padding: 12px;
@@ -66,8 +128,10 @@
 .topImage {
   width: 100%;
 }
+.small-image {
+  padding-bottom: 30px;
+}
 p {
-  max-width: 60%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
@@ -110,7 +174,11 @@ h2 {
   align-items: center;
   width: 100%
 }
-
+@media screen and (max-width:680px){
+  .row {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width:680px){
   .hero-text {font-size: 0.8rem}
 }
