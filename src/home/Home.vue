@@ -40,6 +40,10 @@
         <div class="hero-text">
           <h2 class="inverted">Dare you be one of the first?</h2>
           <p class="inverted">Apply now for Game Testing, and always be rembered as a bold pioneer of adventuring, hero of Mace & Magic!</p>
+          <div>
+            <Button>Get Started</Button>
+            <Button :inverted="true">Learn More</Button>
+          </div>
         </div>
         <img
           class="hero-image"
@@ -89,6 +93,7 @@
 
       <div class="gameTestStrip">
         <h2 class="inverted">Become Part of the Crew! Join us in game testing!</h2>
+        <Button style="margin-bottom:30px;">Get Started</Button>
       </div>
       <div class="soundRealmsStrip">
         <img src="../assets/sound_realms_white_logo.png" style="padding:30px;"/>
@@ -100,6 +105,18 @@
     </div>
   </main-layout>
 </template>
+
+<script>
+import Button from '../components/Button.vue';
+
+export default {
+  name: 'Header',
+  components: {
+    Button,
+  },
+};
+</script>
+
 
 <style scoped>
 .content {
