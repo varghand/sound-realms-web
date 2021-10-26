@@ -65,8 +65,8 @@
 
       <div class="section">
         <div class="row">
-          <img src="../assets/mace_and_magic.jpg" />
-          <div>
+          <img src="../assets/mace_and_magic.jpg" class="mace_magic_image"/>
+          <div class="row_column_2">
           <p>
             The first release on the Sound Realms platform will be
             “Mace & Magic” an audio based solo fantasy roleplaying game.
@@ -119,6 +119,9 @@
   align-items: flex-start;
   justify-content: center;
   max-width: 960px;
+}
+.mace_magic_image {
+  max-width: 30%;
 }
 .gameTestStrip {
   background-color: #672a66;
@@ -193,19 +196,23 @@ h2 {
 }
 .hero-text {
   position: absolute;
-  top:50%;
-  left:0;
+  top: 50%;
+  left: 0;
   /* padding:1rem; */
-  transform:translateY(-50%);
+  transform: translateY(-50%);
   font-size: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%
 }
-@media screen and (max-width:680px){
+
+@media screen and (max-width:980px){
   .row {
     flex-direction: column;
+  }
+  .mace_magic_image {
+    max-width: 100%;
   }
 }
 @media screen and (max-width:680px){
