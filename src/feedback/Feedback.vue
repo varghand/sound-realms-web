@@ -10,6 +10,7 @@
         <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.
       </p>
       <p>All thoughts, ideas, feedback and bug reports are very welcome!</p>
+
     </div>
   </main-layout>
 </template>
