@@ -101,6 +101,7 @@
         <img src="../assets/sound_realms_white_logo.png" style="padding:30px; max-width: 80%;"/>
       <div class="links">
         <a href="/game-testing">GAME TESTING</a>
+        <a href="/faq">FAQ</a>
         <a href="/contact">CONTACT</a>
       </div>
       </div>
