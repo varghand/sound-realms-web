@@ -21,18 +21,18 @@
         </p>
 
         <p>
-          Sound Realms presents Mace & Magic, the first ever real audio solo
+          Sound Realms presents <i>Mace & Magic</i>, the first ever real audio solo
           roleplaying game set in a brand new dark fantasy realm bustling with
           adventure, perilous challenges and adversaries.
         </p>
         <p>
-          Now you can whenever you have a moment to spare hear fantastic worlds
-          unfold and have an unparalled solo RPG experience! Now you can
+          Now you can, whenever you have a moment to spare, hear fantastic worlds
+          unfold and have an unparalled solo RPG experience. Now you can
           roleplay more and do not have to rely upon getting your RPG group
           together to sink your sword into a dragons heart or incinerate a
           goblin with a fireball spell!
         </p>
-        <p>Brace yourself and enter the Realm of MACE & MAGIC!</p>
+        <p>Brace yourself and enter the Realm of <i>MACE & MAGIC</i>!</p>
         </div>
         <img src="../assets/pile_of_bones.png" class="small-image"/>
       </div>
@@ -41,7 +41,7 @@
       <div class="hero">
         <div class="hero-text">
           <h2 class="inverted">Dare you be one of the first?</h2>
-          <p class="inverted">Apply now for Game Testing, and always be rembered as a bold pioneer of adventuring, hero of Mace & Magic!</p>
+          <p class="inverted">Apply now for Game Testing, and always be rembered as a bold pioneer of adventuring, hero of <i>Mace & Magic</i>!</p>
           <div>
             <Button>Get Started</Button>
             <Button :inverted="true">Learn More</Button>
@@ -75,16 +75,16 @@
           <div class="row_column_2 text">
           <p>
             The first release on the Sound Realms platform will be
-            “Mace & Magic” an audio based solo fantasy roleplaying game.
+            <i>Mace & Magic</i>, an audio based solo fantasy roleplaying game.
             A demo adventure is available for game testing by selected parties now for iOS and android devices.
             We aim to use the free demo as a key element in a forthcoming crowdfunding campaign to release
-            an adventure of approximately 7 hours of playing time. “Mace & Magic” is set in the brand-new world of “Mihr”,
+            an adventure of approximately 7 hours of playing time. <i>Mace & Magic</i> is set in the brand-new world of “Mihr”,
             a dark fantasy realm strook by an apocalyptic event called “The Magiklysm”,
             making it an ideal environment for epic adventures.
             Production of this adventure has already begun.
           </p>
           <p>
-            With “Mace & Magic” we aim to explore and expand the possibilities of this new format not only in cutting edge programming
+            With <i>Mace & Magic</i> we aim to explore and expand the possibilities of this new format not only in cutting edge programming
             but also in the recording and usage of audio.
             Mace & Magic uses a slightly modified version of Choasium Inc’s RPG rule set “Basic Roleplaying System”,
             that we have successfully digitalised for a classic RPG experience, complete with dice roles and character sheets etc.
@@ -99,6 +99,10 @@
       </div>
       <div class="soundRealmsStrip">
         <img src="../assets/sound_realms_white_logo.png" style="padding:30px; max-width: 80%;"/>
+      <div class="links">
+        <a href="/game-testing">GAME TESTING</a>
+        <a href="/game-testing">CONTACT</a>
+      </div>
       </div>
       <div class="footer">
         <p>Copyright © 2020-2021 Varghand Publishing AB. All rights reserved</p>
@@ -205,16 +209,7 @@ export default {
 .small-image {
   padding-bottom: 30px;
 }
-p {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-  text-align: left;
-  font-size: small;
 
-}
-.bold {
-  font-weight: bold;
-}
 .inverted {
   color: white;
 }
@@ -254,6 +249,14 @@ img {
 }
 .hero-text > p {
   max-width: 60%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.links > a {
+  padding: 30px;
 }
 
 @media screen and (max-width:980px){

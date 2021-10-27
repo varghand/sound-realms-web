@@ -28,8 +28,8 @@ export default {
 
 :root {
   --text-color: #0ebe08;
-  --link-color: #be3c08;
-  --hover-color: #ee5c27;
+  --link-color: #a166a0;
+  --hover-color: white;
   font-size: 150%;
 }
 
@@ -62,13 +62,27 @@ html {
 
 a {
   color: var(--link-color);
-  font-weight: bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: left;
+  font-size: small;
+  text-decoration: none;
 }
 a.active {
   color: var(--link-color);
 }
 a:hover {
   color: var(--hover-color);
+}
+
+p {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: left;
+  font-size: small;
+}
+.bold {
+  font-weight: bold;
 }
 
 img {
