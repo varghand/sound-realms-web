@@ -12,6 +12,7 @@
 
       <div class="section">
         <h1>The first ever REAL audio solo roleplaying game</h1>
+        <div class="text">
         <p class="bold">
           Featuring great adventures, presented with top class voice over
           performances, original orchestral music, cinematic sound effects,
@@ -32,6 +33,7 @@
           goblin with a fireball spell!
         </p>
         <p>Brace yourself and enter the Realm of MACE & MAGIC!</p>
+        </div>
         <img src="../assets/pile_of_bones.png" class="small-image"/>
       </div>
 
@@ -59,18 +61,18 @@
           offer the regular consumer of audio books or fantasy and sci-fi literature an experience beyond what ordinary audio books can offer.
           Any consumer of mobile games will find Sound Realms interesting since it’s game mechanics rely heavily upon the player using their
           imagination to envision what happens in the game. This takes mobile gaming beyond tiny screens and touch fiddling into new realms
-          - Sound Realms
+          &mdash; Sound Realms
         </p>
-        <div class="gallery">
-          <img src="../assets/dice_and_book.jpg" />
-        </div>
+      </div>
+      <div class="gallery">
+        <img src="../assets/dice_and_book.jpg" />
       </div>
 
 
       <div class="section">
         <div class="row">
           <img src="../assets/mace_and_magic.jpg" class="mace_magic_image"/>
-          <div class="row_column_2">
+          <div class="row_column_2 text">
           <p>
             The first release on the Sound Realms platform will be
             “Mace & Magic” an audio based solo fantasy roleplaying game.
@@ -96,11 +98,13 @@
         <Button style="margin-bottom:30px;">Get Started</Button>
       </div>
       <div class="soundRealmsStrip">
-        <img src="../assets/sound_realms_white_logo.png" style="padding:30px;"/>
+        <img src="../assets/sound_realms_white_logo.png" style="padding:30px; max-width: 80%;"/>
       </div>
       <div class="footer">
         <p>Copyright © 2020-2021 Varghand Publishing AB. All rights reserved</p>
+        <a href="https://www.varghand.com/">
         <img src="../assets/varghand_logo.png" style="padding:30px;"/>
+        </a>
       </div>
     </div>
   </main-layout>
@@ -140,8 +144,13 @@ export default {
   justify-content: center;
   max-width: 960px;
 }
+.text {
+  align-items: flex-start;
+}
 .mace_magic_image {
   max-width: 30%;
+  padding-bottom: 30px;
+  padding-right: 30px;
 }
 .gameTestStrip {
   background-color: #672a66;
@@ -151,6 +160,9 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.gameTestStrip > h2 {
+  max-width: 60%;
 }
 .soundRealmsStrip {
   background-color: #333333;
@@ -166,14 +178,20 @@ export default {
   min-height: 100px;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .footer > p {
-  color: #333333;
+  color: #4f4e4f;
+}
+.footer > a > img {
+  max-width: 200px;
 }
 .gallery {
   padding-top: 30px;
   padding-bottom: 60px;
+  max-width: 80%;
 }
 .logo {
   padding: 12px;
@@ -188,9 +206,11 @@ export default {
   padding-bottom: 30px;
 }
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-align: left;
+  font-size: small;
+
 }
 .bold {
   font-weight: bold;
@@ -210,26 +230,30 @@ h2 {
   font-weight: normal;
 }
 
+img {
+  max-width: 100%;
+}
+
 .hero {
   width: 100%;
-  /* max-width:960px; */
-  /* margin:1rem auto; */
   position: relative;
 }
 .hero-image {
   width: 100%;
+  min-height: 400px;
 }
 .hero-text {
   position: absolute;
   top: 50%;
   left: 0;
-  /* padding:1rem; */
   transform: translateY(-50%);
-  font-size: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%
+}
+.hero-text > p {
+  max-width: 60%;
 }
 
 @media screen and (max-width:980px){
