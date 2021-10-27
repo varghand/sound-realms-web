@@ -80,6 +80,7 @@ p {
   font-weight: lighter;
   text-align: left;
   font-size: small;
+  line-height: 2;
 }
 .bold {
   font-weight: bold;
