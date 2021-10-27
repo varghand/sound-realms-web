@@ -43,8 +43,8 @@
           <h2 class="inverted">Dare you be one of the first?</h2>
           <p class="inverted">Apply now for Game Testing, and always be rembered as a bold pioneer of adventuring, hero of <i>Mace & Magic</i>!</p>
           <div>
-            <Button>Get Started</Button>
-            <Button :inverted="true">Learn More</Button>
+            <Button href="/game-testing">Get Started</Button>
+            <Button href="/faq" :inverted="true">Learn More</Button>
           </div>
         </div>
         <img
@@ -95,13 +95,13 @@
 
       <div class="gameTestStrip">
         <h2 class="inverted">Become Part of the Crew! Join us in game testing!</h2>
-        <Button style="margin-bottom:30px;">Get Started</Button>
+        <Button href="/game-testing" style="margin-bottom:30px;">Get Started</Button>
       </div>
       <div class="soundRealmsStrip">
         <img src="../assets/sound_realms_white_logo.png" style="padding:30px; max-width: 80%;"/>
       <div class="links">
         <a href="/game-testing">GAME TESTING</a>
-        <a href="/game-testing">CONTACT</a>
+        <a href="/contact">CONTACT</a>
       </div>
       </div>
       <div class="footer">
