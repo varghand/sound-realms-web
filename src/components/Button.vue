@@ -30,9 +30,6 @@ export default {
 </script>
 
 <style scoped>
-.active {
-  color: cornflowerblue;
-}
 button {
   background-color: #a166a0;
   color: white;
