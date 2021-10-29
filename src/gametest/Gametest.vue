@@ -38,17 +38,20 @@
       <p>
         Feedback survey: <a href="/feedback">www.sound-realms.com/feedback</a>
       </p>
+      <Footer/>
     </div>
   </main-layout>
 </template>
 
 <script>
 import MainLayout from '../layouts/Main.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
   name: 'Home',
   components: {
     MainLayout,
+    Footer,
   },
 };
 </script>
@@ -57,7 +60,7 @@ export default {
 .bg {
   background-image: url("../assets/pergament_background.jpg");
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
