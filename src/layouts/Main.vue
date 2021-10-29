@@ -31,7 +31,7 @@ export default {
 }
 
 :root {
-  --text-color: #0ebe08;
+  --text-color: black;
   --link-color: #a166a0;
   --hover-color: white;
   font-size: 150%;
@@ -45,18 +45,18 @@ html {
 }
 
 #app {
-  font-family: Georgia, serif;
+  /* font-family: Georgia, serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: var(--text-color);
 }
 
-#content {
+/* #content {
   max-width: 70ch;
   padding: 2ch;
   margin: auto;
-}
+} */
 
 @media screen and (max-width: 600px) {
   .bg {

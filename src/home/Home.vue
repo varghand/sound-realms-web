@@ -94,7 +94,7 @@
       </div>
 
       <div class="gameTestStrip">
-        <h2 class="inverted">Become Part of the Crew! Join us in game testing!</h2>
+        <h2 class="inverted">Become part of the crew! Join us in game testing!</h2>
         <Button href="/game-testing" style="margin-bottom:30px;">Get Started</Button>
       </div>
       <div class="soundRealmsStrip">
@@ -106,7 +106,7 @@
       </div>
       </div>
       <div class="footer">
-        <p>Copyright © 2020-2021 Varghand Publishing AB. All rights reserved</p>
+        <p>Copyright © 2020-2021 Varghand Publishing AB. All rights reserved.</p>
         <a href="https://www.varghand.com/">
         <img src="../assets/varghand_logo.png" style="padding:30px;"/>
         </a>
@@ -117,11 +117,13 @@
 
 <script>
 import Button from '../components/Button.vue';
+import MainLayout from '../layouts/Main.vue';
 
 export default {
-  name: 'Header',
+  name: 'Home',
   components: {
     Button,
+    MainLayout,
   },
 };
 </script>
@@ -189,6 +191,7 @@ export default {
 }
 .footer > p {
   color: #4f4e4f;
+  max-width: 80%;
 }
 .footer > a > img {
   max-width: 200px;
@@ -266,6 +269,14 @@ img {
   }
   .mace_magic_image {
     max-width: 100%;
+  }
+
+  .section {
+    max-width: 80%;
+  }
+
+  .gallery {
+    max-width: 95%;
   }
 }
 @media screen and (max-width:680px){
