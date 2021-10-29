@@ -104,4 +104,20 @@ span.title {
   font-style: italic;
 }
 
+
+.inverted {
+  color: white;
+}
+
+h1 {
+  color: #a166a0;
+  font-family: "HamletOrNot";
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "HamletOrNot";
+  font-weight: normal;
+}
+
 </style>

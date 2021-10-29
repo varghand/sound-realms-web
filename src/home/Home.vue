@@ -214,20 +214,6 @@ export default {
   padding-bottom: 30px;
 }
 
-.inverted {
-  color: white;
-}
-
-h1 {
-  color: #a166a0;
-  font-family: "HamletOrNot";
-  font-weight: normal;
-}
-
-h2 {
-  font-family: "HamletOrNot";
-  font-weight: normal;
-}
 
 img {
   max-width: 100%;
