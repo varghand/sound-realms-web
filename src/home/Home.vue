@@ -61,7 +61,7 @@
           offer the regular consumer of audio books or fantasy and sci-fi literature an experience beyond what ordinary audio books can offer.
           Any consumer of mobile games will find Sound Realms interesting since it’s game mechanics rely heavily upon the player using their
           imagination to envision what happens in the game. This takes mobile gaming beyond tiny screens and touch fiddling into new realms
-          &mdash; Sound Realms
+          &mdash; Sound Realms.
         </p>
       </div>
       <div class="gallery">
@@ -119,20 +119,6 @@ export default {
 
 
 <style scoped>
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  text-align: center;
-  max-width: 60%;
-}
 .row {
   display: flex;
   flex-direction: row;

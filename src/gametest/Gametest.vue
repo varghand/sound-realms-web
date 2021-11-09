@@ -8,6 +8,7 @@
         src="../assets/sound_realms_white_logo.png"
       />
       </a>
+      <div class="section">
       <h1>Take heed adventurer!</h1>
       <p>
         Do you have the courage to explore the perilous halls of Vemhir the
@@ -38,6 +39,7 @@
       <p>
         Feedback survey: <a href="/feedback">www.sound-realms.com/feedback</a>
       </p>
+      </div>
       <Footer/>
     </div>
   </main-layout>
@@ -73,7 +75,7 @@ export default {
 }
 .logo {
   padding: 12px;
-  max-width: 30%;
+  max-width: 60%;
   height: auto;
   object-fit: scale-down;
 }

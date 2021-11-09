@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="footer-wrapper">
     <div class="soundRealmsStrip">
       <img
         src="../assets/sound_realms_white_logo.png"
@@ -22,6 +22,9 @@
 
 
 <style scoped>
+.footer-wrapper {
+  width: 100%;
+}
 .soundRealmsStrip {
   background-color: #333333;
   min-height: 300px;

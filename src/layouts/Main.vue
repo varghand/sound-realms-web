@@ -30,6 +30,21 @@ export default {
   url("/fonts/HamletOrNot/HamletOrNot.svg#HamletOrNot") format("svg"); /* iOS 4.1- */
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  max-width: 80%;
+}
+
 :root {
   --text-color: black;
   --link-color: #a166a0;
