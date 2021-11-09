@@ -156,4 +156,10 @@ h2 {
   font-weight: normal;
 }
 
+@media screen and (max-width:980px){
+  .section-content {
+    max-width: 80%;
+  }
+}
+
 </style>

@@ -189,10 +189,6 @@ img {
     max-width: 100%;
   }
 
-  .section-content {
-    max-width: 80%;
-  }
-
   .gallery {
     max-width: 95%;
   }
