@@ -71,7 +71,7 @@
 
       <div class="section">
         <div class="row">
-          <img src="../assets/mace_and_magic.jpg" class="mace_magic_image"/>
+          <img src="../assets/dreadhorn.jpg" class="dreadhorn_image"/>
           <div class="row_column_2 text">
           <p>
             The first release on the Sound Realms platform will be
@@ -129,8 +129,8 @@ export default {
 .text {
   align-items: flex-start;
 }
-.mace_magic_image {
-  max-width: 30%;
+.dreadhorn_image {
+  max-width: 40%;
   padding-bottom: 30px;
   padding-right: 30px;
 }
@@ -197,7 +197,7 @@ img {
   .row {
     flex-direction: column;
   }
-  .mace_magic_image {
+  .dreadhorn_image {
     max-width: 100%;
   }
 
