@@ -10,6 +10,7 @@
       />
 
 
+      <section>
       <div class="section">
         <h1>The first ever REAL audio solo roleplaying game</h1>
         <div class="text">
@@ -36,6 +37,7 @@
         </div>
         <img src="../assets/pile_of_bones.png" class="small-image"/>
       </div>
+      </section>
 
 
       <div class="hero">
@@ -54,6 +56,7 @@
       </div>
 
 
+      <section>
       <div class="section">
         <h1>THE Audio Adventure System</h1>
         <p>
@@ -71,7 +74,7 @@
 
       <div class="section">
         <div class="row">
-          <img src="../assets/dreadhorn.jpg" class="dreadhorn_image"/>
+          <img src="../assets/dreadhorn.png" class="dreadhorn_image"/>
           <div class="row_column_2 text">
           <p>
             The first release on the Sound Realms platform will be
@@ -92,6 +95,7 @@
           </div>
         </div>
       </div>
+      </section>
 
       <div class="gameTestStrip">
         <h2 class="inverted">Become part of the crew! Join us in game testing!</h2>
@@ -192,6 +196,28 @@ img {
   max-width: 60%;
 }
 
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  /* background-color: #373B44; */
+  /* height: 100vh; */
+  background-image:url("~@/assets/skeleton_background.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+section:nth-of-type(2n) {
+    background-image:url("~@/assets/castle_background.png");
+  }
 
 @media screen and (max-width:980px){
   .row {
