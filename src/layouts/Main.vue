@@ -36,7 +36,7 @@ export default {
   justify-content: center;
   align-items: center;
 }
-.section {
+.section-content {
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -11,7 +11,7 @@
 
 
       <section>
-      <div class="section">
+      <div class="section-content">
         <h1>The first ever REAL audio solo roleplaying game</h1>
         <div class="text">
         <p class="bold">
@@ -57,7 +57,7 @@
 
 
       <section>
-      <div class="section">
+      <div class="section-content">
         <h1>THE Audio Adventure System</h1>
         <p>
           Sound Realms aim to deliver immersive and captivating experiences to the paperback RPG and solo adventure book audience but also to
@@ -72,7 +72,7 @@
       </div>
 
 
-      <div class="section">
+      <div class="section-content">
         <div class="row">
           <img src="../assets/dreadhorn.png" class="dreadhorn_image"/>
           <div class="row_column_2 text">
@@ -202,8 +202,6 @@ section {
   display: table;
   margin: 0;
   max-width: none;
-  /* background-color: #373B44; */
-  /* height: 100vh; */
   background-image:url("~@/assets/skeleton_background.png");
   background-repeat:no-repeat;
   background-size:cover;
@@ -216,8 +214,8 @@ section {
 }
 
 section:nth-of-type(2n) {
-    background-image:url("~@/assets/castle_background.png");
-  }
+  background-image:url("~@/assets/castle_background.png");
+}
 
 @media screen and (max-width:980px){
   .row {
@@ -227,7 +225,7 @@ section:nth-of-type(2n) {
     max-width: 100%;
   }
 
-  .section {
+  .section-content {
     max-width: 80%;
   }
 

@@ -8,7 +8,7 @@
         src="../assets/sound_realms_white_logo.png"
       />
       </a>
-      <div class="section">
+      <div class="section-content">
       <h1>Take heed adventurer!</h1>
       <p>
         Do you have the courage to explore the perilous halls of Vemhir the
