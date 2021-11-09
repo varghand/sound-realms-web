@@ -15,11 +15,6 @@ export default {
   components: {
     Button,
   },
-  methods: {
-    getCurrentYear() {
-      return new Date().getFullYear();
-    },
-  },
 };
 </script>
 
