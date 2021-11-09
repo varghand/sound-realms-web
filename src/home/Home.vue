@@ -97,10 +97,7 @@
       </div>
       </section>
 
-      <div class="gameTestStrip">
-        <h2 class="inverted">Become part of the crew! Join us in game testing!</h2>
-        <Button href="/game-testing" style="margin-bottom:30px;">Get Started</Button>
-      </div>
+      <GametestStrip/>
       <Footer/>
     </div>
   </main-layout>
@@ -137,18 +134,6 @@ export default {
   max-width: 40%;
   padding-bottom: 30px;
   padding-right: 30px;
-}
-.gameTestStrip {
-  background-color: #672a66;
-  min-height: 100px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.gameTestStrip > h2 {
-  max-width: 60%;
 }
 
 .gallery {

@@ -19,6 +19,7 @@
           <p>All thoughts, ideas, feedback and bug reports are very welcome!</p>
         </div>
       </section>
+      <GametestStrip/>
       <Footer />
     </div>
   </main-layout>
@@ -27,12 +28,14 @@
 <script>
 import MainLayout from '../layouts/Main.vue';
 import Footer from '../components/Footer.vue';
+import GametestStrip from '../components/GametestStrip.vue';
 
 export default {
   name: 'Home',
   components: {
     MainLayout,
     Footer,
+    GametestStrip,
   },
 };
 </script>
