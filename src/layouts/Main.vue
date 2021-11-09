@@ -42,7 +42,7 @@ export default {
   align-items: center;
   position: relative;
   text-align: center;
-  max-width: 80%;
+  max-width: 960px;
 }
 
 :root {
