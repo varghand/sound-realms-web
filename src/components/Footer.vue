@@ -12,14 +12,24 @@
       </div>
     </div>
     <div class="footer">
-      <p>Copyright © 2020-2021 Varghand Publishing AB. All rights reserved.</p>
       <a href="https://www.varghand.com/">
         <img src="../assets/varghand_logo.png" style="padding: 30px" />
       </a>
+      <p>Copyright © 2020-{{this.getCurrentYear()}} Varghand Publishing AB. All rights reserved.</p>
     </div>
   </div>
 </template>
 
+<script>
+
+export default {
+  methods: {
+    getCurrentYear() {
+      return new Date().getFullYear();
+    },
+  },
+};
+</script>
 
 <style scoped>
 .footer-wrapper {
