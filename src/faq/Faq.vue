@@ -126,24 +126,5 @@ export default {
   height: auto;
   object-fit: scale-down;
 }
-section {
-  width: 100%;
-  padding: 0 7%;
-  display: table;
-  margin: 0;
-  max-width: none;
-  background-image: url("~@/assets/skeleton_background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  text-align: center;
-}
-
-section:nth-of-type(2n) {
-  background-image: url("~@/assets/castle_background.png");
-}
 </style>
