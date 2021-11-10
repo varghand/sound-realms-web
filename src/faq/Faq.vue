@@ -9,7 +9,7 @@
             Sound Realms is a new way to enjoy audio entertainment. We aim to
             supply audio based solo RPG games and other Fantasy and Sci-Fi audio
             content from a new kind of platform. One could say that we aim to be
-            the Spotify of Audio based solo RPG and Fantasy and Sci-Fi audio
+            the Spotify of Audio based solo RPGs as well as Fantasy and Sci-Fi audio
             books. And we are super excited that YOU are considering of taking
             part in this historical first step.
           </p>
@@ -20,10 +20,10 @@
             demo also contains beautiful original illustrations and artwork. All
             this is presented in a design and layout that makes you instantly
             remember your old solo adventure books. Incorporated in the game is
-            a modified version of an actual classic paper back RPG rule set
+            a modified version of an actual classic paper back RPG rule set,
             Chaosium Inc’s “Basic Role Playing”, and all types of digital dice
             and a character sheet for you to see your inventory and your
-            characters progress.
+            character's progress.
           </p>
 
           <h1>The story so far</h1>
@@ -37,7 +37,7 @@
             a capturing voice over performance he believed would really enhance
             the adventures that he had played over and over again since
             childhood. Back then the limitations were obvious since an adventure
-            would span over more than several audio CD’s and the rules and dice
+            would span over more than several audio CDs and the rules and dice
             rolls etc would still have to be done separately with pen and paper.
             This idea however refused to leave Oscar’s head and quite soon came
             the introduction of MP3 files and the internet and the possibilities
@@ -46,20 +46,20 @@
             his old dream.
           </p>
           <p>
-            In 2013 Oscar acquired is own professional recording studio and
+            In 2013 Oscar acquired his own professional recording studio and
             began working as a sound engineer. One of the bands he came to
-            produce in his studio happened to feature Gustav Sundin a
+            produce in his studio happened to feature Gustav Sundin, a
             role-playing game obsessed software programmer who Oscar pitched his
             vision for. Gustav really liked the idea. Time passed, children were
             born, bands went on tours and career opportunities were seized but
-            the idea lived in both Oscars and Gustavs head and in early 2020 in
+            the idea lived in both Oscar's and Gustav's heads and in early 2020 in
             the mist of a world crippling pandemic that killed live music Oscar
             and Gustav found the break they needed to really dive into the plan
             and process of bringing this vision to life.
           </p>
           <p>
-            And so the time has come! Oscars lifelong experience as vocal
-            performer and his sound engineering skills combined with Gustavs
+            And so the time has come! Oscar's lifelong experience as vocal
+            performer and his sound engineering skills combined with Gustav's
             programming expertise, and the creation of a team of illustrators
             and a composer have incarnated the vison and a demo adventure is
             ready for download!
@@ -85,10 +85,10 @@
           <h1>A platform of audio based games and other audio content</h1>
           <p>
             Our vision is for Sound Realms to in time feature not only Varghand
-            publishing AB’s games but also other RPG publishers works
+            Publishing AB’s games, but also other RPG publishers works &mdash;
             digitalised and audio based in the Sound Realms format. We would
             also love to publish Fantasy and Sci-fi audio books and other
-            Fantasy, Sci-Fi or RPG based audio content making Sound Realms the
+            Fantasy, Sci-Fi or RPG based audio content, making Sound Realms the
             natural place to turn to if you wish to listen to anything related
             to these topics. We have a grand vision and we hope you will see the
             it incarnate together with us and help us develop it and see it
