@@ -75,7 +75,7 @@ html {
 
 section {
   width: 100%;
-  padding: 0 7%;
+  padding: 0;
   display: table;
   margin: 0;
   max-width: none;
