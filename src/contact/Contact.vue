@@ -41,6 +41,9 @@ export default {
 </script>
 
 <style scoped>
+section {
+  min-height: 50vh;
+}
 .content {
   display: flex;
   flex-direction: column;
