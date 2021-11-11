@@ -9,7 +9,7 @@
       </a>
       <div class="links">
         <a href="/game-testing">GAME TESTING</a>
-        <a href="/faq">FAQ</a>
+        <a href="/learn-more">LEARN MORE</a>
         <a href="/contact">CONTACT</a>
       </div>
     </div>

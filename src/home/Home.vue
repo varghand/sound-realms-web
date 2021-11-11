@@ -46,7 +46,7 @@
           <p class="inverted">Apply now for Game Testing, and always be rembered as a bold pioneer of adventuring, hero of <i>Mace & Magic</i>!</p>
           <div>
             <Button href="/game-testing">Get Started</Button>
-            <Button href="/faq" :inverted="true">Learn More</Button>
+            <Button href="/learn-more" :inverted="true">Learn More</Button>
           </div>
         </div>
         <img
