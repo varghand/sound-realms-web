@@ -14,7 +14,15 @@ const vm = new Vue({
       return routes[this.currentRoute] || NotFound;
     },
   },
-  render(createElement) { return createElement(this.ViewComponent); },
+  mounted() {
+    // Handle browser back button
+    window.addEventListener('popstate', () => {
+      this.currentRoute = document.location.pathname;
+    });
+  },
+  render(createElement) {
+    return createElement(this.ViewComponent);
+  },
 });
 
 vm.$mount('#app');

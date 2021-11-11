@@ -15,12 +15,40 @@ export default {
   name: 'app',
 };
 </script>
-
 <style>
+@font-face {
+  font-family: "HamletOrNot";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url("/fonts/HamletOrNot/HamletOrNot.eot"); /* IE9*/
+  src: url("/fonts/HamletOrNot/HamletOrNot.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("/fonts/HamletOrNot/HamletOrNot.woff2") format("woff2"), /* chrome、firefox */
+  url("/fonts/HamletOrNot/HamletOrNot.woff") format("woff"), /* chrome、firefox */
+  url("/fonts/HamletOrNot/HamletOrNot.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("/fonts/HamletOrNot/HamletOrNot.svg#HamletOrNot") format("svg"); /* iOS 4.1- */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  max-width: 960px;
+}
+
 :root {
-  --text-color: #0ebe08;
-  --link-color: #be3c08;
-  --hover-color: #ee5c27;
+  --text-color: black;
+  --link-color: #a166a0;
+  --hover-color: white;
   font-size: 150%;
 }
 
@@ -32,17 +60,38 @@ html {
 }
 
 #app {
-  font-family: Georgia, serif;
+  /* font-family: Georgia, serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: var(--text-color);
 }
 
-#content {
+/* #content {
   max-width: 70ch;
   padding: 2ch;
   margin: auto;
+} */
+
+section {
+  width: 100%;
+  padding: 0;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-image: url("~@/assets/skeleton_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+section:nth-of-type(2n) {
+  background-image: url("~@/assets/castle_background.png");
 }
 
 @media screen and (max-width: 600px) {
@@ -53,13 +102,28 @@ html {
 
 a {
   color: var(--link-color);
-  font-weight: bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: left;
+  font-size: small;
+  text-decoration: none;
 }
 a.active {
   color: var(--link-color);
 }
 a:hover {
   color: var(--hover-color);
+}
+
+p {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: left;
+  font-size: small;
+  line-height: 2;
+}
+.bold {
+  font-weight: bold;
 }
 
 img {
@@ -76,23 +140,26 @@ span.title {
   font-style: italic;
 }
 
-button {
-  background-color: #410000;
-  color: var(--text-color);
-  font-size: 18px;
-  text-align: center;
-  border-radius: 5px;
-  border: 2px solid var(--text-color);
-  padding: 10px 25px;
-  margin: 0px 15px;
-  font-family: Georgia, serif;
-  cursor: pointer;
-  outline: none;
-  opacity: 0.8;
-  transition: 0.3s;
+
+.inverted {
+  color: white;
 }
-button:hover {
-  opacity: 1;
-  background-color: #6a0000;
+
+h1 {
+  color: #a166a0;
+  font-family: "HamletOrNot";
+  font-weight: normal;
 }
+
+h2 {
+  font-family: "HamletOrNot";
+  font-weight: normal;
+}
+
+@media screen and (max-width:980px){
+  .section-content {
+    max-width: 80%;
+  }
+}
+
 </style>

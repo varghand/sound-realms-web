@@ -10,9 +10,21 @@
         <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.
       </p>
       <p>All thoughts, ideas, feedback and bug reports are very welcome!</p>
+
     </div>
   </main-layout>
 </template>
+
+<script>
+import MainLayout from '../layouts/Main.vue';
+
+export default {
+  name: 'Home',
+  components: {
+    MainLayout,
+  },
+};
+</script>
 
 <style scoped>
 .content {
