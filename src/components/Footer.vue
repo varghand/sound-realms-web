@@ -1,10 +1,12 @@
 <template>
   <div class="footer-wrapper">
     <div class="soundRealmsStrip">
+      <a href="/" class="logo-link">
       <img
         src="../assets/sound_realms_white_logo.png"
         style="padding: 30px; max-width: 80%"
       />
+      </a>
       <div class="links">
         <a href="/game-testing">GAME TESTING</a>
         <a href="/faq">FAQ</a>
@@ -12,7 +14,7 @@
       </div>
     </div>
     <div class="footer">
-      <a href="https://www.varghand.com/">
+      <a href="https://www.varghand.com/" class="logo-link">
         <img src="../assets/varghand_logo.png" style="padding: 30px" />
       </a>
       <p>Copyright © 2020-{{this.getCurrentYear()}} Varghand Publishing AB. All rights reserved.</p>
@@ -52,6 +54,10 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.logo-link {
+  display: flex;
+  justify-content: center;
 }
 .footer > p {
   color: #4f4e4f;

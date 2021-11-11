@@ -1,6 +1,6 @@
 <template>
   <div class="strip-wrapper">
-    <a href="/"><img src="../assets/sr_logo_colour.png" class="logo"/></a>
+    <a href="/" class="logo-link"><img src="../assets/sr_logo_colour.png" class="logo"/></a>
   </div>
 </template>
 
@@ -15,16 +15,21 @@ export default {
 <style scoped>
 .strip-wrapper {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo {
-  padding-left: 100px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   max-width: 80%;
+}
+.logo-link {
+  display: flex;
+  justify-content: center;
 }
 @media screen and (max-width:980px){
   .logo {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     max-width: 80%;
   }
 }

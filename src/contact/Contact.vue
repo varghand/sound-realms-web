@@ -1,6 +1,7 @@
 <template>
   <main-layout>
     <div class="content">
+      <Menu/>
       <section>
         <div class="section-content">
           <h1>Get in touch with the Dungeon Master</h1>
@@ -29,6 +30,7 @@
 import MainLayout from '../layouts/Main.vue';
 import Footer from '../components/Footer.vue';
 import GametestStrip from '../components/GametestStrip.vue';
+import Menu from '../components/Menu.vue';
 
 export default {
   name: 'Home',
@@ -36,6 +38,7 @@ export default {
     MainLayout,
     Footer,
     GametestStrip,
+    Menu,
   },
 };
 </script>
