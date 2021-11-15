@@ -15,26 +15,26 @@
           </p>
           <p>
             The Sound Realms Demo Adventure includes a great original story
-            narrated with a high-quality voice over performance, an original
+            narrated with a high-quality voice-over performance, an original
             cinematic orchestral score and top of the line sound effects. The
             demo also contains beautiful original illustrations and artwork. All
             this is presented in a design and layout that makes you instantly
             remember your old solo adventure books. Incorporated in the game is
             a modified version of an actual classic paper back RPG rule set,
-            Chaosium Inc’s “Basic Role Playing”, and all types of digital dice
+            Chaosium Inc’s "Basic Roleplaying System" (BRP), and all types of digital dice
             and a character sheet for you to see your inventory and your
             character's progress.
           </p>
 
           <h1>The story so far</h1>
           <p>
-            The idea was formed in Oscar Carlquist’s head a long, long time ago.
+            The idea was formed in Oscar Carlquist's head a long, long time ago.
             Back in the mid-nineties Oscar played and cherished solo adventure
             books and solo RPG quests. Since he is a vocalist and worked in
-            music studios and took the occasional voice over assignments, he
+            music studios and took the occasional voice-over assignments, he
             came to realise the great potential in making real audio productions
             of the adventure books and quests. Adding music and sound effects to
-            a capturing voice over performance he believed would really enhance
+            a capturing voice-over performance he believed would really enhance
             the adventures that he had played over and over again since
             childhood. Back then the limitations were obvious since an adventure
             would span over more than several audio CDs and the rules and dice
@@ -76,7 +76,7 @@
             randomised into the adventures using any number of modifications.
             The team puts a lot of focus into exploring in what ways we can
             develop the app and the take advantage of the fact that it is a
-            digital product. The suspense of the voice overs is unparalleled as
+            digital product. The suspense of the voice-overs is unparalleled as
             they can be carefully planned and designed, we also have the option
             of retakes until we achieve perfection. The sound effects and music
             are also introduced with the exact right timing to create the most
@@ -90,7 +90,7 @@
             also love to publish Fantasy and Sci-fi audio books and other
             Fantasy, Sci-Fi or RPG based audio content, making Sound Realms the
             natural place to turn to if you wish to listen to anything related
-            to these topics. We have a grand vision and we hope you will see the
+            to these topics. We have a grand vision and we hope you will see
             it incarnate together with us and help us develop it and see it
             progress with the help of your feedback.
           </p>

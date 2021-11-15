@@ -15,7 +15,7 @@
         <h1>The first ever REAL audio solo roleplaying game</h1>
         <div class="text">
         <p class="bold">
-          Featuring great adventures, presented with top class voice over
+          Featuring great adventures, presented with top class voice-over
           performances, original orchestral music, cinematic sound effects,
           digital RPG dice rolls, digital character sheets, skills, spells,
           swords and monsters!
@@ -28,7 +28,7 @@
         </p>
         <p>
           Now you can, whenever you have a moment to spare, hear fantastic worlds
-          unfold and have an unparalled solo RPG experience. Now you can
+          unfold and have an unparalleled solo RPG experience. Now you can
           roleplay more and do not have to rely upon getting your RPG group
           together to sink your sword into a dragons heart or incinerate a
           goblin with a fireball spell!
@@ -62,7 +62,7 @@
         <p>
           Sound Realms aim to deliver immersive and captivating experiences to the paperback RPG and solo adventure book audience but also to
           offer the regular consumer of audio books or fantasy and sci-fi literature an experience beyond what ordinary audio books can offer.
-          Any consumer of mobile games will find Sound Realms interesting since it’s game mechanics rely heavily upon the player using their
+          Any consumer of mobile games will find Sound Realms interesting since it's game mechanics rely heavily upon the player using their
           imagination to envision what happens in the game. This takes mobile gaming beyond tiny screens and touch fiddling into new realms
           &mdash; Sound Realms.
         </p>
@@ -79,17 +79,17 @@
           <p>
             The first release on the Sound Realms platform will be
             <i>Mace & Magic</i>, an audio based solo fantasy roleplaying game.
-            A demo adventure is available for game testing by selected parties now for iOS and android devices.
+            A demo adventure is available for game testing by selected parties now for iOS and Android devices.
             We aim to use the free demo as a key element in a forthcoming crowdfunding campaign to release
-            an adventure of approximately 7 hours of playing time. <i>Mace & Magic</i> is set in the brand-new world of “Mihr”,
-            a dark fantasy realm strook by an apocalyptic event called “The Magiklysm”,
+            an adventure of approximately 7 hours of playing time. <i>Mace & Magic</i> is set in the brand-new world of "Mihr",
+            a dark fantasy realm strook by an apocalyptic event called "The Magiklysm",
             making it an ideal environment for epic adventures.
             Production of this adventure has already begun.
           </p>
           <p>
             With <i>Mace & Magic</i> we aim to explore and expand the possibilities of this new format not only in cutting edge programming
             but also in the recording and usage of audio.
-            Mace & Magic uses a slightly modified version of Choasium Inc’s RPG rule set “Basic Roleplaying System”,
+            <i>Mace & Magic</i> uses a slightly modified version of Choasium Inc’s RPG rule set "Basic Roleplaying System" (BRP),
             that we have successfully digitalised for a classic RPG experience, complete with dice roles and character sheets etc.
           </p>
           </div>
