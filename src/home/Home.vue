@@ -67,9 +67,23 @@
           &mdash; Sound Realms.
         </p>
       </div>
-      <div class="gallery">
+      <!-- <div class="gallery"> -->
         <!-- <img src="../assets/dice_and_book.jpg" /> -->
-<iframe width="875" height="492" src="https://www.youtube.com/embed/4FMkHwHB8pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <!-- </div> -->
+
+      <div class="video-wrap">
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/4FMkHwHB8pM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="video">
+          </iframe>
+        </div>
       </div>
 
 
@@ -182,7 +196,31 @@ img {
   max-width: 60%;
 }
 
-@media screen and (max-width:980px){
+.video-wrap {
+  width: 80%;
+  max-width: 960px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%; /* creates a 16:9 aspect ratio */
+}
+
+.video-container iframe,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width:980px) {
   .row {
     flex-direction: column;
   }
@@ -194,10 +232,10 @@ img {
     max-width: 95%;
   }
 }
-@media screen and (max-width:680px){
+@media screen and (max-width:680px) {
   .hero-text {font-size: 0.8rem}
 }
-@media screen and (max-width:540px){
+@media screen and (max-width:540px) {
   .hero-text {font-size: 0.7rem}
 }
 </style>
