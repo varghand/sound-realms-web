@@ -15,23 +15,22 @@
         <h1>The first ever REAL audio solo roleplaying game</h1>
         <div class="text">
         <p class="bold">
-          Featuring great adventures, presented with top class voice-over
-          performances, original orchestral music, cinematic sound effects,
-          digital RPG dice rolls, digital character sheets, skills, spells,
-          swords and monsters!
+          Now you can, whenever you have a moment to spare, hear fantastic worlds
+          unfold and have an unparalleled solo RPG experience. Now you can
+          roleplay more and do not have to rely upon getting your RPG group
+          together to sink your sword into a dragons heart or incinerate a
+          goblin with a fireball spell!
         </p>
-
         <p>
           Sound Realms presents <i>Mace & Magic</i>, the first ever real audio solo
           roleplaying game set in a brand new dark fantasy realm bustling with
           adventure, perilous challenges and adversaries.
         </p>
         <p>
-          Now you can, whenever you have a moment to spare, hear fantastic worlds
-          unfold and have an unparalleled solo RPG experience. Now you can
-          roleplay more and do not have to rely upon getting your RPG group
-          together to sink your sword into a dragons heart or incinerate a
-          goblin with a fireball spell!
+          Featuring great adventures, presented with top class voice-over
+          performances, original orchestral music, cinematic sound effects,
+          digital RPG dice rolls, digital character sheets, skills, spells,
+          swords and monsters!
         </p>
         <p>Brace yourself and enter the Realm of <i>MACE & MAGIC</i>!</p>
         </div>
