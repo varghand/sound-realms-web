@@ -8,7 +8,7 @@
       />
       </a>
       <div class="links">
-        <a href="/game-testing">GAME TESTING</a>
+        <a href="/game-testing">DOWNLOAD</a>
         <a href="/learn-more">LEARN MORE</a>
         <a href="/contact">CONTACT</a>
       </div>
