@@ -24,7 +24,7 @@
           </a>
         </div>
         <p>
-          Keep in mind that this is not the final product. Stay alert for regular
+          Keep in mind that this is just our demo adventure. Stay alert for regular
           updates and please report any bugs immediately to: <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.
         </p>
         <p>

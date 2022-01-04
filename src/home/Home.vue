@@ -41,10 +41,10 @@
 
       <div class="hero">
         <div class="hero-text">
-          <h2 class="inverted">Dare you be one of the first?</h2>
-          <p class="inverted">Apply now for Game Testing, and always be rembered as a bold pioneer of adventuring, hero of <i>Mace & Magic</i>!</p>
+          <h2 class="inverted">Dare you enter the realm of Mace & Magic?</h2>
+          <p class="inverted"> Download the free demo adventure now, and always be rembered as a bold pioneer of adventuring, hero of <i>Mace & Magic</i>!</p>
           <div>
-            <Button href="/game-testing">Get Started</Button>
+            <Button href="/download">Get Started</Button>
             <Button href="/learn-more" :inverted="true">Learn More</Button>
           </div>
         </div>

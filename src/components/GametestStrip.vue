@@ -1,8 +1,8 @@
 <template>
   <div class="strip-wrapper">
     <div class="gameTestStrip">
-        <h2 class="inverted">Become part of the crew &mdash; Join us in game testing!</h2>
-        <Button href="/game-testing" style="margin-bottom:30px;">Get Started</Button>
+        <h2 class="inverted">Download the free demo adventure now!</h2>
+        <Button href="/download" style="margin-bottom:30px;">Get Started</Button>
       </div>
   </div>
 </template>

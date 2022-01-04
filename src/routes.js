@@ -11,6 +11,7 @@ const routes = {
   '/faq': Faq,
   '/learn-more': LearnMore,
   '/game-testing': Gametest,
+  '/download': Gametest,
   '/contact': Contact,
   '/privacy-policy': PrivacyPolicy,
 };
