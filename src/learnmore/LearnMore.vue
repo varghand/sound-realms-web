@@ -1,32 +1,37 @@
 <template>
   <main-layout>
     <div class="content">
-      <Menu/>
+      <Menu />
       <section>
         <div class="section-content">
           <h1>What is Sound Realms?</h1>
+
           <p>
-            Sound Realms is a new way to enjoy audio entertainment. We aim to
-            supply audio based solo RPG games and other Fantasy and Sci-Fi audio
-            content from a new kind of platform. One could say that we aim to be
-            the Spotify of Audio based solo RPGs as well as Fantasy and Sci-Fi audio
-            books. And we are super excited that YOU are considering of taking
-            part in this historical first step.
+            Sound Realms is a brand new project created by the Swedish games
+            publisher Varghand Publishing AB. United by a passion for old school
+            RPGs, we set out in 2020 to craft a new way of enjoying solo
+            adventures. We have since developed a smartphone application for iOS
+            and Android which enables you to experience captivating solo
+            adventures. What makes Sound Realms stand out from other RPG apps on
+            the market is the fact (as implied by the name Sound Realms) that
+            all our games are audio-based. A professional voice-over actor acts
+            as your Dungeon Master and takes you through dangerous dungeons and
+            mysterious temples, backed by a cinematic musical score and top of
+            the line sound effects. In time, Sound Realms will be expanded to
+            include not only fantasy, but also scifi, horror, and
+            post-apocalyptic games.
           </p>
           <p>
-            The Sound Realms Demo Adventure includes a great original story
-            narrated with a high-quality voice-over performance, an original
-            cinematic orchestral score and top of the line sound effects. The
-            demo also contains beautiful original illustrations and artwork. All
-            this is presented in a design and layout that makes you instantly
-            remember your old solo adventure books. Incorporated in the game is
-            a modified version of an actual classic paper back RPG rule set,
-            Chaosium Inc’s "Basic Roleplaying System" (BRP), and all types of digital dice
-            and a character sheet for you to see your inventory and your
-            character's progress.
+            All this is presented in a design that makes you instantly remember
+            your old solo adventure books, complete with beautiful original
+            illustrations and artwork. Incorporated in the game is a modified
+            version of an actual classic paper back RPG rule set, Chaosium Inc’s
+            ”Basic Roleplaying System” (BRP), and all types of digital dice and
+            a character sheet for you to see your inventory and your character’s
+            progress.
           </p>
 
-          <img src="../assets/skull_and_scroll.png" class="image-small"/>
+          <img src="../assets/skull_and_scroll.png" class="image-small" />
 
           <h1>The story so far</h1>
           <p>
@@ -54,10 +59,10 @@
             role-playing game obsessed software programmer who Oscar pitched his
             vision for. Gustav really liked the idea. Time passed, children were
             born, bands went on tours and career opportunities were seized but
-            the idea lived in both Oscar's and Gustav's heads and in early 2020 in
-            the mist of a world crippling pandemic that killed live music Oscar
-            and Gustav found the break they needed to really dive into the plan
-            and process of bringing this vision to life.
+            the idea lived in both Oscar's and Gustav's heads and in early 2020
+            in the mist of a world crippling pandemic that killed live music
+            Oscar and Gustav found the break they needed to really dive into the
+            plan and process of bringing this vision to life.
           </p>
           <p>
             And so the time has come! Oscar's lifelong experience as vocal
@@ -67,13 +72,12 @@
             ready for download!
           </p>
 
-          <img src="../assets/vemhir.png" class="image-large"/>
+          <img src="../assets/vemhir.png" class="image-large" />
         </div>
       </section>
-      <GametestStrip/>
+      <GametestStrip />
       <section>
         <div class="section-content">
-
           <h1>The games</h1>
           <p>
             To digitalise solo RPG rules comes with many advantages. A digital
@@ -91,7 +95,7 @@
             are also introduced with the exact right timing to create the most
             captivating and dramatic experience possible.
           </p>
-          <img src="../assets/chain_and_balls.png" class="image-small"/>
+          <img src="../assets/chain_and_balls.png" class="image-small" />
 
           <h1>A platform of audio based games and other audio content</h1>
           <p>
@@ -101,15 +105,15 @@
             also love to publish Fantasy and Sci-fi audio books and other
             Fantasy, Sci-Fi or RPG based audio content, making Sound Realms the
             natural place to turn to if you wish to listen to anything related
-            to these topics. We have a grand vision and we hope you will see
-            it incarnate together with us and help us develop it and see it
+            to these topics. We have a grand vision and we hope you will see it
+            incarnate together with us and help us develop it and see it
             progress with the help of your feedback.
           </p>
 
-          <img src="../assets/VemhirsCastle.png" class="image-large"/>
+          <img src="../assets/VemhirsCastle.png" class="image-large" />
         </div>
       </section>
-      <div class="strip"/>
+      <div class="strip" />
       <Footer />
     </div>
   </main-layout>
