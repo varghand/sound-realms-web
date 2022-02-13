@@ -44,6 +44,9 @@ export default {
   text-align: center;
   max-width: 960px;
 }
+.section-content a {
+    --hover-color: rgb(203, 47, 47);
+  }
 
 :root {
   --text-color: black;

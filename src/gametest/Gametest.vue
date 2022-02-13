@@ -9,11 +9,6 @@
           Soulbinder’s ancient castle? Find out in this very first demo adventure
           for Sound Realms &mdash; Mace & Magic.
         </p>
-        <img src="../assets/4skeletons.png" class="image"/>
-        <p>
-          Please use quality headphones for a full, immersive 360 surround sound
-          experience!
-        </p>
         <p>Click or scan one of the QR codes below:</p>
         <div>
           <a href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest">
@@ -23,6 +18,11 @@
           <img src="../assets/gametest/ios_qr.png"  class="qr"/>
           </a>
         </div>
+        <img src="../assets/4skeletons.png" class="image"/>
+        <p>
+          Please use quality headphones for a full, immersive 360 surround sound
+          experience!
+        </p>
         <p>
           Keep in mind that this is just our demo adventure. Stay alert for regular
           updates and please report any bugs immediately to: <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.

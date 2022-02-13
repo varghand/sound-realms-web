@@ -32,7 +32,7 @@
           digital RPG dice rolls, digital character sheets, skills, spells,
           swords and monsters!
         </p>
-        <p>Brace yourself and enter the Realm of <i>MACE & MAGIC</i>!</p>
+        <p>Brace yourself and <a href="/download">enter the Realm of <i>MACE & MAGIC</i></a>!</p>
         </div>
         <img src="../assets/pile_of_bones.png" class="small-image"/>
       </div>
