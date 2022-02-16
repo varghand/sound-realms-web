@@ -32,7 +32,7 @@
         <p>This Application does not collect precise information about the location of your mobile device.</p>
         <h2>Who we share your data with</h2>
         <p>No one! We will never share any of your data with any third party.</p>
-        <h2>What are my opt-out rights?</h2>>
+        <h2>What are my opt-out rights?</h2>
         <p>
           You can stop all collection of information by the Application easily by uninstalling the Application.
           You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
@@ -54,7 +54,7 @@
         </p>-->
         <h2>Contact us</h2>
         <p>If you have any questions at all, don't hestitate to contact us at:</p>
-        <p>app@sound-realms.com</p>
+        <p><a href="mailto:app@sound-realms.com">app@sound-realms.com</a></p>
       </div>
       <Footer />
     </div>
@@ -104,4 +104,5 @@ export default {
 .image {
   max-height: 500px;
 }
+
 </style>

@@ -8,9 +8,22 @@
       />
       </a>
       <div class="links">
-        <a href="/game-testing">DOWNLOAD</a>
-        <a href="/learn-more">LEARN MORE</a>
-        <a href="/contact">CONTACT</a>
+        <div class="link-col">
+          <p>SOUND REALMS</p>
+          <a href="/game-testing">DOWNLOAD FREE DEMO</a>
+          <a href="https://www.drivethrurpg.com/product/385247/Sound-Realms-Mace--Magic-Demo-Adventure-Companion-PDF" target="_blank">COMPANION PDF</a>
+        </div>
+        <div class="link-col">
+          <p>ABOUT</p>
+          <a href="/learn-more">LEARN MORE</a>
+          <a href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic" target="_blank">KICKSTARTER</a>
+        </div>
+        <div class="link-col">
+          <p>GET IN TOUCH</p>
+          <a href="/contact">CONTACT</a>
+          <a href="https://www.facebook.com/SoundRealms/" target="_blank">FACEBOOK</a>
+          <a href="https://www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ" target="_blank">YOUTUBE</a>
+        </div>
       </div>
     </div>
     <div class="footer">
@@ -70,12 +83,23 @@ export default {
   display: flex;
   justify-content: space-evenly;
 }
-.links > a {
-  padding: 30px;
-  width: 110px;
-  text-align:center;display:block;
+
+.link-col {
+  width: 180px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
+
+.link-col > a {
+  padding-bottom: 10px;
+}
+
 @media screen and (max-width:540px){
-  .links > a  {width: unset;}
+  .links  {
+    flex-direction: column;
+  }
 }
 </style>
