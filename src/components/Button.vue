@@ -18,10 +18,20 @@ export default {
       type: String,
       required: true,
     },
+    external: {
+      type: Boolean,
+      default: false,
+    },
   },
   methods: {
     click(event) {
       event.preventDefault();
+
+      if (this.external) {
+        window.open(this.href, '_blank');
+        return;
+      }
+
       this.$root.currentRoute = this.href;
       window.history.pushState(null, routes[this.href], this.href);
     },

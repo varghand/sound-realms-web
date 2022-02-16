@@ -103,7 +103,7 @@
           </p>
           <div>
             <Button href="/download">Get Started</Button>
-            <Button href="/learn-more" :inverted="true">Learn More</Button>
+            <Button href="/faq" :inverted="true">Learn More</Button>
           </div>
         </div>
         <img class="hero-image" src="../assets/mace_background.jpg" />

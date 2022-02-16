@@ -15,6 +15,7 @@
         </div>
         <div class="link-col">
           <p>ABOUT</p>
+          <a href="/faq">FAQ</a>
           <a href="/learn-more">LEARN MORE</a>
           <a href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic" target="_blank">KICKSTARTER</a>
           <a href="/privacy-policy">PRIVACY POLICY</a>
