@@ -12,12 +12,12 @@
           <p>SOUND REALMS</p>
           <a href="/game-testing">DOWNLOAD FREE DEMO</a>
           <a href="https://www.drivethrurpg.com/product/385247/Sound-Realms-Mace--Magic-Demo-Adventure-Companion-PDF" target="_blank">COMPANION PDF</a>
+          <a href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic" target="_blank">KICKSTARTER</a>
         </div>
         <div class="link-col">
-          <p>ABOUT</p>
+          <p>LEARN MORE</p>
           <a href="/faq">FAQ</a>
-          <a href="/learn-more">LEARN MORE</a>
-          <a href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic" target="_blank">KICKSTARTER</a>
+          <a href="/learn-more">ABOUT US</a>
           <a href="/privacy-policy">PRIVACY POLICY</a>
         </div>
         <div class="link-col">

@@ -4,34 +4,6 @@
       <Menu />
       <section>
         <div class="section-content">
-          <h1>What is Sound Realms?</h1>
-
-          <p>
-            Sound Realms is a brand new project created by the Swedish games
-            publisher Varghand Publishing AB. United by a passion for old school
-            RPGs, we set out in 2020 to craft a new way of enjoying solo
-            adventures. We have since developed a smartphone application for iOS
-            and Android which enables you to experience captivating solo
-            adventures. What makes Sound Realms stand out from other RPG apps on
-            the market is the fact (as implied by the name Sound Realms) that
-            all our games are audio-based. A professional voice-over actor acts
-            as your Dungeon Master and takes you through dangerous dungeons and
-            mysterious temples, backed by a cinematic musical score and top of
-            the line sound effects. In time, Sound Realms will be expanded to
-            include not only fantasy, but also scifi, horror, and
-            post-apocalyptic games.
-          </p>
-          <p>
-            All this is presented in a design that makes you instantly remember
-            your old solo adventure books, complete with beautiful original
-            illustrations and artwork. Incorporated in the game is a modified
-            version of an actual classic paper back RPG rule set, Chaosium Inc’s
-            ”Basic Roleplaying System” (BRP), and all types of digital dice and
-            a character sheet for you to see your inventory and your character’s
-            progress.
-          </p>
-
-          <img src="../assets/skull_and_scroll.png" class="image-small" />
 
           <h1>The story so far</h1>
           <p>
@@ -78,24 +50,6 @@
       <GametestStrip />
       <section>
         <div class="section-content">
-          <h1>The games</h1>
-          <p>
-            To digitalise solo RPG rules comes with many advantages. A digital
-            application offers far less limitations than a book. We aim to
-            create the adventures so they offer a different experience in as
-            many ways possible every time played so they can be replayed several
-            times. In time the app will also contain numerous side quests, vast
-            lists of treasure and equipment and enormous bestiaries ready to be
-            randomised into the adventures using any number of modifications.
-            The team puts a lot of focus into exploring in what ways we can
-            develop the app and the take advantage of the fact that it is a
-            digital product. The suspense of the voice-overs is unparalleled as
-            they can be carefully planned and designed, we also have the option
-            of retakes until we achieve perfection. The sound effects and music
-            are also introduced with the exact right timing to create the most
-            captivating and dramatic experience possible.
-          </p>
-          <img src="../assets/chain_and_balls.png" class="image-small" />
 
           <h1>A platform of audio based games and other audio content</h1>
           <p>
@@ -113,7 +67,7 @@
           <img src="../assets/VemhirsCastle.png" class="image-large" />
         </div>
       </section>
-      <div class="strip" />
+      <KickstarterStrip/>
       <Footer />
     </div>
   </main-layout>
@@ -124,6 +78,7 @@ import MainLayout from '../layouts/Main.vue';
 import Footer from '../components/Footer.vue';
 import GametestStrip from '../components/GametestStrip.vue';
 import Menu from '../components/Menu.vue';
+import KickstarterStrip from '../components/KickstarterStrip.vue';
 
 export default {
   name: 'Home',
@@ -132,6 +87,7 @@ export default {
     Footer,
     GametestStrip,
     Menu,
+    KickstarterStrip,
   },
 };
 </script>
