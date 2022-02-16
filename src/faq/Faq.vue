@@ -90,9 +90,7 @@
             Sound Realms is made by the Swedish games publisher Varghand Publishing AB.
             The company is being led by Oscar Carlquist and Gustav Sundin,
             two heavy metal-loving, old school RPG fanatics.
-          </p>
-          <p>
-            Learn more about us
+            Learn more about us as well as Sound Realms' history and future to come
             <a href="/learn-more">here</a>.
           </p>
         </div>
