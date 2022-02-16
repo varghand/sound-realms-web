@@ -4,7 +4,7 @@
         <h2 class="inverted">Want more?</h2>
         <p>Currently we are raising funds on Kickstarter in order to produce the full-length campaign <i>The Mystery of the Silent Islands</i>.
         <br/>Click the button below to learn more and support the future of Sound Realms.</p>
-        <Button href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic" external="true" class="button">Learn More</Button>
+        <Button href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic" external="true" class="button">Visit Kickstarter</Button>
       </div>
   </div>
 </template>
