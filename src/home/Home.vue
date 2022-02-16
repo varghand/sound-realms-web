@@ -37,21 +37,6 @@
 
       <GametestStrip />
 
-      <div class="hero">
-        <div class="hero-text">
-          <h2 class="inverted">Dare you enter the realm of Mace & Magic?</h2>
-          <p class="inverted">
-            Download the free demo adventure now, and always be rembered as a bold pioneer of adventuring, hero of
-            <i>Mace & Magic</i>!
-          </p>
-          <div>
-            <Button href="/download">Get Started</Button>
-            <Button href="/learn-more" :inverted="true">Learn More</Button>
-          </div>
-        </div>
-        <img class="hero-image" src="../assets/mace_background.jpg" />
-      </div>
-
       <section>
         <div class="section-content">
           <h1>THE Audio Adventure System</h1>
@@ -109,7 +94,21 @@
         </div>
       </section>
 
-      <GametestStrip />
+      <div class="hero">
+        <div class="hero-text">
+          <h2 class="inverted">Dare you enter the realm of Mace & Magic?</h2>
+          <p class="inverted">
+            Download the free demo adventure now, and always be rembered as a bold pioneer of adventuring, hero of
+            <i>Mace & Magic</i>!
+          </p>
+          <div>
+            <Button href="/download">Get Started</Button>
+            <Button href="/learn-more" :inverted="true">Learn More</Button>
+          </div>
+        </div>
+        <img class="hero-image" src="../assets/mace_background.jpg" />
+      </div>
+
       <Footer />
     </div>
   </main-layout>
@@ -179,6 +178,7 @@ img {
 .hero-image {
   width: 100%;
   min-height: 400px;
+  height: 100%;
 }
 .hero-text {
   position: absolute;
@@ -197,8 +197,8 @@ img {
 .video-wrap {
   width: 80%;
   max-width: 960px;
-  padding-top: 60px;
-  padding-bottom: 120px;
+  padding-top: 30px;
+  padding-bottom: 90px;
 }
 
 .video-container {
@@ -216,6 +216,10 @@ img {
   width: 100%;
   height: 100%;
   max-width: 100%;
+}
+
+.section-content {
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 980px) {
