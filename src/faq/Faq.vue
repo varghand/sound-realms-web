@@ -49,6 +49,15 @@
             where the emphasis lies on mysteries and the unique rather than orthodox fantasy encounters and events.
           </p>
 
+          <p>
+            Curious to discover more about the world of Mihr? Download the demo adventure's free
+            <a
+              href="https://www.drivethrurpg.com/product/385247/Sound-Realms-Mace--Magic-Demo-Adventure-Companion-PDF"
+              target="_blank"
+            >companion pdf</a>
+            from DriveThruRPG to learn about the history, peoples and creatures of Mihr.
+          </p>
+
           <img src="../assets/chain_and_balls.png" class="image-small" />
         </div>
       </section>
@@ -74,6 +83,18 @@
           </p>
 
           <img src="../assets/vemhir.png" class="image-large" />
+
+          <h1>Who are you?</h1>
+
+          <p>
+            Sound Realms is made by the Swedish games publisher Varghand Publishing AB.
+            The company is being led by Oscar Carlquist and Gustav Sundin,
+            two heavy metal-loving, old school RPG fanatics.
+          </p>
+          <p>
+            Learn more about us
+            <a href="/learn-more">here</a>.
+          </p>
         </div>
       </section>
 
@@ -82,11 +103,13 @@
           <h1>What comes next?</h1>
           <p>
             The first full feature campaign that will be produced
-            for Sound Realms – Mace & Magic is <i>The Mystery of the Silent Islands</i>.
+            for Sound Realms – Mace & Magic is
+            <i>The Mystery of the Silent Islands</i>.
             The campaign will be divided into five adventures
             which in total is expected to have an average of seven hours playing time.
             Depending on what decisions you make and which path you chose the campaign will span between five and nine hours playing time.
-            In order to finance our ambitious plans for <i>The Mystery of the Silent Islands</i>
+            In order to finance our ambitious plans for
+            <i>The Mystery of the Silent Islands</i>
             (including voice-overs, music, and tons of detailed illustrations),
             a
             <a
@@ -98,7 +121,7 @@
           <img src="../assets/VemhirsCastle.png" class="image-large" />
         </div>
       </section>
-      <KickstarterStrip/>
+      <KickstarterStrip />
       <Footer />
     </div>
   </main-layout>
