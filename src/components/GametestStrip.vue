@@ -31,7 +31,9 @@ export default {
   justify-content: center;
   align-items: center;
 }
-.gameTestStrip > h2 {
-  max-width: 60%;
+.gameTestStrip > p,h2 {
+  max-width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 </style>

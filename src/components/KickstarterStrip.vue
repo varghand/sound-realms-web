@@ -33,16 +33,15 @@ export default {
   justify-content: center;
   align-items: center;
 }
-.gameTestStrip > h2 {
-  max-width: 60%;
+.gameTestStrip > p,h2 {
+  max-width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 p {
-  max-width: 960px;
   color: white;
   padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
   text-align: center;
 }
 

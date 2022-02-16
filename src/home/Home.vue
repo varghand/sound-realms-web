@@ -190,8 +190,10 @@ img {
   align-items: center;
   width: 100%;
 }
-.hero-text > p {
-  max-width: 60%;
+.hero-text > p,h2 {
+  max-width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .video-wrap {
