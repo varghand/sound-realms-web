@@ -32,12 +32,13 @@
           digital RPG dice rolls, digital character sheets, skills, spells,
           swords and monsters!
         </p>
-        <p>Brace yourself and <a href="/download">enter the Realm of <i>MACE & MAGIC</i></a>!</p>
+        <p>Brace yourself and enter the Realm of <i>MACE & MAGIC</i>!</p>
         </div>
         <img src="../assets/pile_of_bones.png" class="small-image"/>
       </div>
       </section>
 
+      <GametestStrip/>
 
       <div class="hero">
         <div class="hero-text">
@@ -121,6 +122,7 @@
 import Button from '../components/Button.vue';
 import Footer from '../components/Footer.vue';
 import MainLayout from '../layouts/Main.vue';
+import GametestStrip from '../components/GametestStrip.vue';
 
 export default {
   name: 'Home',
@@ -128,6 +130,7 @@ export default {
     Button,
     Footer,
     MainLayout,
+    GametestStrip,
   },
 };
 </script>

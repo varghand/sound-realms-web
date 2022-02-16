@@ -17,6 +17,7 @@
           <p>ABOUT</p>
           <a href="/learn-more">LEARN MORE</a>
           <a href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic" target="_blank">KICKSTARTER</a>
+          <a href="/privacy-policy">PRIVACY POLICY</a>
         </div>
         <div class="link-col">
           <p>GET IN TOUCH</p>
