@@ -109,7 +109,9 @@
         <img class="hero-image" src="../assets/mace_background.jpg" />
       </div>
 
-      <Footer />
+      <KickstarterStrip/>
+
+      <Footer/>
     </div>
   </main-layout>
 </template>
@@ -119,6 +121,7 @@ import Button from '../components/Button.vue';
 import Footer from '../components/Footer.vue';
 import MainLayout from '../layouts/Main.vue';
 import GametestStrip from '../components/GametestStrip.vue';
+import KickstarterStrip from '../components/KickstarterStrip.vue';
 
 export default {
   name: 'Home',
@@ -127,6 +130,7 @@ export default {
     Footer,
     MainLayout,
     GametestStrip,
+    KickstarterStrip,
   },
 };
 </script>
