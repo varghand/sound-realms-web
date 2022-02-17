@@ -91,14 +91,14 @@
             The company is being led by Oscar Carlquist and Gustav Sundin,
             two heavy metal-loving, old school RPG fanatics.
             Learn more about us as well as Sound Realms' history and future to come
-            <a href="/learn-more">here</a>.
+            <a
+              href="/learn-more"
+            >here</a>.
           </p>
 
           <img src="../assets/skelett_sam.png" class="image-medium" />
         </div>
-      </section>
 
-      <section>
         <div class="section-content">
           <h1>What comes next?</h1>
           <p>
@@ -122,6 +122,21 @@
         </div>
       </section>
       <KickstarterStrip />
+
+      <section>
+        <div class="section-content">
+          <h1>How can I get involved?</h1>
+          <p>
+            The best thing you can do to support Sound Realms is to spread the word.
+            So tell your collegues, family, friends and enemies what's it all about!
+            You can also get in touch with us via
+            <a href="mailto:dm@varghand.com">dm@varghand.com</a>
+            if you have any cool ideas. Maybe you have some feedback or ideas about the game,
+            or an idea for an adventure, or maybe you have some illustrations to contribute.
+            Whatever is on your mind, let's talk!
+          </p>
+        </div>
+      </section>
       <Footer />
     </div>
   </main-layout>
