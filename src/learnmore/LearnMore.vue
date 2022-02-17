@@ -64,7 +64,7 @@
             progress with the help of your feedback.
           </p>
 
-          <img src="../assets/VemhirsCastle.png" class="image-large" />
+          <img src="../assets/skelett_sam.png" class="image-large" />
         </div>
       </section>
       <KickstarterStrip/>

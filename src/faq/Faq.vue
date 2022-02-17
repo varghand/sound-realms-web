@@ -93,6 +93,8 @@
             Learn more about us as well as Sound Realms' history and future to come
             <a href="/learn-more">here</a>.
           </p>
+
+          <img src="../assets/skelett_sam.png" class="image-medium" />
         </div>
       </section>
 
@@ -163,6 +165,11 @@ export default {
 .image-small {
   max-height: 200px;
 }
+
+.image-medium {
+  max-height: 400px;
+}
+
 .strip {
   background-color: #672a66;
   min-height: 100px;
