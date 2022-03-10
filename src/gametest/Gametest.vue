@@ -35,6 +35,7 @@
           Want to become a beta tester for upcoming releases? Send an email to: <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.
         </p>
       </div>
+      <KickstarterStrip2/>
       <Footer/>
     </div>
   </main-layout>
@@ -44,6 +45,7 @@
 import MainLayout from '../layouts/Main.vue';
 import Footer from '../components/Footer.vue';
 import Menu from '../components/Menu.vue';
+import KickstarterStrip2 from '../components/KickstarterStrip2.vue';
 
 export default {
   name: 'Home',
@@ -51,6 +53,7 @@ export default {
     MainLayout,
     Footer,
     Menu,
+    KickstarterStrip2,
   },
 };
 </script>
@@ -82,5 +85,9 @@ export default {
 }
 .image {
   max-height: 500px;
+}
+
+h1 {
+  color: black;
 }
 </style>
