@@ -35,7 +35,7 @@
         </div>
       </section>
 
-      <GametestStrip />
+      <KickstarterStrip2/>
 
       <section>
         <div class="section-content">
@@ -48,9 +48,6 @@
             &mdash; Sound Realms.
           </p>
         </div>
-        <!-- <div class="gallery"> -->
-        <!-- <img src="../assets/dice_and_book.jpg" /> -->
-        <!-- </div> -->
 
         <div class="video-wrap">
           <div class="video-container">
@@ -102,14 +99,12 @@
             <i>Mace & Magic</i>!
           </p>
           <div>
-            <Button href="/download">Get Started</Button>
+            <Button href="/download">Download Free Demo</Button>
             <Button href="/faq" :inverted="true">Learn More</Button>
           </div>
         </div>
         <img class="hero-image" src="../assets/mace_background.jpg" />
       </div>
-
-      <KickstarterStrip/>
 
       <Footer/>
     </div>
@@ -120,8 +115,7 @@
 import Button from '../components/Button.vue';
 import Footer from '../components/Footer.vue';
 import MainLayout from '../layouts/Main.vue';
-import GametestStrip from '../components/GametestStrip.vue';
-import KickstarterStrip from '../components/KickstarterStrip.vue';
+import KickstarterStrip2 from '../components/KickstarterStrip2.vue';
 
 export default {
   name: 'Home',
@@ -129,8 +123,7 @@ export default {
     Button,
     Footer,
     MainLayout,
-    GametestStrip,
-    KickstarterStrip,
+    KickstarterStrip2,
   },
 };
 </script>

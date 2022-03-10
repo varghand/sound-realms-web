@@ -2,7 +2,7 @@
   <div class="strip-wrapper">
     <div class="gameTestStrip">
         <h2 class="inverted">Download the free demo adventure now!</h2>
-        <Button href="/download" style="margin-bottom:30px;">Get Started</Button>
+        <Button href="/download" style="margin-bottom:30px;">Download Free Demo</Button>
       </div>
   </div>
 </template>
