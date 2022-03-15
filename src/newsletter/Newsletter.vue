@@ -5,7 +5,7 @@
       <section>
         <div class="section-content">
           <h1>Sign up for newsletter</h1>
-          <p>Sign up for our newsletter and receive a new playable character for the demo adventure as a free bonus.</p>
+          <!-- <p>Sign up for our newsletter and receive a new playable character for the demo adventure as a free bonus.</p> -->
           <iframe src="https://cdn.forms-content.sg-form.com/ae43989a-a486-11ec-941c-ceafd6e237fb"/>
         </div>
       </section>
@@ -42,7 +42,6 @@ iframe {
   width: 1000px;
   height: 500px;
   border: none;
-  margin: 50px;
 }
 
 input {
