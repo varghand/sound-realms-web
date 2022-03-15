@@ -81,32 +81,6 @@ export default {
   justify-content: center;
   align-items: center;
 }
-.logo {
-  padding: 12px;
-  max-width: 30%;
-  height: auto;
-  object-fit: scale-down;
-}
-.image-large {
-  max-height: 666px;
-}
-.image-small {
-  max-height: 200px;
-}
-
-.image-medium {
-  max-height: 400px;
-}
-
-.strip {
-  background-color: #672a66;
-  min-height: 100px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 p {
   word-wrap: break-word;

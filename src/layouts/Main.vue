@@ -165,4 +165,15 @@ h2 {
   }
 }
 
+.image-large {
+  max-height: 666px;
+}
+.image-small {
+  max-height: 200px;
+}
+
+.image-medium {
+  max-height: 400px;
+}
+
 </style>
