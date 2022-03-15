@@ -8,7 +8,7 @@
 
           <p>This page contains content (text, images, logos, sample sound files and links) to use when featuring Sound Realms in any type of media. Feel free to get in touch at <a href="mailto:dm@varghand.com">dm@varghand.com</a> if there is anything else you need.</p>
 
-          <p><a href="/Sound_Realms_Press_Kit.zip">Download entire press kit as zip (10MB)</a></p>
+          <p><a href="/Sound_Realms_Press_Kit.zip">Download entire press kit as zip (13MB)</a></p>
 
           <p><i>United by a passion for old school RPGs, we set out in 2020 to craft a new way of enjoying solo adventures. We have since developed a smartphone application for iOS and Android which enables you to play through captivating solo adventures. What makes Sound Realms stand out from other RPG apps on the market is the fact (as implied by the name Sound Realms) that all our games are audio-based. A professional voice-over actor acts as your Dungeon Master and takes you through dangerous dungeons and mysterious temples, backed by a cinematic musical score and top of the line sound effects.</i></p>
 
@@ -21,7 +21,7 @@
           <p><a href="/learn-more">About us</a>: On the team and company behind Sound Realms.</p>
 
           <h1>Image Gallery</h1>
-          <p>Coming soon, for now press refer to <a href="/Sound_Realms_Press_Kit.zip">press kit zip file (10MB)</a>.</p>
+          <p>Coming soon, for now press refer to the <a href="/Sound_Realms_Press_Kit.zip">press kit zip file (13MB)</a>.</p>
         </div>
       </section>
 
