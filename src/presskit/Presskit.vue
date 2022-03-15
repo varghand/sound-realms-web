@@ -19,7 +19,7 @@
           <p><a href="/learn-more">About us</a>: On the team and company behind Sound Realms.</p>
 
           <h1>Image Gallery</h1>
-          <p>Press any image to open in full resolution.</p>
+          <p>Coming soon, for now press refer to <a href="/Sound_Realms_Press_Kit.zip">press kit zip file (10MB)</a>.</p>
         </div>
       </section>
 

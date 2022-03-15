@@ -11,8 +11,9 @@
         <div class="link-col">
           <p>SOUND REALMS</p>
           <a href="/game-testing">DOWNLOAD FREE DEMO</a>
-          <a href="https://www.drivethrurpg.com/product/385247/Sound-Realms-Mace--Magic-Demo-Adventure-Companion-PDF" target="_blank">COMPANION PDF</a>
           <a href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic" target="_blank">KICKSTARTER</a>
+          <a href="https://www.drivethrurpg.com/product/385247/Sound-Realms-Mace--Magic-Demo-Adventure-Companion-PDF" target="_blank">COMPANION PDF</a>
+          <a href="/presskit">PRESS KIT</a>
         </div>
         <div class="link-col">
           <p>LEARN MORE</p>
