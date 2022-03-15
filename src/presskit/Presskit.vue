@@ -107,4 +107,8 @@ export default {
   justify-content: center;
   align-items: center;
 }
+
+p {
+  word-wrap: break-word;
+}
 </style>
