@@ -5,6 +5,7 @@ import LearnMore from './learnmore/LearnMore.vue';
 import Contact from './contact/Contact.vue';
 import Presskit from './presskit/Presskit.vue';
 import PrivacyPolicy from './privacy/PrivacyPolicy.vue';
+import Newsletter from './newsletter/Newsletter.vue';
 
 const routes = {
   '/': Home,
@@ -16,6 +17,7 @@ const routes = {
   '/contact': Contact,
   '/presskit': Presskit,
   '/privacy-policy': PrivacyPolicy,
+  '/newsletter': Newsletter,
 };
 
 export default routes;
