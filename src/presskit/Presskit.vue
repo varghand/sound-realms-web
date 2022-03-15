@@ -82,7 +82,7 @@ export default {
   align-items: center;
 }
 
-p {
+.section-content {
   word-wrap: break-word;
 }
 </style>
