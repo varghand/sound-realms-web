@@ -44,7 +44,4 @@ iframe {
   border: none;
 }
 
-input {
-  background-color: green;
-}
 </style>
