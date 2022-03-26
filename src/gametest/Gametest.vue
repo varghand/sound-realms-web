@@ -27,13 +27,13 @@
           Keep in mind that this is just our demo adventure. Stay alert for regular
           updates and please report any bugs immediately to: <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.
         </p>
-        <p>
-          We will be super grateful if you take some time to answer the included
-          <a href="https://forms.gle/JNuwPujg5J3Kb4kp7">feedback survey</a>. Feel free to contact us with any questions at <a href="mailto:dm@varghand.com">dm@varghand.com</a>.
-        </p>
-        <p>
-          Want to become a beta tester for upcoming releases? Send an email to: <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.
-        </p>
+
+         <div class="strip">
+          <h1>Sign up for newsletter</h1>
+          <!-- <p>Sign up for our newsletter and receive a new playable character for the demo adventure as a free bonus.</p> -->
+          <iframe src="https://cdn.forms-content.sg-form.com/ae43989a-a486-11ec-941c-ceafd6e237fb"/>
+        </div>
+
       </div>
       <KickstarterStrip2/>
       <Footer/>
@@ -89,5 +89,11 @@ export default {
 
 h1 {
   color: black;
+}
+
+iframe {
+  width: 1000px;
+  height: 500px;
+  border: none;
 }
 </style>
