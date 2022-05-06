@@ -6,16 +6,15 @@
         <div class="section-content">
           <h1>Get in touch with the Dungeon Master</h1>
           <p>
-            Follow this link to make your voice heard:
-            <a href="https://forms.gle/JNuwPujg5J3Kb4kp7">feedback survey</a>
-          </p>
-          <p>
             For bug reports, get in touch with
-            <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.
+            <a href="mailto:app@varghand.com">app@varghand.com</a>.
           </p>
           <p>
             All other topics:
             <a href="mailto:dm@varghand.com">dm@varghand.com</a>.
+          </p>
+          <p>
+            You can also join our <a href="https://discord.gg/peAafTfp" target="_blank">official Discord channel</a>.
           </p>
           <p>All thoughts, ideas, feedback and bug reports are very welcome!</p>
         </div>
