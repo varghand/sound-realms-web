@@ -8,6 +8,7 @@ import Contact from './contact/Contact.vue';
 import Presskit from './presskit/Presskit.vue';
 import PrivacyPolicy from './privacy/PrivacyPolicy.vue';
 import Newsletter from './newsletter/Newsletter.vue';
+import NotFound from './pages/NotFound.vue';
 
 const routes = [
   { path: '/', component: Home },
@@ -20,6 +21,7 @@ const routes = [
   { path: '/presskit', component: Presskit },
   { path: '/privacy-policy', component: PrivacyPolicy },
   { path: '/newsletter', component: Newsletter },
+  { path: '/:pathMatch(.*)*', component: NotFound },
 ];
 
 const router = createRouter({
