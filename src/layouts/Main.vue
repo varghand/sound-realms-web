@@ -45,8 +45,8 @@ export default {
   max-width: 960px;
 }
 .section-content a {
-    --hover-color: rgb(203, 47, 47);
-  }
+  --hover-color: rgb(203, 47, 47);
+}
 
 :root {
   --text-color: black;
@@ -128,6 +128,9 @@ p {
 .bold {
   font-weight: bold;
 }
+strong {
+  font-weight: bold;
+}
 
 img {
   max-width: 100%;
@@ -155,6 +158,11 @@ h1 {
 }
 
 h2 {
+  font-family: "HamletOrNot";
+  font-weight: normal;
+}
+
+h3 {
   font-family: "HamletOrNot";
   font-weight: normal;
 }
