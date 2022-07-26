@@ -7,6 +7,7 @@ import LearnMore from './learnmore/LearnMore.vue';
 import Contact from './contact/Contact.vue';
 import Presskit from './presskit/Presskit.vue';
 import PrivacyPolicy from './privacy/PrivacyPolicy.vue';
+import PrivacyPolicy2 from './privacy/PrivacyPolicy2.vue';
 import Newsletter from './newsletter/Newsletter.vue';
 import NotFound from './pages/NotFound.vue';
 
@@ -20,6 +21,7 @@ const routes = [
   { path: '/contact', component: Contact },
   { path: '/presskit', component: Presskit },
   { path: '/privacy-policy', component: PrivacyPolicy },
+  { path: '/privacypolicy', component: PrivacyPolicy2 },
   { path: '/newsletter', component: Newsletter },
   { path: '/:pathMatch(.*)*', component: NotFound },
 ];
