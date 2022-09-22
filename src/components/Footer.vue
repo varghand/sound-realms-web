@@ -28,7 +28,7 @@
           <a href="https://www.facebook.com/SoundRealms/" target="_blank">FACEBOOK</a>
           <a href="https://www.instagram.com/soundrealms/" target="_blank">INSTAGRAM</a>
           <a href="https://www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ" target="_blank">YOUTUBE</a>
-          <a href="https://discord.gg/kZERZqK4" target="_blank">DISCORD</a>
+          <a href="https://discord.gg/Zwa3FuFK79" target="_blank">DISCORD</a>
         </div>
       </div>
     </div>

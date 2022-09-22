@@ -14,7 +14,7 @@
             <a href="mailto:dm@varghand.com">dm@varghand.com</a>.
           </p>
           <p>
-            You can also join our <a href="https://discord.gg/kZERZqK4" target="_blank">official Discord channel</a>.
+            You can also join our <a href="https://discord.gg/Zwa3FuFK79" target="_blank">official Discord channel</a>.
           </p>
           <p>All thoughts, ideas, feedback and bug reports are very welcome!</p>
         </div>
