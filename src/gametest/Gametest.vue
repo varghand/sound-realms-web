@@ -28,14 +28,13 @@
           updates and please report any bugs immediately to: <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.
         </p>
 
-         <div class="strip">
+        <div class="strip">
           <h1>Sign up for newsletter</h1>
           <!-- <p>Sign up for our newsletter and receive a new playable character for the demo adventure as a free bonus.</p> -->
           <iframe src="https://cdn.forms-content.sg-form.com/ae43989a-a486-11ec-941c-ceafd6e237fb"/>
         </div>
 
       </div>
-      <KickstarterStrip2/>
       <Footer/>
     </div>
   </main-layout>
@@ -45,7 +44,6 @@
 import MainLayout from '../layouts/Main.vue';
 import Footer from '../components/Footer.vue';
 import Menu from '../components/Menu.vue';
-import KickstarterStrip2 from '../components/KickstarterStrip2.vue';
 
 export default {
   name: 'Home',
@@ -53,7 +51,6 @@ export default {
     MainLayout,
     Footer,
     Menu,
-    KickstarterStrip2,
   },
 };
 </script>
