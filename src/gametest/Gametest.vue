@@ -46,7 +46,7 @@ import Footer from '../components/Footer.vue';
 import Menu from '../components/Menu.vue';
 
 export default {
-  name: 'Home',
+  name: 'GameTest',
   components: {
     MainLayout,
     Footer,
