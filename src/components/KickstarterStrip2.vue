@@ -3,19 +3,19 @@
     <div class="strip">
         <h2 class="inverted">Join us on Kickstarter!</h2>
         <p>Currently we are raising funds on Kickstarter in order to produce the full-length campaign <i>The Mystery of the Silent Islands</i>.
-        <br/>Click the button below to learn more and support the future of Sound Realms!</p>
-        <Button href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic" external="true" class="button">Visit Kickstarter</Button>
+        <br/>Click the MyButton below to learn more and support the future of Sound Realms!</p>
+        <MyButton href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic" external="true" class="MyButton">Visit Kickstarter</MyButton>
       </div>
   </div>
 </template>
 
 <script>
-import Button from './Button.vue';
+import MyButton from './MyButton.vue';
 
 export default {
   name: 'KickstarterStrip',
   components: {
-    Button,
+    MyButton,
   },
 };
 </script>
@@ -45,7 +45,7 @@ p {
   text-align: center;
 }
 
-.button {
+.MyButton {
   margin-bottom: 30px;
 }
 </style>

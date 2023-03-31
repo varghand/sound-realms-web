@@ -99,8 +99,8 @@
             <i>Mace & Magic</i>!
           </p>
           <div>
-            <Button href="/download">Download Free Demo</Button>
-            <Button href="/faq" :inverted="true">Learn More</Button>
+            <MyButton href="/download">Download Free Demo</MyButton>
+            <MyButton href="/faq" :inverted="true">Learn More</MyButton>
           </div>
         </div>
         <img class="hero-image" src="../assets/mace_background.jpg" />
@@ -118,16 +118,16 @@
 </template>
 
 <script>
-import Button from '../components/Button.vue';
-import Footer from '../components/Footer.vue';
+import MyButton from '../components/MyButton.vue';
+import MainFooter from '../components/MainFooter.vue';
 import MainLayout from '../layouts/Main.vue';
 import KickstarterStrip2 from '../components/KickstarterStrip2.vue';
 
 export default {
   name: 'Home',
   components: {
-    Button,
-    Footer,
+    MyButton,
+    MainFooter,
     MainLayout,
     KickstarterStrip2,
   },

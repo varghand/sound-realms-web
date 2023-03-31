@@ -298,21 +298,21 @@
           <p>Varghand Publishing AB, Halmstadgatan 3, 41871 Gothenburg, Sweden</p>
         </div>
       </div>
-      <Footer />
+      <MainFooter />
     </div>
   </main-layout>
 </template>
 
 <script>
 import MainLayout from '../layouts/Main.vue';
-import Footer from '../components/Footer.vue';
-import Menu from '../components/Menu.vue';
+import MainFooter from '../components/MainFooter.vue';
+import Menu from '../components/TopMenu.vue';
 
 export default {
   name: 'PrivacyPolicy',
   components: {
     MainLayout,
-    Footer,
+    MainFooter,
     Menu,
   },
 };

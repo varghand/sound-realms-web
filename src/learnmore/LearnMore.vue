@@ -68,23 +68,23 @@
         </div>
       </section>
       <KickstarterStrip/>
-      <Footer />
+      <MainFooter />
     </div>
   </main-layout>
 </template>
 
 <script>
 import MainLayout from '../layouts/Main.vue';
-import Footer from '../components/Footer.vue';
+import MainFooter from '../components/MainFooter.vue';
 import GametestStrip from '../components/GametestStrip.vue';
-import Menu from '../components/Menu.vue';
+import Menu from '../components/TopMenu.vue';
 import KickstarterStrip from '../components/KickstarterStrip.vue';
 
 export default {
   name: 'Home',
   components: {
     MainLayout,
-    Footer,
+    MainFooter,
     GametestStrip,
     Menu,
     KickstarterStrip,

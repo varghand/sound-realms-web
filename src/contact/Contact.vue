@@ -1,7 +1,7 @@
 <template>
   <main-layout>
     <div class="content">
-      <Menu/>
+      <TopMenu/>
       <section>
         <div class="section-content">
           <h1>Get in touch with the Dungeon Master</h1>
@@ -20,24 +20,24 @@
         </div>
       </section>
       <GametestStrip/>
-      <Footer />
+      <MainFooter />
     </div>
   </main-layout>
 </template>
 
 <script>
 import MainLayout from '../layouts/Main.vue';
-import Footer from '../components/Footer.vue';
+import MainFooter from '../components/MainFooter.vue';
 import GametestStrip from '../components/GametestStrip.vue';
-import Menu from '../components/Menu.vue';
+import TopMenu from '../components/TopMenu.vue';
 
 export default {
-  name: 'Home',
+  name: 'ContactPage',
   components: {
     MainLayout,
-    Footer,
+    MainFooter,
     GametestStrip,
-    Menu,
+    TopMenu,
   },
 };
 </script>

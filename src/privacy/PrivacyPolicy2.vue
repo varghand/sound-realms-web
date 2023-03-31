@@ -51,21 +51,21 @@
 <h2>Contact us</h2>
 <p>If you have any questions regarding privacy while using the Application, or have questions about our practices, please contact us via email at dm@varghand.com.</p>
       </div>
-      <Footer />
+      <MainFooter />
     </div>
   </main-layout>
 </template>
 
 <script>
 import MainLayout from '../layouts/Main.vue';
-import Footer from '../components/Footer.vue';
-import Menu from '../components/Menu.vue';
+import MainFooter from '../components/MainFooter.vue';
+import Menu from '../components/TopMenu.vue';
 
 export default {
   name: 'PrivacyPolicy',
   components: {
     MainLayout,
-    Footer,
+    MainFooter,
     Menu,
   },
 };

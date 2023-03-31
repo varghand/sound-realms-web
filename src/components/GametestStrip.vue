@@ -2,18 +2,18 @@
   <div class="strip-wrapper">
     <div class="gameTestStrip">
         <h2 class="inverted">Download the free demo adventure now!</h2>
-        <Button href="/download" style="margin-bottom:30px;">Download Free Demo</Button>
+        <MyButton href="/download" style="margin-bottom:30px;">Download Free Demo</MyButton>
       </div>
   </div>
 </template>
 
 <script>
-import Button from './Button.vue';
+import MyButton from './MyButton.vue';
 
 export default {
   name: 'GametestStrip',
   components: {
-    Button,
+    MyButton,
   },
 };
 </script>

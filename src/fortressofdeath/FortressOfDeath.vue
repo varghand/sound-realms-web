@@ -12,21 +12,21 @@
         <!-- <p>Sign up for our newsletter and receive a new playable character for the demo adventure as a free bonus.</p> -->
         <iframe src="https://cdn.forms-content.sg-form.com/ae43989a-a486-11ec-941c-ceafd6e237fb" />
       </div>
-      <Footer />
+      <MainFooter />
     </div>
   </main-layout>
 </template>
 
 <script>
 import MainLayout from '../layouts/Main.vue';
-import Footer from '../components/Footer.vue';
-import Menu from '../components/Menu.vue';
+import MainFooter from '../components/MainFooter.vue';
+import Menu from '../components/TopMenu.vue';
 
 export default {
   name: 'FortressOfDeath',
   components: {
     MainLayout,
-    Footer,
+    MainFooter,
     Menu,
   },
 };
