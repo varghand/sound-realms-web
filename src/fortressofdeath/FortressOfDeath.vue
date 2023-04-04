@@ -1,11 +1,11 @@
 <template>
   <main-layout>
     <div class="content">
-      <Menu />
+      <TopMenu />
       <div class="section-content">
         <h1>The Fortress of Death</h1>
 
-        <img src="../assets/fortressofdeath_info.jpg" class="image" />
+        <img src="../assets/fortressofdeath_info_2.jpg" class="image" />
       </div>
       <div class="strip">
         <h1>Sign up for newsletter</h1>
@@ -20,14 +20,14 @@
 <script>
 import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
-import Menu from '../components/TopMenu.vue';
+import TopMenu from '../components/TopMenu.vue';
 
 export default {
   name: 'FortressOfDeath',
   components: {
     MainLayout,
     MainFooter,
-    Menu,
+    TopMenu,
   },
 };
 </script>
