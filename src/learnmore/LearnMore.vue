@@ -1,7 +1,7 @@
 <template>
   <main-layout>
     <div class="content">
-      <Menu />
+      <TopMenu />
       <section>
         <div class="section-content">
 
@@ -77,16 +77,16 @@
 import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
 import GametestStrip from '../components/GametestStrip.vue';
-import Menu from '../components/TopMenu.vue';
+import TopMenu from '../components/TopMenu.vue';
 import KickstarterStrip from '../components/KickstarterStrip.vue';
 
 export default {
-  name: 'Home',
+  name: 'LearnMorePage',
   components: {
     MainLayout,
     MainFooter,
     GametestStrip,
-    Menu,
+    TopMenu,
     KickstarterStrip,
   },
 };

@@ -7,7 +7,7 @@
 <script>
 
 export default {
-  name: 'Menu',
+  name: 'TopMenu',
 
 };
 </script>

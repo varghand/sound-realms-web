@@ -1,7 +1,7 @@
 <template>
   <main-layout>
     <div class="content">
-      <Menu />
+      <TopMenu />
       <div class="section-content">
         <h1>Sound Realms Privacy Policy</h1>
 
@@ -399,14 +399,14 @@
 <script>
 import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
-import Menu from '../components/TopMenu.vue';
+import TopMenu from '../components/TopMenu.vue';
 
 export default {
   name: 'PrivacyPolicy',
   components: {
     MainLayout,
     MainFooter,
-    Menu,
+    TopMenu,
   },
 };
 </script>

@@ -1,7 +1,7 @@
 <template>
   <main-layout>
     <div class="content">
-      <Menu />
+      <TopMenu />
       <div class="section-content">
         <div class="col-sm-8 col-sm-offset-2">
           <div class="page-header"><h1>Privacy Policy</h1></div>
@@ -306,14 +306,14 @@
 <script>
 import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
-import Menu from '../components/TopMenu.vue';
+import TopMenu from '../components/TopMenu.vue';
 
 export default {
   name: 'PrivacyPolicy',
   components: {
     MainLayout,
     MainFooter,
-    Menu,
+    TopMenu,
   },
 };
 </script>
