@@ -6,6 +6,9 @@
         <h1>The Fortress of Death</h1>
 
         <img src="../assets/fortressofdeath_info_2.jpg" class="image" />
+        <a href="https://www.kickstarter.com/projects/varghand/fortress-of-death" target="_blank">
+          <img src="../assets/fod_kickstarter.jpg" class="image" />
+        </a>
       </div>
       <div class="strip">
         <h1>Sign up for newsletter</h1>
