@@ -115,7 +115,7 @@
       </div>
 
       <div class="strip">
-        <h1>Sign up for the Newsletter</h1>
+        <h2>Sign up for the Newsletter</h2>
         <p class="inverted">
           Sign up for our newsletter and receive a new playable character for the demo adventure as
           a free bonus.
@@ -270,7 +270,7 @@ h2 {
   height: 600px;
 }
 
-.strip > h1 {
+.strip > h1,h2 {
   color: white;
 }
 

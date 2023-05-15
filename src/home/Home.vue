@@ -42,7 +42,7 @@
       </section>
 
       <div class="strip">
-        <h1>Sign up for the Newsletter</h1>
+        <h2>Sign up for the Newsletter</h2>
         <div class="section-content">
           <p class="inverted">
             Sign up for our newsletter if you want to stay up to date when we release new
@@ -101,7 +101,7 @@ export default {
 </script>
 
 <style scoped>
-h1 {
+h1,h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -246,7 +246,7 @@ h2 {
   height: 600px;
 }
 
-.strip > h1 {
+.strip > h1,h2 {
   color: white;
 }
 

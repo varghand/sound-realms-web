@@ -11,7 +11,7 @@
         </a>
       </div>
       <div class="strip">
-        <h1>Sign up for the Newsletter</h1>
+        <h2>Sign up for the Newsletter</h2>
         <div class="section-content">
           <p class="inverted">
             Sign up for our newsletter if you want to stay up to date when we release new
@@ -88,7 +88,7 @@ iframe {
   height: 600px;
 }
 
-.strip > h1 {
+.strip > h1,h2 {
   color: white;
 }
 </style>
