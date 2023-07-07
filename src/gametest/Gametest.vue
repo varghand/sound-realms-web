@@ -44,9 +44,7 @@
         <h1>Sign up for the Newsletter</h1>
         <div class="strip">
           <!-- <p>Sign up for our newsletter and receive a new playable character for the demo adventure as a free bonus.</p> -->
-          <iframe
-            src="https://cdn.forms-content.sg-form.com/ae43989a-a486-11ec-941c-ceafd6e237fb"
-          />
+          <NewsletterSignupForm/>
         </div>
       </div>
       <MainFooter />
@@ -58,6 +56,7 @@
 import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
 import TopMenu from '../components/TopMenu.vue';
+import NewsletterSignupForm from '../components/NewsletterSignupForm.vue';
 
 export default {
   name: 'GameTest',
@@ -65,6 +64,7 @@ export default {
     MainLayout,
     MainFooter,
     TopMenu,
+    NewsletterSignupForm,
   },
 };
 </script>
@@ -109,11 +109,5 @@ export default {
 h1 {
   color: black;
   max-width: 100%;
-}
-
-iframe {
-  width: 1000px;
-  height: 500px;
-  border: none;
 }
 </style>

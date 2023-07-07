@@ -120,7 +120,7 @@
           Sign up for our newsletter and receive a new playable character for the demo adventure as
           a free bonus.
         </p>
-        <iframe src="https://cdn.forms-content.sg-form.com/ae43989a-a486-11ec-941c-ceafd6e237fb" />
+        <NewsletterSignupForm/>
       </div>
 
       <MainFooter />
@@ -133,6 +133,7 @@ import MyButton from '../../components/MyButton.vue';
 import MainFooter from '../../components/MainFooter.vue';
 import MainLayout from '../../layouts/Main.vue';
 import KickstarterStrip2 from '../../components/KickstarterStrip2.vue';
+import NewsletterSignupForm from '../../components/NewsletterSignupForm.vue';
 
 export default {
   name: 'HomePage',
@@ -141,6 +142,7 @@ export default {
     MainFooter,
     MainLayout,
     KickstarterStrip2,
+    NewsletterSignupForm,
   },
 };
 </script>
@@ -272,11 +274,5 @@ h2 {
 
 .strip > h1,h2 {
   color: white;
-}
-
-iframe {
-  width: 1000px;
-  height: 500px;
-  border: none;
 }
 </style>

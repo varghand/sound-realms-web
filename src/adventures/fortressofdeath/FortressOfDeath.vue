@@ -18,9 +18,7 @@
             adventures. Occassionally you will also receive free in-game bonus items and other
             goodies.
           </p>
-          <iframe
-            src="https://cdn.forms-content.sg-form.com/ae43989a-a486-11ec-941c-ceafd6e237fb"
-          />
+          <NewsletterSignupForm/>
         </div>
       </div>
       <MainFooter />
@@ -32,6 +30,7 @@
 import MainLayout from '../../layouts/Main.vue';
 import MainFooter from '../../components/MainFooter.vue';
 import TopMenu from '../../components/TopMenu.vue';
+import NewsletterSignupForm from '../../components/NewsletterSignupForm.vue';
 
 export default {
   name: 'FortressOfDeath',
@@ -39,6 +38,7 @@ export default {
     MainLayout,
     MainFooter,
     TopMenu,
+    NewsletterSignupForm,
   },
 };
 </script>
@@ -71,12 +71,6 @@ export default {
 
 h1 {
   color: black;
-}
-
-iframe {
-  width: 1000px;
-  height: 500px;
-  border: none;
 }
 
 .strip {
