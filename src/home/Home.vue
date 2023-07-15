@@ -1,10 +1,12 @@
 <template>
   <main-layout>
     <div class="content">
+      <div class="topSection">
       <!-- <img alt="Sound Realms logo" class="topImage" src="../assets/home/sr-cover-image.jpg" /> -->
       <a href="https://www.kickstarter.com/projects/varghand/fortress-of-death/" target="_blank">
         <img alt="Sound Realms Kickstarter" class="topImage" src="../assets/home/fortress-of-death-kickstarter.jpg" />
       </a>
+      </div>
       <section>
         <div class="section-content">
           <h1>The First Ever REAL Audio Solo Roleplaying Game</h1>
@@ -70,12 +72,16 @@
 
         <div class="section-content">
           <div class="row">
+            <div class="game_image_wrapper">
             <a href="/maceandmagic" class="dreadhorn_image">
               <img src="../assets/home/dreadhorn.png" alt="Mace & Magic" />
             </a>
+          </div>
+          <div class="game_image_wrapper">
             <a href="/fortressofdeath" class="dreadhorn_image">
               <img src="../assets/home/fod-round.png" alt="Lone Wolf: The Fortress of Death" />
             </a>
+          </div>
           </div>
         </div>
       </section>
@@ -103,6 +109,11 @@ export default {
 </script>
 
 <style scoped>
+.topSection {
+  background-color: #672a66;
+  width: 100%;
+}
+
 h1,h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
