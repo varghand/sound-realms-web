@@ -73,7 +73,7 @@
 
         <div class="section-content">
           <div class="row">
-            <img src="../../assets/dreadhorn.png" class="dreadhorn_image" />
+            <img src="../../assets/home/dreadhorn.png" class="dreadhorn_image" />
             <div class="row_column_2 text">
               <p>
                 The first release on the Sound Realms platform will be
