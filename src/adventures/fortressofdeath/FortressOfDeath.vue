@@ -3,7 +3,7 @@
     <div class="content">
       <TopMenu />
       <div class="section-content">
-        <img src="../../assets/fod/fod-logo.png" alt="Lone Wolf: Fortress of Death" class="image" />
+        <img src="../../assets/fod/fod-header.png" alt="Lone Wolf: Fortress of Death" class="image" />
 
         <div class="text">
           <p>
