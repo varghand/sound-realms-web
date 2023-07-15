@@ -4,9 +4,9 @@
       <a href="/" class="logo-link">
       <img
         src="../assets/sound_realms_white_logo.png"
-        style="padding: 30px; max-width: 80%"
       />
       </a>
+      <p><i><a href="/">RETURN HOME</a></i></p>
       <div class="links">
         <div class="link-col">
           <p>SOUND REALMS</p>
@@ -14,6 +14,7 @@
           <a href="/maceandmagic" target="_blank">MACE & MAGIC</a>
           <a href="/fortressofdeath" target="_blank">LONE WOLF</a>
           <a href="/newsletter">NEWSLETTER</a>
+          <a href="https://www.kickstarter.com/projects/varghand/fortress-of-death" target="_blank">KICKSTARTER</a>
         </div>
         <div class="link-col">
           <p>LEARN MORE</p>
@@ -77,6 +78,10 @@ export default {
 .logo-link {
   display: flex;
   justify-content: center;
+}
+.logo-link >  img {
+  padding-top: 30px;
+  max-width: 80%
 }
 .footer > p {
   color: #4f4e4f;
