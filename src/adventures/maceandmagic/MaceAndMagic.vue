@@ -56,20 +56,7 @@
           </p>
         </div>
 
-        <div class="video-wrap">
-          <div class="video-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/4FMkHwHB8pM"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              class="video"
-            ></iframe>
-          </div>
-        </div>
+        <YoutubeEmbed video="https://www.youtube.com/embed/4FMkHwHB8pM" />
 
         <div class="section-content">
           <div class="row">
@@ -120,7 +107,7 @@
           Sign up for our newsletter and receive a new playable character for the demo adventure as
           a free bonus.
         </p>
-        <NewsletterSignupForm/>
+        <NewsletterSignupForm />
       </div>
 
       <MainFooter />
@@ -134,6 +121,7 @@ import MainFooter from '../../components/MainFooter.vue';
 import MainLayout from '../../layouts/Main.vue';
 import KickstarterStrip2 from '../../components/KickstarterStrip2.vue';
 import NewsletterSignupForm from '../../components/NewsletterSignupForm.vue';
+import YoutubeEmbed from '../../components/YoutubeEmbed.vue';
 
 export default {
   name: 'HomePage',
@@ -143,6 +131,7 @@ export default {
     MainLayout,
     KickstarterStrip2,
     NewsletterSignupForm,
+    YoutubeEmbed,
   },
 };
 </script>
@@ -212,30 +201,6 @@ h2 {
   padding-right: 30px;
 }
 
-.video-wrap {
-  width: 80%;
-  max-width: 960px;
-  padding-top: 30px;
-  padding-bottom: 90px;
-}
-
-.video-container {
-  position: relative;
-  overflow: hidden;
-  height: 0;
-  padding-bottom: 56.25%; /* creates a 16:9 aspect ratio */
-}
-
-.video-container iframe,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-}
-
 .section-content {
   padding-bottom: 30px;
 }
@@ -272,7 +237,8 @@ h2 {
   height: 600px;
 }
 
-.strip > h1,h2 {
+.strip > h1,
+h2 {
   color: white;
 }
 </style>

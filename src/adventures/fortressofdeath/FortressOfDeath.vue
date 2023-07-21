@@ -3,45 +3,62 @@
     <div class="content">
       <TopMenu />
       <div class="section-content">
-        <img src="../../assets/fod/fod-header.png" alt="Lone Wolf: Fortress of Death" class="image" />
+        <img
+          src="../../assets/fod/fod-header.png"
+          alt="Lone Wolf: Fortress of Death"
+          class="image"
+        />
 
-        <div class="text">
-          <p>
-            In 1989 the creator of the Lone Wolf adventure book series, Joe Dever, presented a
-            ground breaking new kind of interactive game called <i>PhoneQuest</i>. To play the game,
-            you dialed a number on your landline telephone. A narrative voice presented a story with
-            a selection of choices for you. All of this was accompanied by cinematic music and
-            immersive sound effects. One of these adventures was called <i>Fortress of Doom</i>.
-          </p>
-          <p>
-            Now in 2023 the time has come to reenvision Joe Dever's original concept and release a
-            game for smartphones and tablets – a new game incorporating 360 surround sound and the
-            latest app technology but still faithful to the original. This new interactive adventure
-            returns to the glory days of Lone Wolf and fantasy roleplaying games, making it the most
-            immersive audio game experience ever.
-          </p>
-          <p>
-            Enter, if you dare, <i><span class="bold">The Fortress of Death!</span></i>
-          </p>
-        </div>
-        <img src="../../assets/fod/death-or-glory.png" class="image" />
+        <p>
+          In 1989 the creator of the Lone Wolf adventure book series, Joe Dever, presented a ground
+          breaking new kind of interactive game called <i>PhoneQuest</i>. To play the game, you
+          dialed a number on your landline telephone. A narrative voice presented a story with a
+          selection of choices for you. All of this was accompanied by cinematic music and immersive
+          sound effects. One of these adventures was called <i>Fortress of Doom</i>.
+        </p>
+        <p>
+          Now in 2023 the time has come to reenvision Joe Dever's original concept and release a
+          game for smartphones and tablets – a new game incorporating 360 surround sound and the
+          latest app technology but still faithful to the original. This new interactive adventure
+          returns to the glory days of Lone Wolf and fantasy roleplaying games, making it the most
+          immersive audio game experience ever.
+        </p>
+        <p>
+          Enter, if you dare, <i><span class="bold">The Fortress of Death!</span></i>
+        </p>
+        <MyButton
+            external="true"
+            href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
+          >
+            Join us on Kickstarter!
+          </MyButton>
       </div>
+      <img src="../../assets/fod/death-or-glory.png" class="image" />
+
+      <YouTubeEmbed video="https://www.youtube.com/embed/-JpA51cX0HA" />
+
       <div class="kickstarter-strip">
         <div class="section-content inverted">
-        <p>
+          <p>
             Want to help us make <i>The Fortress of Death</i> into reality? Please sign up at our
             <a
               href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
-              target="_blank">
+              target="_blank"
+            >
               <span class="bold">Kickstarter page</span>
             </a>
             and help us spread the word around. Thank you, it means a lot to us!
           </p>
-            <MyButton external=true href="https://www.kickstarter.com/projects/varghand/fortress-of-death">Join us on Kickstarter!</MyButton>
         </div>
-      <a href="https://www.kickstarter.com/projects/varghand/fortress-of-death" target="_blank">
-        <img src="../../assets/fod/fod_kickstarter.jpg" class="image" />
-      </a>
+        <a href="https://www.kickstarter.com/projects/varghand/fortress-of-death" target="_blank">
+          <img src="../../assets/fod/fod_kickstarter.jpg" class="image" />
+        </a>
+          <MyButton
+            external="true"
+            href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
+          >
+            Join us on Kickstarter!
+          </MyButton>
       </div>
       <div class="strip">
         <h2>Sign up for the Newsletter</h2>
@@ -65,6 +82,7 @@ import MainFooter from '../../components/MainFooter.vue';
 import TopMenu from '../../components/TopMenu.vue';
 import NewsletterSignupForm from '../../components/NewsletterSignupForm.vue';
 import MyButton from '../../components/MyButton.vue';
+import YouTubeEmbed from '../../components/YoutubeEmbed.vue';
 
 export default {
   name: 'FortressOfDeath',
@@ -74,6 +92,7 @@ export default {
     TopMenu,
     NewsletterSignupForm,
     MyButton,
+    YouTubeEmbed,
   },
 };
 </script>
