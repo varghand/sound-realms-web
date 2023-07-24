@@ -35,7 +35,7 @@
       </div>
       <img src="../../assets/fod/death-or-glory.png" class="image" />
 
-      <YouTubeEmbed video="https://www.youtube.com/embed/-JpA51cX0HA" />
+      <YouTubeEmbed video="https://www.youtube.com/embed/9waUrmOaVGM" />
 
       <div class="kickstarter-strip">
         <div class="section-content inverted">
