@@ -7,11 +7,11 @@
           <h1>Get in touch with the Dungeon Master</h1>
           <p>
             For bug reports, get in touch with
-            <a href="mailto:gustav@varghand.com">gustav@varghand.com</a>.
+            <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.
           </p>
           <p>
             All other topics:
-            <a href="mailto:dm@varghand.com">dm@varghand.com</a>.
+            <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a>.
           </p>
           <p>
             You can also join our <a href="https://discord.gg/Zwa3FuFK79" target="_blank">official Discord channel</a>.

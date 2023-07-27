@@ -38,7 +38,7 @@
         <p><img src="../assets/gametest/headphones.png" class="image" /></p>
         <p>
           Stay alert for regular updates and please report any bugs to:
-          <a href="mailto:gustav@varghand.com">gustav@varghand.com</a>!
+          <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>!
         </p>
 
         <h1>Sign up for the Newsletter</h1>

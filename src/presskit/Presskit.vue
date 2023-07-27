@@ -6,7 +6,7 @@
         <div class="section-content">
           <h1>Sound Realms Press Kit</h1>
 
-          <p>This page contains content (text, images, logos, sample sound files and links) to use when featuring Sound Realms in any type of media. Feel free to get in touch at <a href="mailto:dm@varghand.com">dm@varghand.com</a> if there is anything else you need.</p>
+          <p>This page contains content (text, images, logos, sample sound files and links) to use when featuring Sound Realms in any type of media. Feel free to get in touch at <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a> if there is anything else you need.</p>
 
           <p><a href="/Sound_Realms_Press_Kit.zip">Download entire press kit as zip (13MB)</a></p>
 
@@ -50,7 +50,7 @@
           </p>
 
           <h1>Contact</h1>
-          <p>Feel free to contact us at: <a href="mailto:dm@varghand.com">dm@varghand.com</a></p>
+          <p>Feel free to contact us at: <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a></p>
         </div>
       </section>
 

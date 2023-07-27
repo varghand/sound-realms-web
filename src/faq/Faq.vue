@@ -130,7 +130,7 @@
             The best thing you can do to support Sound Realms is to spread the word.
             So tell your collegues, family, friends and enemies what's it all about!
             You can also get in touch with us via
-            <a href="mailto:dm@varghand.com">dm@varghand.com</a>
+            <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a>
             if you have any cool ideas. Maybe you have some feedback or ideas about the game,
             or an idea for an adventure, or maybe you have some illustrations to contribute.
             Whatever is on your mind, let's talk!
