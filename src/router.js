@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
+import { trackRouter } from 'vue-gtag-next';
 import Home from './home/Home.vue';
 import Gametest from './gametest/Gametest.vue';
 import Faq from './faq/Faq.vue';
@@ -13,6 +14,7 @@ import Newsletter from './newsletter/Newsletter.vue';
 import FortressOfDeath from './adventures/fortressofdeath/FortressOfDeath.vue';
 import MaceAndMagic from './adventures/maceandmagic/MaceAndMagic.vue';
 import NotFound from './pages/NotFound.vue';
+
 
 const routes = [
   { path: '/', component: Home },
@@ -40,5 +42,7 @@ const router = createRouter({
 router.beforeEach(() => {
   window.scrollTo(0, 0);
 });
+
+trackRouter(router);
 
 export default router;
