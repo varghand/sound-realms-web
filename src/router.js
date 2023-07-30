@@ -15,7 +15,6 @@ import FortressOfDeath from './adventures/fortressofdeath/FortressOfDeath.vue';
 import MaceAndMagic from './adventures/maceandmagic/MaceAndMagic.vue';
 import NotFound from './pages/NotFound.vue';
 
-
 const routes = [
   { path: '/', component: Home },
   { path: '/feedback', component: Contact },
@@ -28,8 +27,8 @@ const routes = [
   { path: '/privacy-policy', component: PrivacyPolicy },
   { path: '/privacypolicy', component: PrivacyPolicy2 },
   { path: '/privacy', component: PrivacyPolicy3 },
-  { path: '/fortressofdeath', component: FortressOfDeath },
-  { path: '/maceandmagic', component: MaceAndMagic },
+  { path: '/fortressofdeath', component: FortressOfDeath, meta: { title: 'The Fortress of Death' } },
+  { path: '/maceandmagic', component: MaceAndMagic, meta: { title: 'Mace & Magic' } },
   { path: '/newsletter', component: Newsletter },
   { path: '/:pathMatch(.*)*', component: NotFound },
 ];
@@ -39,7 +38,10 @@ const router = createRouter({
   routes,
 });
 
-router.beforeEach(() => {
+router.beforeEach((to) => {
+  if (to.meta.title) {
+    document.title = to.meta.title;
+  }
   window.scrollTo(0, 0);
 });
 

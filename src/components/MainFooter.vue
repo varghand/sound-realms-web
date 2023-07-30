@@ -11,8 +11,8 @@
         <div class="link-col">
           <p>SOUND REALMS</p>
           <a href="/download">DOWNLOAD</a>
-          <a href="/maceandmagic" target="_blank">MACE & MAGIC</a>
-          <a href="/fortressofdeath" target="_blank">LONE WOLF</a>
+          <a href="/maceandmagic">MACE & MAGIC</a>
+          <a href="/fortressofdeath">LONE WOLF</a>
           <a href="/newsletter">NEWSLETTER</a>
           <a href="https://www.kickstarter.com/projects/varghand/fortress-of-death" target="_blank">KICKSTARTER</a>
         </div>
