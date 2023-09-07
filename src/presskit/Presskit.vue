@@ -4,6 +4,9 @@
       <TopMenu />
       <section>
         <div class="section-content">
+          <h1>Press Releases</h1>
+          <p>September 15, 2023: <a href="/press/fod-kickstarter">The Fortress of Death Kickstarter</a></p>
+
           <h1>Sound Realms Press Kit</h1>
 
           <p>This page contains content (text, images, logos, sample sound files and links) to use when featuring Sound Realms in any type of media. Feel free to get in touch at <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a> if there is anything else you need.</p>

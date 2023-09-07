@@ -7,6 +7,7 @@ import Faq from './faq/Faq.vue';
 import LearnMore from './learnmore/LearnMore.vue';
 import Contact from './contact/Contact.vue';
 import Presskit from './presskit/Presskit.vue';
+import FodKickstarterPress from './presskit/FodKickstarterPress.vue';
 import PrivacyPolicy from './privacy/PrivacyPolicy.vue';
 import PrivacyPolicy2 from './privacy/PrivacyPolicy2.vue';
 import PrivacyPolicy3 from './privacy/PrivacyPolicy3.vue';
@@ -24,6 +25,8 @@ const routes = [
   { path: '/download', component: Gametest },
   { path: '/contact', component: Contact },
   { path: '/presskit', component: Presskit },
+  { path: '/press', component: Presskit },
+  { path: '/press/fod-kickstarter', component: FodKickstarterPress },
   { path: '/privacy-policy', component: PrivacyPolicy },
   { path: '/privacypolicy', component: PrivacyPolicy2 },
   { path: '/privacy', component: PrivacyPolicy3 },
