@@ -2,6 +2,17 @@
   <main-layout>
     <div class="content">
       <TopMenu />
+      <MyBreadcrumbs
+            :breadcrumbs="[
+              {
+                title: 'Sound Realms',
+                link: '/'
+              },
+              {
+                title: 'The Fortress of Death'
+              },
+            ]"
+          />
       <div class="section-content">
         <img
           src="../../assets/fod/fod-header.png"
@@ -83,6 +94,7 @@ import TopMenu from '../../components/TopMenu.vue';
 import NewsletterSignupForm from '../../components/NewsletterSignupForm.vue';
 import MyButton from '../../components/MyButton.vue';
 import YouTubeEmbed from '../../components/YoutubeEmbed.vue';
+import MyBreadcrumbs from '../../components/MyBreadcrumbs.vue';
 
 export default {
   name: 'FortressOfDeath',
@@ -93,6 +105,7 @@ export default {
     NewsletterSignupForm,
     MyButton,
     YouTubeEmbed,
+    MyBreadcrumbs,
   },
 };
 </script>

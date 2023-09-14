@@ -21,7 +21,7 @@
           <a href="/faq">FAQ</a>
           <a href="/learn-more">ABOUT US</a>
           <a href="/privacy-policy">PRIVACY POLICY</a>
-          <a href="/press">PRESS</a>
+          <a href="/press">PRESS & NEWS</a>
         </div>
         <div class="link-col">
           <p>GET IN TOUCH</p>

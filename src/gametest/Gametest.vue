@@ -2,6 +2,17 @@
   <main-layout>
     <div class="content">
       <TopMenu />
+      <MyBreadcrumbs
+        :breadcrumbs="[
+          {
+            title: 'Sound Realms',
+            link: '/'
+          },
+          {
+            title: 'Download'
+          }
+        ]"
+      />
       <div class="section-content">
         <h1>Take heed adventurer!</h1>
         <p>
@@ -44,7 +55,7 @@
         <h1>Sign up for the Newsletter</h1>
         <div class="strip">
           <!-- <p>Sign up for our newsletter and receive a new playable character for the demo adventure as a free bonus.</p> -->
-          <NewsletterSignupForm/>
+          <NewsletterSignupForm />
         </div>
       </div>
       <MainFooter />
@@ -57,6 +68,7 @@ import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
 import TopMenu from '../components/TopMenu.vue';
 import NewsletterSignupForm from '../components/NewsletterSignupForm.vue';
+import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
 
 export default {
   name: 'GameTest',
@@ -65,6 +77,7 @@ export default {
     MainFooter,
     TopMenu,
     NewsletterSignupForm,
+    MyBreadcrumbs,
   },
 };
 </script>

@@ -2,6 +2,17 @@
   <main-layout>
     <div class="content">
       <TopMenu/>
+      <MyBreadcrumbs
+            :breadcrumbs="[
+              {
+                title: 'Sound Realms',
+                link: '/'
+              },
+              {
+                title: 'Contact'
+              }
+            ]"
+          />
       <section>
         <div class="section-content">
           <h1>Get in touch with the Dungeon Master</h1>
@@ -30,6 +41,7 @@ import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
 import GametestStrip from '../components/GametestStrip.vue';
 import TopMenu from '../components/TopMenu.vue';
+import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
 
 export default {
   name: 'ContactPage',
@@ -38,6 +50,7 @@ export default {
     MainFooter,
     GametestStrip,
     TopMenu,
+    MyBreadcrumbs,
   },
 };
 </script>

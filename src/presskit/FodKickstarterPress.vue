@@ -115,7 +115,7 @@ import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
 import TopMenu from '../components/TopMenu.vue';
 import MyButton from '../components/MyButton.vue';
-import MyBreadcrumbs from './MyBreadcrumbs.vue';
+import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
 
 export default {
   name: 'PresskitPage',

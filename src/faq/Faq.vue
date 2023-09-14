@@ -2,6 +2,17 @@
   <main-layout>
     <div class="content">
       <TopMenu />
+      <MyBreadcrumbs
+            :breadcrumbs="[
+              {
+                title: 'Sound Realms',
+                link: '/'
+              },
+              {
+                title: 'FAQ'
+              },
+            ]"
+          />
       <section>
         <div class="section-content">
           <h1>What is Sound Realms?</h1>
@@ -148,6 +159,7 @@ import MainFooter from '../components/MainFooter.vue';
 import GametestStrip from '../components/GametestStrip.vue';
 import TopMenu from '../components/TopMenu.vue';
 import KickstarterStrip from '../components/KickstarterStrip.vue';
+import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
 
 export default {
   name: 'FaqPage',
@@ -157,6 +169,7 @@ export default {
     GametestStrip,
     TopMenu,
     KickstarterStrip,
+    MyBreadcrumbs,
   },
 };
 </script>

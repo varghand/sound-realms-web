@@ -2,6 +2,17 @@
   <main-layout>
     <div class="content">
       <TopMenu />
+      <MyBreadcrumbs
+            :breadcrumbs="[
+              {
+                title: 'Sound Realms',
+                link: '/'
+              },
+              {
+                title: 'About Us'
+              },
+            ]"
+          />
       <section>
         <div class="section-content">
           <h1>The story so far</h1>
@@ -69,6 +80,7 @@ import MainFooter from '../components/MainFooter.vue';
 import GametestStrip from '../components/GametestStrip.vue';
 import TopMenu from '../components/TopMenu.vue';
 import KickstarterStrip from '../components/KickstarterStrip.vue';
+import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
 
 export default {
   name: 'LearnMorePage',
@@ -78,6 +90,7 @@ export default {
     GametestStrip,
     TopMenu,
     KickstarterStrip,
+    MyBreadcrumbs,
   },
 };
 </script>
