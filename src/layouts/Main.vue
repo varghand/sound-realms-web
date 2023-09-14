@@ -118,7 +118,7 @@ a:hover {
   color: var(--hover-color);
 }
 
-p {
+p,li {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-align: left;
