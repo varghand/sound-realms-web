@@ -65,10 +65,23 @@
             see it progress with the help of your feedback.
           </p>
 
-          <img src="../assets/skelett_sam.png" class="image-large" />
+          <img src="../assets/VemhirsCastle.png" class="image-large" />
         </div>
       </section>
-      <KickstarterStrip />
+
+      <div class="strip">
+        <h2>Sign up for the Newsletter</h2>
+        <div class="section-content">
+          <p class="inverted">
+            Sign up for our newsletter if you want to stay up to date when we release new
+            adventures. Occassionally you will also receive free in-game bonus items and other
+            goodies.
+          </p>
+          <NewsletterSignupForm />
+        </div>
+      </div>
+
+
       <MainFooter />
     </div>
   </main-layout>
@@ -79,8 +92,8 @@ import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
 import GametestStrip from '../components/GametestStrip.vue';
 import TopMenu from '../components/TopMenu.vue';
-import KickstarterStrip from '../components/KickstarterStrip.vue';
 import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
+import NewsletterSignupForm from '../components/NewsletterSignupForm.vue';
 
 export default {
   name: 'LearnMorePage',
@@ -89,8 +102,8 @@ export default {
     MainFooter,
     GametestStrip,
     TopMenu,
-    KickstarterStrip,
     MyBreadcrumbs,
+    NewsletterSignupForm,
   },
 };
 </script>
@@ -111,5 +124,10 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.strip > h1,
+h2 {
+  color: white;
 }
 </style>
