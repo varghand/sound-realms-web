@@ -9,6 +9,7 @@ import Contact from './contact/Contact.vue';
 import Presskit from './presskit/Presskit.vue';
 import FodKickstarterPress from './presskit/FodKickstarterPress.vue';
 import FodFunded from './presskit/FodFunded.vue';
+import Dracula from './presskit/Dracula.vue';
 import PrivacyPolicy from './privacy/PrivacyPolicy.vue';
 import PrivacyPolicy2 from './privacy/PrivacyPolicy2.vue';
 import PrivacyPolicy3 from './privacy/PrivacyPolicy3.vue';
@@ -29,6 +30,7 @@ const routes = [
   { path: '/press', component: Presskit },
   { path: '/press/fod-kickstarter', component: FodKickstarterPress },
   { path: '/press/fod-funded', component: FodFunded },
+  { path: '/press/dracula', component: Dracula },
   { path: '/privacy-policy', component: PrivacyPolicy },
   { path: '/privacypolicy', component: PrivacyPolicy2 },
   { path: '/privacy', component: PrivacyPolicy3 },
