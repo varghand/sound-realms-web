@@ -40,7 +40,7 @@
           <p>
             Oscar Carlquist: "We are very pleased to present the next upcoming addition to Sound
             Realms and I can't wait to start creating some truly haunting and immersive soundscapes
-            for Dracula, Curse of the Vampire. The interactive gamebook version of Bram Stoker's
+            for Dracula: Curse of the Vampire. The interactive gamebook version of Bram Stoker's
             classic is masterfully written by Jon Green and taking this into the audio realm will be
             as much of an honour as a challenge that we here at Sound Realms are ready to embrace
             with enthusiasm and dedication!"
@@ -71,13 +71,15 @@
             returns to the glory days of Lone Wolf and fantasy roleplaying games, promising to be an
             immersive audio game experience. Enter, if you dare, The Fortress of Death!
           </p>
+          <h3>About ACE Gamebooks</h3>
+          <p>ACE Gamebooks are old school adventure gamebooks, in which YOU are the hero, with a modern twist. Nightmarish realms, steampunk weirdness, and prehistoric piracy! Read the Classics as you have never read them before!</p>
           <h3>Links</h3>
-          <p><a href="https://www.sound-realms.com">https://www.sound-realms.com</a></p>
+          <p><a href="https://www.sound-realms.com">www.sound-realms.com</a></p>
           <p>
             <a
               href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
               target="_blank"
-              >https://www.kickstarter.com/projects/varghand/fortress-of-death</a
+              >www.kickstarter.com/projects/varghand/fortress-of-death</a
             >
           </p>
           <p>
