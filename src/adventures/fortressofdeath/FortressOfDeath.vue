@@ -37,40 +37,12 @@
         <p>
           Enter, if you dare, <i><span class="bold">The Fortress of Death!</span></i>
         </p>
-        <MyButton
-            external="true"
-            href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
-          >
-            Join us on Kickstarter!
-          </MyButton>
       </div>
       <img src="../../assets/fod/death-or-glory.png" class="image" />
 
       <YouTubeEmbed video="https://www.youtube.com/embed/9waUrmOaVGM" />
 
-      <div class="kickstarter-strip">
-        <div class="section-content inverted">
-          <p>
-            Want to help us make <i>The Fortress of Death</i> into reality? Please join us at our
-            <a
-              href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
-              target="_blank"
-            >
-              <span class="bold">Kickstarter page</span>
-            </a>
-            and help us spread the word around. Thank you, it means a lot to us!
-          </p>
-        </div>
-        <a href="https://www.kickstarter.com/projects/varghand/fortress-of-death" target="_blank">
-          <img src="../../assets/fod/fod-now-live.jpg" class="image" />
-        </a>
-          <MyButton
-            external="true"
-            href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
-          >
-            Join us on Kickstarter!
-          </MyButton>
-      </div>
+
       <div class="strip">
         <h2>Sign up for the Newsletter</h2>
         <div class="section-content">
@@ -92,7 +64,6 @@ import MainLayout from '../../layouts/Main.vue';
 import MainFooter from '../../components/MainFooter.vue';
 import TopMenu from '../../components/TopMenu.vue';
 import NewsletterSignupForm from '../../components/NewsletterSignupForm.vue';
-import MyButton from '../../components/MyButton.vue';
 import YouTubeEmbed from '../../components/YoutubeEmbed.vue';
 import MyBreadcrumbs from '../../components/MyBreadcrumbs.vue';
 
@@ -103,7 +74,6 @@ export default {
     MainFooter,
     TopMenu,
     NewsletterSignupForm,
-    MyButton,
     YouTubeEmbed,
     MyBreadcrumbs,
   },

@@ -4,7 +4,7 @@
       <div class="topSection">
       <!-- <img alt="Sound Realms logo" class="topImage" src="../assets/home/sr-cover-image.jpg" /> -->
       <a href="https://www.kickstarter.com/projects/varghand/fortress-of-death/" target="_blank">
-        <img alt="Sound Realms Kickstarter" class="topImage" src="../assets/home/fod-kickstarter-live-banner.jpg" />
+        <img alt="Sound Realms Kickstarter" class="topImage" src="../assets/home/fod-home-banner.jpg" />
       </a>
       </div>
       <section>
@@ -79,7 +79,7 @@
           </div>
           <div class="game_image_wrapper">
             <a href="/fortressofdeath" class="dreadhorn_image">
-              <img src="../assets/home/fod-round-live.png" alt="Lone Wolf: The Fortress of Death" />
+              <img src="../assets/home/fod-round-funded.png" alt="Lone Wolf: The Fortress of Death" />
             </a>
           </div>
           </div>

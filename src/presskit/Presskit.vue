@@ -28,6 +28,10 @@
           <h2>Press Releases</h2>
           <ul>
             <li class="bold">
+              October 15, 2023:
+              <a href="/press/fod-ks-complete" class="bold">Kickstarter Campaign Completed!</a>
+            </li>
+            <li class="bold">
               October 3, 2023:
               <a href="/press/dracula" class="bold">Sound Realms Unveils Dracula: Curse of the Vampire</a>
             </li>
