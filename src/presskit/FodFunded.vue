@@ -114,7 +114,7 @@
       </section>
       <section>
         <div class="section-content">
-          <img src="../assets/fod/stretch-goals.jpg" class="image" />
+          <img src="../assets/fod/fod-final-stretch-goals.jpg" class="image" />
         </div>
       </section>
 
