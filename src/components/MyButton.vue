@@ -1,6 +1,6 @@
 
 <template>
-  <button @click="click" v-bind:class="{ invertedButton: inverted }">
+  <button @click="buttonPressed" v-bind:class="{ invertedButton: inverted, disabledButton: disabled }">
     <slot></slot>
   </button>
 </template>
@@ -12,18 +12,35 @@ export default {
       type: Boolean,
       required: false,
     },
+    click: {
+      type: Function,
+      required: false,
+    },
     href: {
       type: String,
-      required: true,
+      required: false,
     },
     external: {
       type: Boolean,
       default: false,
     },
+    disabled: {
+      type: Boolean,
+      required: false,
+    },
   },
   methods: {
-    click(event) {
+    buttonPressed(event) {
       event.preventDefault();
+
+      if (this.disabled) {
+        return;
+      }
+
+      if (this.click) {
+        this.click();
+        return;
+      }
 
       if (this.external) {
         window.open(this.href, '_blank');
@@ -51,11 +68,24 @@ button {
   outline: none;
   opacity: 0.8;
   transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .invertedButton {
   background-color: white;
   color: black;
+}
+
+.disabledButton {
+  background-color: white;
+  color: gray;
+  cursor: auto;
+}
+.disabledButton:hover {
+  opacity: 0.8;
+  background-color: white;
+  color: gray;
 }
 
 button:hover {

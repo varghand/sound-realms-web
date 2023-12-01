@@ -1,7 +1,6 @@
 <template>
   <main-layout>
     <div class="content">
-      <TopMenu />
       <MyBreadcrumbs
             :breadcrumbs="[
               {
@@ -37,6 +36,12 @@
         <p>
           Enter, if you dare, <i><span class="bold">The Fortress of Death!</span></i>
         </p>
+        <MyButton
+          class="button"
+          href="/shop"
+        >
+          Pre-Order Now
+        </MyButton>
       </div>
       <img src="../../assets/fod/death-or-glory.png" class="image" />
 
@@ -62,20 +67,20 @@
 <script>
 import MainLayout from '../../layouts/Main.vue';
 import MainFooter from '../../components/MainFooter.vue';
-import TopMenu from '../../components/TopMenu.vue';
 import NewsletterSignupForm from '../../components/NewsletterSignupForm.vue';
 import YouTubeEmbed from '../../components/YoutubeEmbed.vue';
 import MyBreadcrumbs from '../../components/MyBreadcrumbs.vue';
+import MyButton from '@/components/MyButton.vue';
 
 export default {
   name: 'FortressOfDeath',
   components: {
     MainLayout,
     MainFooter,
-    TopMenu,
     NewsletterSignupForm,
     YouTubeEmbed,
     MyBreadcrumbs,
+    MyButton,
   },
 };
 </script>
@@ -134,5 +139,9 @@ h1 {
 .strip > h1,
 h2 {
   color: white;
+}
+
+.button {
+  margin-top: 20px;
 }
 </style>
