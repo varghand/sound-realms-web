@@ -6,6 +6,7 @@ import {
   resetPassword,
   confirmResetPassword,
   signOut,
+  fetchAuthSession,
 } from "@aws-amplify/auth";
 
 const helpers = {
@@ -17,7 +18,6 @@ const helpers = {
         password: password.trim(),
       });
       const user = await getCurrentUser();
-      console.log(user);
       return user;
     } catch (error) {
       console.log("error signing in", error);
@@ -26,8 +26,17 @@ const helpers = {
   },
   async getCurrentUser() {
     const user = await getCurrentUser();
-    console.log(user);
+    user.email = await this.getUserEmail();
     return user;
+  },
+  async getUserEmail() {
+    try {
+      const { idToken } = (await fetchAuthSession()).tokens ?? {};
+      return idToken.payload.email;
+    } catch (err) {
+      console.log(err);
+      return "";
+    }
   },
   async handleSignUp({ username, password, email }) {
     try {

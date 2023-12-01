@@ -42,6 +42,7 @@ import MainLayout from "../layouts/Main.vue";
 import MainFooter from "../components/MainFooter.vue";
 import TopMenu from "../components/TopMenu.vue";
 import profileController from "../profileController";
+import shopController from "../shopController";
 import MyButton from "../components/MyButton.vue";
 
 export default {
@@ -79,23 +80,7 @@ export default {
   methods: {
     async checkout() {
       this.loading = true;
-      const response = await fetch(
-        "https://6j2f2a91be.execute-api.eu-north-1.amazonaws.com/api/create-checkout-session",
-        {
-          method: "POST",
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            products: this.shoppingCart,
-            baseUrl: window.location.origin,
-          }),
-        }
-      );
-      const jsonBody = await response.json();
-      const redirectUri = jsonBody.redirect_url;
-      window.location.href = redirectUri;
+      await shopController.checkout(this.shoppingCart);
     },
     removeFromCart(product) {
       this.$store.commit("removeFromCart", product);

@@ -37,6 +37,7 @@ export default {
   },
   mounted() {
     profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
+
   },
   data() {
     return {
