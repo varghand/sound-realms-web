@@ -49,6 +49,8 @@
         </MyButton>
       </div>
 
+      <YouTubeEmbed video="https://www.youtube.com/embed/SPiZcGXVnJY" />
+
       <div class="strip">
         <h2>Sign up for the Newsletter</h2>
         <div class="section-content">
@@ -72,6 +74,7 @@ import TopMenu from "../../components/TopMenu.vue";
 import NewsletterSignupForm from "../../components/NewsletterSignupForm.vue";
 import MyBreadcrumbs from "../../components/MyBreadcrumbs.vue";
 import MyButton from "@/components/MyButton.vue";
+import YouTubeEmbed from '@/components/YoutubeEmbed.vue';
 
 export default {
   name: "DraculaPage",
@@ -82,6 +85,7 @@ export default {
     NewsletterSignupForm,
     MyBreadcrumbs,
     MyButton,
+    YouTubeEmbed,
   },
 };
 </script>
