@@ -25,9 +25,15 @@ const helpers = {
     }
   },
   async getCurrentUser() {
+    try {
     const user = await getCurrentUser();
     user.email = await this.getUserEmail();
     return user;
+    } catch (err) {
+      console.log(err);
+      await this.handleSignOut();
+      return null;
+    }
   },
   async getUserEmail() {
     try {
