@@ -11,14 +11,17 @@
           <h1>My Account</h1>
           <p>Logged in as {{ user.username }}</p>
           <h3>My Pre-orders</h3>
-          <div class="grid-container">
+          <div v-if="loadingPreOrders"><p>Loading...</p></div>
+          <div v-else-if="products.length === 0">
+          <p>No pre-orders yet, head over to the <a href="/shop">SHOP</a> to get some!</p></div>
+          <div class="grid-container" v-else>
             <div v-for="product in products" :key="product.title" class="productCard">
               <img :src="getImageUrl(product)" :alt="product.title" />
               <p class="cardHeader">{{ product.title }}</p>
             </div>
             <div></div>
           </div>
-          <MyButton :click="logout" :disabled="loading">Sign Out</MyButton>
+          <MyButton :click="logout">Sign Out</MyButton>
         </div>
       </div>
       <MainFooter />
@@ -46,17 +49,14 @@ export default {
   },
   mounted() {
     profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
-    userApi
-      .getUnlockedContent()
-      .then((unlockedAdventures) =>
-        this.$store.commit("setUnlockedAdventures", unlockedAdventures)
-      );
+    userApi.getUnlockedContent().then((unlockedAdventures) => {
+      this.$store.commit("setUnlockedAdventures", unlockedAdventures);
+      this.loadingPreOrders = false;
+    });
   },
   data() {
     return {
-      username: "",
-      password: "",
-      loading: false,
+      loadingPreOrders: true,
     };
   },
   computed: {
