@@ -7,16 +7,20 @@ import {
   confirmResetPassword,
   signOut,
   fetchAuthSession,
+  resendSignUpCode,
 } from "@aws-amplify/auth";
 
 const helpers = {
   async signIn(username, password) {
     try {
       await this.handleSignOut();
-      await signIn({
+      const signInRes = await signIn({
         username: username.trim(),
         password: password.trim(),
       });
+      if (!signInRes.isSignedIn && signInRes.nextStep.signInStep === "CONFIRM_SIGN_UP") {
+        throw new Error("CONFIRM_SIGN_UP");
+      }
       const user = await getCurrentUser();
       return user;
     } catch (error) {
@@ -83,6 +87,17 @@ const helpers = {
       console.log(result);
     } catch (error) {
       console.log("error confirming sign up", error);
+      throw error;
+    }
+  },
+  async resendSignUpCode(username) {
+    try {
+      const result = await resendSignUpCode({
+        username: username.trim(),
+      });
+      console.log(result);
+    } catch (error) {
+      console.log("error resending signup code", error);
       throw error;
     }
   },
