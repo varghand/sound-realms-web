@@ -88,7 +88,7 @@ export default {
     async resendConfirmationCode() {
       await profileController.resendSignUpCode(this.username);
       this.signUpCodeResent = true;
-    }
+    },
   },
 };
 </script>

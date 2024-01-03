@@ -29,6 +29,9 @@
           <p class="error-text">{{ error }}</p>
         </div>
         <MyButton :click="confirmSignup" :disabled="loading">Create Account</MyButton>
+        <hr/>
+        <MyButton :click="resendConfirmationCode" :disabled="loading || signUpCodeResent">Resend Confirmation Code</MyButton>
+        <div v-if="signUpCodeResent"><p>New code sent to your email inbox!</p></div>
       </div>
       <MainFooter />
     </div>
@@ -59,6 +62,7 @@ export default {
       loading: false,
       error: null,
       step: "CREATE",
+      signUpCodeResent: false,
     };
   },
   computed: {
@@ -116,7 +120,11 @@ export default {
         }
         this.error = error;
       }
-    }
+    },
+    async resendConfirmationCode() {
+      await profileController.resendSignUpCode(this.username);
+      this.signUpCodeResent = true;
+    },
   },
 };
 </script>
