@@ -16,10 +16,7 @@ const helpers = {
       }
     );
     const jsonBody = await response.json();
-    if (!jsonBody) {
-      return [];
-    }
-    if (!jsonBody.data) {
+    if (!jsonBody || !jsonBody.data || jsonBody.data.length === 0) {
       return [];
     }
     return jsonBody.data[0].adventures ?? [];
