@@ -1,6 +1,5 @@
 import profileController from "./profileController";
 
-
 const helpers = {
   async checkout(shoppingCart) {
     const user = await profileController.getCurrentUser();

@@ -26,13 +26,23 @@ const helpers = {
   },
   async getCurrentUser() {
     try {
-    const user = await getCurrentUser();
-    user.email = await this.getUserEmail();
-    return user;
+      const user = await getCurrentUser();
+      user.email = await this.getUserEmail();
+      user.idToken = await this.getIdToken();
+      return user;
     } catch (err) {
       console.log(err);
       await this.handleSignOut();
       return null;
+    }
+  },
+  async getIdToken() {
+    try {
+      const { idToken } = (await fetchAuthSession()).tokens ?? {};
+      return idToken.toString();
+    } catch (err) {
+      console.log(err);
+      return "";
     }
   },
   async getUserEmail() {
@@ -91,11 +101,7 @@ const helpers = {
       throw error;
     }
   },
-  async handleConfirmResetPassword({
-    username,
-    confirmationCode,
-    newPassword,
-  }) {
+  async handleConfirmResetPassword({ username, confirmationCode, newPassword }) {
     try {
       await confirmResetPassword({
         username: username.trim(),

@@ -39,7 +39,8 @@ const store = createStore({
   state() {
     return {
       user: null,
-      shoppingCart: []
+      shoppingCart: [],
+      unlockedAdventures: [],
     };
   },
   mutations: {
@@ -60,7 +61,10 @@ const store = createStore({
       state.shoppingCart = state.shoppingCart.filter(function(el) {
         return el.id !== product.id;
       });
-    }
+    },
+    setUnlockedAdventures(state, unlockedAdventures) {
+      state.unlockedAdventures = unlockedAdventures;
+    },
   },
   plugins: [vuexLocal.plugin]
 });
