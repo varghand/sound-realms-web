@@ -15,7 +15,7 @@ const helpers = {
         body: JSON.stringify({
           products: shoppingCart,
           baseUrl: window.location.origin,
-          email: user.email,
+          email: user.email.trim(),
         }),
       }
     );
