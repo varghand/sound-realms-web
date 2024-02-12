@@ -16,7 +16,7 @@
       <div class="section-content">
         <h1>Sound Realms Privacy Policy</h1>
 
-        <p>Last updated: July 25, 2022</p>
+        <p>Last updated: February 12, 2024</p>
 
         <p>
           This privacy policy governs your use of the software application Sound Realms
