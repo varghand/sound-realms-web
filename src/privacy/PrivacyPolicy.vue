@@ -110,7 +110,6 @@
         <p>You can reach us via email at <a href="mailto:dm@varghand.com">dm@varghand.com</a></p>
 
         <h2>Collecting of Your Personal Data</h2>
-        <!-- <h2>Types of Data Collected</h2> -->
         <h3>Personal Data</h3>
         <p>
           While using Our Service, We may ask You to provide Us with certain personally identifiable
@@ -277,6 +276,11 @@
           will take place to an organization or a country unless there are adequate controls in
           place including the security of Your data and other personal information.
         </p>
+
+        <h2>Data Deletion</h2>
+        <p>We provide you with the ability to cancel your Sound Realms account and delete your
+            information by contacting us at the following email:</p>
+        <p><a href="mailto:dm@varghand.com">dm@varghand.com</a></p>
 
         <h2>Disclosure of Your Personal Data</h2>
         <h3>Business Transactions</h3>
