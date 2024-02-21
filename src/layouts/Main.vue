@@ -129,7 +129,6 @@ a:hover {
 
 p,li {
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-weight: lighter;
   text-align: left;
   font-size: small;
   line-height: 2;
