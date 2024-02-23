@@ -22,6 +22,7 @@
           <a href="/learn-more">ABOUT US</a>
           <a href="/privacy-policy">PRIVACY POLICY</a>
           <a href="/press">PRESS & NEWS</a>
+          <a href="https://www.varghand.com/">INVESTOR RELATIONS</a>
         </div>
         <div class="link-col">
           <p>GET IN TOUCH</p>
