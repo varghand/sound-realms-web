@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "serve": "vite --open",
+    "dev": "vite --open",
     "build": "vite build --out-dir dist && cp dist/index.html dist/404.html",
     "lint": "eslint src"
   },
