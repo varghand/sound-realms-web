@@ -8,14 +8,14 @@
             :breadcrumbs="[
               {
                 title: 'Sound Realms',
-                link: '/'
+                link: '/',
               },
               {
                 title: 'Press',
-                link: '/press'
+                link: '/press',
               },
               {
-                title: 'September 15, 2023'
+                title: 'September 15, 2023',
               },
             ]"
           />
@@ -41,20 +41,19 @@
             The Fortress of Death is part of the Sound Realms platform, an app for interactive audio
             adventures available on iOS and Android devices.
           </p>
+          <p>This is what the team behind Sound Realms has to say about The Fortress of Death:</p>
           <p>
-            This is what the team behind Sound Realms has to say about The Fortress of Death:
-          </p>
-          <p>
-            “In 1989 the creator of the Lone Wolf adventure book series, Joe Dever, presented a
-            ground breaking new kind of interactive game called PhoneQuest. To play the game, you
-            dialed a number on your landline telephone. A narrative voice presented a story with a
-            selection of choices for you. All of this was accompanied by cinematic music and
-            immersive sound effects. One of these adventures was called Fortress of Doom. Now in
-            2023 the time has come to reenvision Joe Dever's original concept and release a game for
-            smartphones and tablets – a new game incorporating 360 surround sound and the latest app
-            technology but still faithful to the original. This new interactive adventure returns to
-            the glory days of Lone Wolf and fantasy roleplaying games, making it the most immersive
-            audio game experience ever. Enter, if you dare, The Fortress of Death!”
+            “In 1989, Joe Dever in response to the massive success of Steve Jackson's
+            <i>F.I.S.T.</i>i> (the first ever interactive play by phone roleplaying game), launched
+            his own Lone Wolf game for his interactive phone game system, <i>PhoneQuest</i>. To play
+            the game, you dialed a number on your landline telephone. A narrative voice presented a
+            story with a selection of choices for you. All of this was accompanied by cinematic
+            music and immersive sound effects. One of these adventures was called Fortress of Doom.
+            Now in 2023 the time has come to reenvision Joe Dever's original concept and release a
+            game for smartphones and tablets &ndash; a new game incorporating 360 surround sound and the
+            latest app technology but still faithful to the original. This new interactive adventure
+            returns to the glory days of Lone Wolf and fantasy roleplaying games, making it the most
+            immersive audio game experience ever. Enter, if you dare, The Fortress of Death!”
           </p>
 
           <h3>About Sound Realms</h3>
@@ -77,14 +76,14 @@
           <h3>Links</h3>
           <p><a href="https://www.sound-realms.com">https://www.sound-realms.com</a></p>
           <p>
-            <a href="https://www.kickstarter.com/projects/varghand/fortress-of-death" target="_blank"
+            <a
+              href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
+              target="_blank"
               >https://www.kickstarter.com/projects/varghand/fortress-of-death</a
             >
           </p>
           <p>
-            <a href="https://youtu.be/9waUrmOaVGM" target="_blank"
-              >https://youtu.be/9waUrmOaVGM</a
-            >
+            <a href="https://youtu.be/9waUrmOaVGM" target="_blank">https://youtu.be/9waUrmOaVGM</a>
           </p>
 
           <p>
@@ -92,7 +91,9 @@
             now:
           </p>
           <p>
-            <a href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest" target="_blank"
+            <a
+              href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest"
+              target="_blank"
               >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a
             >
           </p>
@@ -111,14 +112,14 @@
 </template>
 
 <script>
-import MainLayout from '../layouts/Main.vue';
-import MainFooter from '../components/MainFooter.vue';
-import TopMenu from '../components/TopMenu.vue';
-import MyButton from '../components/MyButton.vue';
-import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
+import MainLayout from "../layouts/Main.vue";
+import MainFooter from "../components/MainFooter.vue";
+import TopMenu from "../components/TopMenu.vue";
+import MyButton from "../components/MyButton.vue";
+import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
-  name: 'PresskitPage',
+  name: "PresskitPage",
   components: {
     MainLayout,
     MainFooter,

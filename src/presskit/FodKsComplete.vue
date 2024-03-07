@@ -8,15 +8,15 @@
             :breadcrumbs="[
               {
                 title: 'Sound Realms',
-                link: '/'
+                link: '/',
               },
               {
                 title: 'Press',
-                link: '/press'
+                link: '/press',
               },
               {
-                title: 'October 15, 2023'
-              }
+                title: 'October 15, 2023',
+              },
             ]"
           />
           <h1>The Fortress of Death Kickstarter is now Completed</h1>
@@ -32,16 +32,14 @@
             Download Full Press Kit
           </MyButton>
 
-          <p>
-            We did it!! The Kickstarter is a success with 687 backers and funded to 365%.
-          </p>
+          <p>We did it!! The Kickstarter is a success with 687 backers and funded to 365%.</p>
           <p>
             Everyone at Sound Realms and everyone at Holmgard Press would like to thank each and
-            every one of you from the bottom of our hearts for backing Lone Wolf &ndash; The Fortress Of
-            Death! We are stoked to see the huge interest in the game and it makes us so much more
-            inspired to create the best possible audio adventure when we know that all of you are
-            eagerly anticipating its release. It is also a huge privilege for us to continue on this
-            journey now with 687 fellow explorers of Magnamund. For Sommerlund and the Kai!
+            every one of you from the bottom of our hearts for backing Lone Wolf &ndash; The
+            Fortress Of Death! We are stoked to see the huge interest in the game and it makes us so
+            much more inspired to create the best possible audio adventure when we know that all of
+            you are eagerly anticipating its release. It is also a huge privilege for us to continue
+            on this journey now with 687 fellow explorers of Magnamund. For Sommerlund and the Kai!
           </p>
           <p>
             Now we from the team will return to the heart of Kazan-Oud and start working on
@@ -62,15 +60,15 @@
           <p>
             The first full length adventure for the Sound Realms platform will be The Fortress of
             Death, set in the world of Joe Dever's Lone Wolf. The game is inspired by PhoneQuest, a
-            for its time groundbreaking type of game that was presented by Joe Dever in 1989. To
-            play the game, you dialed a number on your landline telephone. A narrative voice
-            presented a story with a selection of choices for you, accompanied by cinematic music
-            and sound effects. One of these adventures was called Fortress of Doom. The Fortress of
-            Death will be a reenvisioning of Joe Dever's original concept, modernised for
-            smartphones and tablets &ndash; by incorporating 360 surround sound and the latest app
-            technology &ndash; but still faithful to the original. This new interactive adventure
-            returns to the glory days of Lone Wolf and fantasy roleplaying games, promising to be an
-            immersive audio game experience. Enter, if you dare, The Fortress of Death!
+            game that was presented by Joe Dever in 1989. To play PhoneQuest, you dialed a number on
+            your landline telephone. A narrative voice presented a story with a selection of choices
+            for you, accompanied by cinematic music and sound effects. One of these adventures was
+            called Fortress of Doom. The Fortress of Death will be a reenvisioning of Joe Dever's
+            original concept, modernised for smartphones and tablets &ndash; by incorporating 360
+            surround sound and the latest app technology &ndash; but still faithful to the original.
+            This new interactive adventure returns to the glory days of Lone Wolf and fantasy
+            roleplaying games, promising to be an immersive audio game experience. Enter, if you
+            dare, The Fortress of Death!
           </p>
           <h3>About Lone Wolf</h3>
           <p>
@@ -127,14 +125,14 @@
 </template>
 
 <script>
-import MainLayout from '../layouts/Main.vue';
-import MainFooter from '../components/MainFooter.vue';
-import TopMenu from '../components/TopMenu.vue';
-import MyButton from '../components/MyButton.vue';
-import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
+import MainLayout from "../layouts/Main.vue";
+import MainFooter from "../components/MainFooter.vue";
+import TopMenu from "../components/TopMenu.vue";
+import MyButton from "../components/MyButton.vue";
+import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
-  name: 'PresskitPage',
+  name: "PresskitPage",
   components: {
     MainLayout,
     MainFooter,

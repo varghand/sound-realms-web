@@ -2,16 +2,16 @@
   <main-layout>
     <div class="content">
       <MyBreadcrumbs
-            :breadcrumbs="[
-              {
-                title: 'Sound Realms',
-                link: '/'
-              },
-              {
-                title: 'The Fortress of Death'
-              },
-            ]"
-          />
+        :breadcrumbs="[
+          {
+            title: 'Sound Realms',
+            link: '/',
+          },
+          {
+            title: 'The Fortress of Death',
+          },
+        ]"
+      />
       <div class="section-content">
         <img
           src="../../assets/fod/fod-header.png"
@@ -20,33 +20,32 @@
         />
 
         <p>
-          In 1989 the creator of the Lone Wolf adventure book series, Joe Dever, presented a ground
-          breaking new kind of interactive game called <i>PhoneQuest</i>. To play the game, you
-          dialed a number on your landline telephone. A narrative voice presented a story with a
-          selection of choices for you. All of this was accompanied by cinematic music and immersive
-          sound effects. One of these adventures was called <i>Fortress of Doom</i>.
+          In 1989, Joe Dever in response to the massive success of Steve Jackson's <i>F.I.S.T.</i>
+          (the first ever interactive play by phone roleplaying game), launched his own Lone Wolf
+          game for his interactive phone game system &ndash; <i>PhoneQuest</i>.
+        </p>
+
+        <p>
+          To play the game, you dialed a number on your landline telephone. A narrative voice
+          presented a story with a selection of choices for you. All of this was accompanied by
+          cinematic music and immersive sound effects. One of these adventures was called
+          <i>Fortress of Doom</i>.
         </p>
         <p>
           Now in 2023 the time has come to reenvision Joe Dever's original concept and release a
-          game for smartphones and tablets – a new game incorporating 360 surround sound and the
-          latest app technology but still faithful to the original. This new interactive adventure
-          returns to the glory days of Lone Wolf and fantasy roleplaying games, making it the most
-          immersive audio game experience ever.
+          game for smartphones and tablets &ndash; a new game incorporating 360 surround sound and
+          the latest app technology but still faithful to the original. This new interactive
+          adventure returns to the glory days of Lone Wolf and fantasy roleplaying games, making it
+          the most immersive audio game experience ever.
         </p>
         <p>
           Enter, if you dare, <i><span class="bold">The Fortress of Death!</span></i>
         </p>
-        <MyButton
-          class="button"
-          href="/shop"
-        >
-          Pre-Order Now
-        </MyButton>
+        <MyButton class="button" href="/shop"> Pre-Order Now </MyButton>
       </div>
       <img src="../../assets/fod/death-or-glory.png" class="image" />
 
       <YouTubeEmbed video="https://www.youtube.com/embed/9waUrmOaVGM" />
-
 
       <div class="strip">
         <h2>Sign up for the Newsletter</h2>
@@ -65,15 +64,15 @@
 </template>
 
 <script>
-import MainLayout from '../../layouts/Main.vue';
-import MainFooter from '../../components/MainFooter.vue';
-import NewsletterSignupForm from '../../components/NewsletterSignupForm.vue';
-import YouTubeEmbed from '../../components/YoutubeEmbed.vue';
-import MyBreadcrumbs from '../../components/MyBreadcrumbs.vue';
-import MyButton from '@/components/MyButton.vue';
+import MainLayout from "../../layouts/Main.vue";
+import MainFooter from "../../components/MainFooter.vue";
+import NewsletterSignupForm from "../../components/NewsletterSignupForm.vue";
+import YouTubeEmbed from "../../components/YoutubeEmbed.vue";
+import MyBreadcrumbs from "../../components/MyBreadcrumbs.vue";
+import MyButton from "@/components/MyButton.vue";
 
 export default {
-  name: 'FortressOfDeath',
+  name: "FortressOfDeath",
   components: {
     MainLayout,
     MainFooter,

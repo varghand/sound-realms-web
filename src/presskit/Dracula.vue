@@ -8,15 +8,15 @@
             :breadcrumbs="[
               {
                 title: 'Sound Realms',
-                link: '/'
+                link: '/',
               },
               {
                 title: 'Press',
-                link: '/press'
+                link: '/press',
               },
               {
-                title: 'October 3, 2023'
-              }
+                title: 'October 3, 2023',
+              },
             ]"
           />
           <h1>Sound Realms Unveils Dracula: Curse of the Vampire</h1>
@@ -61,18 +61,22 @@
           <p>
             The first full length adventure for the Sound Realms platform will be The Fortress of
             Death, set in the world of Joe Dever's Lone Wolf. The game is inspired by PhoneQuest, a
-            for its time groundbreaking type of game that was presented by Joe Dever in 1989. To
-            play the game, you dialed a number on your landline telephone. A narrative voice
-            presented a story with a selection of choices for you, accompanied by cinematic music
-            and sound effects. One of these adventures was called Fortress of Doom. The Fortress of
-            Death will be a reenvisioning of Joe Dever's original concept, modernised for
-            smartphones and tablets &ndash; by incorporating 360 surround sound and the latest app
-            technology &ndash; but still faithful to the original. This new interactive adventure
-            returns to the glory days of Lone Wolf and fantasy roleplaying games, promising to be an
-            immersive audio game experience. Enter, if you dare, The Fortress of Death!
+            game that was presented by Joe Dever in 1989. To play PhoneQuest, you dialed a number on
+            your landline telephone. A narrative voice presented a story with a selection of choices
+            for you, accompanied by cinematic music and sound effects. One of these adventures was
+            called Fortress of Doom. The Fortress of Death will be a reenvisioning of Joe Dever's
+            original concept, modernised for smartphones and tablets &ndash; by incorporating 360
+            surround sound and the latest app technology &ndash; but still faithful to the original.
+            This new interactive adventure returns to the glory days of Lone Wolf and fantasy
+            roleplaying games, promising to be an immersive audio game experience. Enter, if you
+            dare, The Fortress of Death!
           </p>
           <h3>About ACE Gamebooks</h3>
-          <p>ACE Gamebooks are old school adventure gamebooks, in which YOU are the hero, with a modern twist. Nightmarish realms, steampunk weirdness, and prehistoric piracy! Read the Classics as you have never read them before!</p>
+          <p>
+            ACE Gamebooks are old school adventure gamebooks, in which YOU are the hero, with a
+            modern twist. Nightmarish realms, steampunk weirdness, and prehistoric piracy! Read the
+            Classics as you have never read them before!
+          </p>
           <h3>Links</h3>
           <p><a href="https://www.sound-realms.com">www.sound-realms.com</a></p>
           <p>
@@ -122,14 +126,14 @@
 </template>
 
 <script>
-import MainLayout from '../layouts/Main.vue';
-import MainFooter from '../components/MainFooter.vue';
-import TopMenu from '../components/TopMenu.vue';
-import MyButton from '../components/MyButton.vue';
-import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
+import MainLayout from "../layouts/Main.vue";
+import MainFooter from "../components/MainFooter.vue";
+import TopMenu from "../components/TopMenu.vue";
+import MyButton from "../components/MyButton.vue";
+import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
-  name: 'PresskitPage',
+  name: "PresskitPage",
   components: {
     MainLayout,
     MainFooter,
