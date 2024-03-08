@@ -5,7 +5,7 @@
       <div class="section-content">
         <div v-if="user === null">
           <h1>Account</h1>
-          <LoginComponent />
+          <LoginComponent :loginCallback="loadPreOrders"/>
         </div>
         <div v-else>
           <h1>My Account</h1>
@@ -49,10 +49,7 @@ export default {
   },
   mounted() {
     profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
-    userApi.getUnlockedContent().then((unlockedAdventures) => {
-      this.$store.commit("setUnlockedAdventures", unlockedAdventures);
-      this.loadingPreOrders = false;
-    });
+    this.loadPreOrders();
   },
   data() {
     return {
@@ -100,7 +97,14 @@ export default {
   methods: {
     async logout() {
       this.$store.commit("setUser", null);
+      this.$store.commit("setUnlockedAdventures", []);
       await profileController.handleSignOut();
+    },
+    loadPreOrders() {
+      userApi.getUnlockedContent().then((unlockedAdventures) => {
+        this.$store.commit("setUnlockedAdventures", unlockedAdventures);
+        this.loadingPreOrders = false;
+      });
     },
     getImageUrl(product) {
       return new URL(product["image"], import.meta.url);

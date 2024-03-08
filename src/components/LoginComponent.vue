@@ -41,6 +41,12 @@ export default {
   components: {
     MyButton,
   },
+  props: {
+    loginCallback: {
+      type: Function,
+      required: false,
+    },
+  },
   data() {
     return {
       username: "",
@@ -59,6 +65,9 @@ export default {
         const user = await profileController.signIn(this.username, this.password);
         this.$store.commit("setUser", user);
         this.loading = false;
+        if (this.loginCallback) {
+          this.loginCallback();
+        }
       } catch (error) {
         this.loading = false;
         if (error.message === "CONFIRM_SIGN_UP") {
