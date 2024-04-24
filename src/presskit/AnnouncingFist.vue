@@ -22,7 +22,11 @@
           <h1>Sound Realms Announces The Return of Steve Jackson's F.I.S.T.</h1>
           <p><i>(December 2, 2023)</i></p>
 
-          <img src="../assets/fist/fist-logo.png" alt="Steve Jackson's F.I.S.T." class="image" />
+          <img
+            src="../assets/fist/fist-logo.png"
+            alt="Steve Jackson's F.I.S.T."
+            class="image"
+          >
 
           <p>
             In 1988 you could pick up your telephone, dial the <strong>F.I.S.T.</strong> number and
@@ -48,7 +52,11 @@
           </p>
           <p><strong>GET READY FOR F.I.S.T., THE RETURN!</strong></p>
 
-          <img src="../assets/fist/fist-square.jpg" alt="F.I.S.T. Returns!" class="image" />
+          <img
+            src="../assets/fist/fist-square.jpg"
+            alt="F.I.S.T. Returns!"
+            class="image"
+          >
 
 
           <h3>About Sound Realms</h3>
@@ -70,11 +78,20 @@
             touch-tone telephone.
           </p>
 
-          <img src="../assets/fist/fighting-fantasy.png" alt="Fighting Fantasy" class="image fistlogo" />
+          <img
+            src="../assets/fist/fighting-fantasy.png"
+            alt="Fighting Fantasy"
+            class="image fistlogo"
+          >
 
           <h3>Links</h3>
           <p><a href="https://www.sound-realms.com">www.sound-realms.com</a></p>
-          <p><a href="https://www.fightingfantasy.com/" target="_blank">www.fightingfantasy.com</a></p>
+          <p>
+            <a
+              href="https://www.fightingfantasy.com/"
+              target="_blank"
+            >www.fightingfantasy.com</a>
+          </p>
 
           <p>
             Download Sound Realms for free through Google Play or App Store and begin your adventure
@@ -84,14 +101,14 @@
             <a
               href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest"
               target="_blank"
-              >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a
-            >
+            >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a>
           </p>
 
           <p>
-            <a href="https://apps.apple.com/se/app/sound-realms/id1587860372" target="_blank"
-              >https://apps.apple.com/se/app/sound-realms/id1587860372</a
-            >
+            <a
+              href="https://apps.apple.com/se/app/sound-realms/id1587860372"
+              target="_blank"
+            >https://apps.apple.com/se/app/sound-realms/id1587860372</a>
           </p>
         </div>
       </section>

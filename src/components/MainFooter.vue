@@ -1,10 +1,13 @@
 <template>
   <div class="footer-wrapper">
     <div class="soundRealmsStrip">
-      <a href="/" class="logo-link">
-      <img
-        src="../assets/sound_realms_white_logo.png"
-      />
+      <a
+        href="/"
+        class="logo-link"
+      >
+        <img
+          src="../assets/sound_realms_white_logo.png"
+        >
       </a>
       <p><i><a href="/">RETURN HOME</a></i></p>
       <div class="links">
@@ -14,7 +17,10 @@
           <a href="/shop">WEB SHOP</a>
           <a href="/games">OUR GAMES</a>
           <a href="/newsletter">NEWSLETTER</a>
-          <a href="https://www.kickstarter.com/discover/advanced?ref=nav_search&term=sound%20realms" target="_blank">KICKSTARTER</a>
+          <a
+            href="https://www.kickstarter.com/discover/advanced?ref=nav_search&term=sound%20realms"
+            target="_blank"
+          >KICKSTARTER</a>
         </div>
         <div class="link-col">
           <p>LEARN MORE</p>
@@ -27,18 +33,36 @@
         <div class="link-col">
           <p>GET IN TOUCH</p>
           <a href="/contact">CONTACT</a>
-          <a href="https://www.facebook.com/SoundRealms/" target="_blank">FACEBOOK</a>
-          <a href="https://www.instagram.com/soundrealms/" target="_blank">INSTAGRAM</a>
-          <a href="https://www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ" target="_blank">YOUTUBE</a>
-          <a href="https://discord.gg/Zwa3FuFK79" target="_blank">DISCORD</a>
+          <a
+            href="https://www.facebook.com/SoundRealms/"
+            target="_blank"
+          >FACEBOOK</a>
+          <a
+            href="https://www.instagram.com/soundrealms/"
+            target="_blank"
+          >INSTAGRAM</a>
+          <a
+            href="https://www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ"
+            target="_blank"
+          >YOUTUBE</a>
+          <a
+            href="https://discord.gg/Zwa3FuFK79"
+            target="_blank"
+          >DISCORD</a>
         </div>
       </div>
     </div>
     <div class="footer">
-      <a href="https://www.varghand.com/" class="logo-link">
-        <img src="../assets/varghand_logo.png" style="padding: 30px" />
+      <a
+        href="https://www.varghand.com/"
+        class="logo-link"
+      >
+        <img
+          src="../assets/varghand_logo.png"
+          style="padding: 30px"
+        >
       </a>
-      <p>Copyright © 2020-{{this.getCurrentYear()}} Varghand Publishing AB. All rights reserved.</p>
+      <p>Copyright © 2020-{{ getCurrentYear() }} Varghand Publishing AB. All rights reserved.</p>
     </div>
   </div>
 </template>

@@ -32,7 +32,10 @@
             and artwork. In time, Sound Realms will be expanded to include not only fantasy, but
             also scifi, horror, and post-apocalyptic games.
           </p>
-          <img src="../assets/skull_and_scroll.png" class="image-small" />
+          <img
+            src="../assets/skull_and_scroll.png"
+            class="image-small"
+          >
 
           <h1>What is Mace & Magic?</h1>
           <p>
@@ -55,12 +58,14 @@
             <a
               href="https://www.drivethrurpg.com/product/385247/Sound-Realms-Mace--Magic-Demo-Adventure-Companion-PDF"
               target="_blank"
-              >companion pdf</a
-            >
+            >companion pdf</a>
             from DriveThruRPG to learn about the history, peoples and creatures of Mihr.
           </p>
 
-          <img src="../assets/chain_and_balls.png" class="image-small" />
+          <img
+            src="../assets/chain_and_balls.png"
+            class="image-small"
+          >
         </div>
       </section>
       <GametestStrip />
@@ -81,7 +86,10 @@
             to create the most captivating and dramatic experience possible.
           </p>
 
-          <img src="../assets/vemhir.png" class="image-large" />
+          <img
+            src="../assets/vemhir.png"
+            class="image-large"
+          >
 
           <h1>Who are you?</h1>
 
@@ -93,7 +101,10 @@
             <a href="/learn-more">here</a>.
           </p>
 
-          <img src="../assets/skelett_sam.png" class="image-medium" />
+          <img
+            src="../assets/skelett_sam.png"
+            class="image-medium"
+          >
         </div>
       </section>
       <div class="strip">

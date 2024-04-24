@@ -1,34 +1,80 @@
 <template>
   <main-layout>
-    <div v-if="step === 'LOGIN'" class="content">
+    <div
+      v-if="step === 'LOGIN'"
+      class="content"
+    >
       <p>Please log in with your Sound Realms account to continue.</p>
       <p>This is the same account as you use in the Sound Realms app.</p>
-      <input v-model="username" placeholder="Username or email address" @keyup.enter="login()" />
-      <input v-model="password" placeholder="Password" type="password" @keyup.enter="login()" />
+      <input
+        v-model="username"
+        placeholder="Username or email address"
+        @keyup.enter="login()"
+      >
+      <input
+        v-model="password"
+        placeholder="Password"
+        type="password"
+        @keyup.enter="login()"
+      >
       <div v-if="error">
-        <p class="error-text">{{ error }}</p>
+        <p class="error-text">
+          {{ error }}
+        </p>
       </div>
-      <MyButton :click="login" :disabled="loading">Sign In</MyButton>
-      <hr />
-      <MyButton href="/account/forgot-password" :disabled="loading">Forgot Password</MyButton>
-      <MyButton href="/account/create-account" :disabled="loading">Create Account</MyButton>
+      <MyButton
+        :click="login"
+        :disabled="loading"
+      >
+        Sign In
+      </MyButton>
+      <hr>
+      <MyButton
+        href="/account/forgot-password"
+        :disabled="loading"
+      >
+        Forgot Password
+      </MyButton>
+      <MyButton
+        href="/account/create-account"
+        :disabled="loading"
+      >
+        Create Account
+      </MyButton>
     </div>
-    <div v-else-if="step === 'CONFIRM'" class="content">
+    <div
+      v-else-if="step === 'CONFIRM'"
+      class="content"
+    >
       <p>Almost done! Check your email for a confirmation code, then enter it here:</p>
       <p>(Code expires after 24 hours)</p>
       <input
-          v-model="confirmationCode"
-          placeholder="Confirmation Code"
-          @keyup.enter="confirmSignup()"
-        />
-        <div v-if="error">
-          <p class="error-text">{{ error }}</p>
-        </div>
-        <MyButton :click="confirmSignup" :disabled="loading">Confirm Account</MyButton>
-        <hr/>
-        <MyButton :click="resendConfirmationCode" :disabled="loading || signUpCodeResent">Resend Confirmation Code</MyButton>
-        <div v-if="signUpCodeResent"><p>New code sent to your email inbox!</p></div>
+        v-model="confirmationCode"
+        placeholder="Confirmation Code"
+        @keyup.enter="confirmSignup()"
+      >
+      <div v-if="error">
+        <p class="error-text">
+          {{ error }}
+        </p>
       </div>
+      <MyButton
+        :click="confirmSignup"
+        :disabled="loading"
+      >
+        Confirm Account
+      </MyButton>
+      <hr>
+      <MyButton
+        :click="resendConfirmationCode"
+        :disabled="loading || signUpCodeResent"
+      >
+        Resend Confirmation Code
+      </MyButton>
+      <div v-if="signUpCodeResent">
+        <p>New code sent to your email inbox!</p>
+      </div>
+    </div>
   </main-layout>
 </template>
 

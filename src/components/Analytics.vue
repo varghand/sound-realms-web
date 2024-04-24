@@ -1,11 +1,11 @@
 <template>
-  <div class='Analytics'>
-      <slot></slot>
+  <div class="Analytics">
+    <slot />
   </div>
 </template>
 
 <script>
-/* eslint-disable max-len */
+ 
 
 
 function iOS() {
@@ -56,7 +56,7 @@ export default {
       window.addEventListener('blur', this.endSession);
     }
   },
-  destroyed() {
+  unmounted() {
     window.removeEventListener('pagehide', this.endSession);
     window.removeEventListener('beforeunload', this.endSession);
     window.removeEventListener('unload', this.endSession);
@@ -88,7 +88,7 @@ export default {
 
       // https://bugs.webkit.org/show_bug.cgi?id=188329
       // Safari bug is fixed but not yet released. When that happens, will need to check safari version also
-      // eslint-disable-next-line no-bitwise
+       
       if (window.navigator.sendBeacon && !~vendor.indexOf('Apple')) {
         console.log('try to send the beacon');
         const beacon = window.navigator.sendBeacon(url, JSON.stringify(data));
@@ -112,7 +112,7 @@ export default {
       // I've found it more performant to do an async call and use the following hack to keep the loop open while waiting
 
       // Chrome doesn't care about waiting
-      // eslint-disable-next-line no-bitwise
+       
       if (!async || ~vendor.indexOf('Google')) {
         return;
       }

@@ -3,16 +3,16 @@
     <div class="content">
       <TopMenu />
       <MyBreadcrumbs
-            :breadcrumbs="[
-              {
-                title: 'Sound Realms',
-                link: '/'
-              },
-              {
-                title: 'Privacy Policy'
-              }
-            ]"
-          />
+        :breadcrumbs="[
+          {
+            title: 'Sound Realms',
+            link: '/'
+          },
+          {
+            title: 'Privacy Policy'
+          }
+        ]"
+      />
       <div class="section-content">
         <h1>Sound Realms Privacy Policy</h1>
 
@@ -211,37 +211,37 @@
 
         <p>We may share Your personal information in the following situations:</p>
         <p>
-        <ul>
-          <li>
-            <strong>With Service Providers:</strong> We may share Your personal information with
-            Service Providers to monitor and analyze the use of our Service, to contact You.
-          </li>
-          <li>
-            <strong>For business transfers:</strong> We may share or transfer Your personal
-            information in connection with, or during negotiations of, any merger, sale of Company
-            assets, financing, or acquisition of all or a portion of Our business to another
-            company.
-          </li>
-          <li>
-            <strong>With Affiliates:</strong> We may share Your information with Our affiliates, in
-            which case we will require those affiliates to honor this Privacy Policy. Affiliates
-            include Our parent company and any other subsidiaries, joint venture partners or other
-            companies that We control or that are under common control with Us.
-          </li>
-          <li>
-            <strong>With business partners:</strong> We may share Your information with Our business
-            partners to offer You certain products, services or promotions.
-          </li>
-          <li>
-            <strong>With other users:</strong> when You share personal information or otherwise
-            interact in the public areas with other users, such information may be viewed by all
-            users and may be publicly distributed outside.
-          </li>
-          <li>
-            <strong>With Your consent</strong>: We may disclose Your personal information for any
-            other purpose with Your consent.
-          </li>
-        </ul>
+          <ul>
+            <li>
+              <strong>With Service Providers:</strong> We may share Your personal information with
+              Service Providers to monitor and analyze the use of our Service, to contact You.
+            </li>
+            <li>
+              <strong>For business transfers:</strong> We may share or transfer Your personal
+              information in connection with, or during negotiations of, any merger, sale of Company
+              assets, financing, or acquisition of all or a portion of Our business to another
+              company.
+            </li>
+            <li>
+              <strong>With Affiliates:</strong> We may share Your information with Our affiliates, in
+              which case we will require those affiliates to honor this Privacy Policy. Affiliates
+              include Our parent company and any other subsidiaries, joint venture partners or other
+              companies that We control or that are under common control with Us.
+            </li>
+            <li>
+              <strong>With business partners:</strong> We may share Your information with Our business
+              partners to offer You certain products, services or promotions.
+            </li>
+            <li>
+              <strong>With other users:</strong> when You share personal information or otherwise
+              interact in the public areas with other users, such information may be viewed by all
+              users and may be publicly distributed outside.
+            </li>
+            <li>
+              <strong>With Your consent</strong>: We may disclose Your personal information for any
+              other purpose with Your consent.
+            </li>
+          </ul>
         </p>
 
         <h2>Retention of Your Personal Data</h2>
@@ -278,8 +278,10 @@
         </p>
 
         <h2>Data Deletion</h2>
-        <p>We provide you with the ability to cancel your Sound Realms account and delete your
-            information by contacting us at the following email:</p>
+        <p>
+          We provide you with the ability to cancel your Sound Realms account and delete your
+          information by contacting us at the following email:
+        </p>
         <p><a href="mailto:dm@varghand.com">dm@varghand.com</a></p>
 
         <h2>Disclosure of Your Personal Data</h2>
@@ -303,13 +305,13 @@
           necessary to:
         </p>
         <p>
-        <ul>
-          <li>Comply with a legal obligation</li>
-          <li>Protect and defend the rights or property of the Company</li>
-          <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
-          <li>Protect the personal safety of Users of the Service or the public</li>
-          <li>Protect against legal liability</li>
-        </ul>
+          <ul>
+            <li>Comply with a legal obligation</li>
+            <li>Protect and defend the rights or property of the Company</li>
+            <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
+            <li>Protect the personal safety of Users of the Service or the public</li>
+            <li>Protect against legal liability</li>
+          </ul>
         </p>
 
         <h2>Security of Your Personal Data</h2>

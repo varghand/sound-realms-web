@@ -18,7 +18,7 @@
           src="../../assets/fist/fist-logo.png"
           alt="Steve Jackson's F.I.S.T."
           class="image"
-        />
+        >
 
         <p>
           In 1988 you could pick up your telephone, dial the <strong>F.I.S.T.</strong> number and you were
@@ -35,7 +35,7 @@
         </p>
         <p>
           The first <strong>F.I.S.T.</strong> adventure featuring the world of <i>Castle Mammon &mdash; Lair of the Demon
-          Prince</i>, created by the fertile mind of games master <strong>Steve Jackson</strong> (co-founder of Games Workshop and the Fighting Fantasy gamebook series), now returns as it was
+            Prince</i>, created by the fertile mind of games master <strong>Steve Jackson</strong> (co-founder of Games Workshop and the Fighting Fantasy gamebook series), now returns as it was
           released in 1988, audio and gameplay intact, but adapted for iOS and Android using the
           <strong>Sound Realms</strong> system.
         </p>

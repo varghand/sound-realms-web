@@ -26,7 +26,10 @@
           </p>
           <p>
             You can also join our
-            <a href="https://discord.gg/Zwa3FuFK79" target="_blank">official Discord channel</a>.
+            <a
+              href="https://discord.gg/Zwa3FuFK79"
+              target="_blank"
+            >official Discord channel</a>.
           </p>
           <p>All thoughts, ideas, feedback and bug reports are very welcome!</p>
         </div>

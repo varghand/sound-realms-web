@@ -4,13 +4,13 @@
       <iframe
         width="560"
         height="315"
-        :src=video
+        :src="video"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
         class="video"
-      ></iframe>
+      />
     </div>
   </div>
 </template>

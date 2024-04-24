@@ -7,7 +7,7 @@
             alt="Sound Realms logo"
             class="topImage"
             src="../../assets/sound_realms_mace_and_magic.jpg"
-          />
+          >
         </a>
       </div>
 
@@ -36,7 +36,10 @@
               <i>MACE & MAGIC</i>!
             </p>
           </div>
-          <img src="../../assets/pile_of_bones.png" class="small-image" />
+          <img
+            src="../../assets/pile_of_bones.png"
+            class="small-image"
+          >
         </div>
       </section>
 
@@ -60,7 +63,10 @@
 
         <div class="section-content">
           <div class="row">
-            <img src="../../assets/home/dreadhorn.png" class="dreadhorn_image" />
+            <img
+              src="../../assets/home/dreadhorn.png"
+              class="dreadhorn_image"
+            >
             <div class="row_column_2 text">
               <p>
                 The first release on the Sound Realms platform will be
@@ -87,18 +93,30 @@
 
       <div class="hero">
         <div class="hero-text">
-          <h2 class="inverted">Dare you enter the realm of Mace & Magic?</h2>
+          <h2 class="inverted">
+            Dare you enter the realm of Mace & Magic?
+          </h2>
           <p class="inverted">
             Download the free demo adventure now, and always be rembered as a bold pioneer of
             adventuring, hero of
             <i>Mace & Magic</i>!
           </p>
           <div>
-            <MyButton href="/download">Download Free Demo</MyButton>
-            <MyButton href="/faq" :inverted="true">Learn More</MyButton>
+            <MyButton href="/download">
+              Download Free Demo
+            </MyButton>
+            <MyButton
+              href="/faq"
+              :inverted="true"
+            >
+              Learn More
+            </MyButton>
           </div>
         </div>
-        <img class="hero-image" src="../../assets/mace_background.jpg" />
+        <img
+          class="hero-image"
+          src="../../assets/mace_background.jpg"
+        >
       </div>
 
       <div class="strip">

@@ -17,7 +17,7 @@
           src="../../assets/fod/fod-header.png"
           alt="Lone Wolf: Fortress of Death"
           class="image"
-        />
+        >
 
         <p>
           In 1989, Joe Dever in response to the massive success of Steve Jackson's <i>F.I.S.T.</i>
@@ -41,9 +41,17 @@
         <p>
           Enter, if you dare, <i><span class="bold">The Fortress of Death!</span></i>
         </p>
-        <MyButton class="button" href="/shop"> Pre-Order Now </MyButton>
+        <MyButton
+          class="button"
+          href="/shop"
+        >
+          Pre-Order Now
+        </MyButton>
       </div>
-      <img src="../../assets/fod/death-or-glory.png" class="image" />
+      <img
+        src="../../assets/fod/death-or-glory.png"
+        class="image"
+      >
 
       <YouTubeEmbed video="https://www.youtube.com/embed/9waUrmOaVGM" />
 

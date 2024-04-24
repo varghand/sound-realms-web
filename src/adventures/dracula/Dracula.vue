@@ -18,7 +18,7 @@
           src="../../assets/dracula/dracula-hero-image.png"
           alt="Dracula: Curse of the Vampire"
           class="image"
-        />
+        >
 
         <p>
           Sound Realms are very proud and excited to announce a collaboration with ACE Gamebooks and

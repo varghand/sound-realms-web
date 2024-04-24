@@ -1,7 +1,13 @@
 <template>
   <div>
-    <iframe id="desktop-form"  src="https://cdn.forms-content.sg-form.com/ae43989a-a486-11ec-941c-ceafd6e237fb"/>
-    <iframe id="mobile-form" src="https://cdn.forms-content.sg-form.com/b3f4ad80-1c9b-11ee-b6c1-7a6d07274011"/>
+    <iframe
+      id="desktop-form"
+      src="https://cdn.forms-content.sg-form.com/ae43989a-a486-11ec-941c-ceafd6e237fb"
+    />
+    <iframe
+      id="mobile-form"
+      src="https://cdn.forms-content.sg-form.com/b3f4ad80-1c9b-11ee-b6c1-7a6d07274011"
+    />
   </div>
 </template>
 

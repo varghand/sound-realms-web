@@ -9,10 +9,14 @@
         </div>
         <div v-else>
           <h1>Checkout</h1>
-          <p>You are logged in as {{user.username}}. Press the button below to continue to the payment step.</p>
-          <MyButton :click="checkout" class="checkout-button" :disabled="loading || cartIsEmpty"
-            >Checkout</MyButton
+          <p>You are logged in as {{ user.username }}. Press the button below to continue to the payment step.</p>
+          <MyButton
+            :click="checkout"
+            class="checkout-button"
+            :disabled="loading || cartIsEmpty"
           >
+            Checkout
+          </MyButton>
         </div>
       </div>
       <MainFooter />
@@ -38,9 +42,6 @@ export default {
     LoginComponent,
     MyButton,
   },
-  mounted() {
-    profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
-  },
   data() {
     return {
       username: "",
@@ -61,6 +62,9 @@ export default {
     totalPrice() {
       return this.$store.state.shoppingCart.reduce((partialSum, a) => partialSum + a.price, 0);
     },
+  },
+  mounted() {
+    profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
   },
   methods: {
     async checkout() {

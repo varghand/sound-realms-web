@@ -48,7 +48,10 @@
             ready for download!
           </p>
 
-          <img src="../assets/vemhir.png" class="image-large" />
+          <img
+            src="../assets/vemhir.png"
+            class="image-large"
+          >
         </div>
       </section>
       <GametestStrip />
@@ -65,7 +68,10 @@
             see it progress with the help of your feedback.
           </p>
 
-          <img src="../assets/VemhirsCastle.png" class="image-large" />
+          <img
+            src="../assets/VemhirsCastle.png"
+            class="image-large"
+          >
         </div>
       </section>
 

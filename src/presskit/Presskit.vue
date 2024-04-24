@@ -29,45 +29,71 @@
           <ul>
             <li class="bold">
               December 2, 2023:
-              <a href="/press/fist" class="bold">The Return of Steve Jackson's F.I.S.T.</a>
+              <a
+                href="/press/fist"
+                class="bold"
+              >The Return of Steve Jackson's F.I.S.T.</a>
             </li>
             <li class="bold">
               October 15, 2023:
-              <a href="/press/fod-ks-complete" class="bold">Kickstarter Campaign Completed!</a>
+              <a
+                href="/press/fod-ks-complete"
+                class="bold"
+              >Kickstarter Campaign Completed!</a>
             </li>
             <li class="bold">
               October 3, 2023:
-              <a href="/press/dracula" class="bold">Sound Realms Unveils Dracula: Curse of the Vampire</a>
+              <a
+                href="/press/dracula"
+                class="bold"
+              >Sound Realms Unveils Dracula: Curse of the Vampire</a>
             </li>
             <li class="bold">
               September 23, 2023:
-              <a href="/press/fod-funded" class="bold">Kickstarter Fully Funded in Under 5 Hours!</a>
+              <a
+                href="/press/fod-funded"
+                class="bold"
+              >Kickstarter Fully Funded in Under 5 Hours!</a>
             </li>
             <li class="bold">
               September 15, 2023:
-              <a href="/press/fod-kickstarter" class="bold">The Fortress of Death Kickstarter</a>
+              <a
+                href="/press/fod-kickstarter"
+                class="bold"
+              >The Fortress of Death Kickstarter</a>
             </li>
           </ul>
 
           <h2>About Sound Realms</h2>
           <p>
-            <i
-              >United by a passion for old school RPGs, we set out in 2020 to craft a new way of
+            <i>United by a passion for old school RPGs, we set out in 2020 to craft a new way of
               enjoying solo adventures. We have since developed a smartphone application for iOS and
               Android which enables you to play through captivating solo adventures. What makes
               Sound Realms stand out from other RPG apps on the market is the fact (as implied by
               the name Sound Realms) that all our games are audio-based. A professional voice-over
               actor acts as your Dungeon Master and takes you through dangerous dungeons and
               mysterious temples, backed by a cinematic musical score and top of the line sound
-              effects.</i
-            >
+              effects.</i>
           </p>
 
-          <img src="../assets/skull_and_scroll.png" class="image-small" />
+          <img
+            src="../assets/skull_and_scroll.png"
+            class="image-small"
+          >
 
           <h2>Resources</h2>
-          <p><a href="https://drive.google.com/drive/folders/1hTI_ZZoC9riZ7roYfONe-3Gz6_-xbBPg?usp=sharing" target="_blank">The Fortress of Death Press Kit</a></p>
-          <p><a href="/Sound_Realms_Press_Kit.zip" target="_blank">Mace & Magic Press Kit</a></p>
+          <p>
+            <a
+              href="https://drive.google.com/drive/folders/1hTI_ZZoC9riZ7roYfONe-3Gz6_-xbBPg?usp=sharing"
+              target="_blank"
+            >The Fortress of Death Press Kit</a>
+          </p>
+          <p>
+            <a
+              href="/Sound_Realms_Press_Kit.zip"
+              target="_blank"
+            >Mace & Magic Press Kit</a>
+          </p>
           <p><a href="/faq">FAQ</a>: Explanations on Sound Realms, Mace & Magic, and more.</p>
           <p><a href="/learn-more">About us</a>: On the team and company behind Sound Realms.</p>
         </div>
@@ -83,40 +109,49 @@
             <a
               href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
               target="_blank"
-              >www.kickstarter.com/projects/varghand/fortress-of-death</a
-            >
+            >www.kickstarter.com/projects/varghand/fortress-of-death</a>
           </p>
           <p>
             Download free demo:
-            <a href="https://www.sound-realms.com/download" target="_blank"
-              >www.sound-realms.com/download</a
-            >
+            <a
+              href="https://www.sound-realms.com/download"
+              target="_blank"
+            >www.sound-realms.com/download</a>
           </p>
           <p>
             Facebook:
-            <a href="https://www.facebook.com/SoundRealms" target="_blank"
-              >www.facebook.com/SoundRealms</a
-            >
+            <a
+              href="https://www.facebook.com/SoundRealms"
+              target="_blank"
+            >www.facebook.com/SoundRealms</a>
           </p>
           <p>
             Instagram:
-            <a href="https://www.instagram.com/soundrealms" target="_blank"
-              >www.instagram.com/soundrealms</a
-            >
+            <a
+              href="https://www.instagram.com/soundrealms"
+              target="_blank"
+            >www.instagram.com/soundrealms</a>
           </p>
           <p>
             Youtube Channel:
-            <a href="https://www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ" target="_blank"
-              >www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ</a
-            >
+            <a
+              href="https://www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ"
+              target="_blank"
+            >www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ</a>
           </p>
           <p>
             Commercial video clip for Mace & Magic:
-            <a href="https://www.youtube.com/watch?v=DUsosTA0fss" target="_blank">https://www.youtube.com/watch?v=DUsosTA0fss</a>
+            <a
+              href="https://www.youtube.com/watch?v=DUsosTA0fss"
+              target="_blank"
+            >https://www.youtube.com/watch?v=DUsosTA0fss</a>
           </p>
           <p>
             Introductionary video for The Fortress of Death:
-            <a href="https://youtu.be/9waUrmOaVGM" target="_blank">https://youtu.be/9waUrmOaVGM</a>
+            <a
+              href="https://youtu.be/9waUrmOaVGM"
+              target="_blank"
+            >https://youtu.be/9waUrmOaVGM</a>
           </p>
 
 

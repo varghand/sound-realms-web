@@ -4,7 +4,9 @@
       <TopMenu />
       <div class="section-content">
         <div class="col-sm-8 col-sm-offset-2">
-          <div class="page-header"><h1>Privacy Policy</h1></div>
+          <div class="page-header">
+            <h1>Privacy Policy</h1>
+          </div>
           <p>Last updated: July 27, 2022</p>
           <p class="lead text-center">
             We are committed to maintaining the security, confidentiality and privacy of your
@@ -15,10 +17,10 @@
             links: www.sound-realms.com, www.maceandmagic.com, and www.varghand.com.
           </p>
           <p>
-          Sound Realms is being developed by Varghand Publishing AB, an independent provider of RPG
-          games and content. Our website address is:
-          <a href="https://www.sound-realms.com/">www.sound-realms.com</a>
-        </p>
+            Sound Realms is being developed by Varghand Publishing AB, an independent provider of RPG
+            games and content. Our website address is:
+            <a href="https://www.sound-realms.com/">www.sound-realms.com</a>
+          </p>
           <p>
             If you have any questions about the practices described in this policy, please contact
             us using the details in the “Contact” section below.
@@ -53,49 +55,49 @@
           </p>
           <p>We collect, use and disclose your personal information for the following purposes:</p>
           <p>
-          <ul>
-            <li>
-              to allow us to communicate with you (including through the use of commercial
-              electronic messages),
-            </li>
-            <li>
-              to customize the advertising and content that is presented to you on our website,
-            </li>
-            <li>
-              to contact you regarding any orders you place through our website, and to help
-              process, deliver and take payment for those orders,
-            </li>
-            <li>to verify your personal information</li>
-            <li>
-              to operate, customize and improve our website, social media sites, mobile
-              applications, advertisements, products and services;
-            </li>
-            <li>to allow you to use portions of our website such as our forums;</li>
-            <li>to allow you to participate in our contests, and to administer those contests;</li>
-            <li>to monitor your compliance with any of your agreements with us;</li>
-            <li>
-              to administer our provision of, and your payment for, products or services you request
-              from us;
-            </li>
-            <li>
-              to provide newsletters, electronic messages and information you request from us;
-            </li>
-            <li>
-              to provide other information to you regarding our products and services or third party
-              products and services, unless you opt out of receiving that information;
-            </li>
-            <li>
-              to manage or transfer our assets or liabilities, for example in the case of an
-              acquisition, disposition or merger;
-            </li>
-            <li>
-              to protect us, yourself and others from fraud and error and to safeguard our business
-              interests;
-            </li>
-            <li>to collect debts owed to us;</li>
-            <li>to comply with legal and regulatory requirements; and</li>
-            <li>for other purposes we may inform you about from time-to-time.</li>
-          </ul>
+            <ul>
+              <li>
+                to allow us to communicate with you (including through the use of commercial
+                electronic messages),
+              </li>
+              <li>
+                to customize the advertising and content that is presented to you on our website,
+              </li>
+              <li>
+                to contact you regarding any orders you place through our website, and to help
+                process, deliver and take payment for those orders,
+              </li>
+              <li>to verify your personal information</li>
+              <li>
+                to operate, customize and improve our website, social media sites, mobile
+                applications, advertisements, products and services;
+              </li>
+              <li>to allow you to use portions of our website such as our forums;</li>
+              <li>to allow you to participate in our contests, and to administer those contests;</li>
+              <li>to monitor your compliance with any of your agreements with us;</li>
+              <li>
+                to administer our provision of, and your payment for, products or services you request
+                from us;
+              </li>
+              <li>
+                to provide newsletters, electronic messages and information you request from us;
+              </li>
+              <li>
+                to provide other information to you regarding our products and services or third party
+                products and services, unless you opt out of receiving that information;
+              </li>
+              <li>
+                to manage or transfer our assets or liabilities, for example in the case of an
+                acquisition, disposition or merger;
+              </li>
+              <li>
+                to protect us, yourself and others from fraud and error and to safeguard our business
+                interests;
+              </li>
+              <li>to collect debts owed to us;</li>
+              <li>to comply with legal and regulatory requirements; and</li>
+              <li>for other purposes we may inform you about from time-to-time.</li>
+            </ul>
           </p>
           <p>
             When your personal information is to be used for a purpose not previously identified,
@@ -146,14 +148,14 @@
             or disclose personal information without your knowledge or consent where:
           </p>
           <p>
-          <ul>
-            <li>the information is publicly available, as defined by statute or regulation;</li>
-            <li>we are obtaining legal advice; or</li>
-            <li>
-              we reasonably expect that obtaining consent would compromise an investigation or
-              proceeding.
-            </li>
-          </ul>
+            <ul>
+              <li>the information is publicly available, as defined by statute or regulation;</li>
+              <li>we are obtaining legal advice; or</li>
+              <li>
+                we reasonably expect that obtaining consent would compromise an investigation or
+                proceeding.
+              </li>
+            </ul>
           </p>
           <p>Other exceptions may apply.</p>
           <p>

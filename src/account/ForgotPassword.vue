@@ -2,48 +2,76 @@
   <main-layout>
     <div class="content">
       <TopMenu />
-      <div v-if="state === 'STEP_1'" class="section-content">
+      <div
+        v-if="state === 'STEP_1'"
+        class="section-content"
+      >
         <h1>Reset Password</h1>
         <p>Enter the username or email address associated with your account to continue.</p>
         <input
           v-model="username"
           placeholder="Username or email address"
           @keyup.enter="sendPasswordResetCode()"
-        />
+        >
         <div v-if="error">
-          <p class="error-text">{{ error }}</p>
+          <p class="error-text">
+            {{ error }}
+          </p>
         </div>
-        <MyButton :click="sendPasswordResetCode" :disabled="loading">Continue</MyButton>
+        <MyButton
+          :click="sendPasswordResetCode"
+          :disabled="loading"
+        >
+          Continue
+        </MyButton>
       </div>
-      <div v-else-if="state === 'STEP_2'" class="section-content">
+      <div
+        v-else-if="state === 'STEP_2'"
+        class="section-content"
+      >
         <h1>Reset Password</h1>
         <p>A password reset code has been sent to your email. Enter it below to continue:</p>
         <input
           v-model="resetCode"
           placeholder="Password Reset Code"
           @keyup.enter="resetPassword()"
-        />
+        >
         <input
           v-model="password1"
           placeholder="Choose New Password"
-          @keyup.enter="resetPassword()"
           type="password"
-        />
+          @keyup.enter="resetPassword()"
+        >
         <input
           v-model="password2"
           placeholder="Repeat New Password"
-          @keyup.enter="resetPassword()"
           type="password"
-        />
+          @keyup.enter="resetPassword()"
+        >
         <div v-if="error">
-          <p class="error-text">{{ error }}</p>
+          <p class="error-text">
+            {{ error }}
+          </p>
         </div>
-        <MyButton :click="resetPassword" :disabled="loading">Continue</MyButton>
+        <MyButton
+          :click="resetPassword"
+          :disabled="loading"
+        >
+          Continue
+        </MyButton>
       </div>
-      <div v-else-if="state === 'STEP_3'" class="section-content">
+      <div
+        v-else-if="state === 'STEP_3'"
+        class="section-content"
+      >
         <h1>Reset Password</h1>
         <p>Password successfully reset! You can now use it to log in.</p>
-        <MyButton href="/account" :disabled="loading">Continue</MyButton>
+        <MyButton
+          href="/account"
+          :disabled="loading"
+        >
+          Continue
+        </MyButton>
       </div>
       <MainFooter />
     </div>
@@ -65,9 +93,6 @@ export default {
     TopMenu,
     MyButton,
   },
-  mounted() {
-    profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
-  },
   data() {
     return {
       username: "",
@@ -84,6 +109,9 @@ export default {
     user() {
       return this.$store.state.user;
     },
+  },
+  mounted() {
+    profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
   },
   methods: {
     async sendPasswordResetCode() {

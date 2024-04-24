@@ -1,11 +1,11 @@
 <template>
   <div class="bg">
-    <TopMenu2/>
+    <TopMenu2 />
     <div id="app">
       <!-- <Header /> -->
       <!-- <Analytics /> -->
       <div id="content">
-        <slot></slot>
+        <slot />
       </div>
     </div>
   </div>
@@ -14,7 +14,7 @@
 <script>
 import TopMenu2 from '../components/TopMenu2.vue';
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     TopMenu2,
   },

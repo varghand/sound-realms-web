@@ -22,7 +22,10 @@
           <h1>Sound Realms Unveils Dracula: Curse of the Vampire</h1>
           <p><i>(October 3, 2023)</i></p>
 
-          <img src="../assets/dracula/dracula-curse-of-the-vampire.jpg" class="image" />
+          <img
+            src="../assets/dracula/dracula-curse-of-the-vampire.jpg"
+            class="image"
+          >
 
           <MyButton
             external="true"
@@ -83,21 +86,26 @@
             <a
               href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
               target="_blank"
-              >www.kickstarter.com/projects/varghand/fortress-of-death</a
-            >
+            >www.kickstarter.com/projects/varghand/fortress-of-death</a>
           </p>
           <p>
-            <a href="https://www.acegamebooks.com" target="_blank">www.acegamebooks.com</a>
+            <a
+              href="https://www.acegamebooks.com"
+              target="_blank"
+            >www.acegamebooks.com</a>
           </p>
           <p>
-            <a href="https://www.instagram.com/jongreen71" target="_blank"
-              >www.instagram.com/jongreen71</a
-            >
+            <a
+              href="https://www.instagram.com/jongreen71"
+              target="_blank"
+            >www.instagram.com/jongreen71</a>
           </p>
           <p>
-            <a href="https://www.facebook.com/ACEgamebooks" target="_blank">
-              www.facebook.com/ACEgamebooks</a
+            <a
+              href="https://www.facebook.com/ACEgamebooks"
+              target="_blank"
             >
+              www.facebook.com/ACEgamebooks</a>
           </p>
 
           <p>
@@ -108,14 +116,14 @@
             <a
               href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest"
               target="_blank"
-              >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a
-            >
+            >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a>
           </p>
 
           <p>
-            <a href="https://apps.apple.com/se/app/sound-realms/id1587860372" target="_blank"
-              >https://apps.apple.com/se/app/sound-realms/id1587860372</a
-            >
+            <a
+              href="https://apps.apple.com/se/app/sound-realms/id1587860372"
+              target="_blank"
+            >https://apps.apple.com/se/app/sound-realms/id1587860372</a>
           </p>
         </div>
       </section>

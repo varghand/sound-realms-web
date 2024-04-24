@@ -1,6 +1,5 @@
 <template>
-  <div class="strip-wrapper">
-  </div>
+  <div class="strip-wrapper" />
 </template>
 
 <script>

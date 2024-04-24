@@ -13,8 +13,10 @@
             <a href="/">Return home to civilisation and try again.</a>
           </p>
 
-          <img src="../assets/skull_and_scroll.png" class="image-small" />
-
+          <img
+            src="../assets/skull_and_scroll.png"
+            class="image-small"
+          >
         </div>
       </section>
       <GametestStrip />

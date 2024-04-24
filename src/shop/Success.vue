@@ -5,7 +5,9 @@
       <div class="section-content">
         <h1>Order Completed</h1>
         <p>Congratulations on securing your pre-order! We appreciate your enthusiasm and look forward to delivering an unforgettable experience when the game is released. Stay tuned for updates, and thank you for being a part of this adventure!</p>
-        <MyButton href="/">Return Home</MyButton>
+        <MyButton href="/">
+          Return Home
+        </MyButton>
       </div>
       <MainFooter />
     </div>
@@ -25,9 +27,6 @@ export default {
     MainFooter,
     TopMenu,
     MyButton,
-  },
-  mounted() {
-    this.$store.commit("clearCart");
   },
   data() {
     return {
@@ -52,6 +51,9 @@ export default {
         return " for " + shoppingCart.map(u => u.title).join(' and ');
       }
     }
+  },
+  mounted() {
+    this.$store.commit("clearCart");
   },
 };
 </script>

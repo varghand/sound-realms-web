@@ -6,21 +6,40 @@
         <h1>Payment Cancelled</h1>
         <div v-if="cartIsEmpty">
           <p>Either the payment was cancelled or something went wrong. Please try again or contact our support team at dm@sound-realms.com if the problem persists.</p>
-          <MyButton href="/shop" class="checkout-button" :disabled="loading"
-            >Return to Shop</MyButton
+          <MyButton
+            href="/shop"
+            class="checkout-button"
+            :disabled="loading"
           >
+            Return to Shop
+          </MyButton>
         </div>
-        <div v-else class="centerText">
+        <div
+          v-else
+          class="centerText"
+        >
           <p>Either the payment was cancelled or something went wrong. Please try again or contact our support team at dm@sound-realms.com if the problem persists.</p>
-          <hr/>
+          <hr>
           <h3>Shopping Cart</h3>
-          <div v-for="product in shoppingCart" :key="product.id">
-            <p>{{ product.title }}, {{ product.price }} SEK <span class='clickableIcon' @click="()=>removeFromCart(product)"><font-awesome-icon icon="fa-solid fa-trash"/></span></p>
+          <div
+            v-for="product in shoppingCart"
+            :key="product.id"
+          >
+            <p>
+              {{ product.title }}, {{ product.price }} SEK <span
+                class="clickableIcon"
+                @click="()=>removeFromCart(product)"
+              ><font-awesome-icon icon="fa-solid fa-trash" /></span>
+            </p>
           </div>
           <p>Total Price: {{ totalPrice }} SEK</p>
-          <MyButton :click="checkout" class="checkout-button" :disabled="loading || cartIsEmpty"
-            >Try Again</MyButton
+          <MyButton
+            :click="checkout"
+            class="checkout-button"
+            :disabled="loading || cartIsEmpty"
           >
+            Try Again
+          </MyButton>
         </div>
       </div>
       <MainFooter />
@@ -44,9 +63,6 @@ export default {
     TopMenu,
     MyButton,
   },
-  mounted() {
-    profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
-  },
   data() {
     return {
       username: "",
@@ -67,6 +83,9 @@ export default {
     totalPrice() {
       return this.$store.state.shoppingCart.reduce((partialSum, a) => partialSum + a.price, 0);
     },
+  },
+  mounted() {
+    profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
   },
   methods: {
     async checkout() {

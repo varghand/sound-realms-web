@@ -1,7 +1,10 @@
 
 <template>
-  <button @click="buttonPressed" v-bind:class="{ invertedButton: inverted, disabledButton: disabled }">
-    <slot></slot>
+  <button
+    :class="{ invertedButton: inverted, disabledButton: disabled }"
+    @click="buttonPressed"
+  >
+    <slot />
   </button>
 </template>
 

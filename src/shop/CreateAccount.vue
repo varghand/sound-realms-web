@@ -2,36 +2,71 @@
   <main-layout>
     <div class="content">
       <TopMenu />
-      <div v-if="step === 'CREATE'" class="section-content">
+      <div
+        v-if="step === 'CREATE'"
+        class="section-content"
+      >
         <h1>Create Account</h1>
-        <input v-model="username" placeholder="Username" @keyup.enter="createAccount()" />
-        <input v-model="email" placeholder="Email address" @keyup.enter="createAccount()" />
+        <input
+          v-model="username"
+          placeholder="Username"
+          @keyup.enter="createAccount()"
+        >
+        <input
+          v-model="email"
+          placeholder="Email address"
+          @keyup.enter="createAccount()"
+        >
         <input
           v-model="password"
           placeholder="Password"
           type="password"
           @keyup.enter="createAccount()"
-        />
+        >
         <div v-if="error">
-          <p class="error-text">{{ error }}</p>
+          <p class="error-text">
+            {{ error }}
+          </p>
         </div>
-        <MyButton :click="createAccount" :disabled="loading">Create Account</MyButton>
+        <MyButton
+          :click="createAccount"
+          :disabled="loading"
+        >
+          Create Account
+        </MyButton>
       </div>
-      <div v-if="step === 'CONFIRM'" class="section-content">
+      <div
+        v-if="step === 'CONFIRM'"
+        class="section-content"
+      >
         <h1>Confirm Account</h1>
         <p>Almost done! Check your email for a confirmation code, then enter it here:</p>
         <input
           v-model="confirmationCode"
           placeholder="Confirmation Code"
           @keyup.enter="confirmSignup()"
-        />
+        >
         <div v-if="error">
-          <p class="error-text">{{ error }}</p>
+          <p class="error-text">
+            {{ error }}
+          </p>
         </div>
-        <MyButton :click="confirmSignup" :disabled="loading">Create Account</MyButton>
-        <hr/>
-        <MyButton :click="resendConfirmationCode" :disabled="loading || signUpCodeResent">Resend Confirmation Code</MyButton>
-        <div v-if="signUpCodeResent"><p>New code sent to your email inbox!</p></div>
+        <MyButton
+          :click="confirmSignup"
+          :disabled="loading"
+        >
+          Create Account
+        </MyButton>
+        <hr>
+        <MyButton
+          :click="resendConfirmationCode"
+          :disabled="loading || signUpCodeResent"
+        >
+          Resend Confirmation Code
+        </MyButton>
+        <div v-if="signUpCodeResent">
+          <p>New code sent to your email inbox!</p>
+        </div>
       </div>
       <MainFooter />
     </div>

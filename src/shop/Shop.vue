@@ -3,16 +3,27 @@
     <div class="content">
       <div class="section-content">
         <div class="header-row">
-          <span></span>
+          <span />
           <h1>Web Shop</h1>
-          <span class='clickableIcon' @click="()=>displayCart(product)">
-            <font-awesome-icon icon="fa-solid fa-cart-shopping"/>
-            <div v-if="productsInCart > 0" class="numberCircle">{{productsInCart}}</div>
+          <span
+            class="clickableIcon"
+            @click="()=>displayCart(product)"
+          >
+            <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+            <div
+              v-if="productsInCart > 0"
+              class="numberCircle"
+            >{{ productsInCart }}</div>
           </span>
         </div>
-        <ProductsList/>
+        <ProductsList />
         <div v-if="shoppingCart.length > 0">
-          <MyButton href="/shop/checkout" class="checkout-button">Continue to Checkout</MyButton>
+          <MyButton
+            href="/shop/checkout"
+            class="checkout-button"
+          >
+            Continue to Checkout
+          </MyButton>
         </div>
       </div>
       <MainFooter />

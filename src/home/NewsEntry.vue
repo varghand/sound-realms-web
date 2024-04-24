@@ -3,14 +3,14 @@
     <h3>{{ item.heading }}</h3>
     <p>
       <i>{{ item.date }}</i>
-      <br /><br />
-      <span v-html="item.body"></span>
+      <br><br>
+      <span v-html="item.body" />
     </p>
-    <div v-if=item.image>
-        <img :src="require(`@/${item.image}`)" />
+    <div v-if="item.image">
+      <img :src="require(`@/${item.image}`)">
     </div>
-    <br />
-    <hr />
+    <br>
+    <hr>
   </div>
 </template>
 

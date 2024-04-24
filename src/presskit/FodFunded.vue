@@ -22,7 +22,10 @@
           <h1>The Fortress of Death Kickstarter Fully Funded in Under 5 Hours!</h1>
           <p><i>(September 23, 2023)</i></p>
 
-          <img src="../assets/fod/fod-funded.jpg" class="image" />
+          <img
+            src="../assets/fod/fod-funded.jpg"
+            class="image"
+          >
 
           <MyButton
             external="true"
@@ -86,11 +89,13 @@
             <a
               href="https://www.kickstarter.com/projects/varghand/fortress-of-death"
               target="_blank"
-              >https://www.kickstarter.com/projects/varghand/fortress-of-death</a
-            >
+            >https://www.kickstarter.com/projects/varghand/fortress-of-death</a>
           </p>
           <p>
-            <a href="https://youtu.be/9waUrmOaVGM" target="_blank">https://youtu.be/9waUrmOaVGM</a>
+            <a
+              href="https://youtu.be/9waUrmOaVGM"
+              target="_blank"
+            >https://youtu.be/9waUrmOaVGM</a>
           </p>
 
           <p>
@@ -101,20 +106,23 @@
             <a
               href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest"
               target="_blank"
-              >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a
-            >
+            >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a>
           </p>
 
           <p>
-            <a href="https://apps.apple.com/se/app/sound-realms/id1587860372" target="_blank"
-              >https://apps.apple.com/se/app/sound-realms/id1587860372</a
-            >
+            <a
+              href="https://apps.apple.com/se/app/sound-realms/id1587860372"
+              target="_blank"
+            >https://apps.apple.com/se/app/sound-realms/id1587860372</a>
           </p>
         </div>
       </section>
       <section>
         <div class="section-content">
-          <img src="../assets/fod/fod-final-stretch-goals.jpg" class="image" />
+          <img
+            src="../assets/fod/fod-final-stretch-goals.jpg"
+            class="image"
+          >
         </div>
       </section>
 

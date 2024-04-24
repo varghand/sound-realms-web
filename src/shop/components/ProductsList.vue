@@ -2,15 +2,32 @@
   <main-layout>
     <div class="content">
       <div class="grid-container">
-        <div v-for="(product) in products" :key="product.title" class="productCard">
-          <img :src="getImageUrl(product)" :alt="product.title" />
-          <p class="cardHeader">{{product.title}}</p>
-          <p class="cardText"> (Pre-Order)</p>
-          <p class="cardText"> {{product.description}}</p>
-          <p class="center-me cardPrice">{{product.price}} SEK</p>
-          <MyButton :click="() => addToCart(product)">Add To Cart</MyButton>
+        <div
+          v-for="(product) in products"
+          :key="product.title"
+          class="productCard"
+        >
+          <img
+            :src="getImageUrl(product)"
+            :alt="product.title"
+          >
+          <p class="cardHeader">
+            {{ product.title }}
+          </p>
+          <p class="cardText">
+            (Pre-Order)
+          </p>
+          <p class="cardText">
+            {{ product.description }}
+          </p>
+          <p class="center-me cardPrice">
+            {{ product.price }} SEK
+          </p>
+          <MyButton :click="() => addToCart(product)">
+            Add To Cart
+          </MyButton>
         </div>
-        <div></div>
+        <div />
       </div>
     </div>
   </main-layout>

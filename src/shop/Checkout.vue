@@ -6,29 +6,45 @@
         <h1>Shopping Cart</h1>
         <div v-if="cartIsEmpty">
           <p>No products in shopping cart</p>
-          <MyButton href="/shop" class="checkout-button" :disabled="loading"
-            >Return to Shop</MyButton
+          <MyButton
+            href="/shop"
+            class="checkout-button"
+            :disabled="loading"
           >
+            Return to Shop
+          </MyButton>
         </div>
         <div v-else>
-          <div v-for="product in shoppingCart" :key="product.id">
+          <div
+            v-for="product in shoppingCart"
+            :key="product.id"
+          >
             <p>
               {{ product.title }}, {{ product.price }} SEK
-              <span class="clickableIcon" @click="() => removeFromCart(product)"
-                ><font-awesome-icon icon="fa-solid fa-trash"
-              /></span>
+              <span
+                class="clickableIcon"
+                @click="() => removeFromCart(product)"
+              ><font-awesome-icon icon="fa-solid fa-trash" /></span>
             </p>
           </div>
           <p>Total Price: {{ totalPrice }} SEK</p>
           <div v-if="user === null">
-            <MyButton href="/shop/login" class="checkout-button" :disabled="loading"
-              >Continue</MyButton
+            <MyButton
+              href="/shop/login"
+              class="checkout-button"
+              :disabled="loading"
             >
+              Continue
+            </MyButton>
           </div>
           <div v-else>
-            <MyButton :click="checkout" class="checkout-button" :disabled="loading || cartIsEmpty"
-              >Checkout</MyButton
+            <MyButton
+              :click="checkout"
+              class="checkout-button"
+              :disabled="loading || cartIsEmpty"
             >
+              Checkout
+            </MyButton>
           </div>
         </div>
       </div>
@@ -53,9 +69,6 @@ export default {
     TopMenu,
     MyButton,
   },
-  mounted() {
-    profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
-  },
   data() {
     return {
       username: "",
@@ -76,6 +89,9 @@ export default {
     totalPrice() {
       return this.$store.state.shoppingCart.reduce((partialSum, a) => partialSum + a.price, 0);
     },
+  },
+  mounted() {
+    profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
   },
   methods: {
     async checkout() {

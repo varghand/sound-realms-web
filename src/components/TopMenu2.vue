@@ -1,14 +1,20 @@
 <template>
   <div class="strip-wrapper">
-    <div/>
-    <a href="/" class="logo-link"><img src="../assets/sr_logo_colour.png" class="logo"/></a>
+    <div />
+    <a
+      href="/"
+      class="logo-link"
+    ><img
+      src="../assets/sr_logo_colour.png"
+      class="logo"
+    ></a>
     <div class="link-wrapper">
       <a href="/">HOME</a>
       <a href="/shop">SHOP</a>
       <a href="/games">GAMES</a>
       <a href="/account">ACCOUNT</a>
     </div>
-    <div/>
+    <div />
   </div>
 </template>
 
