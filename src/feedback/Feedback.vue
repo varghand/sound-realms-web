@@ -23,7 +23,7 @@
 import MainLayout from '../layouts/Main.vue';
 
 export default {
-  name: 'Home',
+  name: 'FeedbackPage',
   components: {
     MainLayout,
   },

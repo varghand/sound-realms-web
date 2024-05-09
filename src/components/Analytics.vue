@@ -5,7 +5,7 @@
 </template>
 
 <script>
- 
+
 
 
 function iOS() {
@@ -38,7 +38,7 @@ const store = {
 
 
 export default {
-  name: 'Analytics',
+  name: 'AnalyticsComponent',
   data() {
     return {
       store,
@@ -88,7 +88,7 @@ export default {
 
       // https://bugs.webkit.org/show_bug.cgi?id=188329
       // Safari bug is fixed but not yet released. When that happens, will need to check safari version also
-       
+
       if (window.navigator.sendBeacon && !~vendor.indexOf('Apple')) {
         console.log('try to send the beacon');
         const beacon = window.navigator.sendBeacon(url, JSON.stringify(data));
@@ -112,7 +112,7 @@ export default {
       // I've found it more performant to do an async call and use the following hack to keep the loop open while waiting
 
       // Chrome doesn't care about waiting
-       
+
       if (!async || ~vendor.indexOf('Google')) {
         return;
       }
