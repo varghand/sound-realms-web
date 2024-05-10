@@ -84,6 +84,12 @@
           <h2>Resources</h2>
           <p>
             <a
+              href="https://drive.google.com/drive/folders/1DzhXdcnbggM-f1BgqwyYtVqUHyYaqhuS?usp=sharing"
+              target="_blank"
+            >F.I.S.T. Press Kit</a>
+          </p>
+          <p>
+            <a
               href="https://drive.google.com/drive/folders/1hTI_ZZoC9riZ7roYfONe-3Gz6_-xbBPg?usp=sharing"
               target="_blank"
             >The Fortress of Death Press Kit</a>
