@@ -15,6 +15,20 @@
           ]"
         />
         <div class="section-content">
+          <h1>About us</h1>
+          <p>
+            Hi! We are Varghand Publishing AB, and we have created Sound Realms – a platform for
+            audio-based interactive games on Android and iOS.
+          </p>
+          <p>
+            We are based in southern Sweden and have been carefully crafting the Sound Realms
+            platform ever since 2020.
+          </p>
+          <img
+            src="../assets/learnMore/varghand_2024.jpeg"
+            class="image-large"
+          >
+
           <h1>The story so far</h1>
           <p>
             The idea to create a game like Sound Realms was formed in Oscar Carlquist's head a long,
@@ -26,7 +40,7 @@
             had played over and over again since childhood. Back then the limitations were obvious
             since an adventure would span over more than several audio CDs and the rules and dice
             rolls etc would still have to be done separately with pen and paper. This idea however
-            refused to leave Oscar’s head and quite soon came the introduction of MP3 files and the
+            refused to leave Oscar's head and quite soon came the introduction of MP3 files and the
             internet and the possibilities became slightly more favourable. The dream lived on and
             as smart phones revolutionised our lives Oscar began the quest of fulfilling his old
             dream.
@@ -44,14 +58,9 @@
           <p>
             And so the time has come! Oscar's lifelong experience as vocal performer and his sound
             engineering skills combined with Gustav's programming expertise, and the creation of a
-            team of illustrators and a composer have incarnated the vison and a demo adventure is
-            ready for download!
+            team of illustrators and a composer have incarnated the vison. Download the Sound Realms
+            app now and join us on this epic journey!
           </p>
-
-          <img
-            src="../assets/vemhir.png"
-            class="image-large"
-          >
         </div>
       </section>
       <GametestStrip />
@@ -59,13 +68,13 @@
         <div class="section-content">
           <h1>A platform of audio based games and other audio content</h1>
           <p>
-            Our vision is for Sound Realms to in time feature not only Varghand Publishing AB’s
-            games, but also other RPG publishers works &mdash; digitalised and audio based in the
-            Sound Realms format. We would also love to publish Fantasy and Sci-fi audio books and
-            other Fantasy, Sci-Fi or RPG based audio content, making Sound Realms the natural place
-            to turn to if you wish to listen to anything related to these topics. We have a grand
-            vision and we hope you will see it incarnate together with us and help us develop it and
-            see it progress with the help of your feedback.
+            Our aim is to make Sound Realms the number one brand for fantasy, sci-fi, and horror
+            audio content. Currently we are focusing on audio adventures, but int time we would love
+            to publish fantasy and sci-fi audio books and other fantasy, sci-fi or RPG based audio
+            content, making Sound Realms the natural place to turn to if you wish to listen to
+            anything related to these topics. We have a grand vision and we hope you will see it
+            incarnate together with us and help us develop it and see it progress with the help of
+            your feedback.
           </p>
 
           <img
