@@ -1,249 +1,129 @@
 <template>
   <main-layout>
     <div class="content">
-      <div class="topImage">
-        <a href="/">
-          <img
-            alt="Sound Realms logo"
-            class="topImage"
-            src="../../assets/sound_realms_mace_and_magic.jpg"
-          >
-        </a>
-      </div>
+      <TopMenu />
+      <MyBreadcrumbs
+        :breadcrumbs="[
+          {
+            title: 'Sound Realms',
+            link: '/',
+          },
+          {
+            title: 'Mace & Magic',
+          },
+        ]"
+      />
+      <div class="section-content">
+        <img src="../../assets/sound_realms_mace_and_magic.jpg" alt="Mace & Magic" class="image" />
 
-      <section>
-        <div class="section-content">
-          <h1>The First Ever REAL Audio Solo Roleplaying Game</h1>
-          <div class="text">
-            <p class="bold">
-              Now you can, whenever you have a moment to spare, hear fantastic worlds unfold and
-              have an unparalleled solo RPG experience. Now you can roleplay more and do not have to
-              rely upon getting your RPG group together to sink your sword into a dragons heart or
-              incinerate a goblin with a fireball spell!
-            </p>
-            <p>
-              Sound Realms presents
-              <i>Mace & Magic</i>, the first ever real audio solo roleplaying game set in a brand
-              new dark fantasy realm bustling with adventure, perilous challenges and adversaries.
-            </p>
-            <p>
-              Featuring great adventures, presented with top class voice-over performances, original
-              orchestral music, cinematic sound effects, digital RPG dice rolls, digital character
-              sheets, skills, spells, swords and monsters!
-            </p>
-            <p>
-              Brace yourself and enter the Realm of
-              <i>MACE & MAGIC</i>!
-            </p>
-          </div>
-          <img
-            src="../../assets/pile_of_bones.png"
-            class="small-image"
-          >
-        </div>
-      </section>
+        <p class="bold">
+          Sound Realms presents
+          <i>Mace & Magic</i>, the first ever real audio solo roleplaying game, set in a brand new
+          dark fantasy realm bustling with adventure, perilous challenges and adversaries.
+        </p>
 
-      <KickstarterStrip2 />
+        <p>
+          <i>Mace & Magic</i> is set in the brand-new world of Mihr, a dark fantasy realm strook by
+          an apocalyptic event called The Magiklysm, making it an ideal environment for epic
+          adventures. Like all Sound Realms adventures, it is presented with top class voice-over
+          performances, original orchestral music, cinematic sound effects, skills, spells, swords
+          and monsters. <i>Mace & Magic</i> uses a slightly modified version of Chaosium Inc's RPG
+          rule set Basic Roleplaying System (BRP), that we have successfully digitalised for a
+          classic RPG experience, complete with dice rolls and character sheets.
+        </p>
+        <p>
+          A demo adventure called <i>Vemhir's Castle</i> is available for free in the Sound Realms
+          app. The first full length adventure will be <i>The Mystery of the Silent Islands</i>, to
+          be crowdfunded through a Kickstarter campaign expected to launch in 2025.
+        </p>
+        <p>
+          With
+          <i>Mace & Magic</i> we aim to explore and expand the possibilities of this new format not
+          only in cutting edge programming but also in the recording and usage of audio. Brace
+          yourself and enter the Realm of <i>MACE & MAGIC</i>!
+        </p>
 
-      <section>
-        <div class="section-content">
-          <h1>THE Audio Adventure System</h1>
-          <p>
-            Sound Realms aim to deliver immersive and captivating experiences to the paperback RPG
-            and solo adventure book audience but also to offer the regular consumer of audio books
-            or fantasy and sci-fi literature an experience beyond what ordinary audio books can
-            offer. Any consumer of mobile games will find Sound Realms interesting since it's game
-            mechanics rely heavily upon the player using their imagination to envision what happens
-            in the game. This takes mobile gaming beyond tiny screens and touch fiddling into new
-            realms &mdash; Sound Realms.
-          </p>
-        </div>
-
-        <YoutubeEmbed video="https://www.youtube.com/embed/4FMkHwHB8pM" />
-
-        <div class="section-content">
-          <div class="row">
-            <img
-              src="../../assets/home/dreadhorn.png"
-              class="dreadhorn_image"
-            >
-            <div class="row_column_2 text">
-              <p>
-                The first release on the Sound Realms platform will be
-                <i>Mace & Magic</i>, an audio based solo fantasy roleplaying game. A demo adventure
-                is available for game testing by selected parties now for iOS and Android devices.
-                We aim to use the free demo as a key element in a forthcoming crowdfunding campaign
-                to release an adventure of approximately 7 hours of playing time.
-                <i>Mace & Magic</i> is set in the brand-new world of "Mihr", a dark fantasy realm
-                strook by an apocalyptic event called "The Magiklysm", making it an ideal
-                environment for epic adventures. Production of this adventure has already begun.
-              </p>
-              <p>
-                With
-                <i>Mace & Magic</i> we aim to explore and expand the possibilities of this new
-                format not only in cutting edge programming but also in the recording and usage of
-                audio. <i>Mace & Magic</i> uses a slightly modified version of Choasium Inc’s RPG
-                rule set "Basic Roleplaying System" (BRP), that we have successfully digitalised for
-                a classic RPG experience, complete with dice roles and character sheets etc.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="hero">
-        <div class="hero-text">
-          <h2 class="inverted">
-            Dare you enter the realm of Mace & Magic?
-          </h2>
-          <p class="inverted">
-            Download the free demo adventure now, and always be rembered as a bold pioneer of
-            adventuring, hero of
-            <i>Mace & Magic</i>!
-          </p>
-          <div>
-            <MyButton href="/download">
-              Download Free Demo
-            </MyButton>
-            <MyButton
-              href="/faq"
-              :inverted="true"
-            >
-              Learn More
-            </MyButton>
-          </div>
-        </div>
-        <img
-          class="hero-image"
-          src="../../assets/mace_background.jpg"
+        <MyButton
+          external="true"
+          class="button"
+          href="https://www.kickstarter.com/projects/varghand/sound-realms-mace-and-magic"
         >
+          Join us on Kickstarter!
+        </MyButton>
       </div>
+
+      <YouTubeEmbed video="https://www.youtube.com/embed/4FMkHwHB8pM" />
 
       <div class="strip">
         <h2>Sign up for the Newsletter</h2>
-        <p class="inverted">
-          Sign up for our newsletter and receive a new playable character for the demo adventure as
-          a free bonus.
-        </p>
-        <NewsletterSignupForm />
+        <div class="section-content">
+          <p class="inverted">
+            Sign up for our newsletter if you want to stay up to date when we release new
+            adventures. Occassionally you will also receive free in-game bonus items and other
+            goodies.
+          </p>
+          <NewsletterSignupForm />
+        </div>
       </div>
-
       <MainFooter />
     </div>
   </main-layout>
 </template>
 
 <script>
-import MyButton from '../../components/MyButton.vue';
-import MainFooter from '../../components/MainFooter.vue';
-import MainLayout from '../../layouts/Main.vue';
-import KickstarterStrip2 from '../../components/KickstarterStrip2.vue';
-import NewsletterSignupForm from '../../components/NewsletterSignupForm.vue';
-import YoutubeEmbed from '../../components/YoutubeEmbed.vue';
+import MainLayout from "../../layouts/Main.vue";
+import MainFooter from "../../components/MainFooter.vue";
+import TopMenu from "../../components/TopMenu.vue";
+import NewsletterSignupForm from "../../components/NewsletterSignupForm.vue";
+import YouTubeEmbed from "../../components/YoutubeEmbed.vue";
+import MyBreadcrumbs from "../../components/MyBreadcrumbs.vue";
+import MyButton from "@/components/MyButton.vue";
 
 export default {
-  name: 'HomePage',
+  name: "DraculaPage",
   components: {
-    MyButton,
-    MainFooter,
     MainLayout,
-    KickstarterStrip2,
+    MainFooter,
+    TopMenu,
     NewsletterSignupForm,
-    YoutubeEmbed,
+    YouTubeEmbed,
+    MyBreadcrumbs,
+    MyButton,
   },
 };
 </script>
 
 <style scoped>
-.row {
+.bg {
+  background-image: url("../../assets/pergament_background.jpg");
+  width: 100%;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
   justify-content: center;
-  max-width: 960px;
+  align-items: center;
 }
 .text {
   align-items: flex-start;
 }
-.dreadhorn_image {
-  max-width: 40%;
-  padding-bottom: 30px;
-  padding-right: 30px;
-}
-
-.gallery {
-  padding-top: 30px;
-  padding-bottom: 60px;
-  max-width: 80%;
-}
 .logo {
   padding: 12px;
-  max-width: 90%;
+  max-width: 60%;
   height: auto;
   object-fit: scale-down;
 }
-.topImage {
-  width: 100%;
-}
-.small-image {
-  padding-bottom: 30px;
+.image {
+  max-height: 800px;
+  padding: 20px;
 }
 
-img {
-  max-width: 100%;
-}
-
-.hero {
-  width: 100%;
-  position: relative;
-}
-.hero-image {
-  width: 100%;
-  min-height: 400px;
-  height: 100%;
-}
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-.hero-text > p,
-h2 {
-  max-width: 960px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.section-content {
-  padding-bottom: 30px;
-}
-
-@media screen and (max-width: 980px) {
-  .row {
-    flex-direction: column;
-  }
-  .dreadhorn_image {
-    max-width: 100%;
-  }
-
-  .gallery {
-    max-width: 95%;
-  }
-}
-@media screen and (max-width: 680px) {
-  .hero-text {
-    font-size: 0.8rem;
-  }
-}
-@media screen and (max-width: 540px) {
-  .hero-text {
-    font-size: 0.7rem;
-  }
+h1 {
+  color: black;
 }
 
 .strip {
@@ -253,6 +133,15 @@ h2 {
   flex-direction: column;
   align-items: center;
   height: 600px;
+}
+
+.kickstarter-strip {
+  background-color: #4a443c;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
 }
 
 .strip > h1,
