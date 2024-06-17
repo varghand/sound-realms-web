@@ -25,12 +25,15 @@
             <div v-if="productsInCart > 0" class="numberCircle">{{ productsInCart }}</div>
           </span>
         </div>
-        <p class="cardText">(Pre-Order)</p>
+        <p>(Pre-Order)</p>
         <img :src="getImageUrl(product)" :alt="product.title" />
-        <p class="cardText">
+        <p class="bold">
           {{ product.description }}
         </p>
-        <p class="center-me cardPrice">{{ product.price }} SEK</p>
+        <p style="white-space: pre-wrap;">
+          {{ product.longDescription ? product.longDescription.trim() : "" }}
+        </p>
+        <p class="cardPrice">{{ product.price }} SEK</p>
         <MyButton :click="() => addToCart(product)"> Add To Cart </MyButton>
       </div>
       <MainFooter />
@@ -130,5 +133,9 @@ h1 {
   text-align: center;
 
   font: 12px Arial, sans-serif;
+}
+.cardPrice {
+  text-align: center;
+  font-size: 70%;
 }
 </style>
