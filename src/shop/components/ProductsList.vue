@@ -23,6 +23,9 @@
           <p class="center-me cardPrice">
             {{ product.price }} SEK
           </p>
+          <MyButton :click="() => displayProductPage(product)" class="readMoreButton">
+            Read More
+          </MyButton>
           <MyButton :click="() => addToCart(product)">
             Add To Cart
           </MyButton>
@@ -81,7 +84,10 @@ export default {
     },
     getImageUrl(product) {
       return new URL(product['image'], import.meta.url);
-    }
+    },
+    displayProductPage(product) {
+      this.$router.push('/shop/product/' + product.id);
+    },
   },
 };
 </script>
@@ -151,5 +157,11 @@ export default {
 
 .productCard img {
   border-radius: 10px;
+}
+
+.readMoreButton {
+  margin-bottom: 15px;
+  background-color: rgb(212, 201, 162);
+  color: rgb(0, 0, 0);
 }
 </style>
