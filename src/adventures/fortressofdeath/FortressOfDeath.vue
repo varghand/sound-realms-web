@@ -8,6 +8,10 @@
             link: '/',
           },
           {
+            title: 'Games',
+            link: '/games',
+          },
+          {
             title: 'The Fortress of Death',
           },
         ]"

@@ -9,6 +9,10 @@
             link: '/',
           },
           {
+            title: 'Games',
+            link: '/games',
+          },
+          {
             title: 'Mace & Magic',
           },
         ]"

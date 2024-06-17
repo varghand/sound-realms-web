@@ -9,6 +9,10 @@
             link: '/',
           },
           {
+            title: 'Games',
+            link: '/games',
+          },
+          {
             title: 'Steve Jackson\'s F.I.S.T.',
           },
         ]"
