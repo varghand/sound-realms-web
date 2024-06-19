@@ -28,7 +28,7 @@
     "@eslint/js": "9.5.0",
     "eslint": "9.5.0",
     "eslint-plugin-vue": "9.26.0",
-    "sass": "1.77.5"
+    "sass": "1.77.6"
   },
   "browserslist": [
     "> 1%",
