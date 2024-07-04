@@ -43,6 +43,7 @@
           released in 1988, audio and gameplay intact, but adapted for iOS and Android using the
           <strong>Sound Realms</strong> system.
         </p>
+        <p>F.I.S.T. will be released on September 7, 2024, in conjunction with Fighting Fantasy Fest 5 in London.</p>
         <p><strong>GET READY FOR F.I.S.T., THE RETURN!</strong></p>
 
         <MyButton

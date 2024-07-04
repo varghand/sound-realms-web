@@ -15,18 +15,51 @@
                 link: '/news',
               },
               {
-                title: 'December 2, 2023',
+                title: 'July 1, 2024',
               },
             ]"
           />
-          <h1>Sound Realms Announces The Return of Steve Jackson's F.I.S.T.</h1>
-          <p><i>(December 2, 2023)</i></p>
+          <h1>Release Date for F.I.S.T. Announced</h1>
+          <p><i>(July 1, 2024)</i></p>
 
-          <img
-            src="../assets/fist/fist-logo.png"
-            alt="Steve Jackson's F.I.S.T."
-            class="image"
-          >
+          <img src="../assets/fist/fist-logo.png" alt="Steve Jackson's F.I.S.T." class="image" />
+
+          <p>
+            Varghand Publishing are proud to announce that <strong>F.I.S.T.</strong> will officially
+            be released on the Sound Realms platform on September 7, 2024, in conjuction with
+            Fighting Fantasy Fest 5 in London.
+          </p>
+
+          <p>
+            <strong>F.I.S.T.</strong> will be the first full-length audio adventure to be featured
+            on the Sound Realms platfrom, but it is originally an old game crafted by Steve Jackson
+            of Games Workshop and Fighting Fantasy fame already in 1988. The new version of
+            <strong>F.I.S.T.</strong> will feature the original audio recordings, faithfully
+            restored from the original master tapes. This will be the first time in more than 30
+            years that the world will have the chance to listen to these recordings! Gameplay and
+            functionality will also remain consistent with the 1988 version of
+            <strong>F.I.S.T.</strong>
+          </p>
+          <p>
+            <i
+              >"We have worked hard to ensure that the Sound Realms version of
+              <strong>F.I.S.T.</strong> stays as close to the original version as possible"</i
+            >
+            says Gustav Sundin, CEO of Varghand Publishing, the makers behind the Sound Realms
+            Platform.
+            <i
+              >"The key differences are that you play through your smartphone or tablet instead of a
+              landline phone, that the audio quality has been greatly improved, and no more
+              horrendous phone bills to explain to your parents!"</i
+            >
+          </p>
+
+          <p>
+            <strong>F.I.S.T.</strong> can be pre-ordered through
+            <a href="https://www.sound-realms.com/shop">www.sound-realms.com</a>.
+          </p>
+
+          <h3>About F.I.S.T.</h3>
 
           <p>
             In 1988 you could pick up your telephone, dial the <strong>F.I.S.T.</strong> number and
@@ -52,45 +85,28 @@
           </p>
           <p><strong>GET READY FOR F.I.S.T., THE RETURN!</strong></p>
 
-          <img
-            src="../assets/fist/fist-square.jpg"
-            alt="F.I.S.T. Returns!"
-            class="image"
-          >
-
+          <img src="../assets/fist/fist-square.jpg" alt="F.I.S.T. Returns!" class="image" />
 
           <h3>About Sound Realms</h3>
           <p>
-            Sound Realms is a platform where you will find a range of RPG audio solo adventures, or
-            interactive audio books. The adventures are presented by a narrator assuming the role of
-            Game Master, backed by original orchestral music and cinematic sound effects.
+            Sound Realms is a platform which enables you to play through captivating solo audio
+            adventures. A professional voice-over actor acts as your Dungeon Master and takes you
+            through dangerous dungeons and mysterious temples, backed by a cinematic musical score
+            and top of the line sound effects. Sound Realms is available for iOS and Android
+            devices.
           </p>
-
-          <h3>About Fighting Fantasy</h3>
-
-          <p>
-            Fighting Fantasy is a series of single-player role-playing gamebooks created by Steve
-            Jackson and Ian Livingstone. The first volume in the series was published in 1982. The
-            series distinguished itself by mixing Choose Your Own Adventure-style storytelling with
-            a dice-based role-playing element included within the books themselves. In 1988 F.I.S.T.
-            was introduced by Steve Jackson: a radio drama version of the Fighting Fantasy novels,
-            where the outcome of the story could be affected by choices the user made using a
-            touch-tone telephone.
-          </p>
-
-          <img
-            src="../assets/fist/fighting-fantasy.png"
-            alt="Fighting Fantasy"
-            class="image fistlogo"
-          >
 
           <h3>Links</h3>
-          <p><a href="https://www.sound-realms.com">www.sound-realms.com</a></p>
           <p>
             <a
-              href="https://www.fightingfantasy.com/"
+              href="https://drive.google.com/drive/folders/1DzhXdcnbggM-f1BgqwyYtVqUHyYaqhuS?usp=sharing"
               target="_blank"
-            >www.fightingfantasy.com</a>
+            >F.I.S.T. Press Kit</a>
+          </p>
+
+          <p><a href="https://www.sound-realms.com">www.sound-realms.com</a></p>
+          <p>
+            <a href="https://www.fightingfantasy.com/" target="_blank">www.fightingfantasy.com</a>
           </p>
 
           <p>
@@ -101,14 +117,14 @@
             <a
               href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest"
               target="_blank"
-            >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a>
+              >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a
+            >
           </p>
 
           <p>
-            <a
-              href="https://apps.apple.com/se/app/sound-realms/id1587860372"
-              target="_blank"
-            >https://apps.apple.com/se/app/sound-realms/id1587860372</a>
+            <a href="https://apps.apple.com/se/app/sound-realms/id1587860372" target="_blank"
+              >https://apps.apple.com/se/app/sound-realms/id1587860372</a
+            >
           </p>
         </div>
       </section>

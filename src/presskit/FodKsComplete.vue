@@ -11,8 +11,8 @@
                 link: '/',
               },
               {
-                title: 'Press',
-                link: '/press',
+                title: 'News',
+                link: '/news',
               },
               {
                 title: 'October 15, 2023',

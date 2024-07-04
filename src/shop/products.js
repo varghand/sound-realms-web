@@ -29,6 +29,8 @@ The creatures and deadly traps that awaited you in Castle Mammon were brought to
 
 The first F.I.S.T. adventure featuring the world of Castle Mammon — Lair of the Demon Prince, created by the fertile mind of games master Steve Jackson (co-founder of Games Workshop and the Fighting Fantasy gamebook series), now returns as it was released in 1988, audio and gameplay intact, but adapted for iOS and Android using the Sound Realms system.
 
+F.I.S.T. will be released on September 7, 2024, in conjunction with Fighting Fantasy Fest 5 in London.
+
 GET READY FOR F.I.S.T. – THE RETURN!`,
   },
   {

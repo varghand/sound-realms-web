@@ -11,7 +11,7 @@
                 link: '/'
               },
               {
-                title: 'Press'
+                title: 'Press & News'
               }
             ]"
           />
@@ -27,6 +27,13 @@
           </p>
           <h2>Press Releases</h2>
           <ul>
+            <li class="bold">
+              July 1, 2024:
+              <a
+                href="/press/fist-release-date"
+                class="bold"
+              >Release Date for F.I.S.T. Announced</a>
+            </li>
             <li class="bold">
               December 2, 2023:
               <a
