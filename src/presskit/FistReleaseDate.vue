@@ -32,7 +32,7 @@
 
           <p>
             <strong>F.I.S.T.</strong> will be the first full-length audio adventure to be featured
-            on the Sound Realms platfrom, but it is originally an old game crafted by Steve Jackson
+            on the Sound Realms platform, but it is originally an old game crafted by Steve Jackson
             of Games Workshop and Fighting Fantasy fame already in 1988. The new version of
             <strong>F.I.S.T.</strong> will feature the original audio recordings, faithfully
             restored from the original master tapes. This will be the first time in more than 30
