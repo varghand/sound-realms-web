@@ -16,7 +16,7 @@
       </div>
       <section>
         <div class="section-content">
-          <h1>The First Ever REAL Audio Solo Roleplaying Game</h1>
+          <h1>THE Audio Adventure System</h1>
           <div class="text">
             <p>
               <strong>Sound Realms</strong> is an interactive audio adventure app. Featuring great
