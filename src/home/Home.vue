@@ -81,63 +81,7 @@
 
       <section>
         <div class="section-content">
-          <h1>Our Games</h1>
-          <p>
-            Sound Realms is a platform where you will find a wide range of RPG audio solo
-            adventures. In the future we will expand this range to include many different genres and
-            styles &mdash; fantasy, horror, sci-fi and so on &mdash; but currently you will find two
-            separate Realms in the app. One is <i><a href="/maceandmagic">Mace & Magic</a></i>, our own post-apocalyptic fantasy world, and the other is
-            <i><a href="/fortressofdeath">Lone Wolf: The Fortress of Death</a></i>, a direct continuation of Joe Dever's classic Lone Wolf saga.
-          </p>
-        </div>
-
-        <div class="section-content">
-          <div class="game-icons">
-            <div>
-              <a
-                href="/maceandmagic"
-                class="dreadhorn_image"
-              >
-                <img
-                  src="../assets/home/dreadhorn.png"
-                  alt="Mace & Magic"
-                >
-              </a>
-            </div>
-            <div>
-              <a
-                href="/fortressofdeath"
-                class="dreadhorn_image"
-              >
-                <img
-                  src="../assets/home/fod-round-funded.png"
-                  alt="Lone Wolf: The Fortress of Death"
-                >
-              </a>
-            </div>
-            <div>
-              <a
-                href="/dracula"
-                class="dreadhorn_image"
-              >
-                <img
-                  src="../assets/home/dracula.png"
-                  alt="Dracula: Curse of the Vampire"
-                >
-              </a>
-            </div>
-            <div>
-              <a
-                href="/fist"
-                class="dreadhorn_image"
-              >
-                <img
-                  src="../assets/home/fist.png"
-                  alt="Steve Jackson's F.I.S.T."
-                >
-              </a>
-            </div>
-          </div>
+          <AllGames />
         </div>
       </section>
 
@@ -150,6 +94,7 @@
 import MainFooter from "../components/MainFooter.vue";
 import MainLayout from "../layouts/Main.vue";
 import NewsletterSignupForm from "../components/NewsletterSignupForm.vue";
+import AllGames from "../adventures/AllGames.vue";
 
 export default {
   name: "HomePage",
@@ -157,6 +102,7 @@ export default {
     MainFooter,
     MainLayout,
     NewsletterSignupForm,
+    AllGames,
   },
 };
 </script>
