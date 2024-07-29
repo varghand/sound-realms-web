@@ -17,7 +17,7 @@
     "aws-amplify": "6.4.0",
     "axios": "1.7.2",
     "core-js": "3.37.1",
-    "vite": "5.3.4",
+    "vite": "5.3.5",
     "vue": "3.4.32",
     "vue-gtag-next": "1.14.0",
     "vue-router": "4.4.0",
