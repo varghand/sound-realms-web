@@ -16,7 +16,7 @@
     "@vue-stripe/vue-stripe": "4.5.0",
     "aws-amplify": "6.5.1",
     "axios": "1.7.4",
-    "core-js": "3.38.0",
+    "core-js": "3.38.1",
     "vite": "5.4.1",
     "vue": "3.4.38",
     "vue-gtag-next": "1.14.0",
