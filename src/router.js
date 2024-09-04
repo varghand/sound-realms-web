@@ -14,8 +14,6 @@ import DraculaPress from './presskit/Dracula.vue';
 import AnnouncingFist from './presskit/AnnouncingFist.vue';
 import FistReleaseDate from './presskit/FistReleaseDate.vue';
 import PrivacyPolicy from './privacy/PrivacyPolicy.vue';
-import PrivacyPolicy2 from './privacy/PrivacyPolicy2.vue';
-import PrivacyPolicy3 from './privacy/PrivacyPolicy3.vue';
 import Newsletter from './newsletter/Newsletter.vue';
 import FortressOfDeath from './adventures/fortressofdeath/FortressOfDeath.vue';
 import MaceAndMagic from './adventures/maceandmagic/MaceAndMagic.vue';
@@ -54,8 +52,6 @@ const routes = [
   { path: '/press/fist', component: AnnouncingFist },
   { path: '/press/fist-release-date', component: FistReleaseDate },
   { path: '/privacy-policy', component: PrivacyPolicy },
-  { path: '/privacypolicy', component: PrivacyPolicy2 },
-  { path: '/privacy', component: PrivacyPolicy3 },
   { path: '/fortressofdeath', component: FortressOfDeath, meta: { title: 'The Fortress of Death' } },
   { path: '/maceandmagic', component: MaceAndMagic, meta: { title: 'Mace & Magic' } },
   { path: '/fist', component: Fist, meta: { title: 'F.I.S.T.' } },
