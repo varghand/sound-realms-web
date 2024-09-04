@@ -82,7 +82,7 @@ export default {
           id: "fod-pre-order",
         });
       }
-      if (this.$store.state.unlockedAdventures.some((e) => e.adventureId === "fist-pre-order")) {
+      if (this.$store.state.unlockedAdventures.some((e) => e.adventureId === "fist-pre-order") || e.adventureId === "fist") {
         preOrders.push({
           image: "/images/fist-square.jpg",
           title: "Steve Jackson's F.I.S.T.",
