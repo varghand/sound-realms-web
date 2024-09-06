@@ -13,6 +13,7 @@ import FodKsComplete from './presskit/FodKsComplete.vue';
 import DraculaPress from './presskit/Dracula.vue';
 import AnnouncingFist from './presskit/AnnouncingFist.vue';
 import FistReleaseDate from './presskit/FistReleaseDate.vue';
+import FistIsOut from './presskit/FistIsOut.vue';
 import PrivacyPolicy from './privacy/PrivacyPolicy.vue';
 import Newsletter from './newsletter/Newsletter.vue';
 import FortressOfDeath from './adventures/fortressofdeath/FortressOfDeath.vue';
@@ -51,6 +52,7 @@ const routes = [
   { path: '/press/dracula', component: DraculaPress },
   { path: '/press/fist', component: AnnouncingFist },
   { path: '/press/fist-release-date', component: FistReleaseDate },
+  { path: '/press/fist-is-out', component: FistIsOut },
   { path: '/privacy-policy', component: PrivacyPolicy },
   { path: '/fortressofdeath', component: FortressOfDeath, meta: { title: 'The Fortress of Death' } },
   { path: '/maceandmagic', component: MaceAndMagic, meta: { title: 'Mace & Magic' } },

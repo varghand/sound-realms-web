@@ -28,6 +28,13 @@
           <h2>Press Releases</h2>
           <ul>
             <li class="bold">
+              September 7, 2024:
+              <a
+                href="/press/fist-is-out"
+                class="bold"
+              >F.I.S.T. is out NOW!</a>
+            </li>
+            <li class="bold">
               July 1, 2024:
               <a
                 href="/press/fist-release-date"
