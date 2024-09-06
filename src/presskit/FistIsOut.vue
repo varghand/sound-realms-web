@@ -83,18 +83,20 @@
           </p>
           <p>
             The creatures and deadly traps that awaited you in Castle Mammon were brought to life
-            with dramatic sound effects and new gaming techniques. You could hear the roar of the
-            Flesh Eater as your sword bites, the sizzle of the fireball bursting towards you, the
-            chinking of the many gold pieces you could find in the Demon Prince's underground
-            dungeon. <i>YOU</i> made the decisions simply by using your telephone.
+            with dramatic sound effects and, for its time, groundbreaking gaming techniques. You
+            could hear the roar of the Flesh Eater as your sword hit home, the sizzle of the
+            fireball bursting towards you, the chinking of the many gold pieces you could find in
+            the Demon Prince's underground dungeon. <i>YOU</i> made the decisions simply by using
+            your telephone.
           </p>
           <p>
-            The first <strong>F.I.S.T.</strong> adventure featuring the world of
-            <i>Castle Mammon &mdash; Lair of the Demon Prince</i>, created by the fertile mind of
-            games master <strong>Steve Jackson</strong> (co-founder of Games Workshop and the
-            Fighting Fantasy gamebook series), now returns as it was released in 1988, audio and
-            gameplay intact, but adapted for iOS and Android using the
-            <strong>Sound Realms</strong> system.
+            The first <strong>F.I.S.T.</strong> adventure, originally known as
+            <i>Castle Mammon &mdash; Lair of the Demon Prince</i>, was created by the fertile mind
+            of games master <strong>Steve Jackson</strong> (co-founder of Games Workshop and the
+            Fighting Fantasy gamebook series). After being unavailable for the general public for
+            more than 30 years, <strong>F.I.S.T.</strong> now returns as it was released in 1988,
+            with the original audio recordings and gameplay intact, but adapted for iOS and Android
+            using the <strong>Sound Realms</strong> system.
           </p>
           <p><strong>WELCOME TO THE WORLD OF F.I.S.T.!</strong></p>
 
@@ -106,8 +108,8 @@
             and Android. On the platform you will find a growing range of solo adventures, narrated
             by a professional voice-over actor, who acts as your Dungeon Master as you explore
             dangerous dungeons and mysterious temples, and backed by a cinematic musical score and
-            top of the line sound effects. Download the Sound Realms app to get started on your
-            adventure today.
+            top of the line sound effects. <a href="/download">Download the Sound Realms app</a> to
+            get started on your adventure today.
           </p>
 
           <h3>Links</h3>
