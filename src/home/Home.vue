@@ -2,15 +2,13 @@
   <main-layout>
     <div class="content">
       <div class="topSection">
-        <!-- <img alt="Sound Realms logo" class="topImage" src="../assets/home/sr-cover-image.jpg" /> -->
         <a
-          href="https://www.kickstarter.com/projects/varghand/fortress-of-death/"
-          target="_blank"
+          href="/fist"
         >
           <img
             alt="Sound Realms Kickstarter"
             class="topImage"
-            src="../assets/home/fod-home-banner.jpg"
+            src="../assets/home/fist-home-banner.jpg"
           >
         </a>
       </div>

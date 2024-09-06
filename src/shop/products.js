@@ -2,6 +2,7 @@ const products = [
   {
     image: "/images/fod-funded.jpg",
     title: "Lone Wolf: The Fortress of Death",
+    preOrder: true,
     price: 215,
     description:
       "An audio adventure for mobile devices, set in Joe Dever's world of Lone Wolf for the Sound Realms system.",
@@ -18,10 +19,11 @@ Enter, if you dare, The Fortress of Death!`,
   {
     image: "/images/fist-square.jpg",
     title: "Steve Jackson's F.I.S.T.",
-    price: 215,
+    preOrder: false,
+    price: 250,
     description:
       "The original F.I.S.T. adventure, created by the fertile mind of Steve Jackson, now returns as it was released in 1988.",
-    id: "fist-pre-order",
+    id: "fist",
     longDescription: `
 In 1988 you could pick up your telephone, dial the F.I.S.T. number and you were immediately connected to a medieval fantasy world of magic, monsters and great riches to be plundered. A world where YOU were a heroic adventurer embarking on a quest for fame and fortune. F.I.S.T. was the first interactive phone game ever.
 
@@ -29,13 +31,12 @@ The creatures and deadly traps that awaited you in Castle Mammon were brought to
 
 The first F.I.S.T. adventure featuring the world of Castle Mammon — Lair of the Demon Prince, created by the fertile mind of games master Steve Jackson (co-founder of Games Workshop and the Fighting Fantasy gamebook series), now returns as it was released in 1988, audio and gameplay intact, but adapted for iOS and Android using the Sound Realms system.
 
-F.I.S.T. will be released on September 7, 2024, in conjunction with Fighting Fantasy Fest 5 in London.
-
-GET READY FOR F.I.S.T. – THE RETURN!`,
+Available now!`,
   },
   {
     image: "/images/bundle-shop.jpg",
     title: "The Fortress of Death + F.I.S.T. Bundle",
+    preOrder: true,
     price: 500,
     description:
       "Includes all expansions to The Fortress of Death for 12 months counting from the game's release date.",
@@ -43,7 +44,7 @@ GET READY FOR F.I.S.T. – THE RETURN!`,
     longDescription: `
 This bundle contains:
 
-- F.I.S.T. (Pre-Order)
+- F.I.S.T. (Available now)
 - Lone Wolf: The Fortress of Death (Pre-Order)
 - Free access to all expansion packs and add-ons to be releases during the first 12 months after the release of The Fortress of Death.
     `,
@@ -51,6 +52,7 @@ This bundle contains:
   {
     image: "/images/12m-updates.jpg",
     title: "The Fortress of Death Expansions (12 months)",
+    preOrder: true,
     price: 120,
     description:
       "Access to all expansions coming out for 12 months following the game's release.",

@@ -14,9 +14,10 @@
           <p class="cardHeader">
             {{ product.title }}
           </p>
-          <p class="cardText">
+          <p class="cardText" v-if="product.preOrder">
             (Pre-Order)
           </p>
+          <p v-else></p>
           <p class="cardText">
             {{ product.description }}
           </p>

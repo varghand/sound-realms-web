@@ -10,12 +10,12 @@
         <div v-else>
           <h1>My Account</h1>
           <p>Logged in as {{ user.username }}</p>
-          <h3>My Pre-orders</h3>
+          <h3>My Products</h3>
           <div v-if="loadingPreOrders">
             <p>Loading...</p>
           </div>
           <div v-else-if="products.length === 0">
-            <p>No pre-orders yet, head over to the <a href="/shop">SHOP</a> to get some!</p>
+            <p>No products added to your account yet, head over to the <a href="/shop">SHOP</a> to get some!</p>
           </div>
           <div
             v-else
@@ -82,7 +82,7 @@ export default {
           id: "fod-pre-order",
         });
       }
-      if (this.$store.state.unlockedAdventures.some((e) => e.adventureId === "fist-pre-order")) {
+      if (this.$store.state.unlockedAdventures.some((e) => e.adventureId === "fist-pre-order") || e.adventureId === "fist") {
         preOrders.push({
           image: "/images/fist-square.jpg",
           title: "Steve Jackson's F.I.S.T.",

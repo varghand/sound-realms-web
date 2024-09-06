@@ -25,7 +25,7 @@
             <div v-if="productsInCart > 0" class="numberCircle">{{ productsInCart }}</div>
           </span>
         </div>
-        <p>(Pre-Order)</p>
+        <p v-if="product.preOrder">(Pre-Order)</p>
         <img :src="getImageUrl(product)" :alt="product.title" />
         <p class="bold">
           {{ product.description }}
