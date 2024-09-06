@@ -22,7 +22,7 @@
           <h1>F.I.S.T. is out NOW!</h1>
           <p><i>(September 7, 2024)</i></p>
 
-          <img src="../assets/fist/fist-logo.png" alt="Steve Jackson's F.I.S.T." class="image" />
+          <img src="../assets/fist/fist-home-banner.jpg" alt="Steve Jackson's F.I.S.T." class="image-wide" />
 
           <p><i>
             Fellow adventurers – the time has come!
@@ -90,7 +90,7 @@ The day is finally here...
           </p>
           <p><strong>WELCOME TO THE WORLD OF F.I.S.T.!</strong></p>
 
-          <img src="../assets/fist/fist-square.jpg" alt="F.I.S.T. Returns!" class="image" />
+          <img src="../assets/fist/fist-promo.png" alt="F.I.S.T. Returns!" class="image-narrow" />
 
           <h3>About Sound Realms</h3>
           <p>
@@ -170,6 +170,16 @@ h1 {
 
 .image {
   max-width: 80%;
+  margin: 10px;
+}
+
+.image-wide {
+  max-width: 100%;
+  margin: 10px;
+}
+
+.image-narrow {
+  max-width: 50%;
   margin: 10px;
 }
 
