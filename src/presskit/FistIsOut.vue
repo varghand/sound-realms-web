@@ -93,7 +93,7 @@
             The first <strong>F.I.S.T.</strong> adventure, originally known as
             <i>Castle Mammon &mdash; Lair of the Demon Prince</i>, was created by the fertile mind
             of games master <strong>Steve Jackson</strong> (co-founder of Games Workshop and the
-            Fighting Fantasy gamebook series). After being unavailable for the general public for
+            Fighting Fantasy gamebook series). After being unavailable to the general public for
             more than 30 years, <strong>F.I.S.T.</strong> now returns as it was released in 1988,
             with the original audio recordings and gameplay intact, but adapted for iOS and Android
             using the <strong>Sound Realms</strong> system.
