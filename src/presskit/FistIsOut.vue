@@ -22,27 +22,35 @@
           <h1>F.I.S.T. is out NOW!</h1>
           <p><i>(September 7, 2024)</i></p>
 
-          <img src="../assets/fist/fist-home-banner.jpg" alt="Steve Jackson's F.I.S.T." class="image-wide" />
+          <img
+            src="../assets/fist/fist-home-banner.jpg"
+            alt="Steve Jackson's F.I.S.T."
+            class="image-wide"
+          />
 
-          <p><i>
-            Fellow adventurers – the time has come!
-The day is finally here...
-<strong>F.I.S.T.</strong>'s launch day has arrived and the game is available to play NOW!</i>
+          <p>
+            <i>
+              Fellow adventurers – the time has come! The day is finally here...
+              <strong>F.I.S.T.</strong>'s launch day has arrived and the game is available to play
+              NOW!</i
+            >
           </p>
 
           <p>
-            Varghand Publishing are proud to announce that <strong>F.I.S.T.</strong> is now live on the Sound Realms platform. This is the first full-length adventure on Sound Realms,
-            and thus marks a major milestone in the platform's development.
+            Varghand Publishing are proud to announce that <strong>F.I.S.T.</strong> is now live on
+            the Sound Realms platform. This is the first full-length adventure on Sound Realms, and
+            thus marks a major milestone in the platform's development.
           </p>
 
           <p>
-            <strong>F.I.S.T.</strong> was originally released as a play-by-phone game in 1988. It was written by Steve Jackson
-            (of Games Workshop and Fighting Fantasy fame) and originally developed by the company ComputerDial. The new version of
-            <strong>F.I.S.T.</strong> features the original audio recordings, faithfully
-            restored from the original master tapes and digitalized for the Sound Realms platform.
-            This will be the first time in more than 30
-            years that the world will have the chance to listen to these recordings! Gameplay and
-            functionality will also remain consistent with the 1988 version of
+            <strong>F.I.S.T.</strong> was originally released as a play-by-phone game in 1988. It
+            was written by Steve Jackson (of Games Workshop and Fighting Fantasy fame) and
+            originally developed by the company ComputerDial. The new version of
+            <strong>F.I.S.T.</strong> features the original audio recordings, faithfully restored
+            from the original master tapes and digitalized for the Sound Realms platform. This will
+            be the first time in more than 30 years that the world will have the chance to listen to
+            these recordings! Gameplay and functionality will also remain consistent with the 1988
+            version of
             <strong>F.I.S.T.</strong>
           </p>
           <p>
@@ -94,11 +102,12 @@ The day is finally here...
 
           <h3>About Sound Realms</h3>
           <p>
-            Sound Realms is a platform which enables you to play through captivating solo audio
-            adventures. A professional voice-over actor acts as your Dungeon Master and takes you
-            through dangerous dungeons and mysterious temples, backed by a cinematic musical score
-            and top of the line sound effects. Sound Realms is available for iOS and Android
-            devices.
+            Sound Realms is a digital platform for audio adventure games, currently available on iOS
+            and Android. On the platform you will find a growing range of solo adventures, narrated
+            by a professional voice-over actor, who acts as your Dungeon Master as you explore
+            dangerous dungeons and mysterious temples, and backed by a cinematic musical score and
+            top of the line sound effects. Download the Sound Realms app to get started on your
+            adventure today.
           </p>
 
           <h3>Links</h3>
@@ -106,7 +115,8 @@ The day is finally here...
             <a
               href="https://drive.google.com/drive/folders/1DzhXdcnbggM-f1BgqwyYtVqUHyYaqhuS?usp=sharing"
               target="_blank"
-            >F.I.S.T. Press Kit</a>
+              >F.I.S.T. Press Kit</a
+            >
           </p>
 
           <p><a href="https://www.sound-realms.com">www.sound-realms.com</a></p>
