@@ -16,40 +16,7 @@
             ]"
           />
           <h1>Job Openings</h1>
-          <p>We are hiring!</p>
-          <p>
-            Wouldn't it be great to join the Sound Realms team and help us make Sound Realms into
-            the number one platform for all fantasy, sci-fi and horror audio content? To apply for
-            any job opening, just send us an email at
-            <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a>!
-          </p>
-          <h2>Head of Sales</h2>
-          <p>
-            We seek an ambitious and driven person to fill the role as our Head of Sales. In this
-            role, you will lead our sales and marketing team with the goal of driving revenue growth
-            and bringing Sound Realms to the masses. As Head of Sales, you are expected to be in
-            charge of all marketing activities, including campaigns and product launches, as well as
-            cultivating the relationship between Sound Realms and our customers. A data-driven and
-            experimental approach will be key to success, and therefore you will also be working
-            closely with our tech team. This is a unique opportunity to shape brand and voice of
-            Sound Realms in a very exciting stage of our growth journey. Sounds interesting? Apply
-            now by sending an email to
-            <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a>!
-          </p>
-          <h2>Content Creator</h2>
-          <p>
-            As a Content Creator at Sound Realms, you will play a pivotal role in crafting engaging
-            and valuable content that resonates with our target audience. From brainstorming fresh
-            ideas to executing marketing strategies, you'll have the opportunity to showcase your
-            creativity and contribute to our Sound Realms's growth and success. The main
-            responsibility of the job is to produce content for publication on social media, our
-            newsletter email, the web site, and more. This primarily involves writing texts and
-            producing content plans (so a good fluency with the English language is a must), but
-            basic graphical skills for producing graphical (and/or video) content is a plus. No
-            other previous experience is required as we value ambition and passion over past
-            results. Sounds interesting? Apply now by sending an email to
-            <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a>!
-          </p>
+          <p><i>None at the moment.</i></p>
           <br>
         </div>
       </section>
