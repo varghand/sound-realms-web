@@ -12,6 +12,10 @@ import {
 
 const helpers = {
   async signIn(username, password) {
+    if (username.includes("@")) {
+      username = username.trim().toLowerCase();
+    }
+
     try {
       await this.handleSignOut();
       const signInRes = await signIn({
@@ -63,7 +67,7 @@ const helpers = {
       const signupResult = await signUp({
         username: username.trim(),
         password: password.trim(),
-        attributes: { email: email.trim() },
+        attributes: { email: email.trim().toLowerCase() },
         options: {
           userAttributes: {
             email,
@@ -109,6 +113,10 @@ const helpers = {
     }
   },
   async sendPasswordResetCode(username) {
+    if (username.includes("@")) {
+      username = username.trim().toLowerCase();
+    }
+
     try {
       await resetPassword({ username: username.trim() });
     } catch (error) {
@@ -117,6 +125,10 @@ const helpers = {
     }
   },
   async handleConfirmResetPassword({ username, confirmationCode, newPassword }) {
+    if (username.includes("@")) {
+      username = username.trim().toLowerCase();
+    }
+
     try {
       await confirmResetPassword({
         username: username.trim(),
