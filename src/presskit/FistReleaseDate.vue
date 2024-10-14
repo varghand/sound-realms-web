@@ -22,10 +22,14 @@
           <h1>Release Date for F.I.S.T. Announced</h1>
           <p><i>(July 1, 2024)</i></p>
 
-          <img src="../assets/fist/fist-logo.png" alt="Steve Jackson's F.I.S.T." class="image" />
+          <img
+            src="../assets/fist/fist-logo.png"
+            alt="Steve Jackson's F.I.S.T."
+            class="image"
+          >
 
           <p>
-            Varghand Publishing are proud to announce that <strong>F.I.S.T.</strong> will officially
+            Sound Realms AB are proud to announce that <strong>F.I.S.T.</strong> will officially
             be released on the Sound Realms platform on September 7, 2024, in conjuction with
             Fighting Fantasy Fest 5 in London.
           </p>
@@ -41,17 +45,12 @@
             <strong>F.I.S.T.</strong>
           </p>
           <p>
-            <i
-              >"We have worked hard to ensure that the Sound Realms version of
-              <strong>F.I.S.T.</strong> stays as close to the original version as possible"</i
-            >
-            says Gustav Sundin, CEO of Varghand Publishing, the makers behind the Sound Realms
-            Platform.
-            <i
-              >"The key differences are that you play through your smartphone or tablet instead of a
+            <i>"We have worked hard to ensure that the Sound Realms version of
+              <strong>F.I.S.T.</strong> stays as close to the original version as possible"</i>
+            says Gustav Sundin, CEO of Sound Realms AB.
+            <i>"The key differences are that you play through your smartphone or tablet instead of a
               landline phone, that the audio quality has been greatly improved, and no more
-              horrendous phone bills to explain to your parents!"</i
-            >
+              horrendous phone bills to explain to your parents!"</i>
           </p>
 
           <p>
@@ -85,7 +84,11 @@
           </p>
           <p><strong>GET READY FOR F.I.S.T., THE RETURN!</strong></p>
 
-          <img src="../assets/fist/fist-square.jpg" alt="F.I.S.T. Returns!" class="image" />
+          <img
+            src="../assets/fist/fist-square.jpg"
+            alt="F.I.S.T. Returns!"
+            class="image"
+          >
 
           <h3>About Sound Realms</h3>
           <p>
@@ -106,7 +109,10 @@
 
           <p><a href="https://www.sound-realms.com">www.sound-realms.com</a></p>
           <p>
-            <a href="https://www.fightingfantasy.com/" target="_blank">www.fightingfantasy.com</a>
+            <a
+              href="https://www.fightingfantasy.com/"
+              target="_blank"
+            >www.fightingfantasy.com</a>
           </p>
 
           <p>
@@ -117,14 +123,14 @@
             <a
               href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest"
               target="_blank"
-              >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a
-            >
+            >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a>
           </p>
 
           <p>
-            <a href="https://apps.apple.com/se/app/sound-realms/id1587860372" target="_blank"
-              >https://apps.apple.com/se/app/sound-realms/id1587860372</a
-            >
+            <a
+              href="https://apps.apple.com/se/app/sound-realms/id1587860372"
+              target="_blank"
+            >https://apps.apple.com/se/app/sound-realms/id1587860372</a>
           </p>
         </div>
       </section>

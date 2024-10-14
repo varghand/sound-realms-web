@@ -20,7 +20,7 @@
 
         <p>
           This privacy policy governs your use of the software application Sound Realms
-          (“Application”) for mobile devices that was created by Varghand Publishing AB.
+          (“Application”) for mobile devices that was created by Sound Realms AB.
         </p>
 
         <p>
@@ -55,7 +55,7 @@
             <p>
               <strong>Company</strong> (referred to as either &quot;the Company&quot;,
               &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to
-              Varghand Publishing AB, Halmstadgatan 3, 41871 Gothenburg, Sweden.
+              Sound Realms AB, Seglaregatan 20, 41454 Gothenburg, Sweden.
             </p>
           </li>
           <li>
@@ -100,14 +100,14 @@
 
         <h2>Who We are</h2>
         <p>
-          Sound Realms is being developed by Varghand Publishing AB, an independent provider of RPG
+          Sound Realms is being developed by Sound Realms AB, an independent provider of RPG
           games and content. Our website address is:
-          <a href="https://www.varghand.com/">www.varghand.com</a>
+          <a href="https://www.sound-realms.com/">www.sound-realms.com</a>
         </p>
 
         <p>Our physical address is Halmstadgatan 3, 41871 Gothenburg, Sweden.</p>
 
-        <p>You can reach us via email at <a href="mailto:dm@varghand.com">dm@varghand.com</a></p>
+        <p>You can reach us via email at <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a></p>
 
         <h2>Collecting of Your Personal Data</h2>
         <h3>Personal Data</h3>
@@ -281,7 +281,7 @@
           We provide you with the ability to cancel your Sound Realms account and delete your
           information by contacting us at the following email:
         </p>
-        <p><a href="mailto:dm@varghand.com">dm@varghand.com</a></p>
+        <p><a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a></p>
 
         <h2>Disclosure of Your Personal Data</h2>
         <h3>Business Transactions</h3>
@@ -363,7 +363,7 @@
         <p>
           If you have any questions about this Privacy Policy, don't hestitate to contact us at:
         </p>
-        <p><a href="mailto:dm@varghand.com">dm@varghand.com</a></p>
+        <p><a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a></p>
       </div>
       <MainFooter />
     </div>

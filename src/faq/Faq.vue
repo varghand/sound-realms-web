@@ -20,11 +20,11 @@
 
           <p>
             Sound Realms is a platform for interactive audio adventures from the Swedish game
-            publisher Varghand Publishing AB. United by a passion for old school RPGs, we set out in
-            2020 to craft a new way of enjoying solo adventures. We have since developed a
-            smartphone application for iOS and Android which enables you to experience captivating
-            solo adventures. What makes Sound Realms stand out from other RPG apps on the market is
-            the fact (as implied by the name Sound Realms) that all our games are audio-based. A
+            publisher of the same name. United by a passion for old school RPGs, we set out in 2020
+            to craft a new way of enjoying solo adventures. We have since developed a smartphone
+            application for iOS and Android which enables you to experience captivating solo
+            adventures. What makes Sound Realms stand out from other RPG apps on the market is the
+            fact (as implied by the name Sound Realms) that all our games are audio-based. A
             professional voice-over actor acts as your Dungeon Master and takes you through
             dangerous dungeons and mysterious temples, backed by a cinematic musical score and top
             of the line sound effects. All this is presented in a design that makes you instantly
@@ -40,7 +40,10 @@
             envision what happens in the adventure. This takes mobile gaming beyond tiny screens and
             touch fiddling into new realms — Sound Realms.
           </p>
-          <img src="../assets/skull_and_scroll.png" class="image-small" />
+          <img
+            src="../assets/skull_and_scroll.png"
+            class="image-small"
+          >
 
           <h1>What is Mace & Magic?</h1>
           <p>
@@ -63,12 +66,14 @@
             <a
               href="https://www.drivethrurpg.com/product/385247/Sound-Realms-Mace--Magic-Demo-Adventure-Companion-PDF"
               target="_blank"
-              >companion pdf</a
-            >
+            >companion pdf</a>
             from DriveThruRPG to learn about the history, peoples and creatures of Mihr.
           </p>
 
-          <img src="../assets/chain_and_balls.png" class="image-small" />
+          <img
+            src="../assets/chain_and_balls.png"
+            class="image-small"
+          >
         </div>
       </section>
       <GametestStrip />
@@ -89,19 +94,24 @@
             to create the most captivating and dramatic experience possible.
           </p>
 
-          <img src="../assets/vemhir.png" class="image-large" />
+          <img
+            src="../assets/vemhir.png"
+            class="image-large"
+          >
 
           <h1>Who are you?</h1>
 
           <p>
-            Sound Realms is crafted by the Swedish games publisher Varghand Publishing AB. The
-            company is being led by Oscar Carlquist and Gustav Sundin, two heavy metal-loving, old
-            school RPG fanatics. Learn more about us as well as Sound Realms' history and future to
-            come
+            Sound Realms AB is a Swedish games publisher. The company is being led by Oscar
+            Carlquist and Gustav Sundin, two heavy metal-loving, old school RPG fanatics. Learn more
+            about us as well as Sound Realms' history and future to come
             <a href="/learn-more">here</a>.
           </p>
 
-          <img src="../assets/skelett_sam.png" class="image-medium" />
+          <img
+            src="../assets/skelett_sam.png"
+            class="image-medium"
+          >
         </div>
       </section>
       <div class="strip">

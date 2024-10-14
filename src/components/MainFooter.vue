@@ -52,16 +52,7 @@
       </div>
     </div>
     <div class="footer">
-      <a
-        href="https://www.varghand.com/"
-        class="logo-link"
-      >
-        <img
-          src="../assets/varghand_logo.png"
-          style="padding: 30px"
-        >
-      </a>
-      <p>Copyright © 2020-{{ getCurrentYear() }} Varghand Publishing AB. All rights reserved.</p>
+      <p>Copyright © 2020-{{ getCurrentYear() }} Sound Realms AB. All rights reserved.</p>
     </div>
   </div>
 </template>
@@ -91,7 +82,7 @@ export default {
   align-items: center;
 }
 .footer {
-  background-color: #2c2c2c;
+  background-color: #333333;
   min-height: 100px;
   width: 100%;
   display: flex;
@@ -108,7 +99,7 @@ export default {
   max-width: 80%
 }
 .footer > p {
-  color: #4f4e4f;
+  color: #ffffff;
   max-width: 80%;
 }
 .footer > a > img {

@@ -36,7 +36,7 @@
           </MyButton>
 
           <p>
-            The Swedish game publisher Varghand Publishing recently launched a Kickstarter campaign
+            The Swedish game publisher Sound Realms recently launched a Kickstarter campaign
             for "The Fortress of Death", an audio adventure for mobile devices set in Joe Dever's
             world of Lone Wolf, a classic series of gamebooks. The initial monetary goal of the
             Kickstarter was raised in just 5 hours, and a week into the campaign this target has

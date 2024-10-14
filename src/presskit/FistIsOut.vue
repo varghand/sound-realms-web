@@ -26,18 +26,17 @@
             src="../assets/fist/fist-home-banner.jpg"
             alt="Steve Jackson's F.I.S.T."
             class="image-wide"
-          />
+          >
 
           <p>
             <i>
               Fellow adventurers – the time has come! The day is finally here...
               <strong>F.I.S.T.</strong>'s launch day has arrived and the game is available to play
-              NOW!</i
-            >
+              NOW!</i>
           </p>
 
           <p>
-            Varghand Publishing are proud to announce that <strong>F.I.S.T.</strong> is now live on
+            Sound Realms AB are proud to announce that <strong>F.I.S.T.</strong> is now live on
             the Sound Realms platform. This is the first full-length adventure on Sound Realms, and
             thus marks a major milestone in the platform's development.
           </p>
@@ -54,17 +53,12 @@
             <strong>F.I.S.T.</strong>
           </p>
           <p>
-            <i
-              >"We have worked hard to ensure that the Sound Realms version of
-              <strong>F.I.S.T.</strong> stays as close to the original version as possible"</i
-            >
-            says Gustav Sundin, CEO of Varghand Publishing, the makers behind the Sound Realms
-            Platform.
-            <i
-              >"The key differences are that you play through your smartphone or tablet instead of a
+            <i>"We have worked hard to ensure that the Sound Realms version of
+              <strong>F.I.S.T.</strong> stays as close to the original version as possible"</i>
+            says Gustav Sundin, CEO of Sound Realms AB.
+            <i>"The key differences are that you play through your smartphone or tablet instead of a
               landline phone, that the audio quality has been greatly improved, and no more
-              horrendous phone bills to explain to your parents!"</i
-            >
+              horrendous phone bills to explain to your parents!"</i>
           </p>
 
           <p>
@@ -100,7 +94,11 @@
           </p>
           <p><strong>WELCOME TO THE WORLD OF F.I.S.T.!</strong></p>
 
-          <img src="../assets/fist/fist-promo.png" alt="F.I.S.T. Returns!" class="image-narrow" />
+          <img
+            src="../assets/fist/fist-promo.png"
+            alt="F.I.S.T. Returns!"
+            class="image-narrow"
+          >
 
           <h3>About Sound Realms</h3>
           <p>
@@ -117,13 +115,15 @@
             <a
               href="https://drive.google.com/drive/folders/1DzhXdcnbggM-f1BgqwyYtVqUHyYaqhuS?usp=sharing"
               target="_blank"
-              >F.I.S.T. Press Kit</a
-            >
+            >F.I.S.T. Press Kit</a>
           </p>
 
           <p><a href="https://www.sound-realms.com">www.sound-realms.com</a></p>
           <p>
-            <a href="https://www.fightingfantasy.com/" target="_blank">www.fightingfantasy.com</a>
+            <a
+              href="https://www.fightingfantasy.com/"
+              target="_blank"
+            >www.fightingfantasy.com</a>
           </p>
 
           <p>
@@ -134,14 +134,14 @@
             <a
               href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest"
               target="_blank"
-              >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a
-            >
+            >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a>
           </p>
 
           <p>
-            <a href="https://apps.apple.com/se/app/sound-realms/id1587860372" target="_blank"
-              >https://apps.apple.com/se/app/sound-realms/id1587860372</a
-            >
+            <a
+              href="https://apps.apple.com/se/app/sound-realms/id1587860372"
+              target="_blank"
+            >https://apps.apple.com/se/app/sound-realms/id1587860372</a>
           </p>
         </div>
       </section>

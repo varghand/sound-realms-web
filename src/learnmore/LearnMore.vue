@@ -16,20 +16,7 @@
         />
         <div class="section-content">
           <h1>About us</h1>
-          <p>
-            Hi! We are Varghand Publishing AB, and we have created Sound Realms – a platform for
-            audio-based interactive games on Android and iOS.
-          </p>
-          <p>
-            We are based in southern Sweden and have been carefully crafting the Sound Realms
-            platform ever since 2020.
-          </p>
-          <img
-            src="../assets/learnMore/varghand_2024.jpeg"
-            class="image-large"
-          >
 
-          <h1>The story so far</h1>
           <p>
             The idea to create a game like Sound Realms was formed in Oscar Carlquist's head a long,
             long time ago. Back in the mid-nineties Oscar played and cherished solo adventure books
@@ -61,6 +48,11 @@
             team of illustrators and a composer have incarnated the vison. Download the Sound Realms
             app now and join us on this epic journey!
           </p>
+
+          <img
+            src="../assets/learnMore/varghand_2024.jpeg"
+            class="image-large"
+          >
         </div>
       </section>
       <GametestStrip />
@@ -143,5 +135,9 @@ export default {
 .strip > h1,
 h2 {
   color: white;
+}
+
+.image-large {
+  padding-bottom: 20px;
 }
 </style>

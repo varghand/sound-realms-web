@@ -18,17 +18,19 @@
         ]"
       />
       <div class="section-content">
-        <img src="../../assets/home/coc-round.png" alt="Steve Jackson's F.I.S.T." class="image" />
+        <img
+          src="../../assets/home/coc-round.png"
+          alt="Steve Jackson's F.I.S.T."
+          class="image"
+        >
 
         <p>
-          <i
-            >"The oldest and strongest emotion of mankind is fear, and the strongest kind of fear is
-            fear of the unknown."</i
-          >
+          <i>"The oldest and strongest emotion of mankind is fear, and the strongest kind of fear is
+            fear of the unknown."</i>
           &mdash; H.P. Lovecraft, 1927.
         </p>
         <p>
-          Varghand Publishing are proud to announce that <i>Call of Cthulhu</i> will be incorporated in the
+          Sound Realms AB are proud to announce that <i>Call of Cthulhu</i> will be incorporated in the
           Sound Realms platform, in collaboration with Chaosium Inc.
         </p>
         <p>
