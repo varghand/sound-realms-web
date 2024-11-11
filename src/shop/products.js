@@ -8,13 +8,13 @@ const products = [
       "An audio adventure for mobile devices, set in Joe Dever's world of Lone Wolf for the Sound Realms system.",
     id: "fod-pre-order",
     longDescription: `
-In 1989, Joe Dever in response to the massive success of Steve Jackson's F.I.S.T. (the first ever interactive play by phone roleplaying game), launched his own Lone Wolf game for his interactive phone game system – PhoneQuest.
+In 1989, Joe Dever in response to the massive success of Steve Jackson's F.I.S.T. (the first ever interactive play by phone roleplaying game), launched his own Lone Wolf game for his interactive phone game system – PhoneQuest. To play the game, you dialed a number on your landline telephone. A narrative voice presented a story with a selection of choices for you. All of this was accompanied by cinematic music and immersive sound effects. One of these adventures was called Fortress of Doom.
 
-To play the game, you dialed a number on your landline telephone. A narrative voice presented a story with a selection of choices for you. All of this was accompanied by cinematic music and immersive sound effects. One of these adventures was called Fortress of Doom.
+Now in 2023 the time has come to reenvision Joe Dever's original concept and release a game for smartphones and tablets – a new game incorporating 360 surround sound and the latest app technology but still faithful to the original. This new interactive adventure returns to the glory days of Lone Wolf and fantasy roleplaying games, making it the most immersive audio game experience ever. The Fortress of Death is a brand new and official Lone Wolf adventure, written by August Hahn and inspired by the setting in Fortress of Doom.
 
-Now in 2023 the time has come to reenvision Joe Dever's original concept and release a game for smartphones and tablets – a new game incorporating 360 surround sound and the latest app technology but still faithful to the original. This new interactive adventure returns to the glory days of Lone Wolf and fantasy roleplaying games, making it the most immersive audio game experience ever.
+The funds to produce The Fortress of Death were secured with a Kickstarter campaign in late 2023. The Sound Realms team is now busy at work completing the full game, set for a release in the Spring of 2025. Meanwhile, a short demo of the beginning of the adventure is available to try out for free in the Sound Realms app. Enter, if you dare, The Fortress of Death!
 
-Enter, if you dare, The Fortress of Death!`,
+Please note that this is a pre-order!`,
   },
   {
     image: "/images/fist-square.jpg",
