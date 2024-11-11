@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="newsletter-signup">
     <iframe
       id="desktop-form"
       src="https://cdn.forms-content.sg-form.com/ae43989a-a486-11ec-941c-ceafd6e237fb"
@@ -23,6 +23,10 @@ iframe {
   width: 1000px;
   height: 500px;
   border: none;
+}
+
+.newsletter-signup {
+  z-index: 99999;
 }
 
 @media screen and (max-width: 680px) {
