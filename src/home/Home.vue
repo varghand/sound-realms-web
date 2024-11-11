@@ -17,14 +17,24 @@
           <h1>THE Audio Adventure System</h1>
           <div class="text">
             <p>
-              <strong>Sound Realms</strong> is an interactive audio adventure app. Featuring great
-              adventures, presented with top class voice-over performances, original orchestral
-              music, cinematic sound effects, digital RPG dice rolls, digital character sheets,
-              skills, spells, swords and monsters!
+              Step into a world where <strong>every choice you make shapes the story</strong>, and every twist comes alive in breathtaking audio detail. Sound Realms isn't just any role-playing game, it's an immersive audio experience that puts <strong>you</strong> in the center of an epic adventure!
             </p>
             <p>
-              Download Sound Realms for free through Google Play or App Store and begin your
-              adventure now.
+              With <strong>professional voice actors narrating every scene</strong>, prepare to feel the intensity and depth of a real, cinematic audio adventure. The high-quality <strong>360° surround sound wraps you in a world of captivating soundscapes</strong>: from the whisper of leaves in an ancient forest to the thunderous clash of battle, each effect and musical score pulls you deeper into the narrative. It's like being inside your favorite fantasy, sci-fi or horror movie, only this time, <strong>you are the hero</strong>.
+            </p>
+            <p>
+              Highlights:
+              <ul>
+                <li>🎙️ <strong>Narration by Top Voice Talent</strong>: Feel each line delivered with emotion, character, and impact.</li>
+                <li>🎶 <strong>Soundtrack & Cinematic Effects</strong>: Masterfully crafted music and sound effects heighten every scene.</li>
+                <li>🎧 <strong>Immersive 360° Surround Sound</strong>: Designed to make you feel like you're truly there, no matter where your adventure takes you.</li>
+              </ul>
+            </p>
+            <p>
+              Whether you're braving mythical lands or solving mysterious quests, every listen brings a new layer to your personal adventure.
+            </p>
+            <p>
+              <strong>Download today and try for free. Let your story unfold!</strong>
             </p>
           </div>
 
