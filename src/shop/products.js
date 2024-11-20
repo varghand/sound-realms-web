@@ -1,6 +1,6 @@
 const products = [
   {
-    image: "/images/fod-funded.jpg",
+    image: "/images/shop/FOD_Webshop_Preorder_12months.jpg",
     title: "Lone Wolf: The Fortress of Death",
     preOrder: true,
     price: 215,
@@ -17,7 +17,7 @@ The funds to produce The Fortress of Death were secured with a Kickstarter campa
 Please note that this is a pre-order!`,
   },
   {
-    image: "/images/fist-square.jpg",
+    image: "/images/shop/fist-square.jpg",
     title: "Steve Jackson's F.I.S.T.",
     preOrder: false,
     price: 250,
@@ -34,7 +34,7 @@ The first F.I.S.T. adventure featuring the world of Castle Mammon — Lair of th
 Available now!`,
   },
   {
-    image: "/images/bundle-shop.jpg",
+    image: "/images/shop/FOD_Webshop_Preorder_Bundle.jpg",
     title: "The Fortress of Death + F.I.S.T. Bundle",
     preOrder: true,
     price: 500,
@@ -50,7 +50,7 @@ This bundle contains:
     `,
   },
   {
-    image: "/images/12m-updates.jpg",
+    image: "/images/shop/FOD_Webshop_Preorder_12months.jpg",
     title: "The Fortress of Death Expansions (12 months)",
     preOrder: true,
     price: 120,

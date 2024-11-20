@@ -5,13 +5,13 @@
       <div class="section-content">
         <div v-if="user === null">
           <h1>Account</h1>
-          <LoginComponent :login-callback="loadPreOrders" />
+          <LoginComponent :login-callback="loadProducts" />
         </div>
         <div v-else>
           <h1>My Account</h1>
           <p>Logged in as {{ user.username }}</p>
           <h3>My Products</h3>
-          <div v-if="loadingPreOrders">
+          <div v-if="loadingProducts">
             <p>Loading...</p>
           </div>
           <div v-else-if="products.length === 0">
@@ -54,6 +54,7 @@ import profileController from "@/profileController";
 import userApi from "@/userApiController";
 import LoginComponent from "@/components/LoginComponent.vue";
 import MyButton from "@/components/MyButton.vue";
+import products from '@/shop/products';
 
 export default {
   name: "AccountPage",
@@ -66,7 +67,7 @@ export default {
   },
   data() {
     return {
-      loadingPreOrders: true,
+      loadingProducts: true,
     };
   },
   computed: {
@@ -74,42 +75,26 @@ export default {
       return this.$store.state.user;
     },
     products() {
-      let preOrders = [];
-      if (this.$store.state.unlockedAdventures.some((e) => e.adventureId === "fod-pre-order")) {
-        preOrders.push({
-          image: "/images/fod-funded.jpg",
-          title: "Lone Wolf: The Fortress of Death",
-          id: "fod-pre-order",
+      let purchasesProducts = [];
+      this.$store.state.unlockedAdventures.forEach((unlockedItem) => {
+        let idToSearchFor = unlockedItem.adventureId;
+        if (idToSearchFor === "fist-pre-order") {
+          idToSearchFor = "fist";
+        }
+        let product = products.find(obj => {
+          return obj.id === idToSearchFor;
         });
-      }
-      if (this.$store.state.unlockedAdventures.some((e) => e.adventureId === "fist-pre-order" || e.adventureId === "fist")) {
-        preOrders.push({
-          image: "/images/fist-square.jpg",
-          title: "Steve Jackson's F.I.S.T.",
-          id: "fist-pre-order",
-        });
-      }
-      if (this.$store.state.unlockedAdventures.some((e) => e.adventureId === "bundle-pre-order")) {
-        preOrders.push({
-          image: "/images/bundle-shop.jpg",
-          title: "The Fortress of Death + F.I.S.T. Bundle",
-          id: "bundle-pre-order",
-        });
-      }
-      if (this.$store.state.unlockedAdventures.some((e) => e.adventureId === "fod-expansions")) {
-        preOrders.push({
-          image: "/images/12m-updates.jpg",
-          title: "The Fortress of Death Expansions (12 months)",
-          id: "fod-expansions",
-        });
-      }
+        if (product) {
+          purchasesProducts.push(product);
+        }
+      });
 
-      return preOrders;
+      return purchasesProducts;
     },
   },
   mounted() {
     profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
-    this.loadPreOrders();
+    this.loadProducts();
   },
   methods: {
     async logout() {
@@ -117,10 +102,10 @@ export default {
       this.$store.commit("setUnlockedAdventures", []);
       await profileController.handleSignOut();
     },
-    loadPreOrders() {
+    loadProducts() {
       userApi.getUnlockedContent().then((unlockedAdventures) => {
         this.$store.commit("setUnlockedAdventures", unlockedAdventures);
-        this.loadingPreOrders = false;
+        this.loadingProducts = false;
       });
     },
     getImageUrl(product) {
