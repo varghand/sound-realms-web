@@ -60,6 +60,7 @@ const routes = [
   { path: '/fist', component: Fist, meta: { title: 'F.I.S.T.' } },
   { path: '/dracula', component: Dracula, meta: { title: 'Dracula: Curse of the Vampire' } },
   { path: '/call-of-cthulhu', component: CallOfCthulhu, meta: { title: 'Call of Cthulhu' } },
+  { path: '/coc_aatt', redirect: '/call-of-cthulhu' },
   { path: '/newsletter', component: Newsletter },
   { path: '/account', component: AccountPage },
   { path: '/account/create-account', component: CreateAccount },

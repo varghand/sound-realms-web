@@ -18,6 +18,8 @@
         ]"
       />
       <div class="section-content">
+        <h1>Call of Cthulhu</h1>
+
         <img
           src="../../assets/home/coc-round.png"
           alt="Steve Jackson's F.I.S.T."
@@ -44,6 +46,8 @@
           Stay tuned by signing up for the newsletter, and be ready to enter the Realm of Madness
           and Horror in 2025...
         </p>
+
+        <YouTubeEmbed video="https://www.youtube.com/embed/8KUSWKPXihg?si=C6hr4jNFLK0nYBCh" />
       </div>
 
       <div class="strip">
@@ -68,7 +72,7 @@ import MainFooter from "../../components/MainFooter.vue";
 import TopMenu from "../../components/TopMenu.vue";
 import NewsletterSignupForm from "../../components/NewsletterSignupForm.vue";
 import MyBreadcrumbs from "../../components/MyBreadcrumbs.vue";
-import MyButton from "@/components/MyButton.vue";
+import YouTubeEmbed from "../../components/YoutubeEmbed.vue";
 
 export default {
   name: "DraculaPage",
@@ -78,7 +82,7 @@ export default {
     TopMenu,
     NewsletterSignupForm,
     MyBreadcrumbs,
-    MyButton,
+    YouTubeEmbed,
   },
 };
 </script>
@@ -109,7 +113,7 @@ export default {
 }
 .image {
   max-height: 800px;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 h1 {
