@@ -1,6 +1,6 @@
 const products = [
   {
-    image: "/images/shop/FOD_Webshop_Preorder_12months.jpg",
+    image: "/images/shop/FOD_Webshop_Preorder.jpg",
     title: "Lone Wolf: The Fortress of Death",
     preOrder: true,
     price: 215,
