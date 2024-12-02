@@ -44,7 +44,7 @@
         <p>
           The funds to produce <i>The Fortress of Death</i> were secured with a Kickstarter campaign
           in late 2023. The Sound Realms team is now busy at work completing the full game, set for
-          a release in the Spring of 2025. Meanwhile, a short demo of the beginning of the adventure
+          a release in March 2025. Meanwhile, a short demo of the beginning of the adventure
           is available to try out for free in the Sound Realms app. Enter, if you dare,
           <i><span class="bold">The Fortress of Death!</span></i>
         </p>
