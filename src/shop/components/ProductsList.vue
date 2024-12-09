@@ -14,17 +14,23 @@
           <p class="cardHeader">
             {{ product.title }}
           </p>
-          <p class="cardText" v-if="product.preOrder">
+          <p
+            v-if="product.preOrder"
+            class="cardText"
+          >
             (Pre-Order)
           </p>
-          <p v-else></p>
+          <p v-else />
           <p class="cardText">
             {{ product.description }}
           </p>
           <p class="center-me cardPrice">
             {{ product.price }} SEK
           </p>
-          <MyButton :click="() => displayProductPage(product)" class="readMoreButton">
+          <MyButton
+            :click="() => displayProductPage(product)"
+            class="readMoreButton"
+          >
             Read More
           </MyButton>
           <MyButton :click="() => addToCart(product)">
@@ -48,7 +54,7 @@ export default {
   },
   data() {
     return {
-      products: products,
+      products: products.filter(product => !product.hidden),
     };
   },
   methods: {
