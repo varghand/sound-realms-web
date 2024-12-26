@@ -20,7 +20,7 @@ Please note that this is a pre-order! The Fortress of Death will be released in 
     image: "/images/shop/fist-square.jpg",
     title: "Steve Jackson's F.I.S.T.",
     preOrder: false,
-    price: 187.5,
+    price: 250,
     description:
       "The original F.I.S.T. adventure, created by the fertile mind of Steve Jackson, now returns as it was released in 1988.",
     id: "fist",
