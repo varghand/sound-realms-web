@@ -3,38 +3,53 @@
     <div class="content">
       <div class="section-content">
         <MyBreadcrumbs
-            :breadcrumbs="[
-              {
-                title: 'Sound Realms',
-                link: '/',
-              },
-              {
-                title: 'Shop',
-                link: '/shop',
-              },
-              {
-                title: product.title
-              },
-            ]"
-          />
+          :breadcrumbs="[
+            {
+              title: 'Sound Realms',
+              link: '/',
+            },
+            {
+              title: 'Shop',
+              link: '/shop',
+            },
+            {
+              title: product.title,
+            },
+          ]"
+        />
         <div class="header-row">
           <span />
           <h1>{{ product.title }}</h1>
-          <span class="clickableIcon" @click="() => displayCart(product)">
+          <span
+            class="clickableIcon"
+            @click="() => displayCart(product)"
+          >
             <font-awesome-icon icon="fa-solid fa-cart-shopping" />
-            <div v-if="productsInCart > 0" class="numberCircle">{{ productsInCart }}</div>
+            <div
+              v-if="productsInCart > 0"
+              class="numberCircle"
+            >{{ productsInCart }}</div>
           </span>
         </div>
-        <p v-if="product.preOrder">(Pre-Order)</p>
-        <img :src="getImageUrl(product)" :alt="product.title" />
+        <p v-if="product.preOrder">
+          (Pre-Order)
+        </p>
+        <img
+          :src="getImageUrl(product)"
+          :alt="product.title"
+        >
         <p class="bold">
           {{ product.description }}
         </p>
-        <p style="white-space: pre-wrap;">
+        <p style="white-space: pre-wrap">
           {{ product.longDescription ? product.longDescription.trim() : "" }}
         </p>
-        <p class="cardPrice">{{ product.price }} SEK</p>
-        <MyButton :click="() => addToCart(product)"> Add To Cart </MyButton>
+        <p class="cardPrice">
+          {{ product.price }} SEK
+        </p>
+        <MyButton :click="() => addToCart(product)">
+          Add To Cart
+        </MyButton>
       </div>
       <MainFooter />
     </div>
@@ -63,7 +78,13 @@ export default {
   },
   computed: {
     product() {
-      return this.products.find((product) => product.id === this.$route.params.id);
+      let product = this.products.find((product) => product.id === this.$route.params.id);
+      if (product == null) {
+        return {
+          title: "",
+        };
+      }
+      return product;
     },
     shoppingCart() {
       return this.$store.state.shoppingCart;
@@ -71,6 +92,13 @@ export default {
     productsInCart() {
       return this.$store.state.shoppingCart.length;
     },
+  },
+  mounted() {
+    let product = this.products.find((product) => product.id === this.$route.params.id);
+    if (product == null) {
+      // If no product found with this ID, redirect back to shop main page
+      this.$router.push("/shop");
+    }
   },
   methods: {
     displayCart() {
