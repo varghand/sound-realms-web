@@ -63,24 +63,6 @@ The planned additions to The Fortress of Death includes two new characters, one 
 To use the expansion packs you also need the core game for The Fortress of Death, purchasable here in the web shop or already added to your account because you supported our Kickstarter campaign.
     `,
   },
-  {
-    image: "/images/shop/FIST_Christmas_KickstarterExclusive.jpg",
-    title: "Steve Jackson's F.I.S.T.",
-    preOrder: false,
-    price: 125,
-    hidden: true,
-    description:
-      "The original F.I.S.T. adventure, created by the fertile mind of Steve Jackson, now returns as it was released in 1988.",
-    id: "fist-discounted",
-    longDescription: `
-In 1988 you could pick up your telephone, dial the F.I.S.T. number and you were immediately connected to a medieval fantasy world of magic, monsters and great riches to be plundered. A world where YOU were a heroic adventurer embarking on a quest for fame and fortune. F.I.S.T. was the first interactive phone game ever.
-
-The creatures and deadly traps that awaited you in Castle Mammon were brought to life with dramatic sound effects and new gaming techniques. You could hear the roar of the Flesh Eater as your sword bites, the sizzle of the fireball bursting towards you, the chinking of the many gold pieces you could find in the Demon Prince's underground dungeon. YOU made the decisions simply by using your telephone.
-
-The first F.I.S.T. adventure featuring the world of Castle Mammon — Lair of the Demon Prince, created by the fertile mind of games master Steve Jackson (co-founder of Games Workshop and the Fighting Fantasy gamebook series), now returns as it was released in 1988, audio and gameplay intact, but adapted for iOS and Android using the Sound Realms system.
-
-Available now!`,
-  },
 ];
 
 export default products;
