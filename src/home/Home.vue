@@ -2,7 +2,7 @@
   <main-layout>
     <div class="content">
       <div class="topSection">
-        <a href="/shop/product/fist">
+        <a href="/fist">
           <img
             alt="Sound Realms Kickstarter"
             class="topImage"
