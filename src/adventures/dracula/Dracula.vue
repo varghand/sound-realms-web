@@ -47,9 +47,9 @@
         <MyButton
           external="true"
           class="button"
-          href="https://www.kickstarter.com/projects/varghand/sound-realms-dracula-curse-of-the-vampire"
+          href="https://www.backerkit.com/call_to_action/16eed9cf-865b-4ec2-b69b-37eea17c4f43/landing"
         >
-          Join us on Kickstarter!
+          Join us on BackerKit!
         </MyButton>
       </div>
 
