@@ -8,11 +8,11 @@
             :breadcrumbs="[
               {
                 title: 'Sound Realms',
-                link: '/'
+                link: '/',
               },
               {
-                title: 'Press & News'
-              }
+                title: 'Press & News',
+              },
             ]"
           />
           <h1>Press & News</h1>
@@ -27,6 +27,13 @@
           </p>
           <h2>Press Releases</h2>
           <ul>
+            <li class="bold">
+              January 31, 2025:
+              <a
+                href="/press/first-investment-round"
+                class="bold"
+              >Sound Realms Secures 3.8 Million SEK in First Investment Round</a>
+            </li>
             <li class="bold">
               September 7, 2024:
               <a
@@ -174,7 +181,6 @@
             >https://youtu.be/9waUrmOaVGM</a>
           </p>
 
-
           <h2>Contact</h2>
           <p>
             Feel free to contact us at: <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a>
@@ -188,13 +194,13 @@
 </template>
 
 <script>
-import MainLayout from '../layouts/Main.vue';
-import MainFooter from '../components/MainFooter.vue';
-import TopMenu from '../components/TopMenu.vue';
-import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
+import MainLayout from "../layouts/Main.vue";
+import MainFooter from "../components/MainFooter.vue";
+import TopMenu from "../components/TopMenu.vue";
+import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
-  name: 'PresskitPage',
+  name: "PresskitPage",
   components: {
     MainLayout,
     MainFooter,
