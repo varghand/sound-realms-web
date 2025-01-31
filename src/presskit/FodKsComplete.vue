@@ -85,7 +85,7 @@
             and recounts Lone Wolf's adventures as if the reader is the main character.
           </p>
           <h3>Links</h3>
-          <p><a href="https://www.sound-realms.com">https://www.sound-realms.com</a></p>
+          <p><a href="https://www.soundrealms.com">https://www.soundrealms.com</a></p>
           <p>
             <a
               href="https://www.kickstarter.com/projects/varghand/fortress-of-death"

@@ -12,7 +12,7 @@
       </p>
       <p>
         Also feel free to get in touch with
-        <a href="mailto:app@sound-realms.com">app@sound-realms.com</a>.
+        <a href="mailto:app@soundrealms.com">app@soundrealms.com</a>.
       </p>
       <p>All thoughts, ideas, feedback and bug reports are very welcome!</p>
     </div>

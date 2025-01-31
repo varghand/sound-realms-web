@@ -5,7 +5,7 @@
       <div class="section-content">
         <h1>Payment Cancelled</h1>
         <div v-if="cartIsEmpty">
-          <p>Either the payment was cancelled or something went wrong. Please try again or contact our support team at dm@sound-realms.com if the problem persists.</p>
+          <p>Either the payment was cancelled or something went wrong. Please try again or contact our support team at dm@soundrealms.com if the problem persists.</p>
           <MyButton
             href="/shop"
             class="checkout-button"
@@ -18,7 +18,7 @@
           v-else
           class="centerText"
         >
-          <p>Either the payment was cancelled or something went wrong. Please try again or contact our support team at dm@sound-realms.com if the problem persists.</p>
+          <p>Either the payment was cancelled or something went wrong. Please try again or contact our support team at dm@soundrealms.com if the problem persists.</p>
           <hr>
           <h3>Shopping Cart</h3>
           <div

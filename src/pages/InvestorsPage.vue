@@ -55,7 +55,7 @@
               target="_blank"
             >pitch deck</a>!
           </p>
-          <p>Contact: dm@sound-realms.com</p>
+          <p>Contact: dm@soundrealms.com</p>
         </div>
       </section>
       <MainFooter />

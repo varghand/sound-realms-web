@@ -102,12 +102,12 @@
         <p>
           Sound Realms is being developed by Sound Realms AB, an independent provider of RPG
           games and content. Our website address is:
-          <a href="https://www.sound-realms.com/">www.sound-realms.com</a>
+          <a href="https://www.soundrealms.com/">www.soundrealms.com</a>
         </p>
 
         <p>Our physical address is Halmstadgatan 3, 41871 Gothenburg, Sweden.</p>
 
-        <p>You can reach us via email at <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a></p>
+        <p>You can reach us via email at <a href="mailto:dm@soundrealms.com">dm@soundrealms.com</a></p>
 
         <h2>Collecting of Your Personal Data</h2>
         <h3>Personal Data</h3>
@@ -281,7 +281,7 @@
           We provide you with the ability to cancel your Sound Realms account and delete your
           information by contacting us at the following email:
         </p>
-        <p><a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a></p>
+        <p><a href="mailto:dm@soundrealms.com">dm@soundrealms.com</a></p>
 
         <h2>Disclosure of Your Personal Data</h2>
         <h3>Business Transactions</h3>
@@ -363,7 +363,7 @@
         <p>
           If you have any questions about this Privacy Policy, don't hestitate to contact us at:
         </p>
-        <p><a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a></p>
+        <p><a href="mailto:dm@soundrealms.com">dm@soundrealms.com</a></p>
       </div>
       <MainFooter />
     </div>

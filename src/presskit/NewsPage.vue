@@ -23,7 +23,7 @@
           </p>
           <p>
             If there is anything more that you need, don't hestitate to contact us at
-            <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a>.
+            <a href="mailto:dm@soundrealms.com">dm@soundrealms.com</a>.
           </p>
           <h2>Press Releases</h2>
           <ul>
@@ -130,7 +130,7 @@
         <div class="section-content">
           <h2>Links</h2>
 
-          <p>Web page: <a href="https://www.sound-realms.com/">www.sound-realms.com</a></p>
+          <p>Web page: <a href="https://www.soundrealms.com/">www.soundrealms.com</a></p>
           <p>
             Kickstarter:
             <a
@@ -141,9 +141,9 @@
           <p>
             Download free demo:
             <a
-              href="https://www.sound-realms.com/download"
+              href="https://www.soundrealms.com/download"
               target="_blank"
-            >www.sound-realms.com/download</a>
+            >www.soundrealms.com/download</a>
           </p>
           <p>
             Facebook:
@@ -183,7 +183,7 @@
 
           <h2>Contact</h2>
           <p>
-            Feel free to contact us at: <a href="mailto:dm@sound-realms.com">dm@sound-realms.com</a>
+            Feel free to contact us at: <a href="mailto:dm@soundrealms.com">dm@soundrealms.com</a>
           </p>
         </div>
       </section>
