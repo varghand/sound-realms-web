@@ -81,7 +81,7 @@
             Classics as you have never read them before!
           </p>
           <h3>Links</h3>
-          <p><a href="https://www.sound-realms.com">www.sound-realms.com</a></p>
+          <p><a href="https://www.soundrealms.com">www.soundrealms.com</a></p>
           <p>
             <a
               href="https://www.kickstarter.com/projects/varghand/fortress-of-death"

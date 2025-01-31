@@ -55,7 +55,7 @@
 
           <p>
             <strong>F.I.S.T.</strong> can be pre-ordered through
-            <a href="https://www.sound-realms.com/shop">www.sound-realms.com</a>.
+            <a href="https://www.soundrealms.com/shop">www.soundrealms.com</a>.
           </p>
 
           <h3>About F.I.S.T.</h3>
@@ -107,7 +107,7 @@
             >F.I.S.T. Press Kit</a>
           </p>
 
-          <p><a href="https://www.sound-realms.com">www.sound-realms.com</a></p>
+          <p><a href="https://www.soundrealms.com">www.soundrealms.com</a></p>
           <p>
             <a
               href="https://www.fightingfantasy.com/"
