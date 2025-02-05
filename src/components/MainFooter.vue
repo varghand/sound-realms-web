@@ -6,7 +6,8 @@
         class="logo-link"
       >
         <img
-          src="../assets/sound_realms_white_logo.png"
+          src="../assets/3_SR_BrandLogo_White.png"
+          class="white_logo"
         >
       </a>
       <p><i><a href="/">RETURN HOME</a></i></p>
@@ -69,6 +70,9 @@ export default {
 </script>
 
 <style scoped>
+.white_logo {
+  max-height: 100px;
+}
 .footer-wrapper {
   width: 100%;
 }

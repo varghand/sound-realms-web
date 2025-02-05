@@ -5,7 +5,7 @@
       href="/"
       class="logo-link"
     ><img
-      src="../assets/sr_logo_colour.png"
+      src="../assets/1_SR_BrandLogo_FullColor.png"
       class="logo"
     ></a>
     <div class="link-wrapper">
@@ -49,6 +49,7 @@ a {
 .logo {
   padding: 20px;
   max-width: 80%;
+  max-height: 60px;
 }
 .logo-link {
   display: flex;
@@ -56,8 +57,7 @@ a {
 }
 @media screen and (max-width:980px){
   .logo {
-    /* padding-left: 20px; */
-    max-width: 50%;
+    max-width: 100%;
   }
   .link-wrapper {
     width: 70%;
