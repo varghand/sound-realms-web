@@ -125,7 +125,6 @@ import TopMenu from "../components/TopMenu.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
-  name: "PresskitPage",
   components: {
     MainLayout,
     MainFooter,

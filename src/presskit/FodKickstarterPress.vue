@@ -30,7 +30,7 @@
           <MyButton
             external="true"
             class="button"
-            href="https://drive.google.com/drive/folders/1hTI_ZZoC9riZ7roYfONe-3Gz6_-xbBPg?usp=sharing"
+            href="https://drive.google.com/drive/folders/1TSPaufEdWJHGekdAPGtma6vYiHOhNDwQ?usp=sharing"
           >
             Download Full Press Kit
           </MyButton>
@@ -47,7 +47,7 @@
           <p>This is what the team behind Sound Realms has to say about The Fortress of Death:</p>
           <p>
             “In 1989, Joe Dever in response to the massive success of Steve Jackson's
-            <i>F.I.S.T.</i>i> (the first ever interactive play by phone roleplaying game), launched
+            <i>F.I.S.T.</i> (the first ever interactive play by phone roleplaying game), launched
             his own Lone Wolf game for his interactive phone game system, <i>PhoneQuest</i>. To play
             the game, you dialed a number on your landline telephone. A narrative voice presented a
             story with a selection of choices for you. All of this was accompanied by cinematic
@@ -124,7 +124,6 @@ import MyButton from "../components/MyButton.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
-  name: "PresskitPage",
   components: {
     MainLayout,
     MainFooter,

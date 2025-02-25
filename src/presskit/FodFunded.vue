@@ -30,7 +30,7 @@
           <MyButton
             external="true"
             class="button"
-            href="https://drive.google.com/drive/folders/1hTI_ZZoC9riZ7roYfONe-3Gz6_-xbBPg?usp=sharing"
+            href="https://drive.google.com/drive/folders/1TSPaufEdWJHGekdAPGtma6vYiHOhNDwQ?usp=sharing"
           >
             Download Full Press Kit
           </MyButton>
@@ -139,7 +139,6 @@ import MyButton from "../components/MyButton.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
-  name: "PresskitPage",
   components: {
     MainLayout,
     MainFooter,
