@@ -102,9 +102,9 @@
           <h3>Links</h3>
           <p>
             <a
-              href="https://drive.google.com/drive/folders/1DzhXdcnbggM-f1BgqwyYtVqUHyYaqhuS?usp=sharing"
+              href="https://drive.google.com/drive/folders/1TSPaufEdWJHGekdAPGtma6vYiHOhNDwQ?usp=sharing"
               target="_blank"
-            >F.I.S.T. Press Kit</a>
+            >Press Kit</a>
           </p>
 
           <p><a href="https://www.soundrealms.com">www.soundrealms.com</a></p>
@@ -147,7 +147,6 @@ import TopMenu from "../components/TopMenu.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
-  name: "PresskitPage",
   components: {
     MainLayout,
     MainFooter,

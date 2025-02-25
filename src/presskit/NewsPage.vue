@@ -105,21 +105,9 @@
           <h2>Resources</h2>
           <p>
             <a
-              href="https://drive.google.com/drive/folders/1DzhXdcnbggM-f1BgqwyYtVqUHyYaqhuS?usp=sharing"
+              href="https://drive.google.com/drive/folders/1TSPaufEdWJHGekdAPGtma6vYiHOhNDwQ?usp=sharing"
               target="_blank"
-            >F.I.S.T. Press Kit</a>
-          </p>
-          <p>
-            <a
-              href="https://drive.google.com/drive/folders/1hTI_ZZoC9riZ7roYfONe-3Gz6_-xbBPg?usp=sharing"
-              target="_blank"
-            >The Fortress of Death Press Kit</a>
-          </p>
-          <p>
-            <a
-              href="/Sound_Realms_Press_Kit.zip"
-              target="_blank"
-            >Mace & Magic Press Kit</a>
+            >Press Kit</a>
           </p>
           <p><a href="/faq">FAQ</a>: Explanations on Sound Realms, Mace & Magic, and more.</p>
           <p><a href="/learn-more">About us</a>: On the team and company behind Sound Realms.</p>
@@ -200,7 +188,7 @@ import TopMenu from "../components/TopMenu.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
-  name: "PresskitPage",
+  name: "NewsPage",
   components: {
     MainLayout,
     MainFooter,

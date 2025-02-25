@@ -88,7 +88,6 @@ import MyButton from "../components/MyButton.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
-  name: "PresskitPage",
   components: {
     MainLayout,
     MainFooter,
