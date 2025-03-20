@@ -41,15 +41,16 @@
         <p class="bold">
           {{ product.description }}
         </p>
-        <p style="white-space: pre-wrap">
-          {{ product.longDescription ? product.longDescription.trim() : "" }}
-        </p>
         <p class="cardPrice">
           {{ product.price }} SEK
         </p>
         <MyButton :click="() => addToCart(product)">
           Add To Cart
         </MyButton>
+        <div style="padding: 20px" />
+        <p style="white-space: pre-wrap">
+          {{ product.longDescription ? product.longDescription.trim() : "" }}
+        </p>
       </div>
       <MainFooter />
     </div>
