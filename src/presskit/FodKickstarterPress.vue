@@ -52,7 +52,7 @@
             the game, you dialed a number on your landline telephone. A narrative voice presented a
             story with a selection of choices for you. All of this was accompanied by cinematic
             music and immersive sound effects. One of these adventures was called Fortress of Doom.
-            Now in 2023 the time has come to reenvision Joe Dever's original concept and release a
+            Now the time has come to reenvision Joe Dever's original concept and release a
             game for smartphones and tablets &ndash; a new game incorporating 360 surround sound and the
             latest app technology but still faithful to the original. This new interactive adventure
             returns to the glory days of Lone Wolf and fantasy roleplaying games, making it the most

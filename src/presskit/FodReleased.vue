@@ -32,7 +32,7 @@
 
           <p>
             <i>
-              Fellow audioventurers – the time has come! The day is finally here...
+              Fellow audioventurers &ndash; the time has come! The day is finally here...
               <strong>The Fortress Of Death</strong>'s launch day has arrived and the game is
               available to play NOW!</i>
           </p>
@@ -40,9 +40,11 @@
           <p>
             Sound Realms AB are proud to announce that
             <strong>Lone Wolf: The Fortress Of Death</strong> is now live on the Sound Realms
-            platform. This is the first full-length adventure on Sound Realms that have been
-            produced entirely in-house, and thus marks a major milestone in the platform's
-            development.
+            platform. This is the first full-length adventure on Sound Realms that has been produced
+            entirely in-house, and thus marks a major milestone in the platform's development. With
+            state-of-the-art 360 degrees surround sound and modern app technology,
+            <strong>The Fortress Of Death</strong> offers a truly immersive audio adventure,
+            bringing the magic of fantasy roleplaying games into the digital age.
           </p>
 
           <p>
@@ -50,9 +52,9 @@
             presented by Joe Dever in 1989. To play PhoneQuest, you dialed a number on your landline
             telephone. A narrative voice presented a story with a selection of choices for you,
             accompanied by cinematic music and sound effects. One of these adventures was called
-            Fortress of Doom. <strong>The Fortress Of Death</strong> will be a reenvisioning of Joe
+            <i>The Fortress of Doom</i>. <strong>The Fortress Of Death</strong> will be a reenvisioning of Joe
             Dever's original concept, modernised for smartphones and tablets &ndash; by
-            incorporating 360 surround sound and the latest app technology &ndash; but still
+            incorporating 360 degrees surround sound and the latest app technology &ndash; but still
             faithful to the original. This new interactive adventure returns to the glory days of
             Lone Wolf and fantasy roleplaying games, promising to be an immersive audio game
             experience.
@@ -67,12 +69,12 @@
 
           <h3>About Sound Realms</h3>
           <p>
-            Sound Realms is a digital platform for audio adventure games, currently available on iOS
-            and Android. On the platform you will find a growing range of solo adventures, narrated
-            by a professional voice-over actor, who acts as your Dungeon Master as you explore
-            dangerous dungeons and mysterious temples, and backed by a cinematic musical score and
-            top of the line sound effects. <a href="/download">Download the Sound Realms app</a> to
-            get started on your adventure today.
+            Sound Realms is a digital platform for audio adventures, currently available on iOS and
+            Android. On the platform you will find a growing range of solo adventures, narrated by a
+            professional voice-over actor, who acts as your Dungeon Master as you explore dangerous
+            dungeons and mysterious temples, and backed by a cinematic musical score and top of the
+            line sound effects. <a href="/download">Download the Sound Realms app</a> to get started
+            on your adventure today.
           </p>
           <h3>About Lone Wolf</h3>
           <p>
@@ -83,7 +85,7 @@
             The story focuses on the fictional world of Magnamund, where the forces of good and evil
             are fighting for control. The first Lone Wolf adventure to be featured the Sound Realms
             platform is <strong>The Fortress Of Death</strong>, a newly written adventure by
-            renowned Lone Wolf writer August Hahn, set in the world of Joe Dever's Lone Wolf.
+            renowned Lone Wolf writer August Hahn, set in Joe Dever's world of Magnamund.
           </p>
 
           <h3>Links</h3>
@@ -103,21 +105,17 @@
           </p>
 
           <p>
-            Download Sound Realms for free through Google Play or App Store and begin your adventure
-            now:
-          </p>
-          <p>
+            Download Sound Realms for free through
             <a
               href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest"
               target="_blank"
-            >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a>
-          </p>
-
-          <p>
+            >Google Play</a>
+            or
             <a
               href="https://apps.apple.com/se/app/sound-realms/id1587860372"
               target="_blank"
-            >https://apps.apple.com/se/app/sound-realms/id1587860372</a>
+            >App Store</a>
+            and begin your adventure now!
           </p>
         </div>
       </section>

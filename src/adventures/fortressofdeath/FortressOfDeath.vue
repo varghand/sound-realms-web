@@ -33,7 +33,7 @@
           <i>Fortress of Doom</i>.
         </p>
         <p>
-          Now in 2023 the time has come to reenvision Joe Dever's original concept and release a
+          Now the time has come to reenvision Joe Dever's original concept and release a
           game for smartphones and tablets &ndash; a new game incorporating 360 surround sound and
           the latest app technology but still faithful to the original. This new interactive
           adventure returns to the glory days of Lone Wolf and fantasy roleplaying games, making it
