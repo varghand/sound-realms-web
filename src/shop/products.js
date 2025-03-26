@@ -18,24 +18,6 @@ The funds to produce The Fortress of Death were secured with a Kickstarter campa
 Please note that this is a pre-order! The Fortress of Death will be released on March 28, 2025.`,
   },
   {
-    image: "/images/shop/lw_fod_full.jpg",
-    title: "Lone Wolf: The Fortress of Death",
-    preOrder: false,
-    price: 250,
-    description:
-      "An audio adventure for mobile devices, set in Joe Dever's world of Lone Wolf for the Sound Realms system.",
-    id: "fod",
-    longDescription: `
-In 1989, Joe Dever — in response to the massive success of Steve Jackson's F.I.S.T. (the first ever interactive play by phone roleplaying game) — launched his own Lone Wolf game for his interactive phone game system, PhoneQuest. To play the game, you dialed a number on your landline telephone. A narrative voice guided you through a story, offering choices along the way. All of this was accompanied by cinematic music and immersive sound effects, creating a unique and engaging experience. One of these adventures was called The Fortress of Doom.
-
-Now the time has come to reenvision Joe Dever's original concept and take it to the next level by crafting a reimagined experience for smartphones and tablets. The Fortress of Death is an all-new, interactive adventure that brings the magic of Lone Wolf to life with cutting-edge 360-degree surround sound and the latest app technology — all while staying true to the spirit of the original. This immersive audio adventure is a tribute to the golden age of fantasy roleplaying, offering a deeply engaging experience that will transport you straight into the world of Magnamund.
-
-The Fortress of Death is a brand-new and official Lone Wolf adventure, written by August Hahn and inspired by the iconic Fortress of Doom.
-
-Enter, if you dare, The Fortress of Death!
-`,
-  },
-  {
     image: "/images/shop/fist-square.jpg",
     title: "Steve Jackson's F.I.S.T.",
     preOrder: false,
