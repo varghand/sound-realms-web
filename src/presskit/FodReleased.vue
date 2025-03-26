@@ -42,7 +42,7 @@
             <strong>Lone Wolf: The Fortress Of Death</strong> is now live on the Sound Realms
             platform. This is the first full-length adventure on Sound Realms that has been produced
             entirely in-house, and thus marks a major milestone in the platform's development. With
-            state-of-the-art 360 degrees surround sound and modern app technology,
+            state-of-the-art 360degree surround sound and modern app technology,
             <strong>The Fortress Of Death</strong> offers a truly immersive audio adventure,
             bringing the magic of fantasy roleplaying games into the digital age.
           </p>
@@ -54,7 +54,7 @@
             accompanied by cinematic music and sound effects. One of these adventures was called
             <i>The Fortress of Doom</i>. <strong>The Fortress Of Death</strong> will be a reenvisioning of Joe
             Dever's original concept, modernised for smartphones and tablets &ndash; by
-            incorporating 360 degrees surround sound and the latest app technology &ndash; but still
+            incorporating 360-degree surround sound and the latest app technology &ndash; but still
             faithful to the original. This new interactive adventure returns to the glory days of
             Lone Wolf and fantasy roleplaying games, promising to be an immersive audio game
             experience.
