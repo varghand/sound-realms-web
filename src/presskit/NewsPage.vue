@@ -28,6 +28,13 @@
           <h2>Press Releases</h2>
           <ul>
             <li class="bold">
+              March 28, 2025:
+              <a
+                href="/press/fod-released"
+                class="bold"
+              >The Fortress Of Death is out now!</a>
+            </li>
+            <li class="bold">
               January 31, 2025:
               <a
                 href="/press/first-investment-round"

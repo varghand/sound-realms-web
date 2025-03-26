@@ -35,6 +35,7 @@ import ForgotPassword from './account/ForgotPassword.vue';
 import Jobs from './pages/Jobs.vue';
 import InvestorsPage from './pages/InvestorsPage.vue';
 import FirstInvestmentRound from './presskit/FirstInvestmentRound.vue';
+import FodReleased from './presskit/FodReleased.vue';
 
 const routes = [
   { path: '/', component: Home },
@@ -56,6 +57,7 @@ const routes = [
   { path: '/press/fist-release-date', component: FistReleaseDate },
   { path: '/press/fist-is-out', component: FistIsOut },
   { path: '/press/first-investment-round', component: FirstInvestmentRound },
+  { path: '/press/fod-released', component: FodReleased },
   { path: '/privacy-policy', component: PrivacyPolicy },
   { path: '/fortressofdeath', component: FortressOfDeath, meta: { title: 'The Fortress of Death' } },
   { path: '/maceandmagic', component: MaceAndMagic, meta: { title: 'Mace & Magic' } },

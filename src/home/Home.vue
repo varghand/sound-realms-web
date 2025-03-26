@@ -4,7 +4,7 @@
       <div class="topSection">
         <a href="/shop/product/fod">
           <img
-            alt="Sound Realms Kickstarter"
+            alt="Sound Realms: The Fortress Of Death"
             class="topImage"
             src="../assets/home/FOD_Banner_Website_OutNow.jpg"
           >
