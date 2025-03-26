@@ -19,8 +19,8 @@ Please note that this is a pre-order! The Fortress of Death will be released on 
   {
     image: "/images/shop/lw_fod_full.jpg",
     title: "Lone Wolf: The Fortress of Death",
-    price: 187.5,
     preOrder: false,
+    price: 187.5,
     description:
       "An audio adventure for mobile devices, set in Joe Dever's world of Lone Wolf for the Sound Realms system.",
     id: "fod-podcast-discount",
