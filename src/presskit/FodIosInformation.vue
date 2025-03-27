@@ -15,7 +15,7 @@
                 link: '/news',
               },
               {
-                title: 'March 28, 2025',
+                title: 'March 27, 2025',
               },
             ]"
           />
