@@ -35,6 +35,7 @@ import ForgotPassword from './account/ForgotPassword.vue';
 import Jobs from './pages/Jobs.vue';
 import InvestorsPage from './pages/InvestorsPage.vue';
 import FirstInvestmentRound from './presskit/FirstInvestmentRound.vue';
+import FodIosInformation from './presskit/FodIosInformation.vue';
 
 const routes = [
   { path: '/', component: Home },
@@ -50,6 +51,7 @@ const routes = [
   { path: '/press', component: NewsPage },
   { path: '/press/fod-kickstarter', component: FodKickstarterPress },
   { path: '/press/fod-funded', component: FodFunded },
+  { path: '/press/fod-ios-update', component: FodIosInformation },
   { path: '/press/fod-ks-complete', component: FodKsComplete },
   { path: '/press/dracula', component: DraculaPress },
   { path: '/press/fist', component: AnnouncingFist },

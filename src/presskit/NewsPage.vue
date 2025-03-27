@@ -28,6 +28,13 @@
           <h2>Press Releases</h2>
           <ul>
             <li class="bold">
+              March 27, 2025:
+              <a
+                href="/press/fod-ios-update"
+                class="bold"
+              >Important Update for iOS Users</a>
+            </li>
+            <li class="bold">
               January 31, 2025:
               <a
                 href="/press/first-investment-round"
