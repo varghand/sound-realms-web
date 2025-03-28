@@ -2,11 +2,11 @@
   <main-layout>
     <div class="content">
       <div class="topSection">
-        <a href="/shop/product/fod-pre-order">
+        <a href="/shop/product/fod">
           <img
-            alt="Sound Realms Kickstarter"
+            alt="Sound Realms: The Fortress Of Death"
             class="topImage"
-            src="../assets/home/FOD_Banner_Website.jpg"
+            src="../assets/home/FOD_Banner_Website_OutNow.jpg"
           >
         </a>
       </div>

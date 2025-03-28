@@ -62,7 +62,7 @@
           </p>
 
           <p>
-            <strong>F.I.S.T.</strong> can be pre-ordered through
+            <strong>F.I.S.T.</strong> can be ordered through
             <a href="https://www.soundrealms.com/shop">www.soundrealms.com</a>.
           </p>
 

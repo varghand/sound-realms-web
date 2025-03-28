@@ -28,11 +28,11 @@
           <h2>Press Releases</h2>
           <ul>
             <li class="bold">
-              March 27, 2025:
+              March 28, 2025:
               <a
-                href="/press/fod-ios-update"
+                href="/press/fod-released"
                 class="bold"
-              >Important Update for iOS Users</a>
+              >The Fortress Of Death is out now!</a>
             </li>
             <li class="bold">
               January 31, 2025:
