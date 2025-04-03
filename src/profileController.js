@@ -120,7 +120,10 @@ const helpers = {
     try {
       await resetPassword({ username: username.trim() });
     } catch (error) {
-      console.log(error);
+      if (error.message.includes("no registered/verified email")) {
+        throw new Error("CONFIRM_SIGN_UP");
+      }
+      console.log(error.message);
       throw error;
     }
   },

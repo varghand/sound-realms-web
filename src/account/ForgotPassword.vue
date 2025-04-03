@@ -24,6 +24,14 @@
         >
           Continue
         </MyButton>
+
+        <p>
+          <i>
+            (In case you haven't yet confirmed your email address, you can only use your username
+            here. In case you have forgotten your username, please contact customer support at
+            dm@soundrealms.com and we'll help you out!)
+          </i>
+        </p>
       </div>
       <div
         v-else-if="state === 'STEP_2'"
@@ -72,6 +80,43 @@
         >
           Continue
         </MyButton>
+      </div>
+      <div
+        v-else-if="state === 'CONFIRM'"
+        class="content"
+      >
+        <h1>Confirm Email Address</h1>
+        <p>
+          Your email address has not been confirmed. Before you can proceed, you must first input
+          the confirmation code just sent to your email address:
+        </p>
+        <p>(Code expires after 24 hours)</p>
+        <input
+          v-model="confirmationCode"
+          placeholder="Confirmation Code"
+          @keyup.enter="confirmSignup()"
+        >
+        <div v-if="error">
+          <p class="error-text">
+            {{ error }}
+          </p>
+        </div>
+        <MyButton
+          :click="confirmSignup"
+          :disabled="loading"
+        >
+          Confirm Account
+        </MyButton>
+        <hr>
+        <MyButton
+          :click="resendConfirmationCode"
+          :disabled="loading || signUpCodeResent"
+        >
+          Resend Confirmation Code
+        </MyButton>
+        <div v-if="signUpCodeResent">
+          <p>New code sent to your email inbox!</p>
+        </div>
       </div>
       <MainFooter />
     </div>
@@ -122,6 +167,11 @@ export default {
         this.loading = false;
         this.state = "STEP_2";
       } catch (error) {
+        if (error.message === "CONFIRM_SIGN_UP") {
+          await this.resendConfirmationCode();
+          this.state = "CONFIRM";
+          return;
+        }
         this.error = error;
         this.loading = false;
       }
@@ -149,6 +199,9 @@ export default {
         this.error = error;
         this.loading = false;
       }
+    },
+    async resendConfirmationCode() {
+      await profileController.resendSignUpCode(this.username);
     },
   },
 };
