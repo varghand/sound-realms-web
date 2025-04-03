@@ -120,7 +120,7 @@ export default {
           this.step = "CONFIRM";
           return;
         }
-        this.error = error;
+        this.error = "Something went wrong, are you sure you entered the correct credentials?";
       }
     },
     async confirmSignup() {
