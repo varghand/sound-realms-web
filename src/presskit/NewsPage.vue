@@ -143,21 +143,21 @@
           <p>
             Facebook:
             <a
-              href="https://www.facebook.com/SoundRealms"
+              href="https://rlms.cc/srweb-fb"
               target="_blank"
             >www.facebook.com/SoundRealms</a>
           </p>
           <p>
             Instagram:
             <a
-              href="https://www.instagram.com/soundrealms"
+              href="https://rlms.cc/srweb-ig"
               target="_blank"
             >www.instagram.com/soundrealms</a>
           </p>
           <p>
             Youtube Channel:
             <a
-              href="https://www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ"
+              href="https://rlms.cc/srweb-yt"
               target="_blank"
             >www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ</a>
           </p>

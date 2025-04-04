@@ -27,7 +27,7 @@
           <p>
             You can also join our
             <a
-              href="https://discord.gg/Zwa3FuFK79"
+              href="https://rlms.cc/srweb-dc"
               target="_blank"
             >official Discord channel</a>.
           </p>
