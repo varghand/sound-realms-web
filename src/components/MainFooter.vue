@@ -34,19 +34,19 @@
           <p>GET IN TOUCH</p>
           <a href="/contact">CONTACT</a>
           <a
-            href="https://www.facebook.com/SoundRealms/"
+            href="https://rlms.cc/srweb-fb"
             target="_blank"
           >FACEBOOK</a>
           <a
-            href="https://www.instagram.com/soundrealms/"
+            href="https://rlms.cc/srweb-ig"
             target="_blank"
           >INSTAGRAM</a>
           <a
-            href="https://www.youtube.com/channel/UCQAIAb4OXuLgjnzfsprtZLQ"
+            href="https://rlms.cc/srweb-yt"
             target="_blank"
           >YOUTUBE</a>
           <a
-            href="https://discord.gg/Zwa3FuFK79"
+            href="https://rlms.cc/srweb-dc"
             target="_blank"
           >DISCORD</a>
         </div>
