@@ -26,13 +26,15 @@
               :key="product.title"
               class="productCard"
             >
-              <img
-                :src="getImageUrl(product)"
-                :alt="product.title"
-              >
-              <p class="cardHeader">
-                {{ product.title }}
-              </p>
+              <a :href="getProductUrl(product)">
+                <img
+                  :src="getImageUrl(product)"
+                  :alt="product.title"
+                >
+                <p class="cardHeader">
+                  {{ product.title }}
+                </p>
+              </a>
             </div>
             <div />
           </div>
@@ -81,6 +83,15 @@ export default {
         if (idToSearchFor === "fist-pre-order") {
           idToSearchFor = "fist";
         }
+        if (idToSearchFor === "fod-kickstarter") {
+          idToSearchFor = "fod";
+          purchasesProducts.push({
+            id: "fod-artbook",
+            title: "The Fortress Of Death Artbook",
+            image: "/images/shop/fod-artbook.jpg",
+            url: "https://sound-realms-public.s3.eu-north-1.amazonaws.com/lone-wolf/fortress-of-death/FOD_DigitalArtbook_A4_v1.pdf",
+          })
+        }
         let product = products.find(obj => {
           return obj.id === idToSearchFor;
         });
@@ -111,6 +122,9 @@ export default {
     getImageUrl(product) {
       return new URL(product["image"], import.meta.url);
     },
+    getProductUrl(product) {
+      return product["url"] ?? "";
+    }
   },
 };
 </script>
@@ -141,6 +155,10 @@ button {
 .grid-container {
   display: grid;
   column-gap: 50px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-container a {
+  color: black;
 }
 </style>
