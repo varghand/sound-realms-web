@@ -118,6 +118,41 @@
           <p>New code sent to your email inbox!</p>
         </div>
       </div>
+      <div
+        v-else-if="state === 'RESET_PW_AFTER_CONFIRMING_EMAIL'"
+        class="section-content"
+      >
+        <h1>Reset Password</h1>
+        <p>A <span class="bold">new</span> password reset code has been sent to your email. Enter it below to continue:</p>
+        <input
+          v-model="resetCode"
+          placeholder="Password Reset Code"
+          @keyup.enter="resetPassword()"
+        >
+        <input
+          v-model="password1"
+          placeholder="Choose New Password"
+          type="password"
+          @keyup.enter="resetPassword()"
+        >
+        <input
+          v-model="password2"
+          placeholder="Repeat New Password"
+          type="password"
+          @keyup.enter="resetPassword()"
+        >
+        <div v-if="error">
+          <p class="error-text">
+            {{ error }}
+          </p>
+        </div>
+        <MyButton
+          :click="resetPassword"
+          :disabled="loading"
+        >
+          Continue
+        </MyButton>
+      </div>
       <MainFooter />
     </div>
   </main-layout>
@@ -161,12 +196,13 @@ export default {
   methods: {
     async sendPasswordResetCode() {
       this.loading = true;
+      this.error = null;
       try {
         await profileController.sendPasswordResetCode(this.username);
-        this.error = null;
         this.loading = false;
         this.state = "STEP_2";
       } catch (error) {
+        console.log(error);
         if (error.message === "CONFIRM_SIGN_UP") {
           await this.resendConfirmationCode();
           this.state = "CONFIRM";
@@ -201,7 +237,39 @@ export default {
       }
     },
     async resendConfirmationCode() {
+      console.log("Resending confirmation code");
       await profileController.resendSignUpCode(this.username);
+      this.loading = false;
+    },
+    async confirmSignup() {
+      this.error = null;
+      this.loading = true;
+      try {
+        await profileController.confirmSignUp({
+          username: this.username,
+          confirmationCode: this.confirmationCode,
+        });
+        this.loading = false;
+        this.error = null;
+        await profileController.sendPasswordResetCode(this.username);
+        this.state = 'RESET_PW_AFTER_CONFIRMING_EMAIL';
+      } catch (error) {
+        this.loading = false;
+        console.log(error);
+        const errorMessage = error.toString();
+        if (errorMessage.includes("CodeMismatchException")) {
+          this.error = "Invalid verification code";
+          return;
+        }
+        else if (errorMessage.includes("Member must satisfy regular expression pattern") && error.includes("username")) {
+          this.error = "Username contains invalid characters (such as spaces)";
+          return;
+        } else if (errorMessage.includes("Member must satisfy regular expression pattern") && error.includes("password")) {
+          this.error = "Password contains invalid characters (such as spaces)";
+          return;
+        }
+        this.error = errorMessage;
+      }
     },
   },
 };
