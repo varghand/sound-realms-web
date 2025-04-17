@@ -19,7 +19,7 @@
       />
       <div class="section-content">
         <img
-          src="../../assets/dracula/dracula-hero-image.png"
+          src="../../assets/dracula/Dracula_Logo.png"
           alt="Dracula: Curse of the Vampire"
           class="image"
         >
@@ -53,7 +53,7 @@
         </MyButton>
       </div>
 
-      <YouTubeEmbed video="https://www.youtube.com/embed/Jrq3Hp6GXxY?si=P3WYmKPRIqgxzoGa" />
+      <YouTubeEmbed video="https://www.youtube.com/embed/rVmXpDFQV6g?si=1UISM2MAN4ImPb3Z" />
 
       <div class="strip">
         <h2>Sign up for the Newsletter</h2>
