@@ -7,6 +7,26 @@
           <h1>Account</h1>
           <LoginComponent :login-callback="loadProducts" />
         </div>
+        <div v-else-if="deleteUserMode">
+          <h1>Delete User Account?</h1>
+          <p class="bold">
+            Warning! This will permanently delete your user account ({{ user.username }}) and all of
+            your data. You will no longer be able to log in to access your content in the Sound
+            Realms app or online. Make sure you understand the consequences before proceeding.
+          </p>
+          <p>
+            <i>Note that we will still keep a copy of your payment history for legal reasons.</i>
+          </p>
+          <p>
+            <MyButton :click="cancelAccountDeletion">
+              Cancel
+            </MyButton>
+
+            <MyButton :click="deleteAccount">
+              Yes, permanently delete my account
+            </MyButton>
+          </p>
+        </div>
         <div v-else>
           <h1>My Account</h1>
           <p>Logged in as {{ user.username }}</p>
@@ -15,7 +35,10 @@
             <p>Loading...</p>
           </div>
           <div v-else-if="products.length === 0">
-            <p>No products added to your account yet, head over to the <a href="/shop">SHOP</a> to get some!</p>
+            <p>
+              No products added to your account yet, head over to the <a href="/shop">SHOP</a> to
+              get some!
+            </p>
           </div>
           <div
             v-else
@@ -38,9 +61,16 @@
             </div>
             <div />
           </div>
-          <MyButton :click="logout">
-            Sign Out
-          </MyButton>
+          <div>
+            <MyButton :click="deleteAccountPressed">
+              Delete Account
+            </MyButton>
+          </div>
+          <div>
+            <MyButton :click="logout">
+              Sign Out
+            </MyButton>
+          </div>
         </div>
       </div>
       <MainFooter />
@@ -56,7 +86,7 @@ import profileController from "@/profileController";
 import userApi from "@/userApiController";
 import LoginComponent from "@/components/LoginComponent.vue";
 import MyButton from "@/components/MyButton.vue";
-import products from '@/shop/products';
+import products from "@/shop/products";
 
 export default {
   name: "AccountPage",
@@ -70,6 +100,7 @@ export default {
   data() {
     return {
       loadingProducts: true,
+      deleteUserMode: false,
     };
   },
   computed: {
@@ -90,9 +121,9 @@ export default {
             title: "The Fortress Of Death Artbook",
             image: "/images/shop/fod-artbook.jpg",
             url: "https://sound-realms-public.s3.eu-north-1.amazonaws.com/lone-wolf/fortress-of-death/FOD_DigitalArtbook_A4_v1.pdf",
-          })
+          });
         }
-        let product = products.find(obj => {
+        let product = products.find((obj) => {
           return obj.id === idToSearchFor;
         });
         if (product) {
@@ -124,6 +155,16 @@ export default {
     },
     getProductUrl(product) {
       return product["url"] ?? "";
+    },
+    deleteAccountPressed() {
+      this.deleteUserMode = true;
+    },
+    cancelAccountDeletion() {
+      this.deleteUserMode = false;
+    },
+    async deleteAccount() {
+      await profileController.deleteUserAccount();
+      await this.logout();
     }
   },
 };
