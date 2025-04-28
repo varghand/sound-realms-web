@@ -8,6 +8,7 @@ import {
   signOut,
   fetchAuthSession,
   resendSignUpCode,
+  deleteUser,
 } from "@aws-amplify/auth";
 
 const helpers = {
@@ -143,6 +144,14 @@ const helpers = {
       throw error;
     }
   },
+  async deleteUserAccount() {
+    try {
+      await deleteUser();
+    } catch (error) {
+      console.log(error);
+      throw error;
+    }
+  }
 };
 
 export default helpers;
