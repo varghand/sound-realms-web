@@ -92,21 +92,17 @@
           </p>
 
           <p>
-            Download Sound Realms for free through Google Play or App Store and begin your adventure
-            now:
-          </p>
-          <p>
+            Download Sound Realms for free through
             <a
               href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest"
               target="_blank"
-            >https://play.google.com/store/apps/details?id=com.wolfhand.audioquest</a>
-          </p>
-
-          <p>
+            >Google Play</a>
+            or
             <a
               href="https://apps.apple.com/se/app/sound-realms/id1587860372"
               target="_blank"
-            >https://apps.apple.com/se/app/sound-realms/id1587860372</a>
+            >App Store</a>
+            and begin your adventure now!
           </p>
         </div>
       </section>
