@@ -53,35 +53,7 @@
             </p>
           </div>
 
-          <div class="columns">
-            <a href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest">
-              <img
-                src="../assets/gametest/google-play-badge.png"
-                class="small-image"
-              >
-            </a>
-
-            <a href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest">
-              <img
-                src="../assets/gametest/android_qr.png"
-                class="qr"
-              >
-            </a>
-
-            <a href="https://apps.apple.com/se/app/sound-realms/id1587860372">
-              <img
-                src="../assets/gametest/app-store-badge.png"
-                class="small-image"
-              >
-            </a>
-
-            <a href="https://apps.apple.com/se/app/sound-realms/id1587860372">
-              <img
-                src="../assets/gametest/ios_qr.png"
-                class="qr"
-              >
-            </a>
-          </div>
+          <DownloadLinks />
 
           <img
             src="../assets/pile_of_bones.png"
@@ -117,6 +89,7 @@
 import MainFooter from "../components/MainFooter.vue";
 import MainLayout from "../layouts/Main.vue";
 import NewsletterSignupForm from "../components/NewsletterSignupForm.vue";
+import DownloadLinks from "../components/DownloadLinks.vue";
 import AllGames from "../adventures/AllGames.vue";
 
 export default {
@@ -126,6 +99,7 @@ export default {
     MainLayout,
     NewsletterSignupForm,
     AllGames,
+    DownloadLinks,
   },
 };
 </script>
@@ -139,19 +113,6 @@ export default {
 h1,
 h2 {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.columns {
-  column-count: 2;
-  column-gap: 40px;
-  max-width: 500px;
-}
-.qr {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .game-icons {

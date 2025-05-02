@@ -25,35 +25,7 @@
           Download Sound Realms for free through Google Play or App Store and begin your adventure
           now.
         </p>
-        <div class="columns">
-          <a href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest">
-            <img
-              src="../assets/gametest/google-play-badge.png"
-              class="qr"
-            >
-          </a>
-
-          <a href="https://play.google.com/store/apps/details?id=com.wolfhand.audioquest">
-            <img
-              src="../assets/gametest/android_qr.png"
-              class="qr"
-            >
-          </a>
-
-          <a href="https://apps.apple.com/se/app/sound-realms/id1587860372">
-            <img
-              src="../assets/gametest/app-store-badge.png"
-              class="qr"
-            >
-          </a>
-
-          <a href="https://apps.apple.com/se/app/sound-realms/id1587860372">
-            <img
-              src="../assets/gametest/ios_qr.png"
-              class="qr"
-            >
-          </a>
-        </div>
+        <DownloadLinks />
       </div>
       <MainFooter />
     </div>
@@ -65,6 +37,7 @@ import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
 import TopMenu from '../components/TopMenu.vue';
 import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
+import DownloadLinks from '../components/DownloadLinks.vue';
 
 export default {
   name: 'GameTest',
@@ -73,16 +46,13 @@ export default {
     MainFooter,
     TopMenu,
     MyBreadcrumbs,
+    DownloadLinks,
   },
 };
 </script>
 
 <style scoped>
-.columns {
-  column-count: 2;
-  column-gap: 40px;
-  max-width: 500px;
-}
+
 .bg {
   background-image: url("../assets/pergament_background.jpg");
   width: 100%;
@@ -102,13 +72,6 @@ export default {
   max-width: 60%;
   height: auto;
   object-fit: scale-down;
-}
-.qr {
-  padding-top: 15px;
-  padding-bottom: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 .image {
   max-height: 200px;
