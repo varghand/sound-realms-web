@@ -10,7 +10,7 @@
     ></a>
     <div class="link-wrapper">
       <a href="/">HOME</a>
-      <a href="/shop">SHOP</a>
+      <a href="https://shop.soundrealms.com/">SHOP</a>
       <a href="/games">GAMES</a>
       <a href="/account">ACCOUNT</a>
     </div>

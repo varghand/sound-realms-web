@@ -2,9 +2,10 @@
   <div>
     <h1>Our Games</h1>
     <p>
-      Sound Realms is a platform where you will find a wide range of RPG audio solo
-      adventures. In the future we will expand this range to include many different genres and
-      styles, but primarily we are focusing on fantasy, horror, sci-fi. Below you can see our evergrowing list of Realms that you can explore in the platform.
+      Sound Realms is a platform where you will find a wide range of RPG audio solo adventures. In
+      the future we will expand this range to include many different genres and styles, but
+      primarily we are focusing on fantasy, horror, sci-fi. Below you can see our evergrowing list
+      of Realms that you can explore on the platform.
     </p>
   </div>
 
@@ -76,7 +77,6 @@ export default {
 </script>
 
 <style scoped>
-
 h1,
 h2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -115,5 +115,4 @@ img {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
 </style>
