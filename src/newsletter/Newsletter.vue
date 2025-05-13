@@ -1,7 +1,6 @@
 <template>
   <main-layout>
     <div class="content">
-      <TopMenu />
       <section>
         <MyBreadcrumbs
           :breadcrumbs="[
@@ -29,7 +28,6 @@
 <script>
 import MainLayout from "../layouts/Main.vue";
 import MainFooter from "../components/MainFooter.vue";
-import TopMenu from "../components/TopMenu.vue";
 import NewsletterSignupForm from "../components/NewsletterSignupForm.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
@@ -38,7 +36,6 @@ export default {
   components: {
     MainLayout,
     MainFooter,
-    TopMenu,
     NewsletterSignupForm,
     MyBreadcrumbs,
   },

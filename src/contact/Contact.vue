@@ -1,7 +1,6 @@
 <template>
   <main-layout>
     <div class="content">
-      <TopMenu />
       <section>
         <MyBreadcrumbs
           :breadcrumbs="[
@@ -44,7 +43,6 @@
 import MainLayout from "../layouts/Main.vue";
 import MainFooter from "../components/MainFooter.vue";
 import GametestStrip from "../components/GametestStrip.vue";
-import TopMenu from "../components/TopMenu.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
@@ -53,7 +51,6 @@ export default {
     MainLayout,
     MainFooter,
     GametestStrip,
-    TopMenu,
     MyBreadcrumbs,
   },
 };
