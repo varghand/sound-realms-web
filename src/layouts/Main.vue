@@ -1,9 +1,7 @@
 <template>
   <div class="bg">
-    <TopMenu2 />
+    <TopMenu />
     <div id="app">
-      <!-- <Header /> -->
-      <!-- <Analytics /> -->
       <div id="content">
         <slot />
       </div>
@@ -12,11 +10,11 @@
 </template>
 
 <script>
-import TopMenu2 from '../components/TopMenu2.vue';
+import TopMenu from '../components/TopMenu.vue';
 export default {
   name: 'App',
   components: {
-    TopMenu2,
+    TopMenu,
   },
 };
 </script>
@@ -71,15 +69,8 @@ html {
   /* font-family: Georgia, serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
   color: var(--text-color);
 }
-
-/* #content {
-  max-width: 70ch;
-  padding: 2ch;
-  margin: auto;
-} */
 
 section {
   width: 100%;
