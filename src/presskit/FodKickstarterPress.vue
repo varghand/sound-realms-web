@@ -1,7 +1,6 @@
 <template>
   <main-layout>
     <div class="content">
-      <TopMenu />
       <section>
         <div class="section-content">
           <MyBreadcrumbs
@@ -115,7 +114,6 @@
 <script>
 import MainLayout from "../layouts/Main.vue";
 import MainFooter from "../components/MainFooter.vue";
-import TopMenu from "../components/TopMenu.vue";
 import MyButton from "../components/MyButton.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
@@ -123,7 +121,6 @@ export default {
   components: {
     MainLayout,
     MainFooter,
-    TopMenu,
     MyButton,
     MyBreadcrumbs,
   },

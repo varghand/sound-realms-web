@@ -1,7 +1,6 @@
 <template>
   <main-layout>
     <div class="content">
-      <TopMenu />
       <div class="section-content">
         <div v-if="user === null">
           <h1>Login or Create Account</h1>
@@ -27,7 +26,6 @@
 <script>
 import MainLayout from "../layouts/Main.vue";
 import MainFooter from "../components/MainFooter.vue";
-import TopMenu from "../components/TopMenu.vue";
 import profileController from "../profileController";
 import shopController from "../shopController";
 import LoginComponent from "@/components/LoginComponent.vue";
@@ -38,7 +36,6 @@ export default {
   components: {
     MainLayout,
     MainFooter,
-    TopMenu,
     LoginComponent,
     MyButton,
   },

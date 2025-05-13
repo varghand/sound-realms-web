@@ -1,7 +1,6 @@
 <template>
   <main-layout>
     <div class="content">
-      <TopMenu />
       <div class="section-content">
         <h1>Order Completed</h1>
         <p>Congratulations on securing your pre-order! We appreciate your enthusiasm and look forward to delivering an unforgettable experience when the game is released. Stay tuned for updates, and thank you for being a part of this adventure!</p>
@@ -17,7 +16,6 @@
 <script>
 import MainLayout from "../layouts/Main.vue";
 import MainFooter from "../components/MainFooter.vue";
-import TopMenu from "../components/TopMenu.vue";
 import MyButton from "../components/MyButton.vue";
 
 export default {
@@ -25,7 +23,6 @@ export default {
   components: {
     MainLayout,
     MainFooter,
-    TopMenu,
     MyButton,
   },
   data() {
