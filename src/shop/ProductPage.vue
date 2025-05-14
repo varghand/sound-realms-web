@@ -37,6 +37,7 @@
         <img
           :src="getImageUrl(product)"
           :alt="product.title"
+          class="productImage"
         >
         <p class="bold">
           {{ product.description }}
@@ -166,5 +167,8 @@ h1 {
 .cardPrice {
   text-align: center;
   font-size: 70%;
+}
+.productImage {
+  width: 500px;
 }
 </style>
