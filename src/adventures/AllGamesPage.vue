@@ -29,9 +29,11 @@
             </span>
           </div>
 
-          <p>
+          <p class="bodyText">
             These are the full adventures currently available to play on the Sound Realms
             platform.
+            <br>
+            For physical deluxe versions and other merch, please click here!
           </p>
 
           <ProductsList products-to-show="games" />
@@ -46,7 +48,9 @@
           </div>
 
           <h1>Expansions & Add-Ons</h1>
-          <p>Add replayability with extra content.</p>
+          <p class="bodyText">
+            Add replayability with extra content. Most adventures get updated on a monthly basis, so keep an eye open for updates!
+          </p>
 
           <ProductsList products-to-show="expansions" />
 
@@ -60,7 +64,7 @@
           </div>
 
           <h1>Coming Soon</h1>
-          <p>
+          <p class="bodyText">
             We are constantly adding more adventures to the Sound Realms platform! Below is a list
             of upcoming titles. Stay tuned for updates!
           </p>
@@ -209,5 +213,9 @@ img {
   text-align: center;
 
   font: 12px Arial, sans-serif;
+}
+.bodyText {
+  text-align: center;
+  margin-bottom: 50px;
 }
 </style>
