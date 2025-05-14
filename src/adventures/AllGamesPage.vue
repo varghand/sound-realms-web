@@ -50,6 +50,15 @@
 
           <ProductsList products-to-show="expansions" />
 
+          <div v-if="shoppingCart.length > 0">
+            <MyButton
+              href="/shop/checkout"
+              class="checkout-button"
+            >
+              Continue to Checkout
+            </MyButton>
+          </div>
+
           <h1>Coming Soon</h1>
           <p>
             We are constantly adding more adventures to the Sound Realms platform! Below is a list
@@ -103,6 +112,7 @@ import MainFooter from "../components/MainFooter.vue";
 import MainLayout from "../layouts/Main.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 import ProductsList from "../shop/components/ProductsList.vue";
+import MyButton from '../components/MyButton.vue';
 
 export default {
   name: "AllGamesPage",
@@ -111,6 +121,7 @@ export default {
     MainLayout,
     MyBreadcrumbs,
     ProductsList,
+    MyButton,
   },
   computed: {
     user() {
@@ -173,6 +184,7 @@ img {
 
 .checkout-button {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .section-content {
