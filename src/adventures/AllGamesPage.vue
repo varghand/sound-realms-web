@@ -34,7 +34,7 @@
             <br>
             For physical deluxe versions and other merch,
             <a
-              href="https://shop.soundrealms.com/"
+              href="https://rlms.cc/4jUM2fF"
               class="bold"
             >please click here</a>!
           </p>
