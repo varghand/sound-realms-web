@@ -30,10 +30,13 @@
           </div>
 
           <p class="bodyText">
-            These are the full adventures currently available to play on the Sound Realms
-            platform.
+            These are the full adventures currently available to play on the Sound Realms platform.
             <br>
-            For physical deluxe versions and other merch, please click here!
+            For physical deluxe versions and other merch,
+            <a
+              href="https://shop.soundrealms.com/"
+              class="bold"
+            >please click here</a>!
           </p>
 
           <ProductsList products-to-show="games" />
@@ -49,7 +52,8 @@
 
           <h1>Expansions & Add-Ons</h1>
           <p class="bodyText">
-            Add replayability with extra content. Most adventures get updated on a monthly basis, so keep an eye open for updates!
+            Add replayability with extra content. Most adventures get updated on a monthly basis, so
+            keep an eye open for updates!
           </p>
 
           <ProductsList products-to-show="expansions" />
@@ -118,7 +122,7 @@ import MainFooter from "../components/MainFooter.vue";
 import MainLayout from "../layouts/Main.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 import ProductsList from "../shop/components/ProductsList.vue";
-import MyButton from '../components/MyButton.vue';
+import MyButton from "../components/MyButton.vue";
 import NewsletterStrip from "../components/NewsletterStrip.vue";
 
 export default {
