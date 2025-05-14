@@ -56,7 +56,7 @@ Enter, if you dare, The Fortress of Death!
 `,
   },
   {
-    image: "/images/shop/fist-square.jpg",
+    image: "/images/shop/FIST_Web_Icon.jpg",
     title: "Steve Jackson's F.I.S.T.",
     preOrder: false,
     price: 250,
@@ -73,7 +73,7 @@ The first F.I.S.T. adventure featuring the world of Castle Mammon — Lair of th
 Available now!`,
   },
   {
-    image: "/images/shop/FOD_Webshop_Preorder_Bundle.jpg",
+    image: "/images/shop/SR_Webshop_Bundle.jpg",
     title: "The Fortress of Death + F.I.S.T. Bundle",
     preOrder: false,
     price: 500,
@@ -89,7 +89,7 @@ This bundle contains:
     `,
   },
   {
-    image: "/images/shop/FOD_Webshop_Preorder_12months.jpg",
+    image: "/images/shop/SR_Webshop_FOD_12Months.jpg",
     title: "The Fortress of Death Expansions (12 months)",
     preOrder: false,
     price: 120,
