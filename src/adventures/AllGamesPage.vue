@@ -104,6 +104,8 @@
             </div>
           </div>
         </div>
+
+        <NewsletterStrip />
       </section>
 
       <MainFooter />
@@ -117,6 +119,7 @@ import MainLayout from "../layouts/Main.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 import ProductsList from "../shop/components/ProductsList.vue";
 import MyButton from '../components/MyButton.vue';
+import NewsletterStrip from "../components/NewsletterStrip.vue";
 
 export default {
   name: "AllGamesPage",
@@ -126,6 +129,7 @@ export default {
     MyBreadcrumbs,
     ProductsList,
     MyButton,
+    NewsletterStrip,
   },
   computed: {
     user() {
