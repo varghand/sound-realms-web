@@ -15,6 +15,7 @@
         <div class="link-col">
           <p>SOUND REALMS</p>
           <a href="/download">DOWNLOAD</a>
+          <a href="/account">ACCOUNT</a>
           <a href="https://rlms.cc/3ZaD0mk">WEB SHOP</a>
           <a href="/games">OUR GAMES</a>
           <a
