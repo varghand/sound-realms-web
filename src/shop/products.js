@@ -3,6 +3,7 @@ const products = [
     image: "/images/shop/lw_fod_full.jpg",
     title: "Lone Wolf: The Fortress of Death",
     preOrder: false,
+    type: "game",
     price: 250,
     description:
       "An audio adventure for mobile devices, set in Joe Dever's world of Lone Wolf for the Sound Realms system.",
@@ -21,6 +22,7 @@ Enter, if you dare, The Fortress of Death!
     image: "/images/shop/FOD_Webshop_Preorder.jpg",
     title: "Lone Wolf: The Fortress of Death",
     preOrder: true,
+    type: "game",
     price: 215,
     description:
       "An audio adventure for mobile devices, set in Joe Dever's world of Lone Wolf for the Sound Realms system.",
@@ -40,6 +42,7 @@ Enter, if you dare, The Fortress of Death!
     image: "/images/shop/lw_fod_full.jpg",
     title: "Lone Wolf: The Fortress of Death",
     preOrder: false,
+    type: "game",
     price: 187.5,
     description:
       "An audio adventure for mobile devices, set in Joe Dever's world of Lone Wolf for the Sound Realms system.",
@@ -59,6 +62,7 @@ Enter, if you dare, The Fortress of Death!
     image: "/images/shop/FIST_Web_Icon.jpg",
     title: "Steve Jackson's F.I.S.T.",
     preOrder: false,
+    type: "game",
     price: 250,
     description:
       "The original F.I.S.T. adventure, created by the fertile mind of Steve Jackson, now returns as it was released in 1988.",
@@ -76,6 +80,7 @@ Available now!`,
     image: "/images/shop/SR_Webshop_Bundle.jpg",
     title: "The Fortress of Death + F.I.S.T. Bundle",
     preOrder: false,
+    type: "bundle",
     price: 500,
     description:
       "Includes all expansions to The Fortress of Death for 12 months counting from the game's release date.",
@@ -92,6 +97,7 @@ This bundle contains:
     image: "/images/shop/SR_Webshop_FOD_12Months.jpg",
     title: "The Fortress of Death Expansions (12 months)",
     preOrder: false,
+    type: "expansion",
     price: 120,
     description:
       "Access to all expansions coming out for 12 months following the game's release.",

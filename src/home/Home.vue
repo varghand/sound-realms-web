@@ -62,17 +62,7 @@
         </div>
       </section>
 
-      <div class="strip">
-        <h2>Sign up for the Newsletter</h2>
-        <div class="section-content">
-          <p class="inverted">
-            Sign up for our newsletter if you want to stay up to date when we release new
-            adventures. Occassionally you will also receive free in-game bonus items and other
-            goodies.
-          </p>
-          <NewsletterSignupForm />
-        </div>
-      </div>
+      <NewsletterStrip />
 
       <section>
         <div class="section-content">
@@ -88,16 +78,16 @@
 <script>
 import MainFooter from "../components/MainFooter.vue";
 import MainLayout from "../layouts/Main.vue";
-import NewsletterSignupForm from "../components/NewsletterSignupForm.vue";
 import DownloadLinks from "../components/DownloadLinks.vue";
 import AllGames from "../adventures/AllGames.vue";
+import NewsletterStrip from "../components/NewsletterStrip.vue";
 
 export default {
   name: "HomePage",
   components: {
     MainFooter,
     MainLayout,
-    NewsletterSignupForm,
+    NewsletterStrip,
     AllGames,
     DownloadLinks,
   },
@@ -234,19 +224,5 @@ h2 {
   .hero-text {
     font-size: 0.7rem;
   }
-}
-
-.strip {
-  background-color: #672a66;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 600px;
-}
-
-.strip > h1,
-h2 {
-  color: white;
 }
 </style>

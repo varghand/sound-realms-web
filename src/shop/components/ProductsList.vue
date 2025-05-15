@@ -52,10 +52,24 @@ export default {
   components: {
     MyButton,
   },
-  data() {
-    return {
-      products: products.filter(product => !product.hidden),
-    };
+  props: {
+    productsToShow: {
+      type: String,
+      required: false,
+      default: "",
+    },
+  },
+  computed: {
+    products() {
+      let unhiddenProducts = products.filter(product => !product.hidden);
+      if (this.productsToShow === "games") {
+        return unhiddenProducts.filter(product => product.type === "game" || product.type === "bundle");
+      } else if (this.productsToShow === "expansions") {
+        return unhiddenProducts.filter(product => product.type === "expansion");
+      }
+
+      return unhiddenProducts;
+    }
   },
   methods: {
     addToCart(product) {

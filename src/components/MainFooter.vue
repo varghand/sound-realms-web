@@ -16,7 +16,7 @@
           <p>SOUND REALMS</p>
           <a href="/download">DOWNLOAD</a>
           <a href="/account">ACCOUNT</a>
-          <a href="/shop">WEB SHOP</a>
+          <a href="https://rlms.cc/3ZaD0mk">WEB SHOP</a>
           <a href="/games">OUR GAMES</a>
           <a
             href="https://www.kickstarter.com/discover/advanced?ref=nav_search&term=sound%20realms"
