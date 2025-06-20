@@ -36,6 +36,7 @@ import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
 import MyBreadcrumbs from '../components/MyBreadcrumbs.vue';
 import DownloadLinks from '../components/DownloadLinks.vue';
+import platformHelper from '../platformHelper';
 
 export default {
   name: 'GameTest',
@@ -45,6 +46,13 @@ export default {
     MyBreadcrumbs,
     DownloadLinks,
   },
+  mounted() {
+    if (platformHelper.isAndroid()) {
+      window.location.href = 'https://rlms.cc/website-gpdownload';
+    } else if (platformHelper.isIos()) {
+      window.location.href = 'https://rlms.cc/website-asdownload';
+    }
+  }
 };
 </script>
 
