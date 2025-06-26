@@ -27,7 +27,7 @@
           In 1989, Joe Dever in response to the massive success of Steve Jackson's
           <i>F.I.S.T.</i> (the first ever interactive play by phone roleplaying game), launched his
           own Lone Wolf game for his interactive phone game system &ndash; <i>PhoneQuest</i>. To
-          play the game, you dialed a number on your landline telephone. A narrative voice presented
+          play the game, you dialled a number on your landline telephone. A narrative voice presented
           a story with a selection of choices for you. All of this was accompanied by cinematic
           music and immersive sound effects. One of these adventures was called
           <i>Fortress of Doom</i>.
@@ -64,7 +64,7 @@
         <div class="section-content">
           <p class="inverted">
             Sign up for our newsletter if you want to stay up to date when we release new
-            adventures. Occassionally you will also receive free in-game bonus items and other
+            adventures. Occasionally you will also receive free in-game bonus items and other
             goodies.
           </p>
           <NewsletterSignupForm />

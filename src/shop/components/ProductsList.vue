@@ -34,7 +34,7 @@
             Read More
           </MyButton>
           <MyButton :click="() => addToCart(product)">
-            Add To Cart
+            Add to Cart
           </MyButton>
         </div>
         <div />
