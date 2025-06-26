@@ -28,7 +28,7 @@
             of the line sound effects. All this is presented in a design that makes you instantly
             remember your old solo adventure books, complete with beautiful original illustrations
             and artwork. In time, Sound Realms will be expanded to include not only fantasy, but
-            also scifi, horror, and post-apocalyptic games.
+            also sci-fi, horror, and post-apocalyptic games.
           </p>
           <p>
             Sound Realms aim to deliver immersive and captivating experiences to the paperback RPG
@@ -117,7 +117,7 @@
         <div class="section-content">
           <p class="inverted">
             Sign up for our newsletter if you want to stay up to date when we release new
-            adventures. Occassionally you will also receive free in-game bonus items and other
+            adventures. Occasionally you will also receive free in-game bonus items and other
             goodies.
           </p>
           <NewsletterSignupForm />

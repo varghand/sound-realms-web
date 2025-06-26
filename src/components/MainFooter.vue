@@ -19,9 +19,9 @@
           <a href="https://rlms.cc/3ZaD0mk">WEB SHOP</a>
           <a href="/games">OUR GAMES</a>
           <a
-            href="https://www.kickstarter.com/discover/advanced?ref=nav_search&term=sound%20realms"
+            href="https://www.backerkit.com/call_to_action/16eed9cf-865b-4ec2-b69b-37eea17c4f43/landing"
             target="_blank"
-          >KICKSTARTER</a>
+          >BACKERKIT</a>
         </div>
         <div class="link-col">
           <p>LEARN MORE</p>

@@ -63,7 +63,7 @@
           <p>
             The first full length adventure for the Sound Realms platform will be The Fortress of
             Death, set in the world of Joe Dever's Lone Wolf. The game is inspired by PhoneQuest, a
-            game that was presented by Joe Dever in 1989. To play PhoneQuest, you dialed a number on
+            game that was presented by Joe Dever in 1989. To play PhoneQuest, you dialled a number on
             your landline telephone. A narrative voice presented a story with a selection of choices
             for you, accompanied by cinematic music and sound effects. One of these adventures was
             called Fortress of Doom. The Fortress of Death will be a reenvisioning of Joe Dever's

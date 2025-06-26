@@ -48,7 +48,7 @@
 
           <p>
             <strong>The Fortress Of Death</strong> is inspired by PhoneQuest, a game that was
-            presented by Joe Dever in 1989. To play PhoneQuest, you dialed a number on your landline
+            presented by Joe Dever in 1989. To play PhoneQuest, you dialled a number on your landline
             telephone. A narrative voice presented a story with a selection of choices for you,
             accompanied by cinematic music and sound effects. One of these adventures was called
             <i>The Fortress of Doom</i>. <strong>The Fortress Of Death</strong> will be a reenvisioning of Joe

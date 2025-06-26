@@ -46,7 +46,7 @@
           {{ product.price }} SEK
         </p>
         <MyButton :click="() => addToCart(product)">
-          Add To Cart
+          Add to Cart
         </MyButton>
         <div style="padding: 20px" />
         <p style="white-space: pre-wrap">

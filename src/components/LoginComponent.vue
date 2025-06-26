@@ -5,7 +5,7 @@
       class="content"
     >
       <p>Please log in with your Sound Realms account to continue.</p>
-      <p>This is the same account as you use in the Sound Realms app.</p>
+      <p>This is the same account that you use in the Sound Realms app.</p>
       <input
         v-model="username"
         placeholder="Username or email address"

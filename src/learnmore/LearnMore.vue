@@ -60,7 +60,7 @@
           <h1>A platform of audio based games and other audio content</h1>
           <p>
             Our aim is to make Sound Realms the number one brand for fantasy, sci-fi, and horror
-            audio content. Currently we are focusing on audio adventures, but int time we would love
+            audio content. Currently we are focusing on audio adventures, but in time we would love
             to publish fantasy and sci-fi audio books and other fantasy, sci-fi or RPG based audio
             content, making Sound Realms the natural place to turn to if you wish to listen to
             anything related to these topics. We have a grand vision and we hope you will see it
@@ -80,7 +80,7 @@
         <div class="section-content">
           <p class="inverted">
             Sign up for our newsletter if you want to stay up to date when we release new
-            adventures. Occassionally you will also receive free in-game bonus items and other
+            adventures. Occasionally you will also receive free in-game bonus items and other
             goodies.
           </p>
           <NewsletterSignupForm />
