@@ -4,7 +4,7 @@
     <p>
       Sound Realms is a platform where you will find a wide range of RPG audio solo adventures. In
       the future we will expand this range to include many different genres and styles, but
-      primarily we are focusing on fantasy, horror, sci-fi. Below you can see our evergrowing list
+      primarily we are focusing on fantasy, horror and sci-fi. Below you can see our evergrowing list
       of Realms that you can explore on the platform.
     </p>
   </div>

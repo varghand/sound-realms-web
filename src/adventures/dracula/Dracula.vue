@@ -32,7 +32,7 @@
           Oscar Carlquist: "We are very pleased to present the next upcoming addition to Sound
           Realms and I can't wait to start creating some truly haunting and immersive soundscapes
           for <i>Dracula: Curse of the Vampire</i>. The interactive gamebook version of Bram
-          Stoker's classic is masterfully written by Jon Green and taking this into the audio realm
+          Stoker's classic is masterfully written by Jon Green. Taking this into the audio realm
           will be as much of an honour as a challenge that we here at Sound Realms are ready to
           embrace with enthusiasm and dedication!"
         </p>

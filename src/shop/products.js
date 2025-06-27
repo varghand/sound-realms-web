@@ -90,7 +90,7 @@ This bundle contains:
 
 - F.I.S.T.
 - Lone Wolf: The Fortress of Death
-- Free access to all expansion packs and add-ons to be releases during the first 12 months after the release of The Fortress of Death.
+- Free access to all expansion packs and add-ons to be released during the first 12 months after the release of The Fortress of Death.
     `,
   },
   {
