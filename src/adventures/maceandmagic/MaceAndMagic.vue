@@ -44,7 +44,7 @@
         </p>
         <p>
           With
-          <i>Mace & Magic</i> we aim to explore and expand the possibilities of this new format not
+          <i>Mace & Magic</i> we aim to explore and expand the possibilities of this new format, not
           only in cutting edge programming but also in the recording and usage of audio. Brace
           yourself and enter the Realm of <i>MACE & MAGIC</i>!
         </p>
