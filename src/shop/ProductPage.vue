@@ -80,7 +80,7 @@ export default {
   },
   computed: {
     product() {
-      let product = this.products.find((product) => product.id === this.$route.params.id);
+      let product = this.products.find((product) => product.url === this.$route.params.id);
       if (product == null) {
         return {
           title: "",
@@ -96,7 +96,7 @@ export default {
     },
   },
   mounted() {
-    let product = this.products.find((product) => product.id === this.$route.params.id);
+    let product = this.products.find((product) => product.url === this.$route.params.id);
     if (product == null) {
       // If no product found with this ID, redirect back to shop main page
       this.$router.push("/shop");

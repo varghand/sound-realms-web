@@ -79,7 +79,7 @@ export default {
       return new URL(product['image'], import.meta.url);
     },
     displayProductPage(product) {
-      this.$router.push('/shop/product/' + product.id);
+      this.$router.push('/shop/product/' + product.url);
     },
   },
 };
