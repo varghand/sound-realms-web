@@ -29,7 +29,7 @@ import CheckoutLogin from "./shop/Login.vue";
 import Success from "./shop/Success.vue";
 import Cancel from "./shop/Cancel.vue";
 import CreateAccount from "./shop/CreateAccount.vue";
-import AllGamesPage from "./adventures/AllGamesPage.vue";
+import AllGamesPage from "./shop/AllGamesPage.vue";
 import AccountPage from "./account/AccountPage.vue";
 import ForgotPassword from "./account/ForgotPassword.vue";
 import Jobs from "./pages/Jobs.vue";
