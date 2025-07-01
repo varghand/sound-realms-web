@@ -27,6 +27,13 @@
           <h2>Press Releases</h2>
           <ul>
             <li class="bold">
+              June 26, 2025:
+              <a
+                href="/press/fighting-fantasy-announcement"
+                class="bold"
+              >Sound Realms and Fighting Fantasy Announces Partnership</a>
+            </li>
+            <li class="bold">
               March 28, 2025:
               <a
                 href="/press/fod-released"
