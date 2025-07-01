@@ -170,5 +170,6 @@ h1 {
 }
 .productImage {
   width: 500px;
+  border-radius: 20px;
 }
 </style>
