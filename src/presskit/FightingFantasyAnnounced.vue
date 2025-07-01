@@ -25,7 +25,7 @@
             <img
               alt="Sound Realms and Fighting Fantasy Announces Partnership"
               class="image-wide"
-              src="../assets/ff/SR_FF_Announcement.jpg"
+              src="../assets/ff/SR_FF_announcement.jpg"
             >
           </a>
 

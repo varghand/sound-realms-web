@@ -10,7 +10,7 @@
     ></a>
     <div class="link-wrapper">
       <a href="/">HOME</a>
-      <a href="https://rlms.cc/42TutXi">SHOP</a>
+      <a href="https://rlms.cc/44mUNbM">SHOP</a>
       <a href="/games">GAMES</a>
       <a href="/account">ACCOUNT</a>
     </div>
