@@ -31,7 +31,7 @@
             >{{ productsInCart }}</div>
           </span>
         </div>
-        <p v-if="product.preOrder">
+        <p v-if="product.preOrder" class="description">
           (Pre-Order)
         </p>
         <img
@@ -40,7 +40,7 @@
           class="productImage"
         >
         <p class="description">
-          {{ product.description }}
+          <span v-html="product.description"></span>
         </p>
         <p class="cardPrice">
           {{ product.price }} SEK
@@ -50,7 +50,9 @@
         </MyButton>
         <div style="padding: 20px" />
         <p style="white-space: pre-wrap">
-          {{ product.longDescription ? product.longDescription.trim() : "" }}
+          <span v-html="product.longDescription">
+
+          </span>
         </p>
       </div>
       <MainFooter />
