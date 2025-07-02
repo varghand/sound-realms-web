@@ -6,6 +6,41 @@
           <h1>Account</h1>
           <LoginComponent :login-callback="loadProducts" />
         </div>
+
+        <div v-else-if="unlockContentMode">
+          <h1>Unlock Content</h1>
+          <div v-if="checkingActivationCode">
+            <p>Checking activation code...</p>
+          </div>
+          <div v-else-if="activationCodeError">
+            <p>{{ getErrorMessage() }}</p>
+            <MyButton :click="tryAgain">
+              Try Again
+            </MyButton>
+          </div>
+          <div v-else-if="contentUnlocked">
+            <p>Success!</p>
+            <MyButton :click="goBack">
+              Go Back
+            </MyButton>
+          </div>
+          <div v-else>
+            <p>
+              Enter your activation code here:
+            </p>
+            <input
+              v-model="activationCode"
+              placeholder="Activation code"
+              @keyup.enter="useActivationCode()"
+            >
+            <p>
+              <MyButton :click="useActivationCode">
+                Activate
+              </MyButton>
+            </p>
+          </div>
+        </div>
+
         <div v-else-if="deleteUserMode">
           <h1>Delete User Account?</h1>
           <p class="bold">
@@ -26,6 +61,7 @@
             </MyButton>
           </p>
         </div>
+
         <div v-else>
           <h1>My Account</h1>
           <p>Logged in as {{ user.username }}</p>
@@ -61,12 +97,17 @@
             <div />
           </div>
           <div>
-            <MyButton :click="deleteAccountPressed">
+            <MyButton :click="unlockContentPressed">
+              Unlock Content
+            </MyButton>
+          </div>
+          <div>
+            <MyButton :click="deleteAccountPressed" inverted=true>
               Delete Account
             </MyButton>
           </div>
           <div>
-            <MyButton :click="logout">
+            <MyButton :click="logout" inverted=true>
               Sign Out
             </MyButton>
           </div>
@@ -98,6 +139,11 @@ export default {
     return {
       loadingProducts: true,
       deleteUserMode: false,
+      unlockContentMode: false,
+      activationCode: '',
+      checkingActivationCode: false,
+      activationCodeError: null,
+      contentUnlocked: null,
     };
   },
   computed: {
@@ -142,6 +188,7 @@ export default {
       await profileController.handleSignOut();
     },
     loadProducts() {
+    this.loadingProducts = true;
       userApi.getUnlockedContent().then((unlockedAdventures) => {
         this.$store.commit("setUnlockedAdventures", unlockedAdventures);
         this.loadingProducts = false;
@@ -156,13 +203,52 @@ export default {
     deleteAccountPressed() {
       this.deleteUserMode = true;
     },
+    unlockContentPressed() {
+      this.unlockContentMode = true;
+    },
     cancelAccountDeletion() {
       this.deleteUserMode = false;
     },
     async deleteAccount() {
       await profileController.deleteUserAccount();
       await this.logout();
-    }
+    },
+    async useActivationCode() {
+      this.checkingActivationCode = true;
+      let response = await userApi.useActivationCode(this.activationCode.trim());
+      this.checkingActivationCode = false;
+      if (!response.valid && response.error !== null) {
+        console.log(response.error);
+        this.activationCodeError = response.error;
+      } else {
+        this.contentUnlocked = response.unlocks;
+      }
+    },
+    getErrorMessage() {
+      switch(this.activationCodeError) {
+        case "code_not_found":
+          return "Invalid activation code, please try again.";
+        case "code_revoked":
+          return "This activation code is not valid any longer.";
+        case "user_already_unlocked":
+          return "You already have access to this content!";
+        case "code_already_used":
+          return "This activation code has already been used.";
+      }
+      return "Something went wrong, please try again or contact Sound Realms support at dm@soundrealms.com";
+    },
+    tryAgain() {
+      this.activationCodeError = null;
+      this.contentUnlocked = null;
+      this.activationCode = '';
+    },
+    goBack() {
+      this.unlockContentMode = false;
+      this.activationCodeError = null;
+      this.contentUnlocked = null;
+      this.activationCode = '';
+      this.loadProducts();
+    },
   },
 };
 </script>
@@ -198,5 +284,11 @@ button {
 
 .grid-container a {
   color: black;
+}
+
+input {
+  min-width: 300px;
+  min-height: 25px;
+  margin: 10px;
 }
 </style>
