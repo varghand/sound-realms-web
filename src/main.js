@@ -7,7 +7,11 @@ import App from "./App.vue";
 import router from "./router";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faXmark, faTrash, faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import {
+  faXmark,
+  faTrash,
+  faCartShopping,
+} from "@fortawesome/free-solid-svg-icons";
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(faXmark);
@@ -19,26 +23,26 @@ library.add(faUserSecret);
 // Amplify.configure({
 //   Auth: {
 //     Cognito: {
-//       userPoolClientId: '6rji8tci1r0u5mfdp8iemtvjmn',
-//       userPoolId: 'eu-north-1_wScBt5dG1',
-//       region: "eu-north-1"
-//     }
-//   }
+//       userPoolClientId: "6rji8tci1r0u5mfdp8iemtvjmn",
+//       userPoolId: "eu-north-1_wScBt5dG1",
+//       region: "eu-north-1",
+//     },
+//   },
 // });
 
 // PROD
 Amplify.configure({
   Auth: {
     Cognito: {
-      userPoolClientId: 'e83tu0ab4amfr4m0uu57co62p',
-      userPoolId: 'eu-north-1_pZ63tejOu',
-      region: "eu-north-1"
-    }
-  }
+      userPoolClientId: "e83tu0ab4amfr4m0uu57co62p",
+      userPoolId: "eu-north-1_pZ63tejOu",
+      region: "eu-north-1",
+    },
+  },
 });
 
 const vuexLocal = new VuexPersistence({
-  storage: window.localStorage
+  storage: window.localStorage,
 });
 
 const store = createStore({
@@ -57,14 +61,14 @@ const store = createStore({
       state.shoppingCart = [];
     },
     addToCart(state, product) {
-      if (state.shoppingCart.some(e => e.id === product.id)) {
+      if (state.shoppingCart.some((e) => e.id === product.id)) {
         // Don't allow duplicated in array
         return;
       }
       state.shoppingCart.push(product);
     },
     removeFromCart(state, product) {
-      state.shoppingCart = state.shoppingCart.filter(function(el) {
+      state.shoppingCart = state.shoppingCart.filter(function (el) {
         return el.id !== product.id;
       });
     },
@@ -72,7 +76,7 @@ const store = createStore({
       state.unlockedAdventures = unlockedAdventures;
     },
   },
-  plugins: [vuexLocal.plugin]
+  plugins: [vuexLocal.plugin],
 });
 
 createApp(App)
@@ -82,9 +86,9 @@ createApp(App)
     property: {
       id: "G-J9XKGMD9SC",
       params: {
-        send_page_view: false
-      }
-    }
+        send_page_view: false,
+      },
+    },
   })
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");
