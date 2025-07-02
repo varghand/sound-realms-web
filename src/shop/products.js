@@ -1,5 +1,26 @@
 const products = [
   {
+    image: "/images/shop/coc_aatt.jpg",
+    title: "Call of Cthulhu: Alone Against the Tide",
+    preOrder: true,
+    type: "game",
+    price: 250,
+    description:
+      '<i>"The oldest and strongest emotion of mankind is fear, and the strongest kind of fear is fear of the unknown."</i><br/> – H.P. Lovecraft, 1927',
+    id: "coc_aatt",
+    url: "alone-against-the-tide",
+    longDescription: `
+Call of Cthulhu: The Audio Investigations brings Chaosium’s legendary horror RPG to life in an immersive, audio-driven format exclusively on the Sound Realms platform. Based on the works of H.P. Lovecraft, this series transforms chilling tales of cosmic horror into rich, interactive solo experiences.
+
+The first investigation, Alone Against the Tide, takes you to the fog-drenched town of Esbury, where you have to confront something far older and more sinister than what you were sent out to investigate.
+
+Within the game, you take on the role of an investigator of the mysterious and unknown during the 1920s. Common themes include supernatural horrors, chaos cults, forbidden knowledge and ancient civilisations pre-dating mankind.
+
+Looking for the physical collector's edition? <a href="https://shop.soundrealms.com/collections/all?utm_source=srwebsite&utm_medium=homepage_header&utm_campaign=shopify_merchpage">Click here!</a>
+
+Alone Against the Tide launches on the 1st of August 2025.`,
+  },
+  {
     image: "/images/shop/lw_fod_full.jpg",
     title: "Lone Wolf: The Fortress of Death",
     preOrder: false,
@@ -113,23 +134,6 @@ The planned additions to The Fortress of Death includes two new characters, one 
 
 To use the expansion packs you also need the core game for The Fortress of Death, purchasable here in the web shop or already added to your account because you supported our Kickstarter campaign.
     `,
-  },
-  {
-    image: "/images/shop/coc_aatt.jpg",
-    title: "Call of Cthulhu: Alone Against the Tide",
-    preOrder: true,
-    type: "game",
-    price: 250,
-    description:
-      '"The oldest and strongest emotion of mankind is fear, and the strongest kind of fear is fear of the unknown." – H.P. Lovecraft, 1927',
-    id: "coc_aatt",
-    url: "alone-against-the-tide",
-    longDescription: `
-Call of Cthulhu: The Audio Investigations brings Chaosium’s legendary horror RPG to life in an immersive, audio-driven format exclusively on the Sound Realms platform. Based on the works of H.P. Lovecraft, this series transforms chilling tales of cosmic horror into rich, interactive solo experiences. The first investigation, Alone Against the Tide, takes you to the fog-drenched town of Esbury, where you have to confront something far older and more sinister than what you were sent out to investigate.
-
-Within the game, you take on the role of an investigator of the mysterious and unknown during the 1920s. Common themes include supernatural horrors, chaos cults, forbidden knowledge and ancient civilisations pre-dating mankind.
-
-Alone Against the Tide launches on the 1st of August 2025.`,
   },
 ];
 
