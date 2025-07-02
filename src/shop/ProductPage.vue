@@ -39,7 +39,7 @@
           :alt="product.title"
           class="productImage"
         >
-        <p class="bold">
+        <p class="description">
           {{ product.description }}
         </p>
         <p class="cardPrice">
@@ -171,5 +171,9 @@ h1 {
 .productImage {
   width: 500px;
   border-radius: 20px;
+}
+.description {
+  font-size: medium;
+  font-weight: bold;
 }
 </style>
