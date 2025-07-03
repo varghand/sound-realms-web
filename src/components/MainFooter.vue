@@ -2,7 +2,7 @@
   <div class="footer-wrapper">
     <div class="soundRealmsStrip">
       <a
-        href="/"
+        href="https://shop.soundrealms.com/"
         class="logo-link"
       >
         <img
@@ -10,7 +10,7 @@
           class="white_logo"
         >
       </a>
-      <p><i><a href="/">RETURN HOME</a></i></p>
+      <p><i><a href="https://shop.soundrealms.com/">RETURN HOME</a></i></p>
       <div class="links">
         <div class="link-col">
           <p>SOUND REALMS</p>

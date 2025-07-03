@@ -2,17 +2,17 @@
   <div class="strip-wrapper">
     <div />
     <a
-      href="/"
+      href="https://shop.soundrealms.com/"
       class="logo-link"
     ><img
       src="../assets/1_SR_BrandLogo_FullColor.png"
       class="logo"
     ></a>
     <div class="link-wrapper">
-      <a href="/">HOME</a>
       <a href="https://rlms.cc/44mUNbM">SHOP</a>
       <a href="/games">GAMES</a>
       <a href="/account">ACCOUNT</a>
+      <a href="https://shop.soundrealms.com/pages/f-i-s-t">REALMS</a>
     </div>
     <div />
   </div>
@@ -34,17 +34,15 @@ export default {
   background-color: white;
 }
 .link-wrapper {
-  width: 30%;
+  width: 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: white;
 }
 a {
-  font-size: 90%;
+  font-size: 70%;
   --hover-color: rgb(203, 47, 47);
-  padding-left: 10px;
-  padding-right: 10px;
 }
 .logo {
   padding: 20px;
