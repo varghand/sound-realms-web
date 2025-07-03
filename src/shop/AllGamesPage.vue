@@ -86,7 +86,7 @@
             </div>
             <div>
               <a
-                href="/call-of-cthulhu"
+                href="https://shop.soundrealms.com/pages/call-of-cthulhu"
                 class="dreadhorn_image"
               >
                 <img

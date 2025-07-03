@@ -9,6 +9,7 @@ const products = [
       '<i>"The oldest and strongest emotion of mankind is fear, and the strongest kind of fear is fear of the unknown."</i><br/> – H.P. Lovecraft, 1927',
     id: "coc_aatt",
     url: "alone-against-the-tide",
+    hidden: true,
     longDescription: `
 Call of Cthulhu: The Audio Investigations brings Chaosium’s legendary horror RPG to life in an immersive, audio-driven format exclusively on the Sound Realms platform. Based on the works of H.P. Lovecraft, this series transforms chilling tales of cosmic horror into rich, interactive solo experiences.
 
