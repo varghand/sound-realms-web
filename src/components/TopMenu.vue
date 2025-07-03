@@ -12,7 +12,7 @@
       <a href="https://rlms.cc/44mUNbM">SHOP</a>
       <a href="/games">GAMES</a>
       <a href="/account">ACCOUNT</a>
-      <a href="https://shop.soundrealms.com/pages/f-i-s-t">REALMS</a>
+      <a href="https://shop.soundrealms.com/pages/realms">REALMS</a>
     </div>
     <div />
   </div>
