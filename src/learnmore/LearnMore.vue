@@ -17,35 +17,19 @@
           <h1>About us</h1>
 
           <p>
-            The idea to create a game like Sound Realms was formed in Oscar Carlquist's head a long,
-            long time ago. Back in the mid-nineties Oscar played and cherished solo adventure books
-            and solo RPG quests. Since he is a vocalist and worked in music studios and took the
-            occasional voice-over assignments, he came to realise the great potential in making real
-            audio productions of the adventure books and quests. Adding music and sound effects to a
-            capturing voice-over performance he believed would really enhance the adventures that he
-            had played over and over again since childhood. Back then the limitations were obvious
-            since an adventure would span over more than several audio CDs and the rules and dice
-            rolls etc would still have to be done separately with pen and paper. This idea however
-            refused to leave Oscar's head and quite soon came the introduction of MP3 files and the
-            internet and the possibilities became slightly more favourable. The dream lived on and
-            as smart phones revolutionised our lives Oscar began the quest of fulfilling his old
-            dream.
+            The idea of a game platform such as Sound Realms formed in Oscar Carlquist's head many moons ago. A long time enthusiast of solo adventure books and RPG quests, as well as studio engineer, vocalist and voice-over narrator, Carlquist would come to see the great potential in turning the books and quests into audio productions. How adding music and sound effects to a capturing voice-over performance could enhance the adventures he had played over and over again since childhood.
           </p>
           <p>
-            In 2013 Oscar acquired his own professional recording studio and began working as a
-            sound engineer. One of the bands he came to produce in his studio happened to feature
-            Gustav Sundin, a role-playing game obsessed software programmer who Oscar pitched his
-            vision for. Gustav really liked the idea. Time passed, children were born, bands went on
-            tours and career opportunities were seized but the idea lived in both Oscar's and
-            Gustav's heads and in early 2020 in the mist of a world crippling pandemic that killed
-            live music Oscar and Gustav found the break they needed to really dive into the plan and
-            process of bringing this vision to life.
+            In those days (the mid-90s), the practical limitations were still obvious. Such an adventure would span over more than several audio CDs, while rules and notes would still have to be done separately with pen and paper. The idea itself however would never die, and pretty soon, with the introduction of the Internet and eventually the mp3 format, the possibilities would look slightly more favourable. The dream lived on, and as smart phones started to revolutionise our lives, Carlquist began the quest of fulfilling his old dream.
           </p>
           <p>
-            And so the time has come! Oscar's lifelong experience as vocal performer and his sound
-            engineering skills combined with Gustav's programming expertise, and the creation of a
-            team of illustrators and a composer have incarnated the vison. Download the Sound Realms
-            app now and join us on this epic journey!
+            2013 would see Carlquist acquire his own professional recording studio, where one of the clients would be a band happening to feature Gustav Sundin, a role-playing game obsessed software programmer. Soon the idea would be pitched to an enthusiastic Sundin; however time would pass, life happen and other commitments clamour for attention. The idea again would not die in the minds of the both, and in 2020 and the mist of a world crippling pandemic, the duo found the break needed to dive into the plan. The process of bringing the vision to life began.
+          </p>
+          <p>
+            And so the time came! Combining Carlquist's lifelong experience as a vocal performer and sound engineer with Sundin's programming expertise, the assembling of a team of illustrators and a composer, would bring Sound Realms to life. The first effort to meet the public would be a demo of Carlquist’s very own adventure Mace & Magic: Vemhir’s Castle, soon to be unleashed in its entirety. In the moment of writing, the Sound Realms platform features the two full length adventures Fortress of Death and F.I.S.T., and several more titles are soon to follow.
+          </p>
+          <p>
+            Download the Sound Realms app now and join us on this epic journey!
           </p>
 
           <img
