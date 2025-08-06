@@ -104,7 +104,7 @@
           <a href="https://www.soundrealms.com/">www.soundrealms.com</a>
         </p>
 
-        <p>Our physical address is Halmstadgatan 3, 41871 Gothenburg, Sweden.</p>
+        <p>Our physical address is Blästergatan 1, 43232 Varberg, Sweden.</p>
 
         <p>You can reach us via email at <a href="mailto:dm@soundrealms.com">dm@soundrealms.com</a></p>
 
