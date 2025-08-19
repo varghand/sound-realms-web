@@ -38,13 +38,13 @@ export default {
 .strip-wrapper {
   width: 100%;
   display: flex;
+  background-color: white;
 }
 .link-wrapper {
   width: 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
 }
 a {
   font-size: 70%;

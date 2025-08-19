@@ -9,7 +9,7 @@
             This page has been devoured by the <i>Black Ether</i>... Sorry!
           </p>
           <p>
-            <a href="/">Return home to civilisation and try again.</a>
+            <a href="https://soundrealms.com">Return home.</a>
           </p>
 
           <img
@@ -18,9 +18,7 @@
           >
         </div>
       </section>
-      <GametestStrip />
 
-      <!-- <KickstarterStrip/> -->
       <MainFooter />
     </div>
   </main-layout>
@@ -29,14 +27,12 @@
 <script>
 import MainLayout from '../layouts/Main.vue';
 import MainFooter from '../components/MainFooter.vue';
-import GametestStrip from '../components/GametestStrip.vue';
 
 export default {
   name: 'NotFoundPage',
   components: {
     MainLayout,
     MainFooter,
-    GametestStrip,
   },
 };
 </script>
