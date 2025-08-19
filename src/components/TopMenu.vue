@@ -1,6 +1,12 @@
 <template>
   <div class="strip-wrapper">
     <div />
+
+    <div />
+
+    <div />
+
+
     <a
       href="https://shop.soundrealms.com/"
       class="logo-link"
@@ -9,11 +15,14 @@
       class="logo"
     ></a>
     <div class="link-wrapper">
-      <a href="https://rlms.cc/44mUNbM">SHOP</a>
-      <a href="/games">GAMES</a>
-      <a href="/account">ACCOUNT</a>
-      <a href="https://shop.soundrealms.com/pages/realms">REALMS</a>
+      <a href="https://shop.soundrealms.com/">&lt;&mdash; BACK TO MAIN SITE</a>
     </div>
+    <div />
+
+    <div />
+
+    <div />
+
     <div />
   </div>
 </template>
@@ -29,9 +38,6 @@ export default {
 .strip-wrapper {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
 }
 .link-wrapper {
   width: 15%;
