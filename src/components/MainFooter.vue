@@ -2,7 +2,7 @@
   <div class="footer-wrapper">
     <div class="soundRealmsStrip">
       <a
-        href="https://shop.soundrealms.com/"
+        href="https://soundrealms.com/"
         class="logo-link"
       >
         <img
@@ -10,48 +10,7 @@
           class="white_logo"
         >
       </a>
-      <p><i><a href="https://shop.soundrealms.com/">RETURN HOME</a></i></p>
-      <div class="links">
-        <div class="link-col">
-          <p>SOUND REALMS</p>
-          <a href="/download">DOWNLOAD</a>
-          <a href="/account">ACCOUNT</a>
-          <a href="https://rlms.cc/3ZaD0mk">WEB SHOP</a>
-          <a href="/games">OUR GAMES</a>
-          <a
-            href="https://www.backerkit.com/call_to_action/16eed9cf-865b-4ec2-b69b-37eea17c4f43/landing"
-            target="_blank"
-          >BACKERKIT</a>
-        </div>
-        <div class="link-col">
-          <p>LEARN MORE</p>
-          <a href="/faq">FAQ</a>
-          <a href="/learn-more">ABOUT US</a>
-          <a href="/privacy-policy">PRIVACY POLICY</a>
-          <a href="/news">PRESS & NEWS</a>
-          <a href="/investors">INVESTOR RELATIONS</a>
-        </div>
-        <div class="link-col">
-          <p>GET IN TOUCH</p>
-          <a href="/contact">CONTACT</a>
-          <a
-            href="https://rlms.cc/srweb-fb"
-            target="_blank"
-          >FACEBOOK</a>
-          <a
-            href="https://rlms.cc/srweb-ig"
-            target="_blank"
-          >INSTAGRAM</a>
-          <a
-            href="https://rlms.cc/srweb-yt"
-            target="_blank"
-          >YOUTUBE</a>
-          <a
-            href="https://rlms.cc/srweb-dc"
-            target="_blank"
-          >DISCORD</a>
-        </div>
-      </div>
+      <p><i><a href="https://soundrealms.com/">RETURN HOME</a></i></p>
     </div>
     <div class="footer">
       <p>Copyright © 2020-{{ getCurrentYear() }} Sound Realms AB. All rights reserved.</p>
