@@ -45,6 +45,11 @@ export default {
         return;
       }
 
+      if (this.href.includes("soundrealms.com")) {
+        window.open(this.href, '_self');
+        return;
+      }
+
       if (this.external) {
         window.open(this.href, '_blank');
         return;

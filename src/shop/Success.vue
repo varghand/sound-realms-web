@@ -3,8 +3,11 @@
     <div class="content">
       <div class="section-content">
         <h1>Order Completed</h1>
-        <p>Congratulations on securing your pre-order! We appreciate your enthusiasm and look forward to delivering an unforgettable experience when the game is released. Stay tuned for updates, and thank you for being a part of this adventure!</p>
-        <MyButton href="/">
+        <p>Congratulations on your order! Download the Sound Realms app and log in with the same email address as you used for the purchase in order to get access to your content</p>
+        <p>Contact us at dm@soundrealms.com in case you encounter any problems.</p>
+        <MyButton
+          href="https://soundrealms.com"
+        >
           Return Home
         </MyButton>
       </div>
