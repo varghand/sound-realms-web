@@ -25,6 +25,7 @@ import CallOfCthulhu from "./adventures/call-of-cthulhu/CallOfCthulhu.vue";
 import NotFound from "./pages/NotFound.vue";
 import ProductPage from "./shop/ProductPage.vue";
 import Checkout from "./shop/Checkout.vue";
+import NewCheckout from "./shop/NewCheckout.vue";
 import CheckoutLogin from "./shop/Login.vue";
 import Success from "./shop/Success.vue";
 import Cancel from "./shop/Cancel.vue";
@@ -100,6 +101,8 @@ const routes = [
   { path: "/jobs", component: Jobs },
   { path: "/investors", component: InvestorsPage },
   { path: "/:pathMatch(.*)*", component: NotFound },
+
+  { path: "/checkout/:id", component: NewCheckout },
 ];
 
 const router = createRouter({

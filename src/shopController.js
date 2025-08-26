@@ -1,8 +1,13 @@
 import profileController from "./profileController";
 
 const helpers = {
-  async checkout(shoppingCart) {
-    const user = await profileController.getCurrentUser();
+  async checkout(shoppingCart, userEmail) {
+    if (!userEmail) {
+      const user = await profileController.getCurrentUser();
+      userEmail = user.email;
+    }
+    userEmail = userEmail.trim().toLowerCase();
+
     const response = await fetch(
       //"https://ult7rjx11i.execute-api.eu-north-1.amazonaws.com/api/create-checkout-session", // DEV!!!
       "https://6j2f2a91be.execute-api.eu-north-1.amazonaws.com/api/create-checkout-session", // PROD
@@ -15,7 +20,7 @@ const helpers = {
         body: JSON.stringify({
           products: shoppingCart,
           baseUrl: window.location.origin,
-          email: user.email.trim().toLowerCase(),
+          email: userEmail,
         }),
       }
     );
