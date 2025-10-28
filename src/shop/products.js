@@ -119,7 +119,7 @@ To use the expansion packs you also need the core game for The Fortress of Death
     title: "Alone Against the Tide",
     preOrder: false,
     type: "game",
-    price: 249,
+    price: 125,
     description:
       "Call of Cthulhu - The Audio Investigations brings Chaosium's legendary horror RPG to life in an immersive, audio-driven format exclusively on the Sound Realms platform.",
     id: "coc_aatt",
