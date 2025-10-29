@@ -129,6 +129,22 @@ Call of Cthulhu - The Audio Investigations brings Chaosium's legendary horror RP
 
 The first investigation, Alone Against the Tide, takes you to the fog-drenched town of Esbury, where you have to confront something far older and more sinister than what you were sent out to investigate. Within the game, you take on the role of an investigator of the mysterious and unknown during the 1920s. Common themes include supernatural horrors, chaos cults, forbidden knowledge and ancient civilisations pre-dating mankind.`,
   },
+    {
+    image: "/images/shop/coc_aatt.jpg",
+    title: "Alone Against the Tide",
+    preOrder: false,
+    hidden: true,
+    type: "game",
+    price: 99,
+    description:
+      "Call of Cthulhu - The Audio Investigations brings Chaosium's legendary horror RPG to life in an immersive, audio-driven format exclusively on the Sound Realms platform.",
+    id: "coc_aatt_discounted",
+    url: "coc_aatt_discounted",
+    longDescription: `
+Call of Cthulhu - The Audio Investigations brings Chaosium's legendary horror RPG to life in an immersive, audio-driven format exclusively on the Sound Realms platform. Based on the works of H.P. Lovecraft, this series transforms chilling tales of cosmic horror into rich, interactive solo experiences.
+
+The first investigation, Alone Against the Tide, takes you to the fog-drenched town of Esbury, where you have to confront something far older and more sinister than what you were sent out to investigate. Within the game, you take on the role of an investigator of the mysterious and unknown during the 1920s. Common themes include supernatural horrors, chaos cults, forbidden knowledge and ancient civilisations pre-dating mankind.`,
+  },
 ];
 
 export default products;
