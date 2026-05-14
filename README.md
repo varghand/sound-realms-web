@@ -13,22 +13,28 @@ The live version runs on Node v. 20 – this is configurable on [Netlify](https:
 npm ci
 ```
 
-### Compiles and hot-reloads for development
+### Start the local development server
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Build for production
 ```
 npm run build
 ```
 
-### Run your tests
+### Lint the source tree
 ```
-npm run test
+npm run lint
 ```
 
-### Lints and fixes files
-```
-npm run lint --fix
+## Optional API endpoint overrides
+
+The site defaults to the production API endpoints in `src/apiConfig.js`. For local or preview testing, set any of these Vite env vars in a `.env.local` file before running `npm run dev`:
+
+```bash
+VITE_CHECKOUT_API_URL=https://example.com/api/create-checkout-session
+VITE_UNLOCKED_CONTENT_API_URL=https://example.com/api/unlocked-content
+VITE_ACTIVATION_CODE_API_URL=https://example.com/api/use-code
+VITE_ANALYTICS_API_URL=https://example.com/analytics
 ```
