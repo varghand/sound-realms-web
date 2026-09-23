@@ -1,9 +1,41 @@
-
 version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 6
+      day: "thursday"
+      time: "07:00"
+      timezone: "Europe/Stockholm"
+    open-pull-requests-limit: 3
     versioning-strategy: "increase"
+    groups:
+      production-minor-and-patch:
+        applies-to: "version-updates"
+        dependency-type: "production"
+        update-types:
+          - "minor"
+          - "patch"
+      development-minor-and-patch:
+        applies-to: "version-updates"
+        dependency-type: "development"
+        update-types:
+          - "minor"
+          - "patch"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "thursday"
+      time: "07:30"
+      timezone: "Europe/Stockholm"
+    open-pull-requests-limit: 3
+    groups:
+      actions-minor-and-patch:
+        applies-to: "version-updates"
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
