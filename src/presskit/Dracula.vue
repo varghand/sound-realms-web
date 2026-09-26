@@ -135,6 +135,7 @@ import MyButton from "../components/MyButton.vue";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.vue";
 
 export default {
+  name: "DraculaPress",
   components: {
     MainLayout,
     MainFooter,

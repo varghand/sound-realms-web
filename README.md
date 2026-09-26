@@ -13,22 +13,22 @@ The live version runs on Node v. 20 – this is configurable on [Netlify](https:
 npm ci
 ```
 
-### Compiles and hot-reloads for development
+### Start the local development server
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Build for production
 ```
 npm run build
 ```
 
-### Run your tests
+The build writes the site to `dist/` and copies `dist/index.html` to `dist/404.html` for Netlify SPA routing.
+
+### Lint the source tree
 ```
-npm run test
+npm run lint
 ```
 
-### Lints and fixes files
-```
-npm run lint --fix
-```
+### Test status
+This repo does not currently ship an automated test script. Validation is currently limited to linting and production builds until a test harness is added.
