@@ -5,8 +5,7 @@
 </template>
 
 <script>
-
-
+import apiConfig from '../apiConfig';
 
 function iOS() {
   return [
@@ -81,8 +80,7 @@ export default {
         pageLoad: window.performance.timing.loadEventEnd - window.performance.timing.responseEnd,
       };
 
-      // TODO: URL as config?
-      const url = 'https://2orq0ufifa.execute-api.eu-west-1.amazonaws.com/Prod/analytics';
+      const url = apiConfig.analyticsUrl;
 
       const { vendor } = window.navigator;
 
