@@ -16,7 +16,6 @@ import AnnouncingFist from "./presskit/AnnouncingFist.vue";
 import FistReleaseDate from "./presskit/FistReleaseDate.vue";
 import FistIsOut from "./presskit/FistIsOut.vue";
 import PrivacyPolicy from "./privacy/PrivacyPolicy.vue";
-import Newsletter from "./newsletter/Newsletter.vue";
 import FortressOfDeath from "./adventures/fortressofdeath/FortressOfDeath.vue";
 import MaceAndMagic from "./adventures/maceandmagic/MaceAndMagic.vue";
 import Dracula from "./adventures/dracula/Dracula.vue";
@@ -88,7 +87,14 @@ const routes = [
     meta: { title: "Call of Cthulhu" },
   },
   { path: "/coc_aatt", redirect: "/call-of-cthulhu" },
-  { path: "/newsletter", component: Newsletter },
+  {
+    path: "/newsletter",
+    component: NotFound,
+    beforeEnter() {
+      window.location.assign("https://soundrealms.com/");
+      return false;
+    },
+  },
   { path: "/account", component: AccountPage },
   { path: "/account/create-account", component: CreateAccount },
   { path: "/account/forgot-password", component: ForgotPassword },
