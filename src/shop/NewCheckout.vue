@@ -19,7 +19,7 @@
           class="productImage"
         >
         <p class="description">
-          <span v-html="product.description" />
+          <span>{{ product.description }}</span>
         </p>
         <p>
           Enter the email address to which this purchase should be attached to. This should be the

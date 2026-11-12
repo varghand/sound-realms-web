@@ -22,7 +22,7 @@
           </p>
           <p v-else />
           <p class="cardText">
-            <span v-html="product.description"/>
+            <span>{{ product.description }}</span>
           </p>
           <p class="center-me cardPrice">
             {{ product.price }} SEK

@@ -102,12 +102,18 @@
             </MyButton>
           </div>
           <div>
-            <MyButton :click="deleteAccountPressed" inverted=true>
+            <MyButton
+              :click="deleteAccountPressed"
+              inverted
+            >
               Delete Account
             </MyButton>
           </div>
           <div>
-            <MyButton :click="logout" inverted=true>
+            <MyButton
+              :click="logout"
+              inverted
+            >
               Sign Out
             </MyButton>
           </div>
