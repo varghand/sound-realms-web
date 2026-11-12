@@ -54,17 +54,6 @@
 
       <YouTubeEmbed video="https://www.youtube.com/embed/rVmXpDFQV6g?si=1UISM2MAN4ImPb3Z" />
 
-      <div class="strip">
-        <h2>Sign up for the Newsletter</h2>
-        <div class="section-content">
-          <p class="inverted">
-            Sign up for our newsletter if you want to stay up to date when we release new
-            adventures. Occasionally you will also receive free in-game bonus items and other
-            goodies.
-          </p>
-          <NewsletterSignupForm />
-        </div>
-      </div>
       <MainFooter />
     </div>
   </main-layout>
@@ -73,7 +62,6 @@
 <script>
 import MainLayout from "../../layouts/Main.vue";
 import MainFooter from "../../components/MainFooter.vue";
-import NewsletterSignupForm from "../../components/NewsletterSignupForm.vue";
 import YouTubeEmbed from "../../components/YoutubeEmbed.vue";
 import MyBreadcrumbs from "../../components/MyBreadcrumbs.vue";
 import MyButton from '@/components/MyButton.vue';
@@ -83,7 +71,6 @@ export default {
   components: {
     MainLayout,
     MainFooter,
-    NewsletterSignupForm,
     YouTubeEmbed,
     MyBreadcrumbs,
     MyButton,
@@ -124,15 +111,6 @@ h1 {
   color: black;
 }
 
-.strip {
-  background-color: #672a66;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 600px;
-}
-
 .kickstarter-strip {
   background-color: #4a443c;
   width: 100%;
@@ -142,8 +120,4 @@ h1 {
   padding: 25px;
 }
 
-.strip > h1,
-h2 {
-  color: white;
-}
 </style>

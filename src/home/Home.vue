@@ -62,8 +62,6 @@
         </div>
       </section>
 
-      <NewsletterStrip />
-
       <section>
         <div class="section-content">
           <AllGames />
@@ -80,14 +78,12 @@ import MainFooter from "../components/MainFooter.vue";
 import MainLayout from "../layouts/Main.vue";
 import DownloadLinks from "../components/DownloadLinks.vue";
 import AllGames from "../adventures/AllGames.vue";
-import NewsletterStrip from "../components/NewsletterStrip.vue";
 
 export default {
   name: "HomePage",
   components: {
     MainFooter,
     MainLayout,
-    NewsletterStrip,
     AllGames,
     DownloadLinks,
   },
