@@ -43,7 +43,7 @@
           class="productImage"
         >
         <p class="description">
-          <span v-html="product.description" />
+          <span>{{ product.description }}</span>
         </p>
         <p class="cardPrice">
           {{ product.price }} SEK
@@ -53,7 +53,7 @@
         </MyButton>
         <div style="padding: 20px" />
         <p style="white-space: pre-wrap">
-          <span v-html="product.longDescription" />
+          <span>{{ product.longDescription }}</span>
         </p>
       </div>
       <MainFooter />

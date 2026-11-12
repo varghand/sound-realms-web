@@ -90,7 +90,7 @@ export default {
   props: {
     loginCallback: {
       type: Function,
-      required: false,
+      default: null,
     },
   },
   data() {

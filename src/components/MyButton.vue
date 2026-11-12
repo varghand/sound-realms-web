@@ -17,11 +17,11 @@ export default {
     },
     click: {
       type: Function,
-      required: false,
+      default: null,
     },
     href: {
       type: String,
-      required: false,
+      default: "",
     },
     external: {
       type: Boolean,
