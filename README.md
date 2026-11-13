@@ -13,22 +13,17 @@ The live version runs on Node v. 20 – this is configurable on [Netlify](https:
 npm ci
 ```
 
-### Compiles and hot-reloads for development
+### Start the development server
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Build for production
 ```
 npm run build
 ```
 
-### Run your tests
+### Lint the source tree
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint --fix
+npm run lint
 ```
