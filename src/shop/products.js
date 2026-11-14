@@ -9,6 +9,7 @@ const products = [
       "An audio adventure for mobile devices, set in Joe Dever's world of Lone Wolf for the Sound Realms system.",
     id: "fod",
     url: "fod",
+    storeUrl: "https://soundrealms.com/products/the-fortress-of-death-digital-game",
     longDescription: `
 In 1989, Joe Dever — in response to the massive success of Steve Jackson's F.I.S.T. (the first ever interactive play by phone roleplaying game) — launched his own Lone Wolf game for his interactive phone game system, PhoneQuest. To play the game, you dialled a number on your landline telephone. A narrative voice guided you through a story, offering choices along the way. All of this was accompanied by cinematic music and immersive sound effects, creating a unique and engaging experience. One of these adventures was called The Fortress of Doom.
 
@@ -71,6 +72,7 @@ Enter, if you dare, The Fortress of Death!
       "The original F.I.S.T. adventure, created by the fertile mind of Steve Jackson, now returns as it was released in 1988.",
     id: "fist",
     url: "fist",
+    storeUrl: "https://soundrealms.com/products/f-i-s-t-castle-mammon-digital-game",
     longDescription: `
 In 1988 you could pick up your telephone, dial the F.I.S.T. number and you were immediately connected to a medieval fantasy world of magic, monsters and great riches to be plundered. A world where YOU were a heroic adventurer embarking on a quest for fame and fortune. F.I.S.T. was the first interactive phone game ever.
 
@@ -90,6 +92,7 @@ Available now!`,
       "Includes all expansions to The Fortress of Death for 12 months counting from the game's release date.",
     id: "bundle-pre-order",
     url: "bundle-pre-order",
+    storeUrl: "https://soundrealms.com/products/the-fortress-of-death-f-i-s-t-digital-bundle",
     longDescription: `
 This bundle contains:
 
@@ -108,6 +111,7 @@ This bundle contains:
       "Access to all expansions coming out for 12 months following the game's release.",
     id: "fod-expansions",
     url: "fod-expansions",
+    storeUrl: "https://soundrealms.com/products/lone-wolf-the-fortress-of-death-expansions-pack-1",
     longDescription: `
 The planned additions to The Fortress of Death includes two new characters, one new side quest and many new monsters and items.
 
@@ -124,6 +128,7 @@ To use the expansion packs you also need the core game for The Fortress of Death
       "Call of Cthulhu - The Audio Investigations brings Chaosium's legendary horror RPG to life in an immersive, audio-driven format exclusively on the Sound Realms platform.",
     id: "coc_aatt",
     url: "coc_aatt",
+    storeUrl: "https://soundrealms.com/products/call-of-cthulhu-alone-against-the-tide-digital-game",
     longDescription: `
 Call of Cthulhu - The Audio Investigations brings Chaosium's legendary horror RPG to life in an immersive, audio-driven format exclusively on the Sound Realms platform. Based on the works of H.P. Lovecraft, this series transforms chilling tales of cosmic horror into rich, interactive solo experiences.
 

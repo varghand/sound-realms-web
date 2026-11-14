@@ -1,64 +1,76 @@
 <template>
-  <main-layout>
-    <div class="content">
-      <div class="section-content">
-        <h1>Payment Cancelled</h1>
-        <div v-if="cartIsEmpty">
-          <p>Either the payment was cancelled or something went wrong. Please try again or contact our support team at dm@soundrealms.com if the problem persists.</p>
-          <MyButton
-            href="/shop"
-            class="checkout-button"
-            :disabled="loading"
-          >
-            Return to Shop
-          </MyButton>
-        </div>
-        <div
-          v-else
-          class="centerText"
-        >
-          <p>Either the payment was cancelled or something went wrong. Please try again or contact our support team at dm@soundrealms.com if the problem persists.</p>
-          <hr>
-          <h3>Shopping Cart</h3>
-          <div
+  <ShopPage>
+    <div class="status-panel shop-panel">
+      <p class="shop-kicker">
+        Checkout paused
+      </p>
+      <h1>Your payment wasn't completed</h1>
+      <p class="status-lead">
+        No purchase was completed. You can return to the shop or try the payment again if your
+        digital products are still listed below.
+      </p>
+
+      <div
+        v-if="!cartIsEmpty"
+        class="order-summary"
+      >
+        <h2>Your digital products</h2>
+        <ul>
+          <li
             v-for="product in shoppingCart"
             :key="product.id"
           >
-            <p>
-              {{ product.title }}, {{ product.price }} SEK <span
-                class="clickableIcon"
-                @click="()=>removeFromCart(product)"
-              ><font-awesome-icon icon="fa-solid fa-trash" /></span>
-            </p>
-          </div>
-          <p>Total Price: {{ totalPrice }} SEK</p>
-          <MyButton
-            :click="checkout"
-            class="checkout-button"
-            :disabled="loading || cartIsEmpty"
-          >
-            Try Again
-          </MyButton>
-        </div>
+            <span>{{ product.title }}</span>
+            <span>{{ product.price }} kr</span>
+            <button
+              type="button"
+              class="remove-button"
+              :aria-label="`Remove ${product.title}`"
+              @click="removeFromCart(product)"
+            >
+              Remove
+            </button>
+          </li>
+        </ul>
+        <p class="order-total">
+          <strong>Total</strong>
+          <strong>{{ totalPrice }} kr</strong>
+        </p>
       </div>
-      <MainFooter />
+
+      <div class="shop-actions">
+        <button
+          v-if="!cartIsEmpty"
+          type="button"
+          class="shop-button"
+          :disabled="loading"
+          @click="checkout"
+        >
+          {{ loading ? "Opening secure payment…" : "Try payment again" }}
+        </button>
+        <a
+          href="https://soundrealms.com/collections/digital-games"
+          class="shop-button secondary"
+        >Return to the shop</a>
+      </div>
+
+      <p class="support-copy">
+        If you believe you were charged, email
+        <a href="mailto:dm@soundrealms.com">dm@soundrealms.com</a> before trying again.
+      </p>
     </div>
-  </main-layout>
+  </ShopPage>
 </template>
 
 <script>
-import MainLayout from "../layouts/Main.vue";
-import MainFooter from "../components/MainFooter.vue";
+import ShopPage from "./components/ShopPage.vue";
 import profileController from "../profileController";
 import shopController from "../shopController";
-import MyButton from "../components/MyButton.vue";
 
 export default {
   name: "ShopCancelPage",
   components: {
-    MainLayout,
-    MainFooter,
-    MyButton,
+    ShopPage,
   },
   data() {
     return {
@@ -87,45 +99,86 @@ export default {
   methods: {
     async checkout() {
       this.loading = true;
-      await shopController.checkout(this.shoppingCart);
+      try {
+        await shopController.checkout(this.shoppingCart);
+      } finally {
+        this.loading = false;
+      }
     },
     removeFromCart(product) {
-      this.$store.commit('removeFromCart', product);
-    }
+      this.$store.commit("removeFromCart", product);
+    },
   },
 };
 </script>
 
 <style scoped>
-.bg {
-  background-image: url("../assets/pergament_background.jpg");
-  width: 100%;
-  min-height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.status-panel {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: clamp(34px, 6vw, 72px);
 }
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+.status-lead {
+  max-width: 650px;
+  color: #4a4a4a;
+  font-size: 1.08rem !important;
+}
+
+.order-summary {
+  margin: 32px 0;
+  padding: 28px;
+  background: #f4f4f4;
+}
+
+.order-summary ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.order-summary li,
+.order-total {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
   align-items: center;
+  gap: 18px;
+  padding: 14px 0;
+  border-bottom: 1px solid #d6d6d6;
 }
 
-h1 {
-  color: black;
-  max-width: 100%;
+.order-total {
+  grid-template-columns: minmax(0, 1fr) auto;
+  border-bottom: 0;
 }
 
-.checkout-button {
-  margin: 50px;
+.remove-button {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+  color: #666;
+  cursor: pointer;
 }
 
-.clickableIcon {
-  cursor: pointer
+.support-copy {
+  margin: 28px 0 0;
+  color: #666;
+  font-size: 0.84rem !important;
 }
 
-* {
-text-align: center;
+.support-copy a {
+  border-bottom: 1px solid currentColor;
+}
+
+@media (max-width: 560px) {
+  .order-summary li {
+    grid-template-columns: 1fr auto;
+  }
+
+  .remove-button {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
 }
 </style>
