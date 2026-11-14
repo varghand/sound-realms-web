@@ -12,8 +12,8 @@
           </p>
           <h1>F.I.S.T. Leaderboard</h1>
           <p>
-            The ten adventurers who escaped the Demon Prince's dungeon with
-            the greatest hoard of gold.
+            Adventurers who escaped the Demon Prince's dungeon, ranked by
+            their greatest hoard of gold.
           </p>
         </div>
       </header>
@@ -26,7 +26,7 @@
           id="leaderboard-heading"
           class="visually-hidden"
         >
-          Top ten adventurers
+          Ranked adventurers
         </h2>
 
         <p
@@ -63,42 +63,71 @@
 
         <div
           v-else
-          class="leaderboard-table-wrapper"
+          class="leaderboard-results"
         >
-          <table>
-            <caption class="visually-hidden">
-              F.I.S.T. players ranked by their highest gold score
-            </caption>
-            <thead>
-              <tr>
-                <th scope="col">
-                  Rank
-                </th>
-                <th scope="col">
-                  Adventurer
-                </th>
-                <th scope="col">
-                  Gold
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr
-                v-for="entry in entries"
-                :key="entry.username"
-              >
-                <td class="rank">
-                  {{ entry.rank }}
-                </td>
-                <td class="username">
-                  {{ entry.username }}
-                </td>
-                <td class="gold">
-                  {{ formatGold(entry.goldScore) }}
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="leaderboard-table-wrapper">
+            <table>
+              <caption class="visually-hidden">
+                F.I.S.T. players ranked by their highest gold score
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">
+                    Rank
+                  </th>
+                  <th scope="col">
+                    Adventurer
+                  </th>
+                  <th scope="col">
+                    Gold
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  v-for="entry in entries"
+                  :key="entry.username"
+                >
+                  <td class="rank">
+                    {{ entry.rank }}
+                  </td>
+                  <td class="username">
+                    {{ entry.username }}
+                  </td>
+                  <td class="gold">
+                    {{ formatGold(entry.goldScore) }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div
+            v-if="hasMore || loadingMore || loadMoreError"
+            class="load-more"
+          >
+            <p
+              v-if="loadMoreError"
+              role="alert"
+            >
+              {{ loadMoreError }}
+            </p>
+            <p
+              v-if="loadingMore"
+              role="status"
+              aria-live="polite"
+            >
+              Loading more scores…
+            </p>
+            <button
+              v-else-if="hasMore || loadMoreError"
+              class="shop-button"
+              type="button"
+              @click="loadMore"
+            >
+              {{ loadMoreError ? "Try again" : "Load more scores" }}
+            </button>
+          </div>
         </div>
       </section>
 
@@ -125,7 +154,11 @@ export default {
       entries: [],
       generatedAt: null,
       loading: true,
+      loadingMore: false,
       error: null,
+      loadMoreError: null,
+      hasMore: false,
+      nextOffset: null,
     };
   },
   mounted() {
@@ -139,11 +172,33 @@ export default {
         const leaderboard = await leaderboardApi.getFistLeaderboard();
         this.entries = leaderboard.entries;
         this.generatedAt = leaderboard.generatedAt;
+        this.hasMore = leaderboard.hasMore;
+        this.nextOffset = leaderboard.nextOffset;
       } catch (error) {
         console.error("Unable to load F.I.S.T. leaderboard", error);
         this.error = "The leaderboard could not be loaded.";
       } finally {
         this.loading = false;
+      }
+    },
+    async loadMore() {
+      if (this.loadingMore || this.nextOffset === null) return;
+
+      this.loadingMore = true;
+      this.loadMoreError = null;
+      try {
+        const leaderboard = await leaderboardApi.getFistLeaderboard(
+          this.nextOffset,
+        );
+        this.entries.push(...leaderboard.entries);
+        this.generatedAt = leaderboard.generatedAt;
+        this.hasMore = leaderboard.hasMore;
+        this.nextOffset = leaderboard.nextOffset;
+      } catch (error) {
+        console.error("Unable to load more F.I.S.T. scores", error);
+        this.loadMoreError = "More scores could not be loaded.";
+      } finally {
+        this.loadingMore = false;
       }
     },
     formatGold(score) {
@@ -204,6 +259,20 @@ export default {
 
 .leaderboard-table-wrapper {
   overflow-x: auto;
+}
+
+.load-more {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  padding: 24px;
+  border-top: 1px solid rgba(81, 34, 103, 0.22);
+  text-align: center;
+}
+
+.load-more p {
+  margin: 0;
+  text-align: center;
 }
 
 table {
