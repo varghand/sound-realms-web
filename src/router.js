@@ -8,6 +8,7 @@ import CreateAccount from "./shop/CreateAccount.vue";
 import AccountPage from "./account/AccountPage.vue";
 import ForgotPassword from "./account/ForgotPassword.vue";
 import Jobs from "./pages/Jobs.vue";
+import FistLeaderboard from "./pages/FistLeaderboard.vue";
 import products from "./shop/products";
 
 const SHOPIFY_URL = "https://soundrealms.com";
@@ -93,6 +94,11 @@ const migratedRoutes = [
 }));
 
 const routes = [
+  {
+    path: "/leaderboard",
+    component: FistLeaderboard,
+    meta: { title: "F.I.S.T. Leaderboard | Sound Realms" },
+  },
   ...migratedRoutes,
   {
     path: "/account",
