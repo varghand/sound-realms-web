@@ -110,18 +110,11 @@ export default {
       }
       return product;
     },
-    shoppingCart() {
-      return this.$store.state.shoppingCart;
-    },
-    productsInCart() {
-      return this.$store.state.shoppingCart.length;
-    },
   },
   mounted() {
     let product = this.products.find((product) => product.url === this.$route.params.id);
     if (product == null) {
-      // If no product found with this ID, redirect back to shop main page
-      this.$router.push("/shop");
+      window.location.replace("https://soundrealms.com/collections/digital-games");
     }
   },
   methods: {

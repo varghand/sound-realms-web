@@ -1,5 +1,5 @@
 <template>
-  <main-layout>
+  <div class="login-component">
     <div
       v-if="step === 'LOGIN'"
       class="content"
@@ -75,7 +75,7 @@
         <p>New code sent to your email inbox!</p>
       </div>
     </div>
-  </main-layout>
+  </div>
 </template>
 
 <script>
@@ -135,6 +135,9 @@ export default {
         this.$store.commit("setUser", user);
         this.loading = false;
         this.error = null;
+        if (this.loginCallback) {
+          this.loginCallback();
+        }
       } catch (error) {
         this.loading = false;
         this.error = error;

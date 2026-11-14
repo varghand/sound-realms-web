@@ -71,8 +71,9 @@
           </div>
           <div v-else-if="products.length === 0">
             <p>
-              No products added to your account yet, head over to the <a href="/shop">SHOP</a> to
-              get some!
+              No products added to your account yet. Head over to the
+              <a href="https://soundrealms.com/collections/digital-games">Sound Realms shop</a>
+              to find your next adventure.
             </p>
           </div>
           <div
@@ -183,9 +184,12 @@ export default {
       return purchasesProducts;
     },
   },
-  mounted() {
-    profileController.getCurrentUser().then((user) => this.$store.commit("setUser", user));
-    this.loadProducts();
+  async mounted() {
+    const user = await profileController.getCurrentUser();
+    this.$store.commit("setUser", user);
+    if (user) {
+      this.loadProducts();
+    }
   },
   methods: {
     async logout() {
@@ -194,7 +198,11 @@ export default {
       await profileController.handleSignOut();
     },
     loadProducts() {
-    this.loadingProducts = true;
+      if (!this.user) {
+        this.loadingProducts = false;
+        return;
+      }
+      this.loadingProducts = true;
       userApi.getUnlockedContent().then((unlockedAdventures) => {
         this.$store.commit("setUnlockedAdventures", unlockedAdventures);
         this.loadingProducts = false;

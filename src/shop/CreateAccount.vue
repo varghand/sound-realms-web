@@ -101,12 +101,6 @@ export default {
     user() {
       return this.$store.state.user;
     },
-    shoppingCart() {
-      return this.$store.state.shoppingCart;
-    },
-    totalPrice() {
-      return this.$store.state.shoppingCart.reduce((partialSum, a) => partialSum + a.price, 0);
-    },
   },
   methods: {
     async createAccount() {
@@ -140,7 +134,7 @@ export default {
         this.$store.commit('setUser', user);
         this.loading = false;
         this.error = null;
-        this.$router.push('/shop/checkout');
+        this.$router.push("/account");
       } catch (error) {
         this.loading = false;
         if (error.includes("Member must satisfy regular expression pattern") && error.includes("username")) {

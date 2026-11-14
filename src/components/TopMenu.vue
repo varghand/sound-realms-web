@@ -8,14 +8,14 @@
 
 
     <a
-      href="https://shop.soundrealms.com/"
+      href="https://soundrealms.com/"
       class="logo-link"
     ><img
       src="../assets/1_SR_BrandLogo_FullColor.png"
       class="logo"
     ></a>
     <div class="link-wrapper">
-      <a href="https://shop.soundrealms.com/">&lt;&mdash; BACK TO MAIN SITE</a>
+      <a href="https://soundrealms.com/">&lt;&mdash; BACK TO MAIN SITE</a>
     </div>
     <div />
 

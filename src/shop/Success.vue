@@ -47,9 +47,6 @@ export default {
   components: {
     ShopPage,
   },
-  mounted() {
-    this.$store.commit("clearCart");
-  },
 };
 </script>
 
