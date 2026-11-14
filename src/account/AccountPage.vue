@@ -166,6 +166,24 @@
               <p>Loading your products…</p>
             </div>
             <div
+              v-else-if="productsError"
+              class="products-error"
+            >
+              <p
+                class="shop-error"
+                role="alert"
+              >
+                We couldn't load your products. Please try again.
+              </p>
+              <button
+                type="button"
+                class="shop-button secondary"
+                @click="loadProducts"
+              >
+                Try again
+              </button>
+            </div>
+            <div
               v-else-if="products.length === 0"
               class="empty-state"
             >
@@ -246,6 +264,7 @@ export default {
   data() {
     return {
       loadingProducts: true,
+      productsError: false,
       checkingSession: true,
       deleteUserMode: false,
       unlockContentMode: false,
@@ -303,16 +322,21 @@ export default {
       this.$store.commit("setUnlockedAdventures", []);
       await profileController.handleSignOut();
     },
-    loadProducts() {
+    async loadProducts() {
       if (!this.user) {
         this.loadingProducts = false;
         return;
       }
+      this.productsError = false;
       this.loadingProducts = true;
-      userApi.getUnlockedContent().then((unlockedAdventures) => {
+      try {
+        const unlockedAdventures = await userApi.getUnlockedContent();
         this.$store.commit("setUnlockedAdventures", unlockedAdventures);
+      } catch {
+        this.productsError = true;
+      } finally {
         this.loadingProducts = false;
-      });
+      }
     },
     getImageUrl(product) {
       return new URL(product["image"], import.meta.url);
@@ -429,6 +453,10 @@ export default {
 
 .status-card-success .shop-button {
   margin-top: 22px;
+}
+
+.products-error .shop-button {
+  margin-top: 18px;
 }
 
 .account-section {

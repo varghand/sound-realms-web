@@ -1,3 +1,5 @@
+/api/unlocked-content                  https://iuihqiovb7.execute-api.eu-north-1.amazonaws.com/api/unlocked-content 200
+/api/use-code                          https://vw5swod35l.execute-api.eu-north-1.amazonaws.com/api/use-code 200
 /                                      https://soundrealms.com/ 301!
 /games                                 https://soundrealms.com/collections/digital-games 301!
 /feedback                              https://soundrealms.com/pages/contact 301!
