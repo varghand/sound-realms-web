@@ -1,69 +1,96 @@
 <template>
-  <main-layout>
-    <div class="content">
-      <div class="section-content">
-        <div class="header-row">
-          <span />
-          <h1>{{ product.title }}</h1>
-          <span />
-        </div>
-        <p
-          v-if="product.preOrder"
-          class="description"
-        >
-          (Pre-Order)
-        </p>
+  <ShopPage>
+    <div class="purchase-layout shop-panel">
+      <div class="purchase-media">
         <img
           :src="getImageUrl(product)"
           :alt="product.title"
-          class="productImage"
         >
-        <p class="description">
-          <span>{{ product.description }}</span>
+      </div>
+
+      <div class="purchase-details">
+        <p class="shop-kicker">
+          Digital product<span v-if="product.preOrder"> · Pre-order</span>
         </p>
-        <p>
-          Enter the email address to which this purchase should be attached to. This should be the
-          same email address as you use to log in to your account in the Sound Realms app. In case
-          you have not created a Sound Realms account yet, you can do so later &ndash; just make
-          sure to use the same email address!
+        <h1>{{ product.title }}</h1>
+        <p class="product-description">
+          {{ product.description }}
         </p>
-        <input
-          v-model="username"
-          placeholder="Email address"
-          :disabled="loading"
-          @keyup.enter="continueToCheckout()"
-        >
-        <div v-if="error">
-          <p class="error-text">
+        <p class="shop-price">
+          {{ product.price }} kr
+        </p>
+
+        <div class="account-step">
+          <h2>Connect your Sound Realms account</h2>
+          <p>
+            Enter the email address you use in the Sound Realms app. After payment, this product
+            will be unlocked for that email address.
+          </p>
+          <p class="shop-muted">
+            Don't have an account yet? You can create one later &mdash; just use the same email
+            address when you sign up.
+          </p>
+
+          <div class="shop-field">
+            <label for="checkout-email">Sound Realms account email</label>
+            <input
+              id="checkout-email"
+              v-model.trim="username"
+              type="email"
+              inputmode="email"
+              autocomplete="email"
+              placeholder="you@example.com"
+              :disabled="loading"
+              :aria-invalid="error ? 'true' : 'false'"
+              :aria-describedby="error ? 'checkout-error' : 'checkout-help'"
+              @keyup.enter="continueToCheckout"
+            >
+            <span
+              id="checkout-help"
+              class="field-help"
+            >Use the address you want this digital product connected to.</span>
+          </div>
+
+          <p
+            v-if="error"
+            id="checkout-error"
+            class="shop-error"
+            role="alert"
+          >
             {{ error }}
           </p>
+
+          <button
+            type="button"
+            class="shop-button"
+            :disabled="loading"
+            @click="continueToCheckout"
+          >
+            {{ loading ? "Opening secure payment…" : "Continue to secure payment" }}
+          </button>
+          <p class="payment-note">
+            You'll review the order and payment details before completing your purchase.
+          </p>
         </div>
-        <p class="cardPrice">
-          {{ product.price }} SEK
-        </p>
-        <MyButton :click="() => continueToCheckout(product)">
-          Continue to Checkout
-        </MyButton>
-        <div style="padding: 20px" />
+
+        <a
+          :href="product.storeUrl || 'https://soundrealms.com/collections/digital-games'"
+          class="back-link"
+        >&larr; Back to product in the Sound Realms shop</a>
       </div>
-      <MainFooter />
     </div>
-  </main-layout>
+  </ShopPage>
 </template>
 
 <script>
-import MainLayout from "../layouts/Main.vue";
-import MainFooter from "../components/MainFooter.vue";
-import MyButton from "../components/MyButton.vue";
+import ShopPage from "./components/ShopPage.vue";
 import products from "./products";
 import shopController from "../shopController";
 
 export default {
   name: "WebShop",
   components: {
-    MainLayout,
-    MainFooter,
-    MyButton,
+    ShopPage,
   },
   data() {
     return {
@@ -107,86 +134,100 @@ export default {
         return;
       }
       if (!this.isValidEmail(this.username)) {
-        this.error = "You must enter a valid email address."
+        this.error = "Enter a valid email address to continue.";
         return;
       }
       this.loading = true;
-      await shopController.checkout([this.product], this.username);
+      try {
+        await shopController.checkout([this.product], this.username);
+      } catch {
+        this.error = "We couldn't open the payment page. Please try again.";
+        this.loading = false;
+      }
     },
     isValidEmail(email) {
       const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
       return re.test(email);
-    }
+    },
   },
 };
 </script>
 
 <style scoped>
-.bg {
-  background-image: url("../assets/pergament_background.jpg");
-  width: 100%;
+.purchase-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 1fr);
+}
+
+.purchase-media {
   min-height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.content {
   display: flex;
-  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
+  background: #f4f4f4;
 }
 
-h1 {
-  color: black;
-  max-width: 100%;
-}
-
-.checkout-button {
-  margin-top: 50px;
-}
-
-.section-content {
-  margin-bottom: 50px;
-}
-
-.header-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.purchase-media img {
   width: 100%;
+  aspect-ratio: 1 / 1;
+  display: block;
+  object-fit: cover;
 }
-.numberCircle {
-  border-radius: 50%;
-  width: 13px;
-  height: 13px;
-  padding: 8px;
 
-  background: #fff;
-  border: 2px solid #666;
+.purchase-details {
+  padding: clamp(30px, 5vw, 62px);
+}
+
+.product-description {
+  margin: 0 0 18px;
+  color: #4a4a4a;
+}
+
+.account-step {
+  margin-top: 34px;
+  padding-top: 32px;
+  border-top: 1px solid #dedede;
+}
+
+.account-step h2 {
+  margin-bottom: 12px;
+}
+
+.shop-field {
+  margin: 24px 0 16px;
+}
+
+.field-help {
   color: #666;
-  text-align: center;
+  font-size: 0.78rem;
+}
 
-  font: 12px Arial, sans-serif;
+.shop-error {
+  margin-bottom: 16px;
 }
-.cardPrice {
+
+.shop-button {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.payment-note {
+  margin: 12px 0 0;
+  color: #666;
+  font-size: 0.78rem !important;
   text-align: center;
-  font-size: 70%;
 }
-.productImage {
-  width: 500px;
-  border-radius: 20px;
+
+.back-link {
+  margin-top: 30px;
+  display: inline-block;
+  border-bottom: 1px solid currentColor;
+  font-size: 0.82rem !important;
 }
-.description {
-  font-size: medium;
-  font-weight: bold;
-}
-input {
-  min-width: 300px;
-  min-height: 25px;
-  margin: 10px;
-}
-.error-text {
-  color: #aa0000;
+
+@media (max-width: 820px) {
+  .purchase-layout {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

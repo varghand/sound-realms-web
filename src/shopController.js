@@ -24,8 +24,14 @@ const helpers = {
         }),
       }
     );
+    if (!response.ok) {
+      throw new Error("Could not create checkout session");
+    }
     const jsonBody = await response.json();
     const redirectUri = jsonBody.redirect_url;
+    if (!redirectUri) {
+      throw new Error("Checkout session did not include a redirect URL");
+    }
     window.location.href = redirectUri;
   },
 };

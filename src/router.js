@@ -102,13 +102,25 @@ const routes = [
   { path: "/shop/product/:id", component: ProductPage },
   { path: "/shop/checkout", component: Checkout },
   { path: "/shop/login", component: CheckoutLogin },
-  { path: "/shop/success", component: Success },
-  { path: "/shop/cancel", component: Cancel },
+  {
+    path: "/shop/success",
+    component: Success,
+    meta: { title: "Purchase complete | Sound Realms" },
+  },
+  {
+    path: "/shop/cancel",
+    component: Cancel,
+    meta: { title: "Checkout paused | Sound Realms" },
+  },
   { path: "/jobs", component: Jobs },
   { path: "/investors", component: InvestorsPage },
   { path: "/:pathMatch(.*)*", component: NotFound },
 
-  { path: "/checkout/:id", component: NewCheckout },
+  {
+    path: "/checkout/:id",
+    component: NewCheckout,
+    meta: { title: "Digital checkout | Sound Realms" },
+  },
 ];
 
 const router = createRouter({
