@@ -13,7 +13,9 @@
       </a>
       <nav aria-label="Store navigation">
         <a href="https://soundrealms.com/collections/all">Shop</a>
-        <a href="https://web.soundrealms.com/account">Unlock content</a>
+        <router-link to="/account">
+          Unlock content
+        </router-link>
         <a href="https://soundrealms.com/pages/download">Download app</a>
       </nav>
     </header>
@@ -176,6 +178,11 @@ export default {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.shop-header nav a.router-link-active {
+  color: var(--shop-purple);
+  box-shadow: 0 2px 0 var(--shop-purple);
 }
 
 .shop-main {
