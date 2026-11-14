@@ -2,91 +2,103 @@
   <div class="login-component">
     <div
       v-if="step === 'LOGIN'"
-      class="content"
+      class="login-form"
     >
-      <p>Please log in with your Sound Realms account to continue.</p>
-      <p>This is the same account that you use in the Sound Realms app.</p>
-      <input
-        v-model="username"
-        placeholder="Username or email address"
-        @keyup.enter="login()"
-      >
-      <input
-        v-model="password"
-        placeholder="Password"
-        type="password"
-        @keyup.enter="login()"
-      >
-      <div v-if="error">
-        <p class="error-text">
-          {{ error }}
-        </p>
+      <div class="shop-field">
+        <label for="account-username">Username or email address</label>
+        <input
+          id="account-username"
+          v-model.trim="username"
+          type="text"
+          autocomplete="username"
+          :disabled="loading"
+          @keyup.enter="login"
+        >
       </div>
-      <MyButton
-        :click="login"
-        :disabled="loading"
+      <div class="shop-field">
+        <label for="account-password">Password</label>
+        <input
+          id="account-password"
+          v-model="password"
+          type="password"
+          autocomplete="current-password"
+          :disabled="loading"
+          @keyup.enter="login"
+        >
+      </div>
+      <p
+        v-if="error"
+        class="shop-error"
+        role="alert"
       >
-        Sign In
-      </MyButton>
-      <hr>
-      <MyButton
-        href="/account/forgot-password"
+        {{ error }}
+      </p>
+      <button
+        type="button"
+        class="shop-button sign-in-button"
         :disabled="loading"
+        @click="login"
       >
-        Forgot Password
-      </MyButton>
-      <MyButton
-        href="/account/create-account"
-        :disabled="loading"
-      >
-        Create Account
-      </MyButton>
+        {{ loading ? "Signing in…" : "Sign in" }}
+      </button>
+      <div class="account-links">
+        <router-link to="/account/forgot-password">
+          Forgot password?
+        </router-link>
+        <router-link to="/account/create-account">
+          Create an account
+        </router-link>
+      </div>
     </div>
     <div
       v-else-if="step === 'CONFIRM'"
-      class="content"
+      class="login-form"
     >
-      <p>Almost done! Check your email for a confirmation code, then enter it here:</p>
-      <p>(Code expires after 24 hours)</p>
-      <input
-        v-model="confirmationCode"
-        placeholder="Confirmation Code"
-        @keyup.enter="confirmSignup()"
-      >
-      <div v-if="error">
-        <p class="error-text">
-          {{ error }}
-        </p>
+      <h2>Confirm your account</h2>
+      <p>Enter the confirmation code sent to your email. The code expires after 24 hours.</p>
+      <div class="shop-field">
+        <label for="confirmation-code">Confirmation code</label>
+        <input
+          id="confirmation-code"
+          v-model.trim="confirmationCode"
+          type="text"
+          autocomplete="one-time-code"
+          :disabled="loading"
+          @keyup.enter="confirmSignup"
+        >
       </div>
-      <MyButton
-        :click="confirmSignup"
+      <p
+        v-if="error"
+        class="shop-error"
+        role="alert"
+      >
+        {{ error }}
+      </p>
+      <button
+        type="button"
+        class="shop-button"
         :disabled="loading"
+        @click="confirmSignup"
       >
-        Confirm Account
-      </MyButton>
-      <hr>
-      <MyButton
-        :click="resendConfirmationCode"
+        {{ loading ? "Confirming…" : "Confirm account" }}
+      </button>
+      <button
+        type="button"
+        class="text-button"
         :disabled="loading || signUpCodeResent"
+        @click="resendConfirmationCode"
       >
-        Resend Confirmation Code
-      </MyButton>
-      <div v-if="signUpCodeResent">
-        <p>New code sent to your email inbox!</p>
-      </div>
+        {{ signUpCodeResent ? "New code sent" : "Resend confirmation code" }}
+      </button>
     </div>
   </div>
 </template>
 
 <script>
 import profileController from "@/profileController";
-import MyButton from "@/components/MyButton.vue";
 
 export default {
   name: "LoginComponent",
-  components: {
-    MyButton,
-  },
   props: {
     loginCallback: {
       type: Function,
@@ -152,21 +164,45 @@ export default {
 </script>
 
 <style scoped>
-.content {
+.login-form {
+  display: grid;
+  gap: 18px;
+}
+
+.sign-in-button {
+  width: 100%;
+}
+
+.account-links {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
-input {
-  min-width: 300px;
-  min-height: 25px;
-  margin: 10px;
+
+.account-links a,
+.text-button {
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+  color: #6c3688;
+  font: inherit;
+  cursor: pointer;
 }
-button {
-  margin: 10px;
+
+.text-button {
+  justify-self: start;
+  padding: 0;
 }
-.error-text {
-  color: #aa0000;
+
+.text-button:disabled {
+  color: #777;
+  cursor: default;
+}
+
+@media (max-width: 520px) {
+  .account-links {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
 </style>

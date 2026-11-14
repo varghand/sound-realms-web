@@ -94,9 +94,21 @@ const migratedRoutes = [
 
 const routes = [
   ...migratedRoutes,
-  { path: "/account", component: AccountPage },
-  { path: "/account/create-account", component: CreateAccount },
-  { path: "/account/forgot-password", component: ForgotPassword },
+  {
+    path: "/account",
+    component: AccountPage,
+    meta: { title: "Unlock content | Sound Realms" },
+  },
+  {
+    path: "/account/create-account",
+    component: CreateAccount,
+    meta: { title: "Create account | Sound Realms" },
+  },
+  {
+    path: "/account/forgot-password",
+    component: ForgotPassword,
+    meta: { title: "Reset password | Sound Realms" },
+  },
   {
     path: "/shop/product/:id",
     component: ExternalRedirect,

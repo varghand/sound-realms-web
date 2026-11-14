@@ -1,174 +1,183 @@
 <template>
-  <main-layout>
-    <div class="content">
-      <div
-        v-if="state === 'STEP_1'"
-        class="section-content"
-      >
-        <h1>Reset Password</h1>
-        <p>Enter the username or email address associated with your account to continue.</p>
-        <input
-          v-model="username"
-          placeholder="Username or email address"
-          @keyup.enter="sendPasswordResetCode()"
-        >
-        <div v-if="error">
-          <p class="error-text">
-            {{ error }}
-          </p>
-        </div>
-        <MyButton
-          :click="sendPasswordResetCode"
-          :disabled="loading"
-        >
-          Continue
-        </MyButton>
+  <ShopPage>
+    <div class="account-panel shop-panel">
+      <div class="account-panel-content">
+        <p class="shop-kicker">
+          Sound Realms account
+        </p>
 
-        <p>
-          <i>
-            (In case you haven't yet confirmed your email address, you can only use your username
-            here. In case you have forgotten your username, please contact customer support at
-            dm@soundrealms.com and we'll help you out!)
-          </i>
-        </p>
-      </div>
-      <div
-        v-else-if="state === 'STEP_2'"
-        class="section-content"
-      >
-        <h1>Reset Password</h1>
-        <p>A password reset code has been sent to your email. Enter it below to continue:</p>
-        <input
-          v-model="resetCode"
-          placeholder="Password Reset Code"
-          @keyup.enter="resetPassword()"
-        >
-        <input
-          v-model="password1"
-          placeholder="Choose New Password"
-          type="password"
-          @keyup.enter="resetPassword()"
-        >
-        <input
-          v-model="password2"
-          placeholder="Repeat New Password"
-          type="password"
-          @keyup.enter="resetPassword()"
-        >
-        <div v-if="error">
-          <p class="error-text">
-            {{ error }}
+        <template v-if="state === 'STEP_1'">
+          <h1>Reset password</h1>
+          <p class="account-intro">
+            Enter the username or email address associated with your account.
           </p>
-        </div>
-        <MyButton
-          :click="resetPassword"
-          :disabled="loading"
-        >
-          Continue
-        </MyButton>
-      </div>
-      <div
-        v-else-if="state === 'STEP_3'"
-        class="section-content"
-      >
-        <h1>Reset Password</h1>
-        <p>Password successfully reset! You can now use it to log in.</p>
-        <MyButton
-          href="/account"
-          :disabled="loading"
-        >
-          Continue
-        </MyButton>
-      </div>
-      <div
-        v-else-if="state === 'CONFIRM'"
-        class="content"
-      >
-        <h1>Confirm Email Address</h1>
-        <p>
-          Your email address has not been confirmed. Before you can proceed, you must first input
-          the confirmation code just sent to your email address:
-        </p>
-        <p>(Code expires after 24 hours)</p>
-        <input
-          v-model="confirmationCode"
-          placeholder="Confirmation Code"
-          @keyup.enter="confirmSignup()"
-        >
-        <div v-if="error">
-          <p class="error-text">
-            {{ error }}
+          <div class="account-form">
+            <div class="shop-field">
+              <label for="reset-username">Username or email address</label>
+              <input
+                id="reset-username"
+                v-model.trim="username"
+                autocomplete="username"
+                :disabled="loading"
+                @keyup.enter="sendPasswordResetCode"
+              >
+            </div>
+            <p
+              v-if="error"
+              class="shop-error"
+              role="alert"
+            >
+              {{ error }}
+            </p>
+            <button
+              type="button"
+              class="shop-button"
+              :disabled="loading"
+              @click="sendPasswordResetCode"
+            >
+              {{ loading ? "Sending code…" : "Send reset code" }}
+            </button>
+            <p class="shop-muted support-note">
+              If your email is not confirmed yet, enter your username. Need help finding it?
+              Contact <a href="mailto:dm@soundrealms.com">dm@soundrealms.com</a>.
+            </p>
+          </div>
+        </template>
+
+        <template v-else-if="state === 'STEP_2' || state === 'RESET_PW_AFTER_CONFIRMING_EMAIL'">
+          <h1>Choose a new password</h1>
+          <p class="account-intro">
+            A reset code has been sent to your email. Enter it below with your new password.
           </p>
-        </div>
-        <MyButton
-          :click="confirmSignup"
-          :disabled="loading"
-        >
-          Confirm Account
-        </MyButton>
-        <hr>
-        <MyButton
-          :click="resendConfirmationCode"
-          :disabled="loading || signUpCodeResent"
-        >
-          Resend Confirmation Code
-        </MyButton>
-        <div v-if="signUpCodeResent">
-          <p>New code sent to your email inbox!</p>
-        </div>
-      </div>
-      <div
-        v-else-if="state === 'RESET_PW_AFTER_CONFIRMING_EMAIL'"
-        class="section-content"
-      >
-        <h1>Reset Password</h1>
-        <p>A <span class="bold">new</span> password reset code has been sent to your email. Enter it below to continue:</p>
-        <input
-          v-model="resetCode"
-          placeholder="Password Reset Code"
-          @keyup.enter="resetPassword()"
-        >
-        <input
-          v-model="password1"
-          placeholder="Choose New Password"
-          type="password"
-          @keyup.enter="resetPassword()"
-        >
-        <input
-          v-model="password2"
-          placeholder="Repeat New Password"
-          type="password"
-          @keyup.enter="resetPassword()"
-        >
-        <div v-if="error">
-          <p class="error-text">
-            {{ error }}
+          <div class="account-form">
+            <div class="shop-field">
+              <label for="reset-code">Password reset code</label>
+              <input
+                id="reset-code"
+                v-model.trim="resetCode"
+                autocomplete="one-time-code"
+                :disabled="loading"
+                @keyup.enter="resetPassword"
+              >
+            </div>
+            <div class="shop-field">
+              <label for="new-password">New password</label>
+              <input
+                id="new-password"
+                v-model="password1"
+                type="password"
+                autocomplete="new-password"
+                :disabled="loading"
+                @keyup.enter="resetPassword"
+              >
+            </div>
+            <div class="shop-field">
+              <label for="repeat-password">Repeat new password</label>
+              <input
+                id="repeat-password"
+                v-model="password2"
+                type="password"
+                autocomplete="new-password"
+                :disabled="loading"
+                @keyup.enter="resetPassword"
+              >
+            </div>
+            <p
+              v-if="error"
+              class="shop-error"
+              role="alert"
+            >
+              {{ error }}
+            </p>
+            <button
+              type="button"
+              class="shop-button"
+              :disabled="loading"
+              @click="resetPassword"
+            >
+              {{ loading ? "Saving password…" : "Save new password" }}
+            </button>
+          </div>
+        </template>
+
+        <template v-else-if="state === 'STEP_3'">
+          <h1>Password updated</h1>
+          <div
+            class="status-card"
+            role="status"
+          >
+            <p>Your password has been reset. You can now sign in to unlock your content.</p>
+          </div>
+          <router-link
+            class="shop-button"
+            to="/account"
+          >
+            Return to sign in
+          </router-link>
+        </template>
+
+        <template v-else-if="state === 'CONFIRM'">
+          <h1>Confirm your email</h1>
+          <p class="account-intro">
+            Enter the confirmation code sent to your email address. The code expires after 24 hours.
           </p>
-        </div>
-        <MyButton
-          :click="resetPassword"
-          :disabled="loading"
+          <div class="account-form">
+            <div class="shop-field">
+              <label for="email-confirmation-code">Confirmation code</label>
+              <input
+                id="email-confirmation-code"
+                v-model.trim="confirmationCode"
+                autocomplete="one-time-code"
+                :disabled="loading"
+                @keyup.enter="confirmSignup"
+              >
+            </div>
+            <p
+              v-if="error"
+              class="shop-error"
+              role="alert"
+            >
+              {{ error }}
+            </p>
+            <button
+              type="button"
+              class="shop-button"
+              :disabled="loading"
+              @click="confirmSignup"
+            >
+              {{ loading ? "Confirming…" : "Confirm account" }}
+            </button>
+            <button
+              type="button"
+              class="text-button"
+              :disabled="loading"
+              @click="resendConfirmationCode"
+            >
+              Resend confirmation code
+            </button>
+          </div>
+        </template>
+
+        <router-link
+          v-if="state !== 'STEP_3'"
+          class="back-link"
+          to="/account"
         >
-          Continue
-        </MyButton>
+          &larr; Back to sign in
+        </router-link>
       </div>
-      <MainFooter />
     </div>
-  </main-layout>
+  </ShopPage>
 </template>
 
 <script>
-import MainLayout from "@/layouts/Main.vue";
-import MainFooter from "@/components/MainFooter.vue";
+import ShopPage from "@/shop/components/ShopPage.vue";
 import profileController from "@/profileController";
-import MyButton from "@/components/MyButton.vue";
 
 export default {
   name: "AccountPage",
   components: {
-    MainLayout,
-    MainFooter,
-    MyButton,
+    ShopPage,
   },
   data() {
     return {
@@ -273,34 +282,63 @@ export default {
 </script>
 
 <style scoped>
-.bg {
-  background-image: url("../assets/pergament_background.jpg");
+.account-panel {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.account-panel-content {
+  padding: clamp(30px, 6vw, 68px);
+}
+
+.account-intro {
+  margin: -8px 0 28px;
+  color: #4a4a4a;
+}
+
+.account-form {
+  display: grid;
+  gap: 18px;
+}
+
+.account-form .shop-button {
   width: 100%;
-  min-height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+.support-note {
+  margin: 0;
+  font-size: 0.82rem !important;
 }
-h1 {
-  color: black;
-  max-width: 100%;
+
+.support-note a,
+.back-link,
+.text-button {
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+  color: #6c3688;
+  font: inherit;
+  cursor: pointer;
 }
-button {
-  margin-top: 20px;
-  margin-bottom: 50px;
+
+.back-link {
+  display: inline-block;
+  margin-top: 28px;
 }
-input {
-  min-width: 300px;
-  min-height: 25px;
-  margin: 10px;
+
+.text-button {
+  justify-self: start;
+  padding: 0;
 }
-.error-text {
-  color: #aa0000;
+
+.status-card {
+  margin-bottom: 24px;
+  padding: 24px;
+  border-left: 4px solid #3b7b45;
+  background: #eef8f0;
+}
+
+.status-card p {
+  margin: 0;
 }
 </style>

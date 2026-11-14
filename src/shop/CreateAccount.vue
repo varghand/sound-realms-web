@@ -1,89 +1,132 @@
 <template>
-  <main-layout>
-    <div class="content">
+  <ShopPage>
+    <div class="account-panel shop-panel">
       <div
         v-if="step === 'CREATE'"
-        class="section-content"
+        class="account-panel-content"
       >
+        <p class="shop-kicker">
+          Sound Realms account
+        </p>
         <h1>Create Account</h1>
-        <input
-          v-model="username"
-          placeholder="Username"
-          @keyup.enter="createAccount()"
-        >
-        <input
-          v-model="email"
-          placeholder="Email address"
-          @keyup.enter="createAccount()"
-        >
-        <input
-          v-model="password"
-          placeholder="Password"
-          type="password"
-          @keyup.enter="createAccount()"
-        >
-        <div v-if="error">
-          <p class="error-text">
+        <p class="account-intro">
+          Create the account you will use in the Sound Realms app to access your digital products.
+        </p>
+        <div class="account-form">
+          <div class="shop-field">
+            <label for="create-username">Username</label>
+            <input
+              id="create-username"
+              v-model.trim="username"
+              autocomplete="username"
+              :disabled="loading"
+              @keyup.enter="createAccount"
+            >
+          </div>
+          <div class="shop-field">
+            <label for="create-email">Email address</label>
+            <input
+              id="create-email"
+              v-model.trim="email"
+              type="email"
+              autocomplete="email"
+              :disabled="loading"
+              @keyup.enter="createAccount"
+            >
+          </div>
+          <div class="shop-field">
+            <label for="create-password">Password</label>
+            <input
+              id="create-password"
+              v-model="password"
+              type="password"
+              autocomplete="new-password"
+              :disabled="loading"
+              @keyup.enter="createAccount"
+            >
+          </div>
+          <p
+            v-if="error"
+            class="shop-error"
+            role="alert"
+          >
             {{ error }}
           </p>
+          <button
+            type="button"
+            class="shop-button"
+            :disabled="loading"
+            @click="createAccount"
+          >
+            {{ loading ? "Creating account…" : "Create account" }}
+          </button>
+          <router-link
+            class="back-link"
+            to="/account"
+          >
+            &larr; Back to sign in
+          </router-link>
         </div>
-        <MyButton
-          :click="createAccount"
-          :disabled="loading"
-        >
-          Create Account
-        </MyButton>
       </div>
       <div
         v-if="step === 'CONFIRM'"
-        class="section-content"
+        class="account-panel-content"
       >
+        <p class="shop-kicker">
+          One last step
+        </p>
         <h1>Confirm Account</h1>
-        <p>Almost done! Check your email for a confirmation code, then enter it here:</p>
-        <input
-          v-model="confirmationCode"
-          placeholder="Confirmation Code"
-          @keyup.enter="confirmSignup()"
-        >
-        <div v-if="error">
-          <p class="error-text">
+        <p class="account-intro">
+          Enter the confirmation code sent to your email address.
+        </p>
+        <div class="account-form">
+          <div class="shop-field">
+            <label for="create-confirmation-code">Confirmation code</label>
+            <input
+              id="create-confirmation-code"
+              v-model.trim="confirmationCode"
+              autocomplete="one-time-code"
+              :disabled="loading"
+              @keyup.enter="confirmSignup"
+            >
+          </div>
+          <p
+            v-if="error"
+            class="shop-error"
+            role="alert"
+          >
             {{ error }}
           </p>
-        </div>
-        <MyButton
-          :click="confirmSignup"
-          :disabled="loading"
-        >
-          Create Account
-        </MyButton>
-        <hr>
-        <MyButton
-          :click="resendConfirmationCode"
-          :disabled="loading || signUpCodeResent"
-        >
-          Resend Confirmation Code
-        </MyButton>
-        <div v-if="signUpCodeResent">
-          <p>New code sent to your email inbox!</p>
+          <button
+            type="button"
+            class="shop-button"
+            :disabled="loading"
+            @click="confirmSignup"
+          >
+            {{ loading ? "Confirming…" : "Confirm account" }}
+          </button>
+          <button
+            type="button"
+            class="text-button"
+            :disabled="loading || signUpCodeResent"
+            @click="resendConfirmationCode"
+          >
+            {{ signUpCodeResent ? "New code sent" : "Resend confirmation code" }}
+          </button>
         </div>
       </div>
-      <MainFooter />
     </div>
-  </main-layout>
+  </ShopPage>
 </template>
 
 <script>
-import MainLayout from "../layouts/Main.vue";
-import MainFooter from "../components/MainFooter.vue";
+import ShopPage from "./components/ShopPage.vue";
 import profileController from "../profileController";
-import MyButton from "../components/MyButton.vue";
 
 export default {
   name: "CreateAccount",
   components: {
-    MainLayout,
-    MainFooter,
-    MyButton,
+    ShopPage,
   },
   data() {
     return {
@@ -156,35 +199,43 @@ export default {
 </script>
 
 <style scoped>
-.bg {
-  background-image: url("../assets/pergament_background.jpg");
+.account-panel {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.account-panel-content {
+  padding: clamp(30px, 6vw, 68px);
+}
+
+.account-intro {
+  margin: -8px 0 28px;
+  color: #4a4a4a;
+}
+
+.account-form {
+  display: grid;
+  gap: 18px;
+}
+
+.account-form .shop-button {
   width: 100%;
-  min-height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-h1 {
-  color: black;
-  max-width: 100%;
+.text-button,
+.back-link {
+  justify-self: start;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+  color: #6c3688;
+  font: inherit;
+  cursor: pointer;
 }
 
-input {
-  min-width: 300px;
-  min-height: 25px;
-  margin: 10px;
-}
-button {
-  margin: 10px;
-}
-.error-text {
-  color: #aa0000;
+.text-button:disabled {
+  color: #777;
+  cursor: default;
 }
 </style>
