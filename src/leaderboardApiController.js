@@ -18,8 +18,9 @@ function parseLeaderboardEntry(entry) {
 }
 
 const leaderboardApi = {
-  async getFistLeaderboard() {
-    const response = await fetch("/api/leaderboard/fist", {
+  async getFistLeaderboard(offset = 0) {
+    const query = offset > 0 ? `?offset=${offset}` : "";
+    const response = await fetch(`/api/leaderboard/fist${query}`, {
       headers: { Accept: "application/json" },
     });
     if (!response.ok) {
@@ -38,6 +39,8 @@ const leaderboardApi = {
     return {
       generatedAt: body.generatedAt,
       entries: body.entries.slice(0, 10).map(parseLeaderboardEntry),
+      hasMore: body.hasMore === true,
+      nextOffset: Number.isInteger(body.nextOffset) ? body.nextOffset : null,
     };
   },
 };
