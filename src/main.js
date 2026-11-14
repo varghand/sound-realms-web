@@ -49,28 +49,12 @@ const store = createStore({
   state() {
     return {
       user: null,
-      shoppingCart: [],
       unlockedAdventures: [],
     };
   },
   mutations: {
     setUser(state, user) {
       state.user = user;
-    },
-    clearCart(state) {
-      state.shoppingCart = [];
-    },
-    addToCart(state, product) {
-      if (state.shoppingCart.some((e) => e.id === product.id)) {
-        // Don't allow duplicated in array
-        return;
-      }
-      state.shoppingCart.push(product);
-    },
-    removeFromCart(state, product) {
-      state.shoppingCart = state.shoppingCart.filter(function (el) {
-        return el.id !== product.id;
-      });
     },
     setUnlockedAdventures(state, unlockedAdventures) {
       state.unlockedAdventures = unlockedAdventures;

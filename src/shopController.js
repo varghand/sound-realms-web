@@ -1,7 +1,7 @@
 import profileController from "./profileController";
 
 const helpers = {
-  async checkout(shoppingCart, userEmail) {
+  async checkout(products, userEmail) {
     if (!userEmail) {
       const user = await profileController.getCurrentUser();
       userEmail = user.email;
@@ -18,7 +18,7 @@ const helpers = {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          products: shoppingCart,
+          products,
           baseUrl: window.location.origin,
           email: userEmail,
         }),
