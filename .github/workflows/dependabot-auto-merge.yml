@@ -1,8 +1,9 @@
 name: Dependabot auto-merge
 
 on:
-  pull_request_target:
-    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_run:
+    workflows: ["CI"]
+    types: [completed]
 
 permissions:
   contents: write
@@ -12,15 +13,32 @@ jobs:
   enable-auto-merge:
     if: >-
       ${{
-        github.actor == 'dependabot[bot]' &&
-        github.event.pull_request.base.ref == 'master' &&
-        github.event.pull_request.draft == false
+        github.event.workflow_run.event == 'pull_request' &&
+        github.event.workflow_run.conclusion == 'success'
       }}
     runs-on: ubuntu-latest
     steps:
-      - name: Register squash auto-merge
+      - name: Register squash auto-merge for the tested Dependabot head
         env:
           GH_TOKEN: ${{ github.token }}
-          PR_URL: ${{ github.event.pull_request.html_url }}
-          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-        run: gh pr merge "$PR_URL" --auto --squash --match-head-commit "$HEAD_SHA"
+          REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          set -euo pipefail
+
+          prs=$(gh api             -H "Accept: application/vnd.github+json"             "/repos/${REPO}/commits/${HEAD_SHA}/pulls"             --jq '.[] | select(.state == "open") | select(.draft == false) | select(.base.ref == "master") | select(.user.login == "dependabot[bot]") | .number')
+
+          if [ -z "${prs}" ]; then
+            echo "No open Dependabot PR found for ${HEAD_SHA}"
+            exit 0
+          fi
+
+          for pr in ${prs}; do
+            current_sha=$(gh pr view "${pr}" --repo "${REPO}" --json headRefOid --jq '.headRefOid')
+            if [ "${current_sha}" != "${HEAD_SHA}" ]; then
+              echo "Skipping PR #${pr}: head moved from ${HEAD_SHA} to ${current_sha}"
+              continue
+            fi
+
+            gh pr merge "${pr}" --repo "${REPO}" --auto --squash --match-head-commit "${HEAD_SHA}"
+          done
