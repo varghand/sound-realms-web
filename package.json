@@ -14,7 +14,7 @@
     "@fortawesome/vue-fontawesome": "3.0.8",
     "@vitejs/plugin-vue": "5.2.4",
     "@vue-stripe/vue-stripe": "4.5.0",
-    "aws-amplify": "6.15.1",
+    "aws-amplify": "6.22.2",
     "axios": "1.10.0",
     "core-js": "3.43.0",
     "vite": "6.3.5",
