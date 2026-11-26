@@ -12,7 +12,7 @@
     "@fortawesome/fontawesome-svg-core": "7.3.1",
     "@fortawesome/free-solid-svg-icons": "6.7.2",
     "@fortawesome/vue-fontawesome": "3.3.3",
-    "@vitejs/plugin-vue": "5.2.4",
+    "@vitejs/plugin-vue": "6.0.11",
     "@vue-stripe/vue-stripe": "6.1.0",
     "aws-amplify": "6.22.2",
     "axios": "1.21.1",
